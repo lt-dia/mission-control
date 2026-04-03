@@ -1,0 +1,8 @@
+[
+  {"id": 1, "title": "Invite lt-dia to GitHub org", "status": "blocked", "notes": "Waiting for Ilolo to invite lt-dia to LawTrades GitHub org"},
+  {"id": 2, "title": "Set up requireMention: false for Discord", "status": "done", "notes": "Guild 1475826992816590971 configured"},
+  {"id": 3, "title": "Morning briefing cron (Linear + Granola)", "status": "planned", "notes": "Design cron job"},
+  {"id": 4, "title": "GitHub PR/issue monitoring", "status": "blocked", "notes": "Needs GitHub org access first"},
+  {"id": 5, "title": "Notification consolidation (Slack, Gmail, LinkedIn)", "status": "planned", "notes": "Future — needs API keys"},
+  {"id": 6, "title": "Mission Control dashboard", "status": "in_progress", "notes": "Building now!"}
+]
