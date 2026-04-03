@@ -1,0 +1,11 @@
+{
+  "lastUpdated": null,
+  "integrations": {
+    "linear":  "ok",
+    "granola": "ok",
+    "github":  "warn",
+    "discord": "ok"
+  },
+  "_placeholder": true,
+  "message": "Awaiting first GitHub Actions sync"
+}
