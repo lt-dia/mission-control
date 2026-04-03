@@ -1,1 +1,61 @@
-{"notes": [], "_placeholder": true, "message": "Awaiting first GitHub Actions sync"}
+{
+  "notes": [
+    {
+      "id": "not_lRPAI3dQ3EHC2I",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-04-03T15:00:18.606Z",
+      "updated_at": "2026-04-03T15:48:34.291Z"
+    },
+    {
+      "id": "not_l58NYeHAckPNxq",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-04-02T15:01:05.354Z",
+      "updated_at": "2026-04-02T19:51:53.347Z"
+    },
+    {
+      "id": "not_nJTjgry88Fgxod",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-03-31T15:01:16.618Z",
+      "updated_at": "2026-04-03T15:00:18.604Z"
+    },
+    {
+      "id": "not_6oxuQ0WrijS37z",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-03-30T14:59:52.245Z",
+      "updated_at": "2026-03-31T13:50:08.473Z"
+    },
+    {
+      "id": "not_37mZRuzRaxs9KA",
+      "object": "note",
+      "title": "Candice Watts",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-03-27T21:30:58.604Z",
+      "updated_at": "2026-03-31T12:36:46.170Z"
+    }
+  ],
+  "hasMore": true,
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wMy0yN1QyMTozMDo1OC42MDRaIiwibGFzdF9kb2NfaWQiOiI2MDI5ZTg2OS1jZTI5LTRlYTMtYjZlNC01ZTYyOWFiYmRhMDEifQ"
+}

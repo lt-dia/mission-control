@@ -1,1 +1,458 @@
-{"data": {"issues": {"nodes": []}}, "_placeholder": true, "message": "Awaiting first GitHub Actions sync"}
+{
+  "data": {
+    "issues": {
+      "nodes": [
+        {
+          "id": "08281e68-d3d8-487b-b094-fbe3655a610f",
+          "title": "Feature: Send simultaneous DocuSign notifications to client and talent when offer is confirmed",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-03T15:30:32.465Z"
+        },
+        {
+          "id": "66234fe0-261f-44ce-a831-c04f84121107",
+          "title": "Improvement: Fix AI questionnaire adding irrelevant SaaS/tech experience questions for legal roles",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-03T15:30:08.839Z"
+        },
+        {
+          "id": "5e67932a-7956-422e-b0d7-748fa8a702dd",
+          "title": "Improvement: Clarify project description field — is it talent-facing and does it appear on SOW?",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-03T15:29:34.943Z"
+        },
+        {
+          "id": "49dae618-bd39-471f-9893-dd1d6373fa52",
+          "title": "Improvement: Rename \"weekly limit\" field to \"anticipated weekly hours\" in hire flow",
+          "state": {
+            "name": "Planning"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-03T15:28:44.723Z"
+        },
+        {
+          "id": "6608f778-17fd-4364-8036-1216b2409092",
+          "title": "Improvement: Auto-populate billing terms in hire flow from client's existing MSA",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-03T15:26:10.341Z"
+        },
+        {
+          "id": "a77ccbee-fc6e-47bf-8556-d4a212210807",
+          "title": "Improvement: Add Buy in Bulk info popup with hour transfer and expiration terms",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-03T15:26:02.810Z"
+        },
+        {
+          "id": "b3121dcb-cb66-4957-a135-cdc834bd22dd",
+          "title": "Improvement: Add Subscribe & Save info popup with commitment terms in hire flow",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-03T15:25:54.725Z"
+        },
+        {
+          "id": "d0128618-49d8-481a-9bbe-398179263cc5",
+          "title": "Bug: SOW payment option language doesn't match product terminology",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-03T15:25:46.077Z"
+        },
+        {
+          "id": "d1a8fd2a-b8bf-4639-8b3f-e57584d54bb8",
+          "title": "Bug: Second signer added to engagement but no DocuSign email notification sent",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-03T15:25:32.746Z"
+        },
+        {
+          "id": "83563794-b2f8-4771-84ee-fc16ad749dd8",
+          "title": "Bug: Excessive spacing after company name in SOW",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-03T15:25:21.046Z"
+        },
+        {
+          "id": "605b4e20-0572-4142-b833-7ecaa5b5ef2c",
+          "title": "Bug: Engagement title defaulting to \"data deletion policy\" instead of position title",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-03T15:25:06.071Z"
+        },
+        {
+          "id": "b2c079e9-fc96-40d9-8b62-1e47501c22b5",
+          "title": "Discussion: Consider replacing 20h/week Subscribe & Save tier with a full-time tier (30–40h/week)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 4,
+          "updatedAt": "2026-04-03T15:24:37.999Z"
+        },
+        {
+          "id": "e5ad9dbe-ba5b-4737-80bc-9e10e56be6de",
+          "title": "feat(hireflow): replace legacy hire modal with embedded inline hireflow and unify offer-send notifications",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-03T14:18:11.124Z"
+        },
+        {
+          "id": "e7c0af67-8d8c-48c3-8718-fce4a5b1903f",
+          "title": "fix(offers): correct talent-facing pricing across offer channels",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-03T14:17:55.958Z"
+        },
+        {
+          "id": "3a561de6-5be1-4f5d-81be-92af0f984281",
+          "title": "feat(offers): add talent offer banner and pending-offer awareness UX",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-03T14:17:55.958Z"
+        },
+        {
+          "id": "2988deff-0208-4803-ab0e-bac4ce5643f5",
+          "title": "Monk Integration: Replace Tabs/Invoiced in InvoiceWidget & Invoices Page",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-02T14:35:15.092Z"
+        },
+        {
+          "id": "7d4d70f2-a284-49eb-8afa-9bb2579e4b16",
+          "title": "Update invoicing table to differentiate Ironclad vs Ironclad HQ",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-02T14:32:52.787Z"
+        },
+        {
+          "id": "3956cf1f-3a76-4459-8c92-421c476f0085",
+          "title": "Align DocuSign focused-view return URL and messaging origin configuration",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-02T14:29:09.500Z"
+        },
+        {
+          "id": "3040748e-a4b7-424f-9a6a-84ba7f8c9f3e",
+          "title": "Harden DocuSign recipient view generation for existing hireflow envelopes",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-02T14:29:09.500Z"
+        },
+        {
+          "id": "8fe669de-4e75-422b-8a9e-8c22c01daf44",
+          "title": "Stabilize hireflow step-4 DocuSign completion flow in focused view",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-02T14:29:09.497Z"
+        },
+        {
+          "id": "ef9d077c-a840-40ac-9680-9c0d1be9a0e0",
+          "title": "End-to-end estimated weekly hours and payout timing support for Talent SOW and hireflow",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-02T14:29:03.192Z"
+        },
+        {
+          "id": "2dcbf194-9f27-4215-8fdb-ef4bbd843afa",
+          "title": "Bug: SOW showing 200 hours/week instead of actual weekly limit",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-01T13:40:33.074Z"
+        },
+        {
+          "id": "2a7d4ce6-8c13-4ecb-b1cb-83118e7bf39f",
+          "title": "Bug: All SOW rates displaying as $212.40 regardless of payment option selected",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-01T13:40:33.036Z"
+        },
+        {
+          "id": "f81f8601-cb61-46cb-997b-af438f980821",
+          "title": "Bug: Pay-as-you-go rate not populating correctly in SOW (should be $236/hr)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-01T13:40:32.996Z"
+        },
+        {
+          "id": "80fd892e-08e6-4233-a44c-b832d6036ac3",
+          "title": "Bug: Post-usage rate (SOW Section 8c) not defaulting correctly",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-01T13:40:32.959Z"
+        },
+        {
+          "id": "5040d63e-5ae7-4f2b-9f1d-1e254b55d69f",
+          "title": "Audit and harden tracked env configuration across FE/BE",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-31T18:43:22.019Z"
+        },
+        {
+          "id": "e3de6ced-779a-4d9b-9a5f-78c9d7591fec",
+          "title": "Add PTO hours submission on the LT website",
+          "state": {
+            "name": "Planning"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-30T14:22:30.207Z"
+        },
+        {
+          "id": "1f2f991c-53b8-4fa8-b8dd-7bc24677846e",
+          "title": "DocuSign: Additional Signer Flow — Wire CC Colleague to Real Envelope",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-25T15:31:23.420Z"
+        },
+        {
+          "id": "9823cb89-3cb3-46d3-ab82-5b7ec6ec2436",
+          "title": "BE: Offer Lifecycle Notifications — In-App & Email",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-25T15:31:23.376Z"
+        },
+        {
+          "id": "1d4a189e-311c-44e9-b7a2-dbadcb3668f2",
+          "title": "Talent-Side Offer Experience — Received Offers Page, Accept & Decline Flow",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-03-25T15:31:23.331Z"
+        },
+        {
+          "id": "7e9a0d78-0774-4c47-ace5-91057b74c638",
+          "title": "DocuSign Webhook Handler — Sequential Signing & Engagement Creation (POST /v1/webhooks/docusign)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-03-25T15:31:23.291Z"
+        },
+        {
+          "id": "ebb719fd-5b1c-4ab4-9310-c20a21b8059a",
+          "title": "DocuSign Two-Envelope Architecture — Separate Client & Talent Envelopes + Ashish Countersignature",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-03-25T15:31:23.239Z"
+        },
+        {
+          "id": "15222514-ebd8-46ab-a520-6f0cf6a22989",
+          "title": "Add ability to invoice off-platform clients from the invoicing tab",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-24T17:21:30.258Z"
+        },
+        {
+          "id": "9b6d7b48-de56-4857-bb1f-a3b017ca1da1",
+          "title": "Fix Hire Request Webhook: Rate & Payout Using Budget Instead of Applicant Values",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 1,
+          "updatedAt": "2026-03-24T17:20:37.639Z"
+        },
+        {
+          "id": "c4354452-c67a-4604-9d81-5699a519cd31",
+          "title": "[Spike] Apple Business Register & SMS Sender Verification",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 4,
+          "updatedAt": "2026-03-24T17:17:42.315Z"
+        },
+        {
+          "id": "5e03430a-26c8-44bf-a5d2-2fb5faedd160",
+          "title": "Admin/Forest UI for Pre-Signed MSA Upload (ops self-service)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-03-18T15:12:52.366Z"
+        },
+        {
+          "id": "c5ff526a-a76a-4057-9c9e-cdb3a0386130",
+          "title": "Admin/Forest UI for Pre-Signed MSA Upload (ops self-service)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-03-18T15:11:45.410Z"
+        },
+        {
+          "id": "71caf724-7b21-4eec-951c-ead86ce6c196",
+          "title": "Rate Change Amendment Flow",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-18T15:11:37.207Z"
+        },
+        {
+          "id": "fa2d49c2-8bc4-429f-9eb1-bef02081e41a",
+          "title": "DocuSign Template Versioning & msa_template_version on Engagement",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-18T15:11:28.571Z"
+        },
+        {
+          "id": "cbb82f79-eb38-4f0f-b26c-b6d5dd073356",
+          "title": "sow_only_allowed Flag — Admin UI & Company Settings",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-18T15:11:15.319Z"
+        },
+        {
+          "id": "6668e500-1ca9-440b-b470-5478778a896e",
+          "title": "Platform Services Agreement (Template 309) — Merge & Fission Labs UI",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-18T15:11:07.322Z"
+        },
+        {
+          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
+          "title": "Client-Paper SOW Upload (Custom Client Agreements)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-18T15:10:55.758Z"
+        },
+        {
+          "id": "09302e25-1095-4586-a51d-960489766cb2",
+          "title": "Multiple SOWs Under Same MSA — UI for MSA Selection",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-18T15:10:41.683Z"
+        },
+        {
+          "id": "72098d01-09b1-46f6-8c0d-cfd0f7b0d2f0",
+          "title": "Conditional Questionnaire Clauses → Contract Template Mapping",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-18T15:10:33.861Z"
+        },
+        {
+          "id": "90563ca2-2303-4f18-a831-9de32b49a7db",
+          "title": "SOW Extensions & Renewals UI Flow",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-18T15:10:26.612Z"
+        },
+        {
+          "id": "6d4bd03a-bcca-4bbc-a921-2d8e093b8a09",
+          "title": "Fix: req.company.companyId vs user.companyId Mismatch in PositionController & CandidateController",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-03-18T15:07:56.464Z"
+        },
+        {
+          "id": "1b794d15-fc11-431c-b517-7b853b8ac71a",
+          "title": "Fix: Offers Nav Item Visible to Talent Users With No Offers (Empty State Flash)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-18T15:07:49.190Z"
+        },
+        {
+          "id": "6d35da5c-a1ff-40d2-9d07-4c9a959701cf",
+          "title": "Fix: Duplicate \"Lawtrades AI\" Menu Item in Talent Sidebar",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 4,
+          "updatedAt": "2026-03-18T15:07:45.335Z"
+        },
+        {
+          "id": "49d2a034-fc8e-4ee6-8fb6-cece9797365f",
+          "title": "Fix: Position Sort Comparator Not Wired to sortValue State",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-03-18T15:07:43.314Z"
+        },
+        {
+          "id": "5971f373-d276-4728-9de1-dd9c964177ca",
+          "title": "Hire Flow Redesign — In-Dashboard Offer Builder",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-03-18T15:07:18.689Z"
+        }
+      ]
+    }
+  }
+}
