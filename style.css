@@ -708,3 +708,237 @@ html, body {
 @media (max-width: 900px) {
   .header-center { display: none; }
 }
+
+/* ============================================================
+   THEME ENGINE
+   ============================================================ */
+
+/* Theme toggle button in header */
+.theme-toggle-btn {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--purple);
+  background: transparent;
+  border: 1px solid rgba(123, 47, 255, 0.4);
+  padding: 3px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-shadow: var(--glow-purple);
+}
+.theme-toggle-btn:hover {
+  background: rgba(123, 47, 255, 0.12);
+  border-color: var(--purple);
+  box-shadow: 0 0 10px rgba(123, 47, 255, 0.3);
+  color: #fff;
+}
+
+/* Overlay */
+.theme-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 900;
+  background: rgba(0,0,0,0.45);
+  backdrop-filter: blur(2px);
+}
+.theme-overlay.open { display: block; }
+
+/* Panel */
+.theme-panel {
+  position: fixed;
+  top: 0;
+  right: -340px;
+  width: 320px;
+  height: 100vh;
+  z-index: 950;
+  background: var(--bg-card);
+  border-left: 1px solid rgba(123, 47, 255, 0.35);
+  box-shadow: -6px 0 30px rgba(123, 47, 255, 0.2);
+  padding: 20px 16px;
+  overflow-y: auto;
+  transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: 'Share Tech Mono', monospace;
+}
+.theme-panel.open { right: 0; }
+
+.theme-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(123, 47, 255, 0.25);
+}
+.theme-panel-title {
+  font-size: 14px;
+  letter-spacing: 4px;
+  color: var(--purple);
+  text-shadow: var(--glow-purple);
+}
+.theme-close-btn {
+  background: transparent;
+  border: 1px solid rgba(123, 47, 255, 0.3);
+  color: var(--text-dim);
+  width: 26px;
+  height: 26px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: 'Share Tech Mono', monospace;
+  transition: all 0.2s;
+}
+.theme-close-btn:hover {
+  border-color: var(--pink);
+  color: var(--pink);
+  box-shadow: 0 0 8px rgba(255,42,109,0.3);
+}
+
+/* Quick action row */
+.theme-quick-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.theme-quick-btn {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: transparent;
+  border: 1px solid var(--dim);
+  color: var(--text-dim);
+}
+.theme-quick-btn:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+  box-shadow: 0 0 8px rgba(5,217,232,0.2);
+}
+.theme-surprise-btn {
+  border-color: rgba(255, 42, 109, 0.4) !important;
+  color: var(--pink) !important;
+  flex: 1;
+  animation: pulse-pink 2.5s ease-in-out infinite;
+}
+.theme-surprise-btn:hover {
+  background: rgba(255,42,109,0.1) !important;
+  box-shadow: 0 0 12px rgba(255,42,109,0.4) !important;
+}
+@keyframes pulse-pink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* Section label */
+.theme-section-label {
+  font-size: 9px;
+  letter-spacing: 3px;
+  color: var(--text-dim);
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+/* Swatch grid */
+.theme-swatches {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-bottom: 22px;
+}
+.theme-swatch {
+  border-radius: 4px;
+  padding: 10px 10px 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+.theme-swatch:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+.theme-swatch.active {
+  border-color: #fff !important;
+  box-shadow: 0 0 14px rgba(255,255,255,0.25);
+}
+.swatch-emoji { font-size: 16px; display: block; margin-bottom: 4px; }
+.swatch-name {
+  font-size: 9px;
+  letter-spacing: 2px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.swatch-check {
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  font-size: 10px;
+  display: none;
+}
+.theme-swatch.active .swatch-check { display: block; }
+
+/* Color customizer */
+.theme-customizer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.color-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.color-row label {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--text-dim);
+  flex: 1;
+}
+.color-row input[type="color"] {
+  width: 36px;
+  height: 24px;
+  border: 1px solid var(--dim);
+  border-radius: 2px;
+  background: var(--bg-card2);
+  cursor: pointer;
+  padding: 1px 2px;
+}
+.theme-apply-custom-btn {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding: 7px 12px;
+  margin-top: 4px;
+  background: rgba(123, 47, 255, 0.12);
+  border: 1px solid rgba(123, 47, 255, 0.5);
+  color: var(--purple);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+}
+.theme-apply-custom-btn:hover {
+  background: rgba(123, 47, 255, 0.25);
+  box-shadow: 0 0 10px rgba(123, 47, 255, 0.3);
+  color: #fff;
+}
+
+/* Current theme label */
+.theme-current-label {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--text-dim);
+  text-align: center;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
