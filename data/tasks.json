@@ -124,5 +124,12 @@
     "status": "planned",
     "notes": "Ilolo may want to work on his personal portfolio this weekend. Await direction on stack, design preferences, and content. Could be a great opportunity to showcase LawTrades work + MBA + engineering background.",
     "category": "external"
+  },
+  {
+    "id": 19,
+    "title": "SIDE PROJECT: Polymarket arbitrage bot (start with $100)",
+    "status": "planned",
+    "notes": "Ilolo's personal side project. Use Claude to build automated Polymarket trading bot. Strategy: arbitrage mispriced odds + data lag exploitation. Start with $100 seed capital. Research phase first: Polymarket API, Claude code generation, risk controls, data pipelines. DO NOT start until Ilolo gives explicit go-ahead with the $100.",
+    "category": "side-project"
   }
 ]
