@@ -1,11 +1,15 @@
 {
-  "lastUpdated": null,
+  "lastUpdated": "2026-04-03T16:00:00Z",
   "integrations": {
-    "linear":  "ok",
-    "granola": "ok",
-    "github":  "warn",
-    "discord": "ok"
+    "linear": true,
+    "granola": true,
+    "github": false,
+    "discord": true
   },
-  "_placeholder": true,
-  "message": "Awaiting first GitHub Actions sync"
+  "discoveries": {
+    "total": 3,
+    "pending": 3,
+    "accepted": 0,
+    "skipped": 0
+  }
 }
