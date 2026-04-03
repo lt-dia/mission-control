@@ -1,19 +1,9 @@
 {
-  "lastUpdated": "2026-04-03T21:46:23.246363+00:00",
+  "lastUpdated": "2026-04-03T21:56:18.761Z",
   "integrations": {
     "linear": "ok",
     "granola": "ok",
     "github": "warn",
     "discord": "ok"
-  },
-  "agentHealth": {
-    "contextUsed": 190000,
-    "contextLimit": 1000000,
-    "contextPct": 5,
-    "model": "anthropic/claude-sonnet-4-6",
-    "compactions": 0,
-    "activeSubagents": 0,
-    "updatedAt": "2026-04-03T21:46:23.246363+00:00",
-    "status": "healthy"
   }
 }

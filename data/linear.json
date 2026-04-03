@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "49dae618-bd39-471f-9893-dd1d6373fa52",
+          "title": "Improvement: Rename \"weekly limit\" field to \"anticipated weekly hours\" in hire flow",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-03T21:06:02.029Z"
+        },
+        {
           "id": "08281e68-d3d8-487b-b094-fbe3655a610f",
           "title": "Feature: Send simultaneous DocuSign notifications to client and talent when offer is confirmed",
           "state": {
@@ -28,15 +37,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-04-03T15:29:34.943Z"
-        },
-        {
-          "id": "49dae618-bd39-471f-9893-dd1d6373fa52",
-          "title": "Improvement: Rename \"weekly limit\" field to \"anticipated weekly hours\" in hire flow",
-          "state": {
-            "name": "Planning"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-03T15:28:44.723Z"
         },
         {
           "id": "6608f778-17fd-4364-8036-1216b2409092",
