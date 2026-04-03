@@ -227,7 +227,7 @@ html, body {
 /* ── KANBAN ──────────────────────────────────────────────── */
 .kanban-board {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 10px;
 }
 
@@ -468,6 +468,9 @@ html, body {
 }
 
 /* ── RESPONSIVE ──────────────────────────────────────────── */
+@media (max-width: 1100px) {
+  .kanban-board { grid-template-columns: repeat(3, 1fr); }
+}
 @media (max-width: 900px) {
   .row-2col { flex-direction: column; }
   .kanban-board { grid-template-columns: repeat(2, 1fr); }
@@ -517,3 +520,42 @@ html, body {
 .status-badge-accepted { display: inline-block; background: #ff2a6d; color: white; font-size: 10px; padding: 2px 8px; border-radius: 2px; margin-top: 8px; letter-spacing: 1px; animation: pulse 2s infinite; }
 .tags { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 8px; }
 .tag { font-size: 9px; padding: 1px 6px; background: rgba(255,255,255,0.05); border: 1px solid #333; color: #666; border-radius: 2px; }
+
+/* To Do column — special active glow */
+.kanban-col[data-status="todo"] {
+  border-color: #ff2a6d;
+  box-shadow: 0 0 15px rgba(255,42,109,0.25);
+}
+.kanban-col[data-status="todo"] .col-title {
+  color: #ff2a6d;
+  text-shadow: 0 0 10px rgba(255,42,109,0.6);
+}
+.kanban-col[data-status="todo"].drag-over {
+  box-shadow: 0 0 30px rgba(255,42,109,0.5), inset 0 0 20px rgba(255,42,109,0.1);
+}
+.trigger-badge {
+  font-size: 9px;
+  padding: 1px 6px;
+  background: rgba(255,42,109,0.2);
+  border: 1px solid #ff2a6d;
+  color: #ff2a6d;
+  border-radius: 2px;
+  margin-left: 6px;
+  letter-spacing: 1px;
+  animation: pulse 2s infinite;
+}
+.kanban-hint {
+  font-size: 11px;
+  color: #555;
+  margin: -8px 0 16px 0;
+  font-style: italic;
+}
+.kanban-col-header.todo {
+  color: #ff2a6d;
+  border: 1px solid rgba(255,42,109,0.4);
+  text-shadow: 0 0 8px rgba(255,42,109,0.6);
+}
+.kanban-card.todo {
+  border-left-color: #ff2a6d;
+  box-shadow: -2px 0 10px rgba(255,42,109,0.2);
+}
