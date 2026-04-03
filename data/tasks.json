@@ -117,5 +117,12 @@
     "status": "todo",
     "notes": "Add Slack-style theme panel: Light/Dark toggle, Surprise Me random theme generator, named preset themes, color customizer, save to localStorage. Synthwave84 stays as default.",
     "category": "mission-control"
+  },
+  {
+    "id": 18,
+    "title": "Ilolo's portfolio site \u2014 design + build",
+    "status": "planned",
+    "notes": "Ilolo may want to work on his personal portfolio this weekend. Await direction on stack, design preferences, and content. Could be a great opportunity to showcase LawTrades work + MBA + engineering background.",
+    "category": "external"
   }
 ]
