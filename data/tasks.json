@@ -1,156 +1,24 @@
 [
-  {
-    "id": 1,
-    "title": "Invite lt-dia to GitHub org",
-    "status": "blocked",
-    "notes": "Waiting for Ilolo to invite lt-dia to LawTrades GitHub org",
-    "category": "infra"
-  },
-  {
-    "id": 2,
-    "title": "Set up requireMention: false for Discord",
-    "status": "done",
-    "notes": "Guild 1475826992816590971 configured",
-    "category": "infra"
-  },
-  {
-    "id": 3,
-    "title": "Morning briefing cron (Linear + Granola)",
-    "status": "planned",
-    "notes": "Design cron job for 9am EST daily briefing",
-    "category": "automation"
-  },
-  {
-    "id": 4,
-    "title": "GitHub PR/issue monitoring",
-    "status": "blocked",
-    "notes": "Needs GitHub org access first",
-    "category": "automation"
-  },
-  {
-    "id": 5,
-    "title": "Notification consolidation (Slack, Gmail, LinkedIn)",
-    "status": "planned",
-    "notes": "Future \u2014 needs API keys",
-    "category": "automation"
-  },
-  {
-    "id": 6,
-    "title": "Mission Control dashboard v1",
-    "status": "done",
-    "notes": "Live at lt-dia.github.io/mission-control",
-    "category": "mission-control"
-  },
-  {
-    "id": 7,
-    "title": "Mission Control: Morning briefing panel",
-    "status": "planned",
-    "notes": "Auto-generated daily summary pinned at top. Pulls from Linear + Granola each morning.",
-    "category": "mission-control"
-  },
-  {
-    "id": 8,
-    "title": "Mission Control: Granola meeting timeline",
-    "status": "planned",
-    "notes": "Visual timeline of meetings for the week with AI summaries and action items.",
-    "category": "mission-control"
-  },
-  {
-    "id": 9,
-    "title": "Mission Control: Activity feed / D\u00eda audit log",
-    "status": "planned",
-    "notes": "Right-side live feed of everything D\u00eda has done in the last 24h.",
-    "category": "mission-control"
-  },
-  {
-    "id": 10,
-    "title": "Mission Control: GitHub PR tracker panel",
-    "status": "blocked",
-    "notes": "Dedicated panel for open PRs, review status, CI status. Blocked on GitHub org access.",
-    "category": "mission-control"
-  },
-  {
-    "id": 11,
-    "title": "Mission Control: Slack digest panel",
-    "status": "planned",
-    "notes": "Surface 3-5 most important Slack messages from the workday. Needs Slack API.",
-    "category": "mission-control"
-  },
-  {
-    "id": 12,
-    "title": "Mission Control: Productivity heatmap",
-    "status": "planned",
-    "notes": "GitHub-style heatmap: ticket velocity, meetings, discoveries accepted, PRs merged.",
-    "category": "mission-control"
-  },
-  {
-    "id": 13,
-    "title": "Mission Control: LawTrades AI automations roadmap",
-    "status": "planned",
-    "notes": "Track AI automation ideas: smart matching, contract intake parsing, talent vetting, billing anomaly detection.",
-    "category": "mission-control"
-  },
-  {
-    "id": 14,
-    "title": "Mission Control: Command bar (/ slash commands)",
-    "status": "planned",
-    "notes": "Hit `/` anywhere on dashboard to type commands directly to D\u00eda.",
-    "category": "mission-control"
-  },
-  {
-    "id": 15,
-    "title": "Mission Control: Approval queue panel",
-    "status": "planned",
-    "notes": "Pending actions from D\u00eda show up as cards for Ilolo to approve/reject before execution.",
-    "category": "mission-control"
-  },
-  {
-    "id": 16,
-    "title": "Research: Deploy coder subagent for D\u00eda to delegate to",
-    "status": "in_progress",
-    "notes": "Research OpenClaw subagents, ACP/Codex integration, multi-agent patterns. Find best way to spawn a persistent coder agent D\u00eda can delegate build tasks to. Report findings before implementing.",
-    "category": "mission-control"
-  },
-  {
-    "id": 17,
-    "title": "Mission Control: Theme engine (Light/Dark/Surprise Me + presets)",
-    "status": "todo",
-    "notes": "Add Slack-style theme panel: Light/Dark toggle, Surprise Me random theme generator, named preset themes, color customizer, save to localStorage. Synthwave84 stays as default.",
-    "category": "mission-control"
-  },
-  {
-    "id": 18,
-    "title": "Ilolo's portfolio site \u2014 design + build",
-    "status": "planned",
-    "notes": "Ilolo may want to work on his personal portfolio this weekend. Await direction on stack, design preferences, and content. Could be a great opportunity to showcase LawTrades work + MBA + engineering background.",
-    "category": "external"
-  },
-  {
-    "id": 19,
-    "title": "SIDE PROJECT: Polymarket arbitrage bot (start with $100)",
-    "status": "planned",
-    "notes": "Ilolo's personal side project. Use Claude to build automated Polymarket trading bot. Strategy: arbitrage mispriced odds + data lag exploitation. Start with $100 seed capital. Research phase first: Polymarket API, Claude code generation, risk controls, data pipelines. DO NOT start until Ilolo gives explicit go-ahead with the $100.",
-    "category": "side-project"
-  },
-  {
-    "id": 20,
-    "title": "Build /playground \u2014 Ilolo's personal projects page",
-    "status": "todo",
-    "notes": "Separate page at /playground (playground.html). Same synthwave base but baby blue (#4dd9ff) as primary accent instead of hot pink. Own Kanban with personal project categories. Shares the theme engine (Light/Dark/Surprise Me). Completely separate from work tasks on index.html.",
-    "category": "mission-control"
-  },
-  {
-    "id": 21,
-    "title": "Move personal projects to /playground (Polymarket bot, YouTube channel, portfolio)",
-    "status": "planned",
-    "notes": "Once playground.html exists, migrate tasks #18 (portfolio), #19 (Polymarket bot) and any future personal ideas there. Add YouTube faceless channel as a new idea card too.",
-    "category": "mission-control"
-  },
-  {
-    "id": 22,
-    "title": "IDEA: Faceless YouTube channel",
-    "status": "planned",
-    "notes": "Ilolo mentioned wanting a faceless YouTube channel. Brainstorm niche, content format, production pipeline. Could use AI for scripting, voiceover, and editing automation. Add to playground backlog.",
-    "category": "side-project"
-  }
+  {"id":1,"title":"Invite lt-dia to GitHub org","status":"blocked","notes":"Waiting for Ilolo to invite lt-dia to LawTrades GitHub org","category":"infra"},
+  {"id":2,"title":"Set up requireMention: false for Discord","status":"done","notes":"Guild 1475826992816590971 configured","category":"infra"},
+  {"id":3,"title":"Morning briefing cron (Linear + Granola)","status":"done","notes":"Cron job registered (ID: 60d97a85), fires 9am EST Mon-Fri. Script at scripts/morning-briefing.js.","category":"automation"},
+  {"id":4,"title":"GitHub PR/issue monitoring","status":"blocked","notes":"Needs GitHub org access first","category":"automation"},
+  {"id":5,"title":"Notification consolidation (Slack, Gmail, LinkedIn)","status":"planned","notes":"Future — needs API keys","category":"automation"},
+  {"id":6,"title":"Mission Control dashboard v1","status":"done","notes":"Live at lt-dia.github.io/mission-control","category":"mission-control"},
+  {"id":7,"title":"Mission Control: Morning briefing panel","status":"planned","notes":"Auto-generated daily summary pinned at top. Pulls from Linear + Granola each morning.","category":"mission-control"},
+  {"id":8,"title":"Mission Control: Granola meeting timeline","status":"planned","notes":"Visual timeline of meetings for the week with AI summaries and action items.","category":"mission-control"},
+  {"id":9,"title":"Mission Control: Activity feed / Día audit log","status":"planned","notes":"Right-side live feed of everything Día has done in the last 24h.","category":"mission-control"},
+  {"id":10,"title":"Mission Control: GitHub PR tracker panel","status":"blocked","notes":"Dedicated panel for open PRs, review status, CI status. Blocked on GitHub org access.","category":"mission-control"},
+  {"id":11,"title":"Mission Control: Slack digest panel","status":"planned","notes":"Surface 3-5 most important Slack messages from the workday. Needs Slack API.","category":"mission-control"},
+  {"id":12,"title":"Mission Control: Productivity heatmap","status":"planned","notes":"GitHub-style heatmap: ticket velocity, meetings, discoveries accepted, PRs merged.","category":"mission-control"},
+  {"id":13,"title":"Mission Control: LawTrades AI automations roadmap","status":"planned","notes":"Track AI automation ideas: smart matching, contract intake parsing, talent vetting, billing anomaly detection.","category":"mission-control"},
+  {"id":14,"title":"Mission Control: Command bar (/ slash commands)","status":"planned","notes":"Hit `/` anywhere on dashboard to type commands directly to Día.","category":"mission-control"},
+  {"id":15,"title":"Mission Control: Approval queue panel","status":"planned","notes":"Pending actions from Día show up as cards for Ilolo to approve/reject before execution.","category":"mission-control"},
+  {"id":16,"title":"Research: Deploy coder subagent for Día to delegate to","status":"in_progress","notes":"Research OpenClaw subagents, ACP/Codex integration, multi-agent patterns. Find best way to spawn a persistent coder agent Día can delegate build tasks to. Report findings before implementing.","category":"mission-control"},
+  {"id":17,"title":"Mission Control: Theme engine (Light/Dark/Surprise Me + presets)","status":"done","notes":"8 preset themes, Surprise Me, color customizer, localStorage persistence. theme-engine.js + style.css fully integrated.","category":"mission-control","completedAt":"2026-04-03T22:15:00.000Z"},
+  {"id":18,"title":"Ilolo's portfolio site — design + build","status":"planned","notes":"Ilolo may want to work on his personal portfolio this weekend. Await direction on stack, design preferences, and content.","category":"external"},
+  {"id":19,"title":"SIDE PROJECT: Polymarket arbitrage bot (start with $100)","status":"planned","notes":"Ilolo's personal side project. Use Claude to build automated Polymarket trading bot. Strategy: arbitrage mispriced odds + data lag exploitation. Start with $100 seed capital. DO NOT start until Ilolo gives explicit go-ahead.","category":"side-project"},
+  {"id":20,"title":"Build /playground — Ilolo's personal projects page","status":"todo","notes":"Separate page at /playground (playground.html). Same synthwave base but baby blue (#4dd9ff) as primary accent. Own Kanban with personal project categories. Shares the theme engine.","category":"mission-control"},
+  {"id":21,"title":"Move personal projects to /playground (Polymarket bot, YouTube channel, portfolio)","status":"planned","notes":"Once playground.html exists, migrate tasks #18 (portfolio), #19 (Polymarket bot) and any future personal ideas there.","category":"mission-control"},
+  {"id":22,"title":"IDEA: Faceless YouTube channel","status":"planned","notes":"Brainstorm niche, content format, production pipeline. Could use AI for scripting, voiceover, and editing automation.","category":"side-project"}
 ]
