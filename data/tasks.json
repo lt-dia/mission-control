@@ -1,8 +1,107 @@
 [
-  {"id": 1, "title": "Invite lt-dia to GitHub org", "status": "blocked", "notes": "Waiting for Ilolo to invite lt-dia to LawTrades GitHub org"},
-  {"id": 2, "title": "Set up requireMention: false for Discord", "status": "done", "notes": "Guild 1475826992816590971 configured"},
-  {"id": 3, "title": "Morning briefing cron (Linear + Granola)", "status": "planned", "notes": "Design cron job"},
-  {"id": 4, "title": "GitHub PR/issue monitoring", "status": "blocked", "notes": "Needs GitHub org access first"},
-  {"id": 5, "title": "Notification consolidation (Slack, Gmail, LinkedIn)", "status": "planned", "notes": "Future — needs API keys"},
-  {"id": 6, "title": "Mission Control dashboard", "status": "in_progress", "notes": "Building now!"}
+  {
+    "id": 1,
+    "title": "Invite lt-dia to GitHub org",
+    "status": "blocked",
+    "notes": "Waiting for Ilolo to invite lt-dia to LawTrades GitHub org",
+    "category": "infra"
+  },
+  {
+    "id": 2,
+    "title": "Set up requireMention: false for Discord",
+    "status": "done",
+    "notes": "Guild 1475826992816590971 configured",
+    "category": "infra"
+  },
+  {
+    "id": 3,
+    "title": "Morning briefing cron (Linear + Granola)",
+    "status": "planned",
+    "notes": "Design cron job for 9am EST daily briefing",
+    "category": "automation"
+  },
+  {
+    "id": 4,
+    "title": "GitHub PR/issue monitoring",
+    "status": "blocked",
+    "notes": "Needs GitHub org access first",
+    "category": "automation"
+  },
+  {
+    "id": 5,
+    "title": "Notification consolidation (Slack, Gmail, LinkedIn)",
+    "status": "planned",
+    "notes": "Future \u2014 needs API keys",
+    "category": "automation"
+  },
+  {
+    "id": 6,
+    "title": "Mission Control dashboard v1",
+    "status": "done",
+    "notes": "Live at lt-dia.github.io/mission-control",
+    "category": "mission-control"
+  },
+  {
+    "id": 7,
+    "title": "Mission Control: Morning briefing panel",
+    "status": "planned",
+    "notes": "Auto-generated daily summary pinned at top. Pulls from Linear + Granola each morning.",
+    "category": "mission-control"
+  },
+  {
+    "id": 8,
+    "title": "Mission Control: Granola meeting timeline",
+    "status": "planned",
+    "notes": "Visual timeline of meetings for the week with AI summaries and action items.",
+    "category": "mission-control"
+  },
+  {
+    "id": 9,
+    "title": "Mission Control: Activity feed / D\u00eda audit log",
+    "status": "planned",
+    "notes": "Right-side live feed of everything D\u00eda has done in the last 24h.",
+    "category": "mission-control"
+  },
+  {
+    "id": 10,
+    "title": "Mission Control: GitHub PR tracker panel",
+    "status": "blocked",
+    "notes": "Dedicated panel for open PRs, review status, CI status. Blocked on GitHub org access.",
+    "category": "mission-control"
+  },
+  {
+    "id": 11,
+    "title": "Mission Control: Slack digest panel",
+    "status": "planned",
+    "notes": "Surface 3-5 most important Slack messages from the workday. Needs Slack API.",
+    "category": "mission-control"
+  },
+  {
+    "id": 12,
+    "title": "Mission Control: Productivity heatmap",
+    "status": "planned",
+    "notes": "GitHub-style heatmap: ticket velocity, meetings, discoveries accepted, PRs merged.",
+    "category": "mission-control"
+  },
+  {
+    "id": 13,
+    "title": "Mission Control: LawTrades AI automations roadmap",
+    "status": "planned",
+    "notes": "Track AI automation ideas: smart matching, contract intake parsing, talent vetting, billing anomaly detection.",
+    "category": "mission-control"
+  },
+  {
+    "id": 14,
+    "title": "Mission Control: Command bar (/ slash commands)",
+    "status": "planned",
+    "notes": "Hit `/` anywhere on dashboard to type commands directly to D\u00eda.",
+    "category": "mission-control"
+  },
+  {
+    "id": 15,
+    "title": "Mission Control: Approval queue panel",
+    "status": "planned",
+    "notes": "Pending actions from D\u00eda show up as cards for Ilolo to approve/reject before execution.",
+    "category": "mission-control"
+  }
 ]
