@@ -484,3 +484,155 @@ html, body {
   .header { flex-direction: column; align-items: flex-start; gap: 10px; }
   .title { font-size: 16px; }
 }
+
+/* ── DISCOVERIES ─────────────────────────────────────────── */
+.discoveries-section .section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.discoveries-filter {
+  display: flex;
+  gap: 6px;
+}
+
+.filter-btn {
+  background: transparent;
+  border: 1px solid rgba(5, 217, 232, 0.25);
+  color: var(--dim);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding: 4px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter-btn:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+}
+
+.filter-btn.active {
+  background: rgba(5, 217, 232, 0.12);
+  border-color: var(--cyan);
+  color: var(--cyan);
+  text-shadow: 0 0 6px rgba(5, 217, 232, 0.5);
+}
+
+.discoveries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.discovery-card {
+  background: var(--bg-card2);
+  border: 1px solid rgba(5, 217, 232, 0.1);
+  border-radius: 4px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: border-color 0.2s;
+  position: relative;
+}
+
+.discovery-card.accepted {
+  border-left: 3px solid rgba(0, 255, 136, 0.7);
+}
+
+.discovery-card.skipped {
+  opacity: 0.45;
+  border-left: 3px solid rgba(120, 120, 120, 0.4);
+}
+
+.discovery-card.pending {
+  border-left: 3px solid rgba(5, 217, 232, 0.5);
+}
+
+.discovery-card:hover {
+  border-color: rgba(5, 217, 232, 0.3);
+}
+
+.discovery-source {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--pink);
+  text-transform: uppercase;
+  text-shadow: var(--glow-pink);
+}
+
+.discovery-title {
+  font-size: 12px;
+  color: var(--fg);
+  line-height: 1.4;
+}
+
+.discovery-date {
+  font-size: 10px;
+  color: var(--dim);
+}
+
+.discovery-desc {
+  font-size: 11px;
+  color: rgba(224, 246, 255, 0.65);
+  line-height: 1.5;
+}
+
+.discovery-action-note {
+  font-size: 10px;
+  color: var(--cyan);
+  background: rgba(5, 217, 232, 0.06);
+  border-left: 2px solid rgba(5, 217, 232, 0.4);
+  padding: 5px 8px;
+  border-radius: 0 2px 2px 0;
+  line-height: 1.4;
+}
+
+.discovery-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.btn-implement {
+  background: rgba(0, 255, 136, 0.1);
+  border: 1px solid rgba(0, 255, 136, 0.4);
+  color: #00ff88;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 2px;
+  padding: 4px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-implement:hover {
+  background: rgba(0, 255, 136, 0.2);
+  box-shadow: 0 0 8px rgba(0, 255, 136, 0.3);
+}
+
+.btn-skip {
+  background: transparent;
+  border: 1px solid rgba(120, 120, 120, 0.3);
+  color: var(--dim);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 2px;
+  padding: 4px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-skip:hover {
+  border-color: rgba(255, 42, 109, 0.4);
+  color: var(--pink);
+}
