@@ -7,7 +7,8 @@
       "notes": "Design cron job for 9am EST daily briefing",
       "category": "automation",
       "triggeredAt": "2026-04-03T17:59:35.372Z",
-      "status": "awaiting-dia"
+      "status": "picked-up",
+      "pickedUpAt": "2026-04-03T18:16:00.000Z"
     }
   ]
 }
