@@ -1,16 +1,24 @@
 {
- "lastChecked": "2026-04-03T19:16:00.000Z",
- "pendingTasks": [
- {
- "id": 3,
- "title": "Morning briefing cron (Linear + Granola)",
- "notes": "Design cron job for 9am EST daily briefing",
- "category": "automation",
- "triggeredAt": "2026-04-03T17:59:35.372Z",
- "status": "done",
- "pickedUpAt": "2026-04-03T18:16:00.000Z",
- "completedAt": "2026-04-03T19:16:00.000Z",
- "result": "Cron job registered (ID: 60d97a85), fires 9am EST Mon-Fri. Script at scripts/morning-briefing.js."
- }
- ]
+  "lastChecked": "2026-04-03T19:16:00.000Z",
+  "pendingTasks": [
+    {
+      "id": 3,
+      "title": "Morning briefing cron (Linear + Granola)",
+      "notes": "Design cron job for 9am EST daily briefing",
+      "category": "automation",
+      "triggeredAt": "2026-04-03T17:59:35.372Z",
+      "status": "done",
+      "pickedUpAt": "2026-04-03T18:16:00.000Z",
+      "completedAt": "2026-04-03T19:16:00.000Z",
+      "result": "Cron job registered (ID: 60d97a85), fires 9am EST Mon-Fri. Script at scripts/morning-briefing.js."
+    },
+    {
+      "id": 17,
+      "title": "Mission Control: Theme engine (Light/Dark/Surprise Me + presets)",
+      "notes": "Add Slack-style theme panel: Light/Dark toggle, Surprise Me random theme generator, named preset themes, color customizer, save to localStorage. Synthwave84 stays as default.",
+      "category": "mission-control",
+      "triggeredAt": "2026-04-03T19:58:17.083Z",
+      "status": "awaiting-dia"
+    }
+  ]
 }
