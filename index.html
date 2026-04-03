@@ -62,9 +62,14 @@
           <span class="section-icon">⬡</span>
           <h2 class="section-title">ACTIVE TASKS</h2>
         </div>
+        <p class="kanban-hint">⚡ Drag a card to <span style="color:#ff2a6d">TO DO</span> to assign it to Día — she'll pick it up within 30 minutes.</p>
         <div class="kanban-board" id="kanbanBoard">
-          <div class="kanban-col" id="col-planned" data-status="todo">
-            <div class="kanban-col-header planned">TODO / PLANNED</div>
+          <div class="kanban-col" id="col-planned" data-status="planned">
+            <div class="kanban-col-header planned">PLANNED</div>
+            <div class="kanban-cards"></div>
+          </div>
+          <div class="kanban-col" id="col-todo" data-status="todo">
+            <div class="kanban-col-header todo">TO DO <span class="trigger-badge">⚡ TRIGGERS DÍA</span></div>
             <div class="kanban-cards"></div>
           </div>
           <div class="kanban-col" id="col-in_progress" data-status="in_progress">
