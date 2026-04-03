@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Día — Ilolo's Playground</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="playground.css" />
+</head>
+<body>
+  <div class="grid-bg"></div>
+
+  <!-- HEADER -->
+  <header class="pg-header">
+    <div class="header-left">
+      <span class="agent-name">DÍA</span>
+      <span class="header-sep">//</span>
+      <span class="page-tag">ILOLO'S PLAYGROUND</span>
+    </div>
+    <div class="header-right">
+      <span class="status-dot"></span>
+      <span class="status-text">PERSONAL PROJECTS</span>
+      <a href="index.html" class="nav-link">← MISSION CONTROL</a>
+    </div>
+  </header>
+
+  <main class="pg-main">
+
+    <!-- STATS STRIP -->
+    <div class="stats-strip" id="statsStrip">
+      <!-- rendered by playground.js -->
+    </div>
+
+    <!-- ── SECTION 1: IDEAS BOARD ───────────────────────── -->
+    <section class="section kanban-section">
+      <div class="section-header">
+        <span class="section-icon">⬡</span>
+        <h2 class="section-title">[ IDEAS BOARD ]</h2>
+        <span class="section-meta">DRAG TO MOVE ACROSS STAGES</span>
+      </div>
+
+      <div class="kanban-board" id="kanbanBoard">
+
+        <!-- IDEA -->
+        <div class="kanban-col" id="col-idea" data-status="idea">
+          <div class="kanban-col-header idea">IDEA</div>
+          <div class="kanban-cards"></div>
+        </div>
+
+        <!-- EXPLORING -->
+        <div class="kanban-col" id="col-exploring" data-status="exploring">
+          <div class="kanban-col-header exploring">EXPLORING</div>
+          <div class="kanban-cards"></div>
+        </div>
+
+        <!-- BUILDING -->
+        <div class="kanban-col" id="col-building" data-status="building">
+          <div class="kanban-col-header building">BUILDING</div>
+          <div class="kanban-cards"></div>
+        </div>
+
+        <!-- SHIPPED -->
+        <div class="kanban-col" id="col-shipped" data-status="shipped">
+          <div class="kanban-col-header shipped">SHIPPED ✓</div>
+          <div class="kanban-cards"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── SECTION 2: ACTIVE EXPERIMENTS ────────────────── -->
+    <section class="section experiments-section">
+      <div class="section-header">
+        <span class="section-icon">◎</span>
+        <h2 class="section-title">[ ACTIVE EXPERIMENTS ]</h2>
+        <span class="section-meta">PROJECTS IN BUILDING STAGE</span>
+      </div>
+      <div id="activeExperiments">
+        <!-- rendered by playground.js -->
+      </div>
+    </section>
+
+    <!-- ── SECTION 3: IDEA INBOX ─────────────────────────── -->
+    <section class="section inbox-section">
+      <div class="section-header">
+        <span class="section-icon">◈</span>
+        <h2 class="section-title">[ IDEA INBOX ]</h2>
+        <span class="section-meta">CAPTURED IDEAS LAND IN THE BOARD AS ▸ IDEA</span>
+      </div>
+
+      <form id="inboxForm" class="inbox-form" onsubmit="return false;">
+        <input
+          id="inboxInput"
+          type="text"
+          class="inbox-input"
+          placeholder="+ TYPE A NEW IDEA AND HIT ENTER..."
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <button type="submit" class="inbox-btn">ADD IDEA</button>
+      </form>
+
+      <div class="inbox-hint">
+        Ideas are saved to <code style="color:#4dd9ff">data/playground-tasks.json</code> via GitHub API.
+        If offline, they'll be stored locally and synced on next load.
+      </div>
+      <div id="syncNote" class="inbox-sync-note" style="display:none;">
+        ⚠ LOCAL CHANGES PENDING SYNC — will attempt to push to GitHub automatically.
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="pg-footer">
+    <span style="color:#2a4a5a">DÍA // OPENCLAW AGENT // ILOLO'S PLAYGROUND</span>
+    <span class="footer-sep">◈</span>
+    <span id="footerTime" style="color:#2a4a5a">—</span>
+  </footer>
+
+  <script src="playground.js"></script>
+</body>
+</html>
