@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Día — Mission Control</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grid-bg"></div>
+
+  <header class="header">
+    <div class="header-left">
+      <div class="logo-glyph">◈</div>
+      <div>
+        <h1 class="title">MISSION CONTROL</h1>
+        <p class="subtitle">AGENT: DÍA // OPERATIONAL STATUS: ONLINE</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="status-pill online">● ONLINE</div>
+      <div class="last-updated" id="lastUpdated">LAST SYNC: —</div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Integration Status Bar -->
+    <section class="section integrations-bar">
+      <div class="section-label">INTEGRATION STATUS</div>
+      <div class="integrations-list" id="integrationsList">
+        <div class="integration-item loading">Loading...</div>
+      </div>
+    </section>
+
+    <!-- Row 1: Kanban + Linear -->
+    <div class="row row-2col">
+
+      <!-- Active Tasks / Kanban -->
+      <section class="section kanban-section">
+        <div class="section-header">
+          <span class="section-icon">⬡</span>
+          <h2 class="section-title">ACTIVE TASKS</h2>
+        </div>
+        <div class="kanban-board" id="kanbanBoard">
+          <div class="kanban-col" id="col-planned">
+            <div class="kanban-col-header planned">TODO / PLANNED</div>
+            <div class="kanban-cards"></div>
+          </div>
+          <div class="kanban-col" id="col-in_progress">
+            <div class="kanban-col-header in-progress">IN PROGRESS</div>
+            <div class="kanban-cards"></div>
+          </div>
+          <div class="kanban-col" id="col-blocked">
+            <div class="kanban-col-header blocked">BLOCKED</div>
+            <div class="kanban-cards"></div>
+          </div>
+          <div class="kanban-col" id="col-done">
+            <div class="kanban-col-header done">DONE</div>
+            <div class="kanban-cards"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Linear Tickets -->
+      <section class="section linear-section">
+        <div class="section-header">
+          <span class="section-icon">◎</span>
+          <h2 class="section-title">LINEAR TICKETS</h2>
+        </div>
+        <div class="linear-list" id="linearList">
+          <div class="placeholder-msg">Awaiting first sync...</div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Row 2: Granola + Scheduled Jobs -->
+    <div class="row row-2col">
+
+      <!-- Granola Meeting Notes -->
+      <section class="section granola-section">
+        <div class="section-header">
+          <span class="section-icon">◉</span>
+          <h2 class="section-title">RECENT MEETING NOTES</h2>
+        </div>
+        <div class="granola-list" id="granolaList">
+          <div class="placeholder-msg">Awaiting first sync...</div>
+        </div>
+      </section>
+
+      <!-- Scheduled Jobs -->
+      <section class="section jobs-section">
+        <div class="section-header">
+          <span class="section-icon">⬢</span>
+          <h2 class="section-title">SCHEDULED JOBS</h2>
+        </div>
+        <div class="jobs-list" id="jobsList">
+          <div class="job-item">
+            <div class="job-name">🔄 Data Refresh</div>
+            <div class="job-meta">Every 30 min via GitHub Actions</div>
+            <div class="job-badge active">ACTIVE</div>
+          </div>
+          <div class="job-item">
+            <div class="job-name">📋 Morning Briefing</div>
+            <div class="job-meta">Linear + Granola digest — 9:00 AM EST</div>
+            <div class="job-badge planned">PLANNED</div>
+          </div>
+          <div class="job-item">
+            <div class="job-name">🐙 GitHub PR Monitor</div>
+            <div class="job-meta">Watch org PRs + issues</div>
+            <div class="job-badge blocked">BLOCKED</div>
+          </div>
+          <div class="job-item">
+            <div class="job-name">💬 Discord Heartbeat</div>
+            <div class="job-meta">Every 30 min — requireMention: false</div>
+            <div class="job-badge active">ACTIVE</div>
+          </div>
+          <div class="job-item">
+            <div class="job-name">📨 Notification Consolidator</div>
+            <div class="job-meta">Slack + Gmail + LinkedIn</div>
+            <div class="job-badge planned">PLANNED</div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <span class="footer-text">DÍA // OPENCLAW AGENT // LAWTRADES</span>
+    <span class="footer-sep">◈</span>
+    <span class="footer-text" id="footerTime">—</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
