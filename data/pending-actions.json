@@ -1,4 +1,13 @@
 {
   "lastChecked": null,
-  "pendingTasks": []
+  "pendingTasks": [
+    {
+      "id": 3,
+      "title": "Morning briefing cron (Linear + Granola)",
+      "notes": "Design cron job for 9am EST daily briefing",
+      "category": "automation",
+      "triggeredAt": "2026-04-03T17:59:35.372Z",
+      "status": "awaiting-dia"
+    }
+  ]
 }
