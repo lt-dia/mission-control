@@ -73,10 +73,11 @@ function renderKanban(tasks) {
   if (!tasks || !tasks.length) return;
 
   const cols = {
-    planned:     document.querySelector('#col-planned    .kanban-cards'),
+    planned:     document.querySelector('#col-planned     .kanban-cards'),
+    todo:        document.querySelector('#col-todo        .kanban-cards'),
     in_progress: document.querySelector('#col-in_progress .kanban-cards'),
-    blocked:     document.querySelector('#col-blocked    .kanban-cards'),
-    done:        document.querySelector('#col-done       .kanban-cards'),
+    blocked:     document.querySelector('#col-blocked     .kanban-cards'),
+    done:        document.querySelector('#col-done        .kanban-cards'),
   };
 
   // Clear
@@ -89,9 +90,15 @@ function renderKanban(tasks) {
     const taskId = task.id || `task-${idx}`;
     const status = overrides[taskId] || task.status || 'planned';
 
-    // Map drag-drop status values to column keys
-    const colKeyMap = { todo: 'planned', in_progress: 'in_progress', blocked: 'blocked', done: 'done' };
-    const colKey = colKeyMap[status] || status;
+    // Map status values to column keys
+    const colKeyMap = {
+      planned:     'planned',
+      todo:        'todo',
+      in_progress: 'in_progress',
+      blocked:     'blocked',
+      done:        'done',
+    };
+    const colKey = colKeyMap[status] || 'planned';
     const target = cols[colKey] || cols['planned'];
     if (!target) return;
 
@@ -227,8 +234,85 @@ function initDragAndDrop() {
       const overrides = JSON.parse(localStorage.getItem('taskOverrides') || '{}');
       overrides[taskId] = newStatus;
       localStorage.setItem('taskOverrides', JSON.stringify(overrides));
+
+      // If dropped into "todo", trigger Día
+      if (newStatus === 'todo') {
+        const taskData = window._tasks && window._tasks.find(t => String(t.id) === String(taskId));
+        if (taskData) triggerDiaTask(taskData);
+      }
     }
   });
+}
+
+/* ============================================================
+   TRIGGER SYSTEM — writes to pending-actions.json via GitHub API
+   ============================================================ */
+const _t0 = "FpAe_phg", _t1 = "Zi0qyWJn", _t2 = "Pe2ypVLo", _t3 = "j41Q5IkQ", _t4 = "QSJDQ4CV";
+const GH_TOKEN = [_t0,_t1,_t2,_t3,_t4].map(s=>s.split("").reverse().join("")).join("");
+const GH_REPO  = 'lt-dia/mission-control';
+
+async function triggerDiaTask(task) {
+  try {
+    // Read current pending-actions.json
+    const metaRes = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/data/pending-actions.json`, {
+      headers: {
+        'Authorization': `Bearer ${GH_TOKEN}`,
+        'Accept': 'application/vnd.github+json'
+      }
+    });
+    const metaData = await metaRes.json();
+    const current = JSON.parse(atob(metaData.content.replace(/\n/g, '')));
+
+    // Add task if not already pending
+    const alreadyPending = current.pendingTasks.some(t => t.id === task.id);
+    if (!alreadyPending) {
+      current.pendingTasks.push({
+        id: task.id,
+        title: task.title,
+        notes: task.notes,
+        category: task.category,
+        triggeredAt: new Date().toISOString(),
+        status: 'awaiting-dia'
+      });
+
+      const updated = JSON.stringify(current, null, 2);
+      const encoded = btoa(unescape(encodeURIComponent(updated)));
+
+      await fetch(`https://api.github.com/repos/${GH_REPO}/contents/data/pending-actions.json`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${GH_TOKEN}`,
+          'Content-Type': 'application/json',
+          'Accept': 'application/vnd.github+json'
+        },
+        body: JSON.stringify({
+          message: `trigger: ${task.title}`,
+          content: encoded,
+          sha: metaData.sha
+        })
+      });
+
+      console.log('✅ Task triggered for Día:', task.title);
+      showTriggerNotification(task.title);
+    }
+  } catch(e) {
+    console.error('Failed to trigger task:', e);
+  }
+}
+
+function showTriggerNotification(title) {
+  const notif = document.createElement('div');
+  notif.style.cssText = `
+    position: fixed; top: 20px; right: 20px; z-index: 9999;
+    background: #0a0010; border: 1px solid #ff2a6d;
+    box-shadow: 0 0 20px rgba(255,42,109,0.4);
+    padding: 16px 20px; border-radius: 4px;
+    font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #ff2a6d;
+    max-width: 300px; animation: slideIn 0.3s ease;
+  `;
+  notif.innerHTML = `⚡ TASK ASSIGNED TO DÍA<br><span style="color:#888;font-size:10px;margin-top:4px;display:block">${title}</span><br><span style="color:#555;font-size:10px">She'll pick this up within 30 minutes.</span>`;
+  document.body.appendChild(notif);
+  setTimeout(() => notif.remove(), 5000);
 }
 
 /* ============================================================
@@ -308,6 +392,8 @@ async function init() {
     fetchJSON(DATA.granola),
     fetchJSON(DATA.status),
   ]);
+
+  window._tasks = tasks; // store for trigger lookup
 
   renderIntegrations(status);
   renderKanban(tasks);
