@@ -29,6 +29,67 @@ function updateClock() {
 setInterval(updateClock, 1000);
 updateClock();
 
+/* ── RELATIVE TIME HELPER ───────────────────────────────── */
+function relativeTime(isoStr) {
+  if (!isoStr) return '—';
+  const diff = Math.floor((Date.now() - new Date(isoStr)) / 1000);
+  if (diff < 60)    return `${diff}s ago`;
+  if (diff < 3600)  return `${Math.floor(diff / 60)}m ago`;
+  if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
+  return `${Math.floor(diff / 86400)}d ago`;
+}
+
+/* ── AGENT HEALTH ───────────────────────────────────────── */
+function loadAgentHealth(status) {
+  const h = status && status.agentHealth;
+  if (!h) return;
+
+  const pct = Math.min(100, Math.max(0, h.contextPct || 0));
+
+  const fill = document.getElementById('meterFill');
+  if (fill) {
+    fill.style.width = `${pct}%`;
+    fill.classList.remove('state-ok', 'state-warn', 'state-crit');
+    if (pct >= 80)      fill.classList.add('state-crit');
+    else if (pct >= 50) fill.classList.add('state-warn');
+    else                fill.classList.add('state-ok');
+  }
+
+  const pctEl = document.getElementById('meterPct');
+  if (pctEl) pctEl.textContent = `${pct}%`;
+
+  const modelEl = document.getElementById('modelTag');
+  if (modelEl) {
+    const model = (h.model || '—').replace(/^[^/]+\//, '');
+    modelEl.textContent = model;
+  }
+
+  const statusEl = document.getElementById('statusTag');
+  if (statusEl) {
+    const s = (h.status || 'unknown').toLowerCase();
+    statusEl.textContent = `● ${s.toUpperCase()}`;
+    statusEl.className = 'status-tag';
+    if (s === 'healthy')       statusEl.classList.add('healthy');
+    else if (s === 'warning')  statusEl.classList.add('warning');
+    else if (s === 'critical') statusEl.classList.add('critical');
+  }
+
+  const subEl = document.getElementById('subagentCount');
+  if (subEl) {
+    const n = h.activeSubagents != null ? h.activeSubagents : 0;
+    subEl.textContent = `${n} subagent${n !== 1 ? 's' : ''}`;
+  }
+
+  const updEl = document.getElementById('healthUpdated');
+  if (updEl) updEl.textContent = `updated ${relativeTime(h.updatedAt)}`;
+
+  if (!window._healthRefreshTimer && updEl && h.updatedAt) {
+    window._healthRefreshTimer = setInterval(() => {
+      updEl.textContent = `updated ${relativeTime(h.updatedAt)}`;
+    }, 60000);
+  }
+}
+
 /* ── INTEGRATIONS STATUS ─────────────────────────────────── */
 function renderIntegrations(status) {
   const container = document.getElementById('integrationsList');
@@ -45,13 +106,8 @@ function renderIntegrations(status) {
     ? status.integrations
     : defaults.reduce((acc, d) => { acc[d.key] = d.defaultState; return acc; }, {});
 
-  const icons = { ok: '✅', warn: '⚠️', err: '❌' };
-  const labels = {
-    linear:  'LINEAR',
-    granola: 'GRANOLA',
-    github:  'GITHUB',
-    discord: 'DISCORD',
-  };
+  const icons  = { ok: '✅', warn: '⚠️', err: '❌' };
+  const labels = { linear: 'LINEAR', granola: 'GRANOLA', github: 'GITHUB', discord: 'DISCORD' };
 
   container.innerHTML = defaults.map(d => {
     const state = integrations[d.key] || d.defaultState;
@@ -73,30 +129,23 @@ function renderKanban(tasks) {
   if (!tasks || !tasks.length) return;
 
   const cols = {
-    planned:     document.querySelector('#col-planned     .kanban-cards'),
-    todo:        document.querySelector('#col-todo        .kanban-cards'),
+    planned:     document.querySelector('#col-planned .kanban-cards'),
+    todo:        document.querySelector('#col-todo .kanban-cards'),
     in_progress: document.querySelector('#col-in_progress .kanban-cards'),
-    blocked:     document.querySelector('#col-blocked     .kanban-cards'),
-    done:        document.querySelector('#col-done        .kanban-cards'),
+    blocked:     document.querySelector('#col-blocked .kanban-cards'),
+    done:        document.querySelector('#col-done .kanban-cards'),
   };
 
-  // Clear
   Object.values(cols).forEach(c => { if (c) c.innerHTML = ''; });
 
-  // Apply any saved drag-drop overrides
   const overrides = JSON.parse(localStorage.getItem('taskOverrides') || '{}');
 
   tasks.forEach((task, idx) => {
-    const taskId = task.id || `task-${idx}`;
-    const status = overrides[taskId] || task.status || 'planned';
-
-    // Map status values to column keys
+    const taskId  = task.id || `task-${idx}`;
+    const status  = overrides[taskId] || task.status || 'planned';
     const colKeyMap = {
-      planned:     'planned',
-      todo:        'todo',
-      in_progress: 'in_progress',
-      blocked:     'blocked',
-      done:        'done',
+      planned: 'planned', todo: 'todo',
+      in_progress: 'in_progress', blocked: 'blocked', done: 'done',
     };
     const colKey = colKeyMap[status] || 'planned';
     const target = cols[colKey] || cols['planned'];
@@ -147,7 +196,7 @@ function renderLinear(data) {
       <div class="linear-card">
         <div class="linear-card-top">
           <div class="linear-card-title">${escapeHtml(issue.title)}</div>
-          <div class="priority-badge ${pClass}">P${issue.priority ?? 4}: ${pLabel}</div>
+          <span class="priority-badge ${pClass}">P${issue.priority != null ? issue.priority : 4}: ${pLabel}</span>
         </div>
         <div class="linear-card-meta">
           <span class="linear-state-badge">◈ ${state}</span>
@@ -163,11 +212,10 @@ function renderGranola(data) {
   const container = document.getElementById('granolaList');
   if (!container) return;
 
-  // Granola API returns { notes: [...] } or { data: [...] }
   let notes = null;
-  if (data && Array.isArray(data.notes)) notes = data.notes;
+  if (data && Array.isArray(data.notes))     notes = data.notes;
   else if (data && Array.isArray(data.data)) notes = data.data;
-  else if (Array.isArray(data)) notes = data;
+  else if (Array.isArray(data))              notes = data;
 
   if (!notes || !notes.length) {
     container.innerHTML = '<div class="placeholder-msg">No meeting notes found — awaiting sync</div>';
@@ -225,17 +273,14 @@ function initDragAndDrop() {
     const col = e.target.closest('.kanban-col');
     if (!col) return;
     col.classList.remove('drag-over');
-    const taskId = e.dataTransfer.getData('text/plain');
+    const taskId    = e.dataTransfer.getData('text/plain');
     const newStatus = col.dataset.status;
-    const card = document.querySelector(`.task-card[data-task-id="${taskId}"]`);
+    const card      = document.querySelector(`.task-card[data-task-id="${taskId}"]`);
     if (card && newStatus) {
       col.querySelector('.kanban-cards').appendChild(card);
-      // persist to localStorage
       const overrides = JSON.parse(localStorage.getItem('taskOverrides') || '{}');
       overrides[taskId] = newStatus;
       localStorage.setItem('taskOverrides', JSON.stringify(overrides));
-
-      // If dropped into "todo", trigger Día
       if (newStatus === 'todo') {
         const taskData = window._tasks && window._tasks.find(t => String(t.id) === String(taskId));
         if (taskData) triggerDiaTask(taskData);
@@ -253,26 +298,17 @@ const GH_REPO  = 'lt-dia/mission-control';
 
 async function triggerDiaTask(task) {
   try {
-    // Read current pending-actions.json
-    const metaRes = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/data/pending-actions.json`, {
-      headers: {
-        'Authorization': `Bearer ${GH_TOKEN}`,
-        'Accept': 'application/vnd.github+json'
-      }
+    const metaRes  = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/data/pending-actions.json`, {
+      headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github+json' }
     });
     const metaData = await metaRes.json();
-    const current = JSON.parse(atob(metaData.content.replace(/\n/g, '')));
+    const current  = JSON.parse(atob(metaData.content.replace(/\n/g, '')));
 
-    // Add task if not already pending
     const alreadyPending = current.pendingTasks.some(t => t.id === task.id);
     if (!alreadyPending) {
       current.pendingTasks.push({
-        id: task.id,
-        title: task.title,
-        notes: task.notes,
-        category: task.category,
-        triggeredAt: new Date().toISOString(),
-        status: 'awaiting-dia'
+        id: task.id, title: task.title, notes: task.notes,
+        category: task.category, triggeredAt: new Date().toISOString(), status: 'awaiting-dia'
       });
 
       const updated = JSON.stringify(current, null, 2);
@@ -285,14 +321,10 @@ async function triggerDiaTask(task) {
           'Content-Type': 'application/json',
           'Accept': 'application/vnd.github+json'
         },
-        body: JSON.stringify({
-          message: `trigger: ${task.title}`,
-          content: encoded,
-          sha: metaData.sha
-        })
+        body: JSON.stringify({ message: `trigger: ${task.title}`, content: encoded, sha: metaData.sha })
       });
 
-      console.log('✅ Task triggered for Día:', task.title);
+      console.log('Task triggered for Dia:', task.title);
       showTriggerNotification(task.title);
     }
   } catch(e) {
@@ -310,7 +342,7 @@ function showTriggerNotification(title) {
     font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #ff2a6d;
     max-width: 300px; animation: slideIn 0.3s ease;
   `;
-  notif.innerHTML = `⚡ TASK ASSIGNED TO DÍA<br><span style="color:#888;font-size:10px;margin-top:4px;display:block">${title}</span><br><span style="color:#555;font-size:10px">She'll pick this up within 30 minutes.</span>`;
+  notif.innerHTML = `TASK ASSIGNED TO DIA<br><strong>${title}</strong><br><small>She'll pick this up within 30 minutes.</small>`;
   document.body.appendChild(notif);
   setTimeout(() => notif.remove(), 5000);
 }
@@ -320,9 +352,9 @@ function showTriggerNotification(title) {
    ============================================================ */
 async function loadDiscoveries() {
   try {
-    const res = await fetch('data/discoveries.json');
+    const res         = await fetch('data/discoveries.json');
     const discoveries = await res.json();
-    const saved = JSON.parse(localStorage.getItem('discoveryStatuses') || '{}');
+    const saved       = JSON.parse(localStorage.getItem('discoveryStatuses') || '{}');
     discoveries.forEach(d => { if (saved[d.id]) d.status = saved[d.id]; });
     window._discoveries = discoveries;
     renderDiscoveries(discoveries, 'all');
@@ -335,34 +367,29 @@ function renderDiscoveries(discoveries, filter) {
   if (!grid) return;
   const filtered = filter === 'all' ? discoveries : discoveries.filter(d => d.status === filter);
   grid.innerHTML = filtered.map(d => `
-    <div class="discovery-card ${d.status}" data-discovery-id="${d.id}">
+    <div class="discovery-card ${d.status || 'pending'}" data-id="${d.id}">
       <span class="source-badge source-${d.source}">${d.source}</span>
       <div class="tags">${(d.tags||[]).map(t => `<span class="tag">#${t}</span>`).join('')}</div>
       <div class="discovery-title">${d.title}</div>
       <div class="discovery-date">${new Date(d.date).toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric', hour:'2-digit', minute:'2-digit'})}</div>
       <div class="discovery-desc">${d.description}</div>
       ${d.actionNote ? `<div class="discovery-action-note">💡 ${d.actionNote}</div>` : ''}
-      ${d.status === 'accepted' ? '<div class="status-badge-accepted">⚡ QUEUED FOR ACTION</div>' : ''}
+      ${d.status === 'accepted' ? '<div class="status-badge-accepted">QUEUED FOR ACTION</div>' : ''}
       ${d.status !== 'skipped' && d.status !== 'accepted' ? `
-      <div class="discovery-actions">
-        <button class="btn-implement" onclick="acceptDiscovery('${d.id}')">✅ IMPLEMENT</button>
-        <button class="btn-skip" onclick="skipDiscovery('${d.id}')">❌ SKIP</button>
-      </div>` : ''}
-      ${d.status === 'skipped' ? '<div style="font-size:10px;color:#555;margin-top:8px;">SKIPPED — <a href="#" onclick="restoreDiscovery(\''+d.id+'\'); return false;" style="color:#666;">undo</a></div>' : ''}
-      ${d.url ? `<div style="margin-top:8px;"><a href="${d.url}" target="_blank" style="font-size:10px;color:#444;text-decoration:none;">→ VIEW SOURCE</a></div>` : ''}
+        <div class="discovery-actions">
+          <button class="btn-implement" onclick="acceptDiscovery('${d.id}')">IMPLEMENT</button>
+          <button class="btn-skip" onclick="skipDiscovery('${d.id}')">SKIP</button>
+        </div>` : ''}
+      ${d.status === 'skipped' ? `<div class="discovery-action-note">SKIPPED — <a href="#" onclick="restoreDiscovery('${d.id}');return false;" style="color:#555">undo</a></div>` : ''}
+      ${d.url ? `<a href="${d.url}" target="_blank" style="font-size:10px;color:#444;text-decoration:none">VIEW SOURCE</a>` : ''}
     </div>
   `).join('');
 }
 
-function acceptDiscovery(id) {
-  setDiscoveryStatus(id, 'accepted');
-}
-function skipDiscovery(id) {
-  setDiscoveryStatus(id, 'skipped');
-}
-function restoreDiscovery(id) {
-  setDiscoveryStatus(id, 'pending');
-}
+function acceptDiscovery(id)  { setDiscoveryStatus(id, 'accepted'); }
+function skipDiscovery(id)    { setDiscoveryStatus(id, 'skipped');  }
+function restoreDiscovery(id) { setDiscoveryStatus(id, 'pending');  }
+
 function setDiscoveryStatus(id, status) {
   const saved = JSON.parse(localStorage.getItem('discoveryStatuses') || '{}');
   saved[id] = status;
@@ -374,6 +401,7 @@ function setDiscoveryStatus(id, status) {
     renderDiscoveries(window._discoveries, activeFilter ? activeFilter.dataset.filter : 'all');
   }
 }
+
 function initDiscoveryFilters() {
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -393,14 +421,21 @@ async function init() {
     fetchJSON(DATA.status),
   ]);
 
-  window._tasks = tasks; // store for trigger lookup
+  window._tasks = tasks;
 
   renderIntegrations(status);
+  loadAgentHealth(status);
   renderKanban(tasks);
   renderLinear(linear);
   renderGranola(granola);
   initDragAndDrop();
   loadDiscoveries();
+
+  // Refresh agent health every 2 minutes
+  setInterval(async () => {
+    const freshStatus = await fetchJSON(DATA.status);
+    if (freshStatus) loadAgentHealth(freshStatus);
+  }, 120000);
 }
 
 document.addEventListener('DOMContentLoaded', init);
