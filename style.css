@@ -227,7 +227,7 @@ html, body {
 /* ── KANBAN ──────────────────────────────────────────────── */
 .kanban-board {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
 
@@ -281,11 +281,18 @@ html, body {
 }
 
 /* ── LINEAR ──────────────────────────────────────────────── */
+.linear-section {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
 .linear-list {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  max-height: 380px;
+  flex: 1;
+  min-height: 0;
   overflow-y: auto;
 }
 
@@ -468,9 +475,6 @@ html, body {
 }
 
 /* ── RESPONSIVE ──────────────────────────────────────────── */
-@media (max-width: 1100px) {
-  .kanban-board { grid-template-columns: repeat(3, 1fr); }
-}
 @media (max-width: 900px) {
   .row-2col { flex-direction: column; }
   .kanban-board { grid-template-columns: repeat(2, 1fr); }
@@ -479,207 +483,4 @@ html, body {
   .kanban-board { grid-template-columns: 1fr; }
   .header { flex-direction: column; align-items: flex-start; gap: 10px; }
   .title { font-size: 16px; }
-}
-
-/* ============================================================
-   DRAG AND DROP
-   ============================================================ */
-.task-card { cursor: grab; }
-.task-card.dragging { opacity: 0.4; transform: scale(0.95); cursor: grabbing; }
-.drag-handle { margin-right: 8px; opacity: 0.5; font-size: 16px; cursor: grab; }
-.kanban-col.drag-over { box-shadow: 0 0 20px #05d9e8, inset 0 0 20px rgba(5,217,232,0.1); border-color: #05d9e8; }
-
-/* ============================================================
-   DISCOVERIES
-   ============================================================ */
-.discoveries-section { margin-bottom: 40px; }
-.discoveries-filter { display: flex; gap: 8px; }
-.filter-btn { background: transparent; border: 1px solid #333; color: #888; padding: 4px 12px; font-family: 'Share Tech Mono', monospace; font-size: 11px; cursor: pointer; border-radius: 2px; transition: all 0.2s; }
-.filter-btn.active, .filter-btn:hover { border-color: #05d9e8; color: #05d9e8; box-shadow: 0 0 8px rgba(5,217,232,0.4); }
-.discoveries-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; margin-top: 16px; }
-.discovery-card { background: rgba(255,42,109,0.05); border: 1px solid #2a1a2a; border-radius: 4px; padding: 16px; transition: all 0.3s; animation: slideIn 0.4s ease; }
-.discovery-card:hover { border-color: #ff2a6d; box-shadow: 0 0 12px rgba(255,42,109,0.2); }
-.discovery-card.skipped { opacity: 0.35; filter: grayscale(0.5); }
-.discovery-card.accepted { border-color: #05d9e8; box-shadow: 0 0 10px rgba(5,217,232,0.2); }
-@keyframes slideIn { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
-.source-badge { display: inline-block; font-size: 10px; padding: 2px 8px; border-radius: 2px; margin-bottom: 8px; font-weight: bold; letter-spacing: 1px; }
-.source-OPENCLAW { background: rgba(209,247,255,0.15); color: #d1f7ff; border: 1px solid #d1f7ff44; }
-.source-REDDIT { background: rgba(255,69,0,0.15); color: #ff6030; border: 1px solid #ff603044; }
-.source-LINKEDIN { background: rgba(0,119,181,0.15); color: #0a8fd0; border: 1px solid #0a8fd044; }
-.source-NEWS { background: rgba(255,200,0,0.15); color: #ffc800; border: 1px solid #ffc80044; }
-.source-TWITTER { background: rgba(29,161,242,0.15); color: #1da1f2; border: 1px solid #1da1f244; }
-.discovery-title { font-size: 13px; color: #d1f7ff; margin: 6px 0; line-height: 1.4; }
-.discovery-desc { font-size: 11px; color: #888; line-height: 1.6; margin-bottom: 10px; }
-.discovery-action-note { font-size: 10px; color: #ff2a6d; margin-bottom: 12px; font-style: italic; }
-.discovery-date { font-size: 10px; color: #555; margin-bottom: 12px; }
-.discovery-actions { display: flex; gap: 8px; }
-.btn-implement { flex: 1; background: rgba(5,217,232,0.1); border: 1px solid #05d9e8; color: #05d9e8; padding: 6px; font-family: 'Share Tech Mono', monospace; font-size: 11px; cursor: pointer; border-radius: 2px; transition: all 0.2s; }
-.btn-implement:hover { background: rgba(5,217,232,0.25); box-shadow: 0 0 10px rgba(5,217,232,0.5); }
-.btn-skip { flex: 1; background: rgba(255,42,109,0.1); border: 1px solid #ff2a6d; color: #ff2a6d; padding: 6px; font-family: 'Share Tech Mono', monospace; font-size: 11px; cursor: pointer; border-radius: 2px; transition: all 0.2s; }
-.btn-skip:hover { background: rgba(255,42,109,0.25); box-shadow: 0 0 10px rgba(255,42,109,0.5); }
-.status-badge-accepted { display: inline-block; background: #ff2a6d; color: white; font-size: 10px; padding: 2px 8px; border-radius: 2px; margin-top: 8px; letter-spacing: 1px; animation: pulse 2s infinite; }
-.tags { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 8px; }
-.tag { font-size: 9px; padding: 1px 6px; background: rgba(255,255,255,0.05); border: 1px solid #333; color: #666; border-radius: 2px; }
-
-/* To Do column — special active glow */
-.kanban-col[data-status="todo"] {
-  border-color: #ff2a6d;
-  box-shadow: 0 0 15px rgba(255,42,109,0.25);
-}
-.kanban-col[data-status="todo"] .col-title {
-  color: #ff2a6d;
-  text-shadow: 0 0 10px rgba(255,42,109,0.6);
-}
-.kanban-col[data-status="todo"].drag-over {
-  box-shadow: 0 0 30px rgba(255,42,109,0.5), inset 0 0 20px rgba(255,42,109,0.1);
-}
-.trigger-badge {
-  font-size: 9px;
-  padding: 1px 6px;
-  background: rgba(255,42,109,0.2);
-  border: 1px solid #ff2a6d;
-  color: #ff2a6d;
-  border-radius: 2px;
-  margin-left: 6px;
-  letter-spacing: 1px;
-  animation: pulse 2s infinite;
-}
-.kanban-hint {
-  font-size: 11px;
-  color: #555;
-  margin: -8px 0 16px 0;
-  font-style: italic;
-}
-.kanban-col-header.todo {
-  color: #ff2a6d;
-  border: 1px solid rgba(255,42,109,0.4);
-  text-shadow: 0 0 8px rgba(255,42,109,0.6);
-}
-.kanban-card.todo {
-  border-left-color: #ff2a6d;
-  box-shadow: -2px 0 10px rgba(255,42,109,0.2);
-}
-
-/* ── AGENT HEALTH WIDGET ────────────────────────────────────── */
-.header-center {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.agent-health-widget {
-  background: rgba(5, 217, 232, 0.04);
-  border: 1px solid rgba(5, 217, 232, 0.2);
-  border-radius: 4px;
-  padding: 8px 14px;
-  min-width: 220px;
-  max-width: 280px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  transition: border-color 0.3s, box-shadow 0.3s;
-}
-.agent-health-widget:hover {
-  border-color: rgba(5, 217, 232, 0.4);
-  box-shadow: 0 0 16px rgba(5, 217, 232, 0.12);
-}
-
-.health-label {
-  font-size: 9px;
-  letter-spacing: 3px;
-  color: var(--cyan);
-  text-shadow: var(--glow-cyan);
-  opacity: 0.85;
-}
-
-.context-meter {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.meter-track {
-  flex: 1;
-  height: 6px;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 3px;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-.meter-fill {
-  height: 100%;
-  border-radius: 3px;
-  background: linear-gradient(90deg, #05d9e8, #ff2a6d);
-  background-size: 200% 100%;
-  transition: width 0.6s ease, box-shadow 0.6s ease;
-  box-shadow: 0 0 6px rgba(5, 217, 232, 0.7);
-}
-
-/* Color states via JS-applied classes */
-.meter-fill.state-ok {
-  background: linear-gradient(90deg, #05d9e8 0%, #7b2fff 100%);
-  box-shadow: 0 0 8px rgba(5, 217, 232, 0.8);
-}
-.meter-fill.state-warn {
-  background: linear-gradient(90deg, #f9c74f 0%, #ff9f1c 100%);
-  box-shadow: 0 0 8px rgba(249, 199, 79, 0.7);
-}
-.meter-fill.state-crit {
-  background: linear-gradient(90deg, #ff6b6b 0%, #ff2a6d 100%);
-  box-shadow: 0 0 8px rgba(255, 42, 109, 0.8);
-  animation: meter-pulse 1.2s ease-in-out infinite;
-}
-
-@keyframes meter-pulse {
-  0%, 100% { box-shadow: 0 0 8px rgba(255, 42, 109, 0.8); }
-  50%       { box-shadow: 0 0 18px rgba(255, 42, 109, 1); }
-}
-
-.meter-pct {
-  font-size: 10px;
-  color: var(--text-dim);
-  white-space: nowrap;
-  min-width: 28px;
-  text-align: right;
-}
-
-.health-meta {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.model-tag {
-  font-size: 9px;
-  color: var(--purple);
-  letter-spacing: 1px;
-  white-space: nowrap;
-}
-
-.status-tag {
-  font-size: 9px;
-  letter-spacing: 1px;
-  white-space: nowrap;
-}
-.status-tag.healthy  { color: var(--cyan); }
-.status-tag.warning  { color: #f9c74f; }
-.status-tag.critical { color: var(--pink); animation: pulse-cyan 1.5s ease-in-out infinite; }
-
-.subagent-count {
-  font-size: 9px;
-  color: var(--text-dim);
-  white-space: nowrap;
-}
-
-.health-updated {
-  font-size: 9px;
-  color: var(--dim);
-  letter-spacing: 1px;
-}
-
-@media (max-width: 900px) {
-  .header-center { display: none; }
 }
