@@ -82,14 +82,25 @@ function renderKanban(tasks) {
   // Clear
   Object.values(cols).forEach(c => { if (c) c.innerHTML = ''; });
 
-  tasks.forEach(task => {
-    const status = task.status || 'planned';
-    const target = cols[status] || cols['planned'];
+  // Apply any saved drag-drop overrides
+  const overrides = JSON.parse(localStorage.getItem('taskOverrides') || '{}');
+
+  tasks.forEach((task, idx) => {
+    const taskId = task.id || `task-${idx}`;
+    const status = overrides[taskId] || task.status || 'planned';
+
+    // Map drag-drop status values to column keys
+    const colKeyMap = { todo: 'planned', in_progress: 'in_progress', blocked: 'blocked', done: 'done' };
+    const colKey = colKeyMap[status] || status;
+    const target = cols[colKey] || cols['planned'];
     if (!target) return;
 
     const card = document.createElement('div');
-    card.className = `kanban-card ${status}`;
+    card.className = `task-card kanban-card ${status}`;
+    card.draggable = true;
+    card.dataset.taskId = taskId;
     card.innerHTML = `
+      <span class="drag-handle">⠿</span>
       <div class="kanban-card-title">${escapeHtml(task.title)}</div>
       ${task.notes ? `<div class="kanban-card-notes">${escapeHtml(task.notes)}</div>` : ''}
     `;
@@ -178,6 +189,117 @@ function escapeHtml(str) {
     .replace(/"/g, '&quot;');
 }
 
+/* ============================================================
+   DRAG AND DROP
+   ============================================================ */
+function initDragAndDrop() {
+  document.addEventListener('dragstart', e => {
+    const card = e.target.closest('.task-card');
+    if (!card) return;
+    card.classList.add('dragging');
+    e.dataTransfer.setData('text/plain', card.dataset.taskId);
+    e.dataTransfer.effectAllowed = 'move';
+  });
+  document.addEventListener('dragend', e => {
+    const card = e.target.closest('.task-card');
+    if (card) card.classList.remove('dragging');
+    document.querySelectorAll('.kanban-col').forEach(c => c.classList.remove('drag-over'));
+  });
+  document.addEventListener('dragover', e => {
+    e.preventDefault();
+    const col = e.target.closest('.kanban-col');
+    if (col) {
+      document.querySelectorAll('.kanban-col').forEach(c => c.classList.remove('drag-over'));
+      col.classList.add('drag-over');
+    }
+  });
+  document.addEventListener('drop', e => {
+    e.preventDefault();
+    const col = e.target.closest('.kanban-col');
+    if (!col) return;
+    col.classList.remove('drag-over');
+    const taskId = e.dataTransfer.getData('text/plain');
+    const newStatus = col.dataset.status;
+    const card = document.querySelector(`.task-card[data-task-id="${taskId}"]`);
+    if (card && newStatus) {
+      col.querySelector('.kanban-cards').appendChild(card);
+      // persist to localStorage
+      const overrides = JSON.parse(localStorage.getItem('taskOverrides') || '{}');
+      overrides[taskId] = newStatus;
+      localStorage.setItem('taskOverrides', JSON.stringify(overrides));
+    }
+  });
+}
+
+/* ============================================================
+   DISCOVERIES
+   ============================================================ */
+async function loadDiscoveries() {
+  try {
+    const res = await fetch('data/discoveries.json');
+    const discoveries = await res.json();
+    const saved = JSON.parse(localStorage.getItem('discoveryStatuses') || '{}');
+    discoveries.forEach(d => { if (saved[d.id]) d.status = saved[d.id]; });
+    window._discoveries = discoveries;
+    renderDiscoveries(discoveries, 'all');
+    initDiscoveryFilters();
+  } catch(e) { console.error('discoveries load failed', e); }
+}
+
+function renderDiscoveries(discoveries, filter) {
+  const grid = document.getElementById('discoveries-grid');
+  if (!grid) return;
+  const filtered = filter === 'all' ? discoveries : discoveries.filter(d => d.status === filter);
+  grid.innerHTML = filtered.map(d => `
+    <div class="discovery-card ${d.status}" data-discovery-id="${d.id}">
+      <span class="source-badge source-${d.source}">${d.source}</span>
+      <div class="tags">${(d.tags||[]).map(t => `<span class="tag">#${t}</span>`).join('')}</div>
+      <div class="discovery-title">${d.title}</div>
+      <div class="discovery-date">${new Date(d.date).toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric', hour:'2-digit', minute:'2-digit'})}</div>
+      <div class="discovery-desc">${d.description}</div>
+      ${d.actionNote ? `<div class="discovery-action-note">💡 ${d.actionNote}</div>` : ''}
+      ${d.status === 'accepted' ? '<div class="status-badge-accepted">⚡ QUEUED FOR ACTION</div>' : ''}
+      ${d.status !== 'skipped' && d.status !== 'accepted' ? `
+      <div class="discovery-actions">
+        <button class="btn-implement" onclick="acceptDiscovery('${d.id}')">✅ IMPLEMENT</button>
+        <button class="btn-skip" onclick="skipDiscovery('${d.id}')">❌ SKIP</button>
+      </div>` : ''}
+      ${d.status === 'skipped' ? '<div style="font-size:10px;color:#555;margin-top:8px;">SKIPPED — <a href="#" onclick="restoreDiscovery(\''+d.id+'\'); return false;" style="color:#666;">undo</a></div>' : ''}
+      ${d.url ? `<div style="margin-top:8px;"><a href="${d.url}" target="_blank" style="font-size:10px;color:#444;text-decoration:none;">→ VIEW SOURCE</a></div>` : ''}
+    </div>
+  `).join('');
+}
+
+function acceptDiscovery(id) {
+  setDiscoveryStatus(id, 'accepted');
+}
+function skipDiscovery(id) {
+  setDiscoveryStatus(id, 'skipped');
+}
+function restoreDiscovery(id) {
+  setDiscoveryStatus(id, 'pending');
+}
+function setDiscoveryStatus(id, status) {
+  const saved = JSON.parse(localStorage.getItem('discoveryStatuses') || '{}');
+  saved[id] = status;
+  localStorage.setItem('discoveryStatuses', JSON.stringify(saved));
+  if (window._discoveries) {
+    const d = window._discoveries.find(x => x.id === id);
+    if (d) d.status = status;
+    const activeFilter = document.querySelector('.filter-btn.active');
+    renderDiscoveries(window._discoveries, activeFilter ? activeFilter.dataset.filter : 'all');
+  }
+}
+function initDiscoveryFilters() {
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderDiscoveries(window._discoveries || [], btn.dataset.filter);
+    });
+  });
+}
+
 /* ── MAIN INIT ───────────────────────────────────────────── */
 async function init() {
   const [tasks, linear, granola, status] = await Promise.all([
@@ -191,6 +313,8 @@ async function init() {
   renderKanban(tasks);
   renderLinear(linear);
   renderGranola(granola);
+  initDragAndDrop();
+  loadDiscoveries();
 }
 
 document.addEventListener('DOMContentLoaded', init);
