@@ -1,0 +1,38 @@
+name: Refresh Mission Control Data
+
+on:
+  schedule:
+    # Every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # Needed to commit data files
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run refresh script
+        env:
+          LINEAR_API_KEY:  ${{ secrets.LINEAR_API_KEY }}
+          GRANOLA_API_KEY: ${{ secrets.GRANOLA_API_KEY }}
+        run: node scripts/refresh.js
+
+      - name: Commit updated data files
+        run: |
+          git config user.name  "Día Mission Control"
+          git config user.email "dia@lt-dia.github.io"
+          git add data/linear.json data/granola.json data/status.json
+          git diff --cached --quiet || git commit -m "chore: refresh data [skip ci] $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+          git push
