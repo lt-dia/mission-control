@@ -151,12 +151,7 @@ function applyTheme(key, overrides) {
   }
 }
 
-function randomHex() {
-  return '#' + Math.floor(Math.random() * 0xffffff).toString(16).padStart(6, '0');
-}
-
 function randomDarkHex() {
-  // Bias toward darker colors for bg
   const r = Math.floor(Math.random() * 60);
   const g = Math.floor(Math.random() * 60);
   const b = Math.floor(Math.random() * 60);
@@ -164,39 +159,32 @@ function randomDarkHex() {
 }
 
 function randomVibrantHex() {
-  // Ensure at least one channel is bright
-  const channels = [
-    Math.floor(Math.random() * 256),
-    Math.floor(Math.random() * 256),
-    Math.floor(Math.random() * 256),
-  ];
+  const channels = [Math.floor(Math.random()*256), Math.floor(Math.random()*256), Math.floor(Math.random()*256)];
   const maxIdx = channels.indexOf(Math.max(...channels));
   channels[maxIdx] = 180 + Math.floor(Math.random() * 76);
   return '#' + channels.map(v => v.toString(16).padStart(2,'0')).join('');
 }
 
 function surpriseMe() {
-  const bg      = randomDarkHex();
-  const bgCard  = randomDarkHex();
+  const bg     = randomDarkHex();
+  const bgCard = randomDarkHex();
   const bgCard2 = randomDarkHex();
-  const pink    = randomVibrantHex();
-  const cyan    = randomVibrantHex();
-  const purple  = randomVibrantHex();
-  const text    = '#' + [200 + Math.floor(Math.random()*55), 220 + Math.floor(Math.random()*35), 230 + Math.floor(Math.random()*25)].map(v => v.toString(16).padStart(2,'0')).join('');
+  const pink   = randomVibrantHex();
+  const cyan   = randomVibrantHex();
+  const purple = randomVibrantHex();
+  const text   = '#' + [200+Math.floor(Math.random()*55), 220+Math.floor(Math.random()*35), 230+Math.floor(Math.random()*25)].map(v=>v.toString(16).padStart(2,'0')).join('');
 
-  const custom = {
-    bg, bgCard, bgCard2, pink, cyan, purple,
-    dim: bg + '99',
-    text,
-    textDim: text + '88',
-    gridColor: cyan + '18',
-  };
+  const custom = { bg, bgCard, bgCard2, pink, cyan, purple, dim: bg+'99', text, textDim: text+'88', gridColor: cyan+'18' };
 
   applyTheme('custom', custom);
   localStorage.setItem('mc-theme', 'custom');
   localStorage.setItem('mc-theme-custom', JSON.stringify(custom));
 
-  // flash effect
+  // Sync pickers so user can tweak individual values
+  const map = { 'cc-bg': bg, 'cc-bgCard': bgCard, 'cc-pink': pink, 'cc-cyan': cyan, 'cc-purple': purple, 'cc-text': text };
+  Object.entries(map).forEach(([id, val]) => { const el = document.getElementById(id); if (el) el.value = val; });
+
+  // flash
   document.body.style.transition = 'filter 0.15s';
   document.body.style.filter = 'brightness(1.5)';
   setTimeout(() => { document.body.style.filter = ''; }, 150);
