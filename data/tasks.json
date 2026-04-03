@@ -31,7 +31,7 @@
     "id": 5,
     "title": "Notification consolidation (Slack, Gmail, LinkedIn)",
     "status": "planned",
-    "notes": "Future \u2014 needs API keys",
+    "notes": "Future — needs API keys",
     "category": "automation"
   },
   {
@@ -57,9 +57,9 @@
   },
   {
     "id": 9,
-    "title": "Mission Control: Activity feed / D\u00eda audit log",
+    "title": "Mission Control: Activity feed / Día audit log",
     "status": "planned",
-    "notes": "Right-side live feed of everything D\u00eda has done in the last 24h.",
+    "notes": "Right-side live feed of everything Día has done in the last 24h.",
     "category": "mission-control"
   },
   {
@@ -94,14 +94,14 @@
     "id": 14,
     "title": "Mission Control: Command bar (/ slash commands)",
     "status": "planned",
-    "notes": "Hit `/` anywhere on dashboard to type commands directly to D\u00eda.",
+    "notes": "Hit `/` anywhere on dashboard to type commands directly to Día.",
     "category": "mission-control"
   },
   {
     "id": 15,
     "title": "Mission Control: Approval queue panel",
     "status": "planned",
-    "notes": "Pending actions from D\u00eda show up as cards for Ilolo to approve/reject before execution.",
+    "notes": "Pending actions from Día show up as cards for Ilolo to approve/reject before execution.",
     "category": "mission-control"
   }
 ]
