@@ -477,3 +477,43 @@ html, body {
   .header { flex-direction: column; align-items: flex-start; gap: 10px; }
   .title { font-size: 16px; }
 }
+
+/* ============================================================
+   DRAG AND DROP
+   ============================================================ */
+.task-card { cursor: grab; }
+.task-card.dragging { opacity: 0.4; transform: scale(0.95); cursor: grabbing; }
+.drag-handle { margin-right: 8px; opacity: 0.5; font-size: 16px; cursor: grab; }
+.kanban-col.drag-over { box-shadow: 0 0 20px #05d9e8, inset 0 0 20px rgba(5,217,232,0.1); border-color: #05d9e8; }
+
+/* ============================================================
+   DISCOVERIES
+   ============================================================ */
+.discoveries-section { margin-bottom: 40px; }
+.discoveries-filter { display: flex; gap: 8px; }
+.filter-btn { background: transparent; border: 1px solid #333; color: #888; padding: 4px 12px; font-family: 'Share Tech Mono', monospace; font-size: 11px; cursor: pointer; border-radius: 2px; transition: all 0.2s; }
+.filter-btn.active, .filter-btn:hover { border-color: #05d9e8; color: #05d9e8; box-shadow: 0 0 8px rgba(5,217,232,0.4); }
+.discoveries-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; margin-top: 16px; }
+.discovery-card { background: rgba(255,42,109,0.05); border: 1px solid #2a1a2a; border-radius: 4px; padding: 16px; transition: all 0.3s; animation: slideIn 0.4s ease; }
+.discovery-card:hover { border-color: #ff2a6d; box-shadow: 0 0 12px rgba(255,42,109,0.2); }
+.discovery-card.skipped { opacity: 0.35; filter: grayscale(0.5); }
+.discovery-card.accepted { border-color: #05d9e8; box-shadow: 0 0 10px rgba(5,217,232,0.2); }
+@keyframes slideIn { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+.source-badge { display: inline-block; font-size: 10px; padding: 2px 8px; border-radius: 2px; margin-bottom: 8px; font-weight: bold; letter-spacing: 1px; }
+.source-OPENCLAW { background: rgba(209,247,255,0.15); color: #d1f7ff; border: 1px solid #d1f7ff44; }
+.source-REDDIT { background: rgba(255,69,0,0.15); color: #ff6030; border: 1px solid #ff603044; }
+.source-LINKEDIN { background: rgba(0,119,181,0.15); color: #0a8fd0; border: 1px solid #0a8fd044; }
+.source-NEWS { background: rgba(255,200,0,0.15); color: #ffc800; border: 1px solid #ffc80044; }
+.source-TWITTER { background: rgba(29,161,242,0.15); color: #1da1f2; border: 1px solid #1da1f244; }
+.discovery-title { font-size: 13px; color: #d1f7ff; margin: 6px 0; line-height: 1.4; }
+.discovery-desc { font-size: 11px; color: #888; line-height: 1.6; margin-bottom: 10px; }
+.discovery-action-note { font-size: 10px; color: #ff2a6d; margin-bottom: 12px; font-style: italic; }
+.discovery-date { font-size: 10px; color: #555; margin-bottom: 12px; }
+.discovery-actions { display: flex; gap: 8px; }
+.btn-implement { flex: 1; background: rgba(5,217,232,0.1); border: 1px solid #05d9e8; color: #05d9e8; padding: 6px; font-family: 'Share Tech Mono', monospace; font-size: 11px; cursor: pointer; border-radius: 2px; transition: all 0.2s; }
+.btn-implement:hover { background: rgba(5,217,232,0.25); box-shadow: 0 0 10px rgba(5,217,232,0.5); }
+.btn-skip { flex: 1; background: rgba(255,42,109,0.1); border: 1px solid #ff2a6d; color: #ff2a6d; padding: 6px; font-family: 'Share Tech Mono', monospace; font-size: 11px; cursor: pointer; border-radius: 2px; transition: all 0.2s; }
+.btn-skip:hover { background: rgba(255,42,109,0.25); box-shadow: 0 0 10px rgba(255,42,109,0.5); }
+.status-badge-accepted { display: inline-block; background: #ff2a6d; color: white; font-size: 10px; padding: 2px 8px; border-radius: 2px; margin-top: 8px; letter-spacing: 1px; animation: pulse 2s infinite; }
+.tags { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 8px; }
+.tag { font-size: 9px; padding: 1px 6px; background: rgba(255,255,255,0.05); border: 1px solid #333; color: #666; border-radius: 2px; }
