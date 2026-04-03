@@ -31,5 +31,27 @@
     "tags": ["ai", "workflow", "engineering"],
     "status": "pending",
     "actionNote": "This is exactly what we're building. Consider posting your setup when it's more mature."
+  },
+  {
+    "id": "disc_004",
+    "date": "2026-04-03T19:46:00Z",
+    "source": "GOOGLE DEEPMIND",
+    "title": "Google DeepMind launches Gemma 4: Open AI models for advanced reasoning and agents",
+    "description": "Google DeepMind released Gemma 4, its most capable open model family yet — designed for advanced reasoning and autonomous AI agent workflows. Available for both data centers and mobile devices. Byte-for-byte the most capable open models to date, per DeepMind.",
+    "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+    "tags": ["ai", "google", "open-source", "agents"],
+    "status": "pending",
+    "actionNote": "Worth testing Gemma 4 as a local/cheap reasoning layer for LawTrades AI tasks."
+  },
+  {
+    "id": "disc_005",
+    "date": "2026-04-03T19:46:00Z",
+    "source": "AI JOURNAL",
+    "title": "Agentic AI infrastructure is hitting legal: AUTOMATIC + Law.co partnership",
+    "description": "AUTOMATIC (agentic AI infra) partnered with Law.co to deliver autonomous AI pipelines for law firms — automating intake, document review, and client workflows. Legal AI is moving fast from copilots to full agents. Direct competitive signal for LawTrades.",
+    "url": "https://aijourn.com/automatic-partners-with-law-co-to-deliver-agentic-ai-infrastructure-for-law-firms/",
+    "tags": ["legal-tech", "ai", "agents", "lawtrades"],
+    "status": "pending",
+    "actionNote": "Competitive intel — law firms are getting agentic AI. LawTrades should be the marketplace that connects this talent/tech to companies."
   }
 ]
