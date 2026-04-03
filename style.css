@@ -559,3 +559,127 @@ html, body {
   border-left-color: #ff2a6d;
   box-shadow: -2px 0 10px rgba(255,42,109,0.2);
 }
+
+/* ── AGENT HEALTH WIDGET ────────────────────────────────────── */
+.header-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.agent-health-widget {
+  background: rgba(5, 217, 232, 0.04);
+  border: 1px solid rgba(5, 217, 232, 0.2);
+  border-radius: 4px;
+  padding: 8px 14px;
+  min-width: 220px;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.agent-health-widget:hover {
+  border-color: rgba(5, 217, 232, 0.4);
+  box-shadow: 0 0 16px rgba(5, 217, 232, 0.12);
+}
+
+.health-label {
+  font-size: 9px;
+  letter-spacing: 3px;
+  color: var(--cyan);
+  text-shadow: var(--glow-cyan);
+  opacity: 0.85;
+}
+
+.context-meter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.meter-track {
+  flex: 1;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.meter-fill {
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #05d9e8, #ff2a6d);
+  background-size: 200% 100%;
+  transition: width 0.6s ease, box-shadow 0.6s ease;
+  box-shadow: 0 0 6px rgba(5, 217, 232, 0.7);
+}
+
+/* Color states via JS-applied classes */
+.meter-fill.state-ok {
+  background: linear-gradient(90deg, #05d9e8 0%, #7b2fff 100%);
+  box-shadow: 0 0 8px rgba(5, 217, 232, 0.8);
+}
+.meter-fill.state-warn {
+  background: linear-gradient(90deg, #f9c74f 0%, #ff9f1c 100%);
+  box-shadow: 0 0 8px rgba(249, 199, 79, 0.7);
+}
+.meter-fill.state-crit {
+  background: linear-gradient(90deg, #ff6b6b 0%, #ff2a6d 100%);
+  box-shadow: 0 0 8px rgba(255, 42, 109, 0.8);
+  animation: meter-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes meter-pulse {
+  0%, 100% { box-shadow: 0 0 8px rgba(255, 42, 109, 0.8); }
+  50%       { box-shadow: 0 0 18px rgba(255, 42, 109, 1); }
+}
+
+.meter-pct {
+  font-size: 10px;
+  color: var(--text-dim);
+  white-space: nowrap;
+  min-width: 28px;
+  text-align: right;
+}
+
+.health-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.model-tag {
+  font-size: 9px;
+  color: var(--purple);
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.status-tag {
+  font-size: 9px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+.status-tag.healthy  { color: var(--cyan); }
+.status-tag.warning  { color: #f9c74f; }
+.status-tag.critical { color: var(--pink); animation: pulse-cyan 1.5s ease-in-out infinite; }
+
+.subagent-count {
+  font-size: 9px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.health-updated {
+  font-size: 9px;
+  color: var(--dim);
+  letter-spacing: 1px;
+}
+
+@media (max-width: 900px) {
+  .header-center { display: none; }
+}
