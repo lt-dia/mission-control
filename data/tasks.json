@@ -110,5 +110,12 @@
     "status": "in_progress",
     "notes": "Research OpenClaw subagents, ACP/Codex integration, multi-agent patterns. Find best way to spawn a persistent coder agent D\u00eda can delegate build tasks to. Report findings before implementing.",
     "category": "mission-control"
+  },
+  {
+    "id": 17,
+    "title": "Mission Control: Theme engine (Light/Dark/Surprise Me + presets)",
+    "status": "todo",
+    "notes": "Add Slack-style theme panel: Light/Dark toggle, Surprise Me random theme generator, named preset themes, color customizer, save to localStorage. Synthwave84 stays as default.",
+    "category": "mission-control"
   }
 ]
