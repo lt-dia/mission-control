@@ -36,6 +36,22 @@
       </div>
     </section>
 
+    <!-- DAILY DISCOVERIES -->
+    <section class="section discoveries-section">
+      <div class="section-header">
+        <h2 class="section-title">[ DAILY_DISCOVERIES ]</h2>
+        <div class="discoveries-filter">
+          <button class="filter-btn active" data-filter="all">ALL</button>
+          <button class="filter-btn" data-filter="pending">PENDING</button>
+          <button class="filter-btn" data-filter="accepted">ACCEPTED</button>
+          <button class="filter-btn" data-filter="skipped">SKIPPED</button>
+        </div>
+      </div>
+      <div class="discoveries-grid" id="discoveries-grid">
+        <!-- rendered by app.js -->
+      </div>
+    </section>
+
     <!-- Row 1: Kanban + Linear -->
     <div class="row row-2col">
 
@@ -46,19 +62,19 @@
           <h2 class="section-title">ACTIVE TASKS</h2>
         </div>
         <div class="kanban-board" id="kanbanBoard">
-          <div class="kanban-col" id="col-planned">
+          <div class="kanban-col" id="col-planned" data-status="todo">
             <div class="kanban-col-header planned">TODO / PLANNED</div>
             <div class="kanban-cards"></div>
           </div>
-          <div class="kanban-col" id="col-in_progress">
+          <div class="kanban-col" id="col-in_progress" data-status="in_progress">
             <div class="kanban-col-header in-progress">IN PROGRESS</div>
             <div class="kanban-cards"></div>
           </div>
-          <div class="kanban-col" id="col-blocked">
+          <div class="kanban-col" id="col-blocked" data-status="blocked">
             <div class="kanban-col-header blocked">BLOCKED</div>
             <div class="kanban-cards"></div>
           </div>
-          <div class="kanban-col" id="col-done">
+          <div class="kanban-col" id="col-done" data-status="done">
             <div class="kanban-col-header done">DONE</div>
             <div class="kanban-cards"></div>
           </div>
