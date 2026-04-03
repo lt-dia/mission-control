@@ -131,5 +131,26 @@
     "status": "planned",
     "notes": "Ilolo's personal side project. Use Claude to build automated Polymarket trading bot. Strategy: arbitrage mispriced odds + data lag exploitation. Start with $100 seed capital. Research phase first: Polymarket API, Claude code generation, risk controls, data pipelines. DO NOT start until Ilolo gives explicit go-ahead with the $100.",
     "category": "side-project"
+  },
+  {
+    "id": 20,
+    "title": "Build /playground \u2014 Ilolo's personal projects page",
+    "status": "todo",
+    "notes": "Separate page at /playground (playground.html). Same synthwave base but baby blue (#4dd9ff) as primary accent instead of hot pink. Own Kanban with personal project categories. Shares the theme engine (Light/Dark/Surprise Me). Completely separate from work tasks on index.html.",
+    "category": "mission-control"
+  },
+  {
+    "id": 21,
+    "title": "Move personal projects to /playground (Polymarket bot, YouTube channel, portfolio)",
+    "status": "planned",
+    "notes": "Once playground.html exists, migrate tasks #18 (portfolio), #19 (Polymarket bot) and any future personal ideas there. Add YouTube faceless channel as a new idea card too.",
+    "category": "mission-control"
+  },
+  {
+    "id": 22,
+    "title": "IDEA: Faceless YouTube channel",
+    "status": "planned",
+    "notes": "Ilolo mentioned wanting a faceless YouTube channel. Brainstorm niche, content format, production pipeline. Could use AI for scripting, voiceover, and editing automation. Add to playground backlog.",
+    "category": "side-project"
   }
 ]
