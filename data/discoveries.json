@@ -1,0 +1,35 @@
+[
+  {
+    "id": "disc_001",
+    "date": "2026-04-03T16:00:00Z",
+    "source": "OPENCLAW",
+    "title": "OpenClaw Heartbeat — Proactive AI without the noise",
+    "description": "OpenClaw's heartbeat system lets AI agents run periodic check-ins, surface urgent info, and do background work — all without spamming you. Configurable active hours, isolated sessions, and light context mode keep token costs low.",
+    "url": "https://docs.openclaw.ai/gateway/heartbeat",
+    "tags": ["ai", "automation", "openclaw"],
+    "status": "pending",
+    "actionNote": "Already implemented this for Día! Running every 30min during your work hours."
+  },
+  {
+    "id": "disc_002",
+    "date": "2026-04-03T09:00:00Z",
+    "source": "LINKEDIN",
+    "title": "Linear + AI = Automatic sprint planning that actually works",
+    "description": "Teams are using Linear's API + AI agents to auto-prioritize backlogs based on customer impact signals. The pattern: ingest support tickets, map to Linear issues, auto-bump priority on frequently-hit bugs.",
+    "url": "",
+    "tags": ["linear", "ai", "productivity"],
+    "status": "pending",
+    "actionNote": "Could build this for LawTrades — auto-prioritize based on client complaints hitting Slack."
+  },
+  {
+    "id": "disc_003",
+    "date": "2026-04-02T14:00:00Z",
+    "source": "REDDIT",
+    "title": "r/ExperiencedDevs: The 'Chief of Staff AI' pattern is real",
+    "description": "Devs on Reddit are sharing setups where AI agents act as chief of staff — pulling standup notes, triaging tickets, and prepping meeting briefs automatically. The key insight: AI is most useful when it has persistent context, not just one-shot prompts.",
+    "url": "https://reddit.com/r/ExperiencedDevs",
+    "tags": ["ai", "workflow", "engineering"],
+    "status": "pending",
+    "actionNote": "This is exactly what we're building. Consider posting your setup when it's more mature."
+  }
+]
