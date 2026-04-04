@@ -1,0 +1,70 @@
+{
+  "updated_at": 1775313268.2987034,
+  "mode": "demo",
+  "total_trades": 7,
+  "total_wins": 5,
+  "win_rate": 71.4,
+  "daily_pnl": 10.5209,
+  "cumulative_pnl": 10.5209,
+  "trade_size": 5.0,
+  "assets": [
+    "btc",
+    "eth",
+    "xrp",
+    "sol"
+  ],
+  "strategy": "oracle-lag-sniper v1.2.0",
+  "recent_trades": [
+    {
+      "slug": "xrp-updown-15m-1775288700",
+      "side": "BUY_NO",
+      "entry_price": 0.61,
+      "timestamp": 1775288799.4600763,
+      "mode": "demo"
+    },
+    {
+      "slug": "xrp-updown-15m-1775296800",
+      "side": "BUY_NO",
+      "entry_price": 0.41000000000000003,
+      "timestamp": 1775296837.6593688,
+      "mode": "demo"
+    },
+    {
+      "slug": "xrp-updown-15m-1775298600",
+      "side": "BUY_NO",
+      "entry_price": 0.44,
+      "timestamp": 1775298620.9942853,
+      "mode": "demo"
+    },
+    {
+      "slug": "sol-updown-15m-1775299500",
+      "side": "BUY_YES",
+      "entry_price": 0.64,
+      "timestamp": 1775299771.8960783,
+      "mode": "demo"
+    },
+    {
+      "slug": "btc-updown-15m-1775300400",
+      "side": "BUY_YES",
+      "entry_price": 0.49,
+      "timestamp": 1775300495.1538324,
+      "mode": "demo"
+    },
+    {
+      "slug": "xrp-updown-15m-1775300400",
+      "side": "BUY_YES",
+      "entry_price": 0.64,
+      "timestamp": 1775300496.7670345,
+      "mode": "demo"
+    },
+    {
+      "slug": "sol-updown-15m-1775309400",
+      "side": "BUY_NO",
+      "entry_price": 0.56,
+      "timestamp": 1775309820.88713,
+      "mode": "demo"
+    }
+  ],
+  "pnl_history": [],
+  "started_at": 1775266388.1234465
+}
