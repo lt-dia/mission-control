@@ -232,5 +232,22 @@
     ],
     "status": "pending",
     "actionNote": "Copy trading = Phase 2 after oracle-lag bot profitable. Moon Dev tutorials worth watching before building. PolyGun for hands-off copy trading of top wallets."
+  },
+  {
+    "id": "disc_015",
+    "date": "2026-04-04T19:13:00Z",
+    "source": "RESEARCH",
+    "title": "gabagool22: $788K in 3 months, 99.5% win rate \u2014 pure market making on BTC/ETH Up/Down markets",
+    "description": "Verified on-chain: gabagool22 made $788K in ~100 days (24,525 markets, 8.9M trades) at 99.52% win rate using algorithmic market making + momentum + spread capture. Runs a Rust bot (Arbigab) with Binance aggTrade WebSocket as primary signal. 365 trades per market window avg. Not predicting direction \u2014 capturing bid/ask spread with preemptive cancel on adverse moves. 4-phase upgrade path from oracle-lag to gabagool22-style now documented in polymarket-research.md.",
+    "url": "https://0xinsider.com/research/gabagool22-polymarket-trader-analysis",
+    "tags": [
+      "polymarket",
+      "market-making",
+      "trading-bot",
+      "case-study",
+      "side-project"
+    ],
+    "status": "pending",
+    "actionNote": "Phase 1: oracle-lag (our current plan). Phase 2: Binance aggTrade WebSocket. Phase 3: spread capture. Phase 4: full market making. Full upgrade path in polymarket-research.md."
   }
 ]
