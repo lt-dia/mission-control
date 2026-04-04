@@ -1,5 +1,12 @@
 {
-  "lastUpdated": "2026-04-04T16:22:51.721Z",
+  "lastUpdated": "2026-04-04T16:23:00.000Z",
+  "agent": {
+    "model": "anthropic/claude-sonnet-4-6",
+    "contextPercent": 32,
+    "compactions": 0,
+    "activeSubagents": 0,
+    "contextBar": 32
+  },
   "integrations": {
     "linear": "ok",
     "granola": "ok",
