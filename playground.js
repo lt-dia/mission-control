@@ -325,29 +325,39 @@ async function loadPolymarket() {
     if (!res.ok) return;
     const d = await res.json();
 
-    // Stats
+    // Stats — support both schema formats
+    const perf = d.performance || d;
     const mode = (d.mode || 'demo').toUpperCase();
     document.getElementById('polyMode').textContent = mode + ' MODE';
-    document.getElementById('polyTrades').textContent = d.total_trades ?? '—';
+    document.getElementById('polyTrades').textContent = (perf.total_trades ?? d.total_trades) ?? '—';
     const wr = document.getElementById('polyWinRate');
-    wr.textContent = (d.win_rate ?? 0) + '%';
-    wr.className = 'poly-stat-value ' + (d.win_rate >= 60 ? 'green' : 'pink');
+    const winRate = perf.win_rate_pct ?? d.win_rate ?? 0;
+    wr.textContent = winRate + '%';
+    wr.className = 'poly-stat-value ' + (winRate >= 60 ? 'green' : 'pink');
 
     const dpnl = document.getElementById('polyDailyPnl');
-    const pnl = d.daily_pnl ?? 0;
-    dpnl.textContent = (pnl >= 0 ? '+' : '') + '$' + pnl.toFixed(2);
+    const pnl = perf.daily_pnl ?? d.daily_pnl ?? 0;
+    dpnl.textContent = (pnl >= 0 ? '+' : '') + '$' + parseFloat(pnl).toFixed(2);
     dpnl.className = 'poly-stat-value ' + (pnl >= 0 ? 'green' : 'pink');
 
     const cpnl = document.getElementById('polyCumPnl');
-    const cum = d.cumulative_pnl ?? 0;
-    cpnl.textContent = (cum >= 0 ? '+' : '') + '$' + cum.toFixed(2);
+    const cum = perf.cumulative_pnl ?? d.cumulative_pnl ?? 0;
+    cpnl.textContent = (cum >= 0 ? '+' : '') + '$' + parseFloat(cum).toFixed(2);
     cpnl.className = 'poly-stat-value ' + (cum >= 0 ? 'green' : 'pink');
 
-    document.getElementById('polyTradeSize').textContent = '$' + (d.trade_size ?? 5);
-    document.getElementById('polyStrategy').textContent = (d.strategy || '—').replace('oracle-lag-sniper ','v');
+    document.getElementById('polyTradeSize').textContent = '$' + (d.trade_size ?? perf.total_notional ?? 5);
+    document.getElementById('polyStrategy').textContent = (d.strategy || 'oracle-lag v1.2.0');
 
-    // P&L Chart (simple canvas)
-    drawPolyChart(d.pnl_history || []);
+    // Build P&L history from recent_trades if pnl_history missing
+    const pnlHist = d.pnl_history || [];
+    if (!pnlHist.length && d.recent_trades) {
+      let running = 0;
+      d.recent_trades.forEach(t => {
+        running += t.pnl || 0;
+        pnlHist.push({ ts: Date.now()/1000, pnl: parseFloat(running.toFixed(4)) });
+      });
+    }
+    drawPolyChart(pnlHist);
 
     // Recent trades
     const list = document.getElementById('polyTradesList');
@@ -356,16 +366,17 @@ async function loadPolymarket() {
       list.innerHTML = '<div class="placeholder-msg">No trades yet</div>';
     } else {
       list.innerHTML = trades.map(t => {
-        const asset = t.slug.split('-')[0].toUpperCase();
+        const asset = (t.asset || (t.slug||'').split('-')[0] || '?').toUpperCase();
         const dir = t.side === 'BUY_YES' ? 'YES ▲' : 'NO ▼';
         const badgeClass = t.side === 'BUY_YES' ? 'buy-yes' : 'buy-no';
-        const time = t.timestamp ? new Date(t.timestamp * 1000).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'}) : '';
-        const url = `https://polymarket.com/event/${t.slug}`;
-        return `<a class="poly-trade-row pending" href="${url}" target="_blank" style="text-decoration:none">
+        const tradePnl = t.pnl != null ? ((t.pnl >= 0 ? '+' : '') + '$' + parseFloat(t.pnl).toFixed(2)) : '';
+        const rowClass = t.pnl == null ? 'pending' : (t.pnl >= 0 ? 'win' : 'loss');
+        const url = t.slug ? `https://polymarket.com/event/${t.slug}` : `https://polymarket.com/markets/crypto`;
+        return `<a class="poly-trade-row ${rowClass}" href="${url}" target="_blank" style="text-decoration:none">
           <span class="poly-trade-asset">${asset}</span>
           <span class="poly-trade-badge ${badgeClass}">${dir}</span>
-          <span class="poly-trade-side">@ $${parseFloat(t.entry_price).toFixed(2)}</span>
-          <span class="poly-trade-time">${time}</span>
+          <span class="poly-trade-side">@ $${parseFloat(t.entry_price||0).toFixed(2)}</span>
+          <span class="poly-trade-time">${tradePnl}</span>
         </a>`;
       }).join('');
     }
