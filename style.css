@@ -1041,3 +1041,137 @@ canvas.poly-chart { width: 100%; height: 100%; display: block; }
 
 /* ── ADDITIONAL LIGHT THEMES ──────────────────────────────── */
 
+/* ── MORNING BRIEFING ────────────────────────────────────── */
+.briefing-section {
+  border: 1px solid rgba(5, 217, 232, 0.2);
+  background: linear-gradient(135deg, rgba(5, 217, 232, 0.04), rgba(123, 47, 255, 0.04));
+}
+
+.briefing-date {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--cyan);
+  margin-left: auto;
+  opacity: 0.7;
+}
+
+.briefing-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 1100px) {
+  .briefing-grid { grid-template-columns: 1fr 1fr; }
+}
+
+.briefing-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--dim);
+  border-radius: 4px;
+  padding: 12px 14px;
+}
+
+.briefing-card-label {
+  font-size: 9px;
+  letter-spacing: 3px;
+  color: var(--cyan);
+  opacity: 0.6;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.briefing-card-value {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.greeting-text {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.briefing-focus {
+  margin-top: 8px;
+  font-size: 10px;
+  color: var(--cyan);
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+
+.briefing-stat-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.briefing-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-num {
+  font-size: 24px;
+  color: var(--cyan);
+  text-shadow: var(--glow-cyan);
+  line-height: 1;
+}
+
+.stat-num.stat-blocked { color: var(--pink); text-shadow: var(--glow-pink); }
+
+.stat-label {
+  font-size: 8px;
+  letter-spacing: 1px;
+  color: var(--text-dim);
+  margin-top: 2px;
+}
+
+.briefing-top-item {
+  font-size: 9px;
+  color: var(--text-dim);
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+  line-height: 1.4;
+  border-left: 2px solid var(--dim);
+  padding-left: 6px;
+}
+
+.briefing-dia-msg {
+  font-size: 11px;
+  color: var(--text);
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+
+.briefing-dia {
+  border-color: rgba(123, 47, 255, 0.3);
+  background: rgba(123, 47, 255, 0.05);
+}
+
+.briefing-reminders {
+  border-top: 1px solid var(--dim);
+  padding-top: 10px;
+  margin-top: 4px;
+}
+
+.briefing-reminder-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.briefing-reminder {
+  font-size: 10px;
+  color: var(--text-dim);
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--dim);
+  padding: 3px 10px;
+  border-radius: 2px;
+  letter-spacing: 0.5px;
+}
+
