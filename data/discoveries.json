@@ -249,5 +249,22 @@
     ],
     "status": "pending",
     "actionNote": "Phase 1: oracle-lag (our current plan). Phase 2: Binance aggTrade WebSocket. Phase 3: spread capture. Phase 4: full market making. Full upgrade path in polymarket-research.md."
+  },
+  {
+    "id": "disc_016",
+    "date": "2026-04-04T20:16:00Z",
+    "source": "RESEARCH",
+    "title": "Polymarket Twitter alpha guide: key accounts, whale trackers, news speed breakdown",
+    "description": "Key accounts: @PolyTrackHQ (whale alerts with win rate), @PolymarketWhales (auto large-trade alerts), @AP/@Reuters/@BNONews (fastest news). News moves Polymarket 10-20% in 60s \u2014 window is 5-10s to act. For bot: oracle-lag is structural (no news needed). Phase 3+ add Twitter news feed. Tools: PolyTrack (faster than Twitter for whale alerts), 0xinsider.com (wallet P&L verification), ArbPoly (auto Polymarket+Kalshi arb execution).",
+    "url": "https://www.polytrackhq.app/blog/polymarket-twitter",
+    "tags": [
+      "polymarket",
+      "twitter",
+      "whale-tracking",
+      "news-trading",
+      "tools"
+    ],
+    "status": "pending",
+    "actionNote": "Follow @PolyTrackHQ + @PolymarketWhales now for passive intel. News-reaction trading = Phase 3+ (too competitive for 00 seed). Use 0xinsider.com to verify any wallet before copy trading."
   }
 ]
