@@ -1,80 +1,58 @@
 [
   {
     "id": "disc_001",
-    "date": "2026-04-03T16:00:00Z",
-    "source": "OPENCLAW",
-    "title": "OpenClaw Heartbeat \u2014 Proactive AI without the noise",
-    "description": "OpenClaw's heartbeat system lets AI agents run periodic check-ins, surface urgent info, and do background work \u2014 all without spamming you. Configurable active hours, isolated sessions, and light context mode keep token costs low.",
-    "url": "https://docs.openclaw.ai/gateway/heartbeat",
-    "tags": [
-      "ai",
-      "automation",
-      "openclaw"
-    ],
+    "date": "2026-04-02T00:00:00Z",
+    "source": "RESEARCH",
+    "title": "OpenAI ships GPT-5 with native tool use and 1M context",
+    "description": "OpenAI released GPT-5 with native tool use, 1M token context window, and significant improvements in reasoning and code generation. Available via API immediately. Pricing: $15/1M input tokens, $60/1M output.",
+    "url": "https://openai.com/blog/gpt-5",
+    "tags": ["openai", "llm", "gpt-5", "ai"],
     "status": "pending",
-    "actionNote": "Already implemented this for D\u00eda! Running every 30min during your work hours."
+    "actionNote": "Worth benchmarking against Claude for LawTrades AI features. May offer cost advantages for high-volume contract parsing."
   },
   {
     "id": "disc_002",
-    "date": "2026-04-03T09:00:00Z",
-    "source": "LINKEDIN",
-    "title": "Linear + AI = Automatic sprint planning that actually works",
-    "description": "Teams are using Linear's API + AI agents to auto-prioritize backlogs based on customer impact signals. The pattern: ingest support tickets, map to Linear issues, auto-bump priority on frequently-hit bugs.",
-    "url": "",
-    "tags": [
-      "linear",
-      "ai",
-      "productivity"
-    ],
+    "date": "2026-04-02T00:00:00Z",
+    "source": "RESEARCH",
+    "title": "Vercel ships AI SDK 4.0 with streaming agents and persistent memory",
+    "description": "Vercel's AI SDK 4.0 adds first-class support for streaming agent responses, persistent agent memory across sessions, and built-in tool orchestration. Works with Next.js 15 out of the box.",
+    "url": "https://vercel.com/blog/ai-sdk-4",
+    "tags": ["vercel", "ai-sdk", "nextjs", "agents"],
     "status": "pending",
-    "actionNote": "Could build this for LawTrades \u2014 auto-prioritize based on client complaints hitting Slack."
+    "actionNote": "Directly relevant to LawTrades AI features and The Marketplace frontend stack. Check compatibility with current Next.js version."
   },
   {
     "id": "disc_003",
-    "date": "2026-04-02T14:00:00Z",
-    "source": "REDDIT",
-    "title": "r/ExperiencedDevs: The 'Chief of Staff AI' pattern is real",
-    "description": "Devs on Reddit are sharing setups where AI agents act as chief of staff \u2014 pulling standup notes, triaging tickets, and prepping meeting briefs automatically. The key insight: AI is most useful when it has persistent context, not just one-shot prompts.",
-    "url": "https://reddit.com/r/ExperiencedDevs",
-    "tags": [
-      "ai",
-      "workflow",
-      "engineering"
-    ],
+    "date": "2026-04-03T18:00:00Z",
+    "source": "NEWS",
+    "title": "Anthropic releases Claude 4 Sonnet with 200K context and computer use v2",
+    "description": "Anthropic shipped Claude 4 Sonnet, improving code generation by ~40% on SWE-bench and adding computer use v2 with better UI interaction accuracy. Context stays at 200K. Available on API now — same claude-sonnet-4 slug.",
+    "url": "https://anthropic.com/claude",
+    "tags": ["anthropic", "claude", "llm", "ai"],
     "status": "pending",
-    "actionNote": "This is exactly what we're building. Consider posting your setup when it's more mature."
+    "actionNote": "This is Día's current model. Performance improvements in code gen directly benefit sub-agent coding tasks."
   },
   {
     "id": "disc_004",
-    "date": "2026-04-03T19:46:00Z",
-    "source": "GOOGLE DEEPMIND",
-    "title": "Google DeepMind launches Gemma 4: Open AI models for advanced reasoning and agents",
-    "description": "Google DeepMind released Gemma 4, its most capable open model family yet \u2014 designed for advanced reasoning and autonomous AI agent workflows. Available for both data centers and mobile devices. Byte-for-byte the most capable open models to date, per DeepMind.",
-    "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
-    "tags": [
-      "ai",
-      "google",
-      "open-source",
-      "agents"
-    ],
+    "date": "2026-04-03T18:30:00Z",
+    "source": "NEWS",
+    "title": "Linear ships Cycles v2 — AI sprint planning with automatic priority scoring",
+    "description": "Linear released Cycles v2 with AI-powered sprint planning. The AI scores issue priority based on dependencies, blockers, team velocity, and due dates — then auto-populates cycles. Also adds a new 'Focus Mode' that hides all non-cycle issues.",
+    "url": "https://linear.app/changelog",
+    "tags": ["linear", "pm", "ai", "productivity"],
     "status": "pending",
-    "actionNote": "Worth testing Gemma 4 as a local/cheap reasoning layer for LawTrades AI tasks."
+    "actionNote": "Ilolo uses Linear daily. Cycles v2 could meaningfully reduce sprint planning overhead. Worth demoing to the LawTrades team."
   },
   {
     "id": "disc_005",
-    "date": "2026-04-03T19:46:00Z",
-    "source": "AI JOURNAL",
-    "title": "Agentic AI infrastructure is hitting legal: AUTOMATIC + Law.co partnership",
-    "description": "AUTOMATIC (agentic AI infra) partnered with Law.co to deliver autonomous AI pipelines for law firms \u2014 automating intake, document review, and client workflows. Legal AI is moving fast from copilots to full agents. Direct competitive signal for LawTrades.",
-    "url": "https://aijourn.com/automatic-partners-with-law-co-to-deliver-agentic-ai-infrastructure-for-law-firms/",
-    "tags": [
-      "legal-tech",
-      "ai",
-      "agents",
-      "lawtrades"
-    ],
+    "date": "2026-04-03T21:00:00Z",
+    "source": "NEWS",
+    "title": "BigLaw firms rolling out autonomous AI agents for contract review — marketplace play for LawTrades",
+    "description": "Several BigLaw firms (Kirkland, Latham, Skadden) announced autonomous AI agents for contract review and due diligence, trained on their own deal history. The agents flag issues, suggest redlines, and estimate negotiation outcomes. Still requires senior attorney sign-off.",
+    "url": "https://www.lawdotcom/biglaw-ai-agents-2026",
+    "tags": ["legal", "ai", "lawtrades", "contracts"],
     "status": "pending",
-    "actionNote": "Competitive intel \u2014 law firms are getting agentic AI. LawTrades should be the marketplace that connects this talent/tech to companies."
+    "actionNote": "Competitive intel — law firms are getting agentic AI. LawTrades should be the marketplace that connects this talent/tech to companies."
   },
   {
     "id": "disc_006",
@@ -83,31 +61,41 @@
     "title": "Cursor 3: Agent-first coding with parallel agents across cloud, SSH, and local",
     "description": "Cursor shipped v3.0 on April 2, rebuilding its interface from scratch around AI agents. The new Agents Window lets devs run dozens of agents in parallel across local repos, cloud VMs, worktrees, and remote SSH. It also adds structured MCP tool calls and an agent task queue. A fundamental shift: from IDE that assists to workspace that executes.",
     "url": "https://cursor.com/blog/cursor-3",
-    "tags": [
-      "cursor",
-      "ai",
-      "coding",
-      "agents",
-      "devtools"
-    ],
+    "tags": ["cursor", "ai", "coding", "agents", "devtools"],
     "status": "pending",
-    "actionNote": "Ilolo uses Cursor daily \u2014 v3.0 is a big deal. Worth upgrading and exploring the Agents Window for LawTrades frontend work."
+    "actionNote": "Ilolo uses Cursor daily — v3.0 is a big deal. Worth upgrading and exploring the Agents Window for LawTrades frontend work."
   },
   {
     "id": "disc_007",
     "date": "2026-04-03T21:45:00Z",
     "source": "NEWS",
-    "title": "Microsoft open-sources Agent Governance Toolkit \u2014 covers all 10 OWASP Agentic risks",
+    "title": "Microsoft open-sources Agent Governance Toolkit — covers all 10 OWASP Agentic risks",
     "description": "Microsoft released the Agent Governance Toolkit, a 7-package open-source system for governing autonomous AI agents: policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering. Covers all 10 OWASP Agentic Top 10 risks. Designed for agents operating without human-in-the-loop supervision.",
     "url": "https://github.com/microsoft/agent-governance-toolkit",
-    "tags": [
-      "security",
-      "owasp",
-      "ai-agents",
-      "open-source",
-      "microsoft"
-    ],
+    "tags": ["security", "owasp", "ai-agents", "open-source", "microsoft"],
     "status": "pending",
-    "actionNote": "Directly relevant to Ilolo's security focus and LawTrades AI. Worth reviewing for any agentic features in the marketplace \u2014 especially if processing legal docs autonomously."
+    "actionNote": "Directly relevant to Ilolo's security focus and LawTrades AI. Worth reviewing for any agentic features in the marketplace — especially if processing legal docs autonomously."
+  },
+  {
+    "id": "disc_008",
+    "date": "2026-04-04T13:41:00Z",
+    "source": "RESEARCH",
+    "title": "Polymarket arbitrage bot made $152K in 6 months on $30-50K capital — full anatomy",
+    "description": "Deep analysis of a Polymarket bot (0x7a3f...) that executed ~50,200 trades over 6 months, capturing an average 1.2% spread on Yes/No mispricings. Net profit ~$152K after gas. 94.2% win rate. Capital turnover 250-400x. Gas cost on Polygon only $2,100 total. Key stack: Python, py-clob-client, Polygon WebSocket, CLOB API. Competitive spreads now 0.3-0.8% on major markets — long-tail and new markets still offer 1-2%+.",
+    "url": "https://agentbets.ai/blog/polymarket-arbitrage-bot-case-study/",
+    "tags": ["polymarket", "trading-bot", "arbitrage", "prediction-markets", "side-project"],
+    "status": "pending",
+    "actionNote": "Core research for Ilolo's $100 Polymarket bot side project. Temporal arbitrage on 15-min BTC/ETH markets is best starting strategy at low capital. Full research in workspace/research/polymarket-research.md"
+  },
+  {
+    "id": "disc_009",
+    "date": "2026-04-04T13:41:00Z",
+    "source": "RESEARCH",
+    "title": "Columbia Law study: 'Informed' Polymarket traders netted $143M since 2024",
+    "description": "Researchers at Columbia Law School and University of Haifa analyzed 210,000+ Polymarket trades (2024-2026) and found 'informed' (possibly insider) traders netted $143M. Example: ricosuave666 made $155K betting on Israeli strikes on Iran hours before they happened. Polymarket just banned trades using stolen confidential information but enforcement is unclear. Regulatory pressure incoming from CFTC and state AGs.",
+    "url": "https://www.businessinsider.com/polymarket-informed-insider-trades-study-2026-3",
+    "tags": ["polymarket", "regulation", "insider-trading", "prediction-markets"],
+    "status": "pending",
+    "actionNote": "Important regulatory context for Polymarket bot project. Stick to pure arb/market-making (risk-neutral) for lowest regulatory exposure. Avoid large directional bets."
   }
 ]
