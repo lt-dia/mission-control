@@ -313,6 +313,7 @@ async function init() {
   renderKanban(window._playgroundTasks);
   initDragAndDrop();
   initInbox();
+  loadPolymarket();
 }
 
 document.addEventListener('DOMContentLoaded', init);
