@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T15:53:17.722Z",
+  "lastUpdated": "2026-04-04T16:04:26.000Z",
   "mode": "demo",
   "status": {
     "running": true,
@@ -8,111 +8,66 @@
     "circuit_breaker_reason": null
   },
   "performance": {
-    "daily_pnl": 1.308,
-    "cumulative_pnl": 1.308,
-    "total_trades": 14,
-    "resolved_trades": 12,
-    "open_trades": 2,
+    "daily_pnl": -3.792,
+    "cumulative_pnl": -3.792,
+    "total_trades": 15,
     "wins": 7,
-    "losses": 5,
-    "win_rate_pct": 58.3,
-    "avg_roi_pct": 2.2
+    "losses": 8,
+    "win_rate_pct": 46.7,
+    "total_notional": 75,
+    "avg_roi_pct": -5.1
   },
   "markets": {
     "active": [
-      "btc",
-      "eth",
       "xrp",
-      "sol"
+      "sol",
+      "eth",
+      "btc"
     ],
-    "active_count": 4,
-    "resolved_count": 4,
+    "active_count": 7,
+    "resolved_count": 2,
     "total_tracked": 12
   },
-  "open_positions": [
-    {
-      "asset": "sol",
-      "side": "BUY_NO",
-      "entry_price": 0.63,
-      "notional": 5
-    },
-    {
-      "asset": "btc",
-      "side": "BUY_NO",
-      "entry_price": 0.55,
-      "notional": 5
-    }
-  ],
-  "by_asset": {
-    "xrp": {
-      "trades": 4,
-      "wins": 3,
-      "pnl": 7.8043,
-      "win_rate": 75
-    },
-    "sol": {
-      "trades": 5,
-      "wins": 3,
-      "pnl": -1.4004,
-      "win_rate": 60
-    },
-    "btc": {
-      "trades": 2,
-      "wins": 1,
-      "pnl": 0.0041,
-      "win_rate": 50
-    },
-    "eth": {
-      "trades": 1,
-      "wins": 0,
-      "pnl": -5.1,
-      "win_rate": 0
-    }
-  },
+  "by_asset": {},
   "recent_trades": [
     {
-      "asset": "eth",
+      "asset": "SOL",
       "side": "BUY_YES",
-      "entry_price": 0.52,
-      "pnl": -5.1,
-      "roi_pct": -102,
-      "outcome": "Down",
+      "entry_price": 0.6,
+      "pnl": null,
+      "outcome": "",
       "mode": "demo"
     },
     {
-      "asset": "btc",
-      "side": "BUY_YES",
-      "entry_price": 0.55,
-      "pnl": -5.1,
-      "roi_pct": -102,
-      "outcome": "Down",
-      "mode": "demo"
-    },
-    {
-      "asset": "sol",
+      "asset": "BTC",
       "side": "BUY_NO",
-      "entry_price": 0.51,
-      "pnl": -5.1,
-      "roi_pct": -102,
-      "outcome": "Up",
+      "entry_price": 0.55,
+      "pnl": null,
+      "outcome": "",
       "mode": "demo"
     },
     {
-      "asset": "sol",
+      "asset": "SOL",
       "side": "BUY_NO",
       "entry_price": 0.63,
-      "pnl": 0,
-      "roi_pct": 0,
-      "outcome": "pending",
+      "pnl": null,
+      "outcome": "",
       "mode": "demo"
     },
     {
-      "asset": "btc",
+      "asset": "SOL",
       "side": "BUY_NO",
+      "entry_price": 0.51,
+      "pnl": null,
+      "outcome": "",
+      "mode": "demo"
+    },
+    {
+      "asset": "BTC",
+      "side": "BUY_YES",
       "entry_price": 0.55,
-      "pnl": 0,
-      "roi_pct": 0,
-      "outcome": "pending",
+      "pnl": null,
+      "outcome": "",
       "mode": "demo"
     }
   ]
