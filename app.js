@@ -187,7 +187,8 @@ function renderLinear(data) {
     return;
   }
 
-  container.innerHTML = issues.map(issue => {
+  _renderFns['linearList'] = () => renderLinear(data);
+  makePaginator('linearList', issues, issue => {
     const pClass = priorityClass(issue.priority);
     const pLabel = priorityLabel(issue.priority);
     const state  = (issue.state && issue.state.name) ? issue.state.name.toUpperCase() : '—';
@@ -204,8 +205,7 @@ function renderLinear(data) {
         </div>
       </div>
     `;
-  }).join('');
-}
+  });
 
 /* ── GRANOLA ─────────────────────────────────────────────── */
 function renderGranola(data) {
@@ -222,7 +222,8 @@ function renderGranola(data) {
     return;
   }
 
-  container.innerHTML = notes.slice(0, 5).map(note => {
+  _renderFns['granolaList'] = () => renderGranola(data);
+  makePaginator('granolaList', notes, note => {
     const title = note.title || note.name || 'Untitled Meeting';
     const raw   = note.created_at || note.date || note.updatedAt || '';
     const date  = raw ? new Date(raw).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : '—';
@@ -232,7 +233,7 @@ function renderGranola(data) {
         <div class="granola-note-date">${date}</div>
       </div>
     `;
-  }).join('');
+  }, 4);
 }
 
 /* ── UTILITY ─────────────────────────────────────────────── */
@@ -366,7 +367,10 @@ function renderDiscoveries(discoveries, filter) {
   const grid = document.getElementById('discoveries-grid');
   if (!grid) return;
   const filtered = filter === 'all' ? discoveries : discoveries.filter(d => d.status === filter);
-  grid.innerHTML = filtered.map(d => `
+  window._lastDiscoveries = filtered;
+  window._lastDiscoveryFilter = filter;
+  _renderFns['discoveries-grid'] = () => renderDiscoveries(window._lastDiscoveries || [], window._lastDiscoveryFilter || 'all');
+  makePaginator('discoveries-grid', filtered, d => `
     <div class="discovery-card ${d.status || 'pending'}" data-id="${d.id}">
       <span class="source-badge source-${d.source}">${d.source}</span>
       <div class="tags">${(d.tags||[]).map(t => `<span class="tag">#${t}</span>`).join('')}</div>
@@ -383,7 +387,7 @@ function renderDiscoveries(discoveries, filter) {
       ${d.status === 'skipped' ? `<div class="discovery-action-note">SKIPPED — <a href="#" onclick="restoreDiscovery('${d.id}');return false;" style="color:#555">undo</a></div>` : ''}
       ${d.url ? `<a href="${d.url}" target="_blank" style="font-size:10px;color:#444;text-decoration:none">VIEW SOURCE</a>` : ''}
     </div>
-  `).join('');
+  `, 6);
 }
 
 function acceptDiscovery(id)  { setDiscoveryStatus(id, 'accepted'); }
