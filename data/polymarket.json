@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T15:38:18.434Z",
+  "lastUpdated": "2026-04-04T15:53:17.722Z",
   "mode": "demo",
   "status": {
     "running": true,
@@ -8,15 +8,15 @@
     "circuit_breaker_reason": null
   },
   "performance": {
-    "daily_pnl": 6.408,
-    "cumulative_pnl": 6.408,
-    "total_trades": 12,
-    "resolved_trades": 11,
-    "open_trades": 1,
+    "daily_pnl": 1.308,
+    "cumulative_pnl": 1.308,
+    "total_trades": 14,
+    "resolved_trades": 12,
+    "open_trades": 2,
     "wins": 7,
-    "losses": 4,
-    "win_rate_pct": 63.6,
-    "avg_roi_pct": 11.7
+    "losses": 5,
+    "win_rate_pct": 58.3,
+    "avg_roi_pct": 2.2
   },
   "markets": {
     "active": [
@@ -33,7 +33,13 @@
     {
       "asset": "sol",
       "side": "BUY_NO",
-      "entry_price": 0.51,
+      "entry_price": 0.63,
+      "notional": 5
+    },
+    {
+      "asset": "btc",
+      "side": "BUY_NO",
+      "entry_price": 0.55,
       "notional": 5
     }
   ],
@@ -45,10 +51,10 @@
       "win_rate": 75
     },
     "sol": {
-      "trades": 4,
+      "trades": 5,
       "wins": 3,
-      "pnl": 3.6996,
-      "win_rate": 75
+      "pnl": -1.4004,
+      "win_rate": 60
     },
     "btc": {
       "trades": 2,
@@ -64,24 +70,6 @@
     }
   },
   "recent_trades": [
-    {
-      "asset": "sol",
-      "side": "BUY_YES",
-      "entry_price": 0.59,
-      "pnl": 3.3746,
-      "roi_pct": 67.5,
-      "outcome": "Up",
-      "mode": "demo"
-    },
-    {
-      "asset": "sol",
-      "side": "BUY_NO",
-      "entry_price": 0.64,
-      "pnl": 2.7125,
-      "roi_pct": 54.3,
-      "outcome": "Down",
-      "mode": "demo"
-    },
     {
       "asset": "eth",
       "side": "BUY_YES",
@@ -104,6 +92,24 @@
       "asset": "sol",
       "side": "BUY_NO",
       "entry_price": 0.51,
+      "pnl": -5.1,
+      "roi_pct": -102,
+      "outcome": "Up",
+      "mode": "demo"
+    },
+    {
+      "asset": "sol",
+      "side": "BUY_NO",
+      "entry_price": 0.63,
+      "pnl": 0,
+      "roi_pct": 0,
+      "outcome": "pending",
+      "mode": "demo"
+    },
+    {
+      "asset": "btc",
+      "side": "BUY_NO",
+      "entry_price": 0.55,
       "pnl": 0,
       "roi_pct": 0,
       "outcome": "pending",
