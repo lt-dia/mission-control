@@ -316,3 +316,141 @@ async function init() {
 }
 
 document.addEventListener('DOMContentLoaded', init);
+
+
+/* ── POLYMARKET BOT PANEL ─────────────────────────────────── */
+async function loadPolymarket() {
+  try {
+    const res = await fetch('data/polymarket.json?t=' + Date.now());
+    if (!res.ok) return;
+    const d = await res.json();
+
+    // Stats
+    const mode = (d.mode || 'demo').toUpperCase();
+    document.getElementById('polyMode').textContent = mode + ' MODE';
+    document.getElementById('polyTrades').textContent = d.total_trades ?? '—';
+    const wr = document.getElementById('polyWinRate');
+    wr.textContent = (d.win_rate ?? 0) + '%';
+    wr.className = 'poly-stat-value ' + (d.win_rate >= 60 ? 'green' : 'pink');
+
+    const dpnl = document.getElementById('polyDailyPnl');
+    const pnl = d.daily_pnl ?? 0;
+    dpnl.textContent = (pnl >= 0 ? '+' : '') + '$' + pnl.toFixed(2);
+    dpnl.className = 'poly-stat-value ' + (pnl >= 0 ? 'green' : 'pink');
+
+    const cpnl = document.getElementById('polyCumPnl');
+    const cum = d.cumulative_pnl ?? 0;
+    cpnl.textContent = (cum >= 0 ? '+' : '') + '$' + cum.toFixed(2);
+    cpnl.className = 'poly-stat-value ' + (cum >= 0 ? 'green' : 'pink');
+
+    document.getElementById('polyTradeSize').textContent = '$' + (d.trade_size ?? 5);
+    document.getElementById('polyStrategy').textContent = (d.strategy || '—').replace('oracle-lag-sniper ','v');
+
+    // P&L Chart (simple canvas)
+    drawPolyChart(d.pnl_history || []);
+
+    // Recent trades
+    const list = document.getElementById('polyTradesList');
+    const trades = (d.recent_trades || []).slice().reverse();
+    if (!trades.length) {
+      list.innerHTML = '<div class="placeholder-msg">No trades yet</div>';
+    } else {
+      list.innerHTML = trades.map(t => {
+        const asset = t.slug.split('-')[0].toUpperCase();
+        const dir = t.side === 'BUY_YES' ? 'YES ▲' : 'NO ▼';
+        const badgeClass = t.side === 'BUY_YES' ? 'buy-yes' : 'buy-no';
+        const time = t.timestamp ? new Date(t.timestamp * 1000).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'}) : '';
+        const url = `https://polymarket.com/event/${t.slug}`;
+        return `<a class="poly-trade-row pending" href="${url}" target="_blank" style="text-decoration:none">
+          <span class="poly-trade-asset">${asset}</span>
+          <span class="poly-trade-badge ${badgeClass}">${dir}</span>
+          <span class="poly-trade-side">@ $${parseFloat(t.entry_price).toFixed(2)}</span>
+          <span class="poly-trade-time">${time}</span>
+        </a>`;
+      }).join('');
+    }
+  } catch(e) { console.error('polymarket load failed', e); }
+}
+
+function drawPolyChart(history) {
+  const canvas = document.getElementById('polyPnlChart');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const W = canvas.offsetWidth || 400;
+  const H = canvas.offsetHeight || 90;
+  canvas.width = W; canvas.height = H;
+
+  ctx.clearRect(0, 0, W, H);
+
+  if (!history.length) {
+    ctx.fillStyle = 'rgba(5,217,232,0.3)';
+    ctx.font = '10px monospace';
+    ctx.fillText('Awaiting trade data...', W/2 - 60, H/2);
+    return;
+  }
+
+  const values = history.map(h => h.pnl);
+  const min = Math.min(0, ...values);
+  const max = Math.max(0, ...values);
+  const range = max - min || 1;
+  const pad = { t:20, r:10, b:10, l:40 };
+  const cW = W - pad.l - pad.r;
+  const cH = H - pad.t - pad.b;
+
+  const toX = i => pad.l + (i / (values.length - 1 || 1)) * cW;
+  const toY = v => pad.t + (1 - (v - min) / range) * cH;
+
+  // Zero line
+  const zy = toY(0);
+  ctx.strokeStyle = 'rgba(255,255,255,0.1)';
+  ctx.setLineDash([4,4]);
+  ctx.beginPath(); ctx.moveTo(pad.l, zy); ctx.lineTo(W - pad.r, zy); ctx.stroke();
+  ctx.setLineDash([]);
+
+  // Fill
+  const grad = ctx.createLinearGradient(0, pad.t, 0, H);
+  grad.addColorStop(0, 'rgba(0,255,136,0.25)');
+  grad.addColorStop(1, 'rgba(0,255,136,0.0)');
+  ctx.beginPath();
+  values.forEach((v,i) => i===0 ? ctx.moveTo(toX(i),toY(v)) : ctx.lineTo(toX(i),toY(v)));
+  ctx.lineTo(toX(values.length-1), zy);
+  ctx.lineTo(toX(0), zy);
+  ctx.closePath();
+  ctx.fillStyle = grad; ctx.fill();
+
+  // Line
+  ctx.beginPath();
+  ctx.strokeStyle = '#00ff88'; ctx.lineWidth = 1.5;
+  values.forEach((v,i) => i===0 ? ctx.moveTo(toX(i),toY(v)) : ctx.lineTo(toX(i),toY(v)));
+  ctx.stroke();
+
+  // Y labels
+  ctx.fillStyle = 'rgba(5,217,232,0.5)'; ctx.font = '8px monospace';
+  ctx.fillText('$'+max.toFixed(1), 2, pad.t+4);
+  ctx.fillText('$0', 2, zy+4);
+}
+
+/* ── PAGINATION HELPER ────────────────────────────────────── */
+function paginate(containerId, items, renderFn, pageSize=5) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  let page = 0;
+  const totalPages = Math.ceil(items.length / pageSize);
+
+  function render() {
+    const slice = items.slice(page * pageSize, (page + 1) * pageSize);
+    const content = renderFn(slice);
+    const nav = totalPages > 1 ? `
+      <div class="pagination">
+        <button class="page-btn" onclick="this.closest('[data-pager]').dispatchEvent(new CustomEvent('prev'))" ${page===0?'disabled':''}>◀</button>
+        <span class="page-info">${page+1} / ${totalPages}</span>
+        <button class="page-btn" onclick="this.closest('[data-pager]').dispatchEvent(new CustomEvent('next'))" ${page===totalPages-1?'disabled':''}>▶</button>
+      </div>` : '';
+    container.innerHTML = content + nav;
+    container.setAttribute('data-pager','1');
+    container.addEventListener('prev', () => { if(page>0){page--;render();} }, {once:true});
+    container.addEventListener('next', () => { if(page<totalPages-1){page++;render();} }, {once:true});
+  }
+  render();
+}
+
