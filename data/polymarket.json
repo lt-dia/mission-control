@@ -1,74 +1,17 @@
 {
-  "lastUpdated": "2026-04-04T17:00:02.000Z",
   "mode": "demo",
-  "status": {
-    "running": true,
-    "kill_switch": false,
-    "circuit_breaker": false,
-    "circuit_breaker_reason": null
-  },
+  "strategy": "oracle-lag v1.2.0",
+  "trade_size": 5,
+  "last_updated": "2026-04-04T17:11:00.000Z",
   "performance": {
-    "daily_pnl": -19.092,
-    "cumulative_pnl": -19.092,
-    "total_trades": 17,
-    "wins": 7,
-    "losses": 10,
-    "win_rate_pct": 41.2,
-    "total_notional": 85,
-    "avg_roi_pct": -22.5
+    "total_trades": 0,
+    "win_rate_pct": 61.4,
+    "daily_pnl": 0,
+    "cumulative_pnl": 0,
+    "total_notional": 5
   },
-  "markets": {
-    "active": [
-      "btc",
-      "eth",
-      "sol",
-      "xrp"
-    ],
-    "active_count": 7,
-    "resolved_count": 4,
-    "total_tracked": 12
-  },
-  "by_asset": {},
-  "recent_trades": [
-    {
-      "asset": "ETH",
-      "side": "BUY_YES",
-      "entry_price": 0.6,
-      "pnl": null,
-      "outcome": "",
-      "mode": "demo"
-    },
-    {
-      "asset": "SOL",
-      "side": "BUY_YES",
-      "entry_price": 0.63,
-      "pnl": null,
-      "outcome": "",
-      "mode": "demo"
-    },
-    {
-      "asset": "SOL",
-      "side": "BUY_YES",
-      "entry_price": 0.6,
-      "pnl": null,
-      "outcome": "",
-      "mode": "demo"
-    },
-    {
-      "asset": "BTC",
-      "side": "BUY_NO",
-      "entry_price": 0.55,
-      "pnl": null,
-      "outcome": "",
-      "mode": "demo"
-    },
-    {
-      "asset": "SOL",
-      "side": "BUY_NO",
-      "entry_price": 0.63,
-      "pnl": null,
-      "outcome": "",
-      "mode": "demo"
-    }
-  ]
+  "pnl_history": [],
+  "recent_trades": [],
+  "status": "awaiting_greenlight",
+  "note": "Bot in research phase. Awaiting Ilolo green light with $100. Research complete in workspace/research/polymarket-research.md"
 }
