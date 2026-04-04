@@ -26,7 +26,7 @@
     "date": "2026-04-03T18:00:00Z",
     "source": "NEWS",
     "title": "Anthropic releases Claude 4 Sonnet with 200K context and computer use v2",
-    "description": "Anthropic shipped Claude 4 Sonnet, improving code generation by ~40% on SWE-bench and adding computer use v2 with better UI interaction accuracy. Context stays at 200K. Available on API now — same claude-sonnet-4 slug.",
+    "description": "Anthropic shipped Claude 4 Sonnet, improving code generation by ~40% on SWE-bench and adding computer use v2 with better UI interaction accuracy. Context stays at 200K. Available on API now.",
     "url": "https://anthropic.com/claude",
     "tags": ["anthropic", "claude", "llm", "ai"],
     "status": "pending",
@@ -48,7 +48,7 @@
     "date": "2026-04-03T21:00:00Z",
     "source": "NEWS",
     "title": "BigLaw firms rolling out autonomous AI agents for contract review — marketplace play for LawTrades",
-    "description": "Several BigLaw firms (Kirkland, Latham, Skadden) announced autonomous AI agents for contract review and due diligence, trained on their own deal history. The agents flag issues, suggest redlines, and estimate negotiation outcomes. Still requires senior attorney sign-off.",
+    "description": "Several BigLaw firms (Kirkland, Latham, Skadden) announced autonomous AI agents for contract review and due diligence. Still requires senior attorney sign-off but the automation layer is here.",
     "url": "https://www.lawdotcom/biglaw-ai-agents-2026",
     "tags": ["legal", "ai", "lawtrades", "contracts"],
     "status": "pending",
@@ -59,7 +59,7 @@
     "date": "2026-04-03T21:45:00Z",
     "source": "NEWS",
     "title": "Cursor 3: Agent-first coding with parallel agents across cloud, SSH, and local",
-    "description": "Cursor shipped v3.0 on April 2, rebuilding its interface from scratch around AI agents. The new Agents Window lets devs run dozens of agents in parallel across local repos, cloud VMs, worktrees, and remote SSH. It also adds structured MCP tool calls and an agent task queue. A fundamental shift: from IDE that assists to workspace that executes.",
+    "description": "Cursor shipped v3.0 rebuilding its interface around AI agents. The new Agents Window lets devs run dozens of agents in parallel across local repos, cloud VMs, worktrees, and remote SSH.",
     "url": "https://cursor.com/blog/cursor-3",
     "tags": ["cursor", "ai", "coding", "agents", "devtools"],
     "status": "pending",
@@ -70,32 +70,43 @@
     "date": "2026-04-03T21:45:00Z",
     "source": "NEWS",
     "title": "Microsoft open-sources Agent Governance Toolkit — covers all 10 OWASP Agentic risks",
-    "description": "Microsoft released the Agent Governance Toolkit, a 7-package open-source system for governing autonomous AI agents: policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering. Covers all 10 OWASP Agentic Top 10 risks. Designed for agents operating without human-in-the-loop supervision.",
+    "description": "Microsoft released the Agent Governance Toolkit, a 7-package open-source system for governing autonomous AI agents: policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering.",
     "url": "https://github.com/microsoft/agent-governance-toolkit",
     "tags": ["security", "owasp", "ai-agents", "open-source", "microsoft"],
     "status": "pending",
-    "actionNote": "Directly relevant to Ilolo's security focus and LawTrades AI. Worth reviewing for any agentic features in the marketplace — especially if processing legal docs autonomously."
+    "actionNote": "Directly relevant to Ilolo's security focus and LawTrades AI. Worth reviewing for agentic features in the marketplace."
   },
   {
     "id": "disc_008",
     "date": "2026-04-04T13:41:00Z",
     "source": "RESEARCH",
     "title": "Polymarket arbitrage bot made $152K in 6 months on $30-50K capital — full anatomy",
-    "description": "Deep analysis of a Polymarket bot (0x7a3f...) that executed ~50,200 trades over 6 months, capturing an average 1.2% spread on Yes/No mispricings. Net profit ~$152K after gas. 94.2% win rate. Capital turnover 250-400x. Gas cost on Polygon only $2,100 total. Key stack: Python, py-clob-client, Polygon WebSocket, CLOB API. Competitive spreads now 0.3-0.8% on major markets — long-tail and new markets still offer 1-2%+.",
+    "description": "Deep analysis of a Polymarket bot (0x7a3f...) executing ~50,200 trades over 6 months, capturing avg 1.2% spread on Yes/No mispricings. Net profit ~$152K. 94.2% win rate. Stack: Python, py-clob-client, Polygon WebSocket.",
     "url": "https://agentbets.ai/blog/polymarket-arbitrage-bot-case-study/",
     "tags": ["polymarket", "trading-bot", "arbitrage", "prediction-markets", "side-project"],
     "status": "pending",
-    "actionNote": "Core research for Ilolo's $100 Polymarket bot side project. Temporal arbitrage on 15-min BTC/ETH markets is best starting strategy at low capital. Full research in workspace/research/polymarket-research.md"
+    "actionNote": "Core research for Ilolo's $100 Polymarket bot side project. Full research in workspace/research/polymarket-research.md"
   },
   {
     "id": "disc_009",
     "date": "2026-04-04T13:41:00Z",
     "source": "RESEARCH",
     "title": "Columbia Law study: 'Informed' Polymarket traders netted $143M since 2024",
-    "description": "Researchers at Columbia Law School and University of Haifa analyzed 210,000+ Polymarket trades (2024-2026) and found 'informed' (possibly insider) traders netted $143M. Example: ricosuave666 made $155K betting on Israeli strikes on Iran hours before they happened. Polymarket just banned trades using stolen confidential information but enforcement is unclear. Regulatory pressure incoming from CFTC and state AGs.",
+    "description": "Researchers analyzed 210,000+ Polymarket trades (2024-2026). 'Informed' traders netted $143M. Regulatory pressure incoming from CFTC and state AGs. Polymarket just banned insider trades but enforcement unclear.",
     "url": "https://www.businessinsider.com/polymarket-informed-insider-trades-study-2026-3",
     "tags": ["polymarket", "regulation", "insider-trading", "prediction-markets"],
     "status": "pending",
-    "actionNote": "Important regulatory context for Polymarket bot project. Stick to pure arb/market-making (risk-neutral) for lowest regulatory exposure. Avoid large directional bets."
+    "actionNote": "Stick to pure arb/market-making (risk-neutral) for lowest regulatory exposure."
+  },
+  {
+    "id": "disc_010",
+    "date": "2026-04-04T14:11:00Z",
+    "source": "RESEARCH",
+    "title": "Open-source oracle-lag-sniper: 61.4% win rate exploiting Polymarket's ~55-second Chainlink lag",
+    "description": "JonathanPetersonn open-sourced a Python asyncio bot that exploits the ~55-second gap between Chainlink oracle updates and Polymarket order book repricing on 15-min BTC/ETH/XRP/SOL markets. 3 entry conditions: price moved >0.07% from open, >5min remaining, token price <$0.62. Backtested on 8,876 resolved markets with 61.4% win rate. Has live demo mode (no API keys needed).",
+    "url": "https://github.com/JonathanPetersonn/oracle-lag-sniper",
+    "tags": ["polymarket", "trading-bot", "oracle", "chainlink", "open-source", "side-project"],
+    "status": "pending",
+    "actionNote": "BEST starting point for Ilolo's $100 bot. Clone and run demo mode for 72h to validate signal, then fund. No sub-millisecond infrastructure needed — 55-sec window is forgiving."
   }
 ]
