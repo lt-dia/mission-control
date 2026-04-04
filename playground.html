@@ -114,6 +114,48 @@
 
     </section>
 
+
+    <!-- ── SECTION: POLYMARKET BOT ─────────────────────────── -->
+    <section class="section poly-section" id="polySection">
+      <div class="section-header">
+        <span class="section-icon">◈</span>
+        <h2 class="section-title">[ POLYMARKET_BOT ]</h2>
+        <span class="section-meta" id="polyMode">DEMO MODE</span>
+      </div>
+
+      <!-- Stats strip -->
+      <div class="poly-stats-strip" id="polyStatsStrip">
+        <div class="poly-stat"><div class="poly-stat-label">TOTAL TRADES</div><div class="poly-stat-value" id="polyTrades">—</div></div>
+        <div class="poly-stat"><div class="poly-stat-label">WIN RATE</div><div class="poly-stat-value green" id="polyWinRate">—</div></div>
+        <div class="poly-stat"><div class="poly-stat-label">DAILY P&L</div><div class="poly-stat-value" id="polyDailyPnl">—</div></div>
+        <div class="poly-stat"><div class="poly-stat-label">CUMULATIVE P&L</div><div class="poly-stat-value" id="polyCumPnl">—</div></div>
+        <div class="poly-stat"><div class="poly-stat-label">TRADE SIZE</div><div class="poly-stat-value" id="polyTradeSize">—</div></div>
+        <div class="poly-stat"><div class="poly-stat-label">STRATEGY</div><div class="poly-stat-value" style="font-size:10px" id="polyStrategy">—</div></div>
+      </div>
+
+      <!-- P&L Chart -->
+      <div class="poly-chart-wrap">
+        <span class="poly-chart-label">P&L CURVE (CUMULATIVE)</span>
+        <canvas id="polyPnlChart"></canvas>
+      </div>
+
+      <!-- Recent trades -->
+      <div class="section-header" style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(5,217,232,0.1)">
+        <span style="font-size:9px;letter-spacing:2px;color:var(--dim)">RECENT TRADES</span>
+      </div>
+      <div class="poly-trades-list" id="polyTradesList">
+        <div class="placeholder-msg">Loading...</div>
+      </div>
+
+      <!-- Links -->
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">
+        <a class="poly-link" href="https://polymarket.com/profile/0x46bf9f646dbc3cf346243f3a9f5e8edbccbbd07d" target="_blank">◈ MY WALLET</a>
+        <a class="poly-link" href="https://0xinsider.com/polymarket/@gabagool22" target="_blank">◈ GABAGOOL22</a>
+        <a class="poly-link" href="https://polymarket.com/markets/crypto" target="_blank">◈ CRYPTO MARKETS</a>
+        <a class="poly-link" href="https://github.com/JonathanPetersonn/oracle-lag-sniper" target="_blank">◈ BOT SOURCE</a>
+      </div>
+    </section>
+
   </main>
 
   <footer class="pg-footer">
