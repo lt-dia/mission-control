@@ -1,12 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T18:43:00.000Z",
-  "agentHealth": {
-    "contextPct": 51,
-    "model": "anthropic/claude-sonnet-4-6",
-    "status": "healthy",
-    "activeSubagents": 0,
-    "updatedAt": "2026-04-04T18:43:00.000Z"
-  },
+  "lastUpdated": "2026-04-04T19:06:35.521Z",
   "integrations": {
     "linear": "ok",
     "granola": "ok",
