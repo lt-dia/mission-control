@@ -412,6 +412,51 @@ function initDiscoveryFilters() {
   });
 }
 
+
+/* ── BRIEFING ────────────────────────────────────────────── */
+async function loadBriefing() {
+  const data = await fetchJSON("data/briefing.json");
+  const dateEl = document.getElementById("briefingDate");
+  const bodyEl = document.getElementById("briefingBody");
+  if (!data || !bodyEl) return;
+
+  if (dateEl) dateEl.textContent = data.dayLabel || data.date || "—";
+
+  const linear = data.linearSummary || {};
+  const granola = data.granolaSummary || {};
+  const reminders = (data.reminders || []).map(r => `<li class="briefing-reminder">◈ ${escapeHtml(r)}</li>`).join("");
+
+  bodyEl.innerHTML = `
+    <div class="briefing-grid">
+      <div class="briefing-card briefing-greeting">
+        <div class="briefing-card-label">GOOD MORNING</div>
+        <div class="briefing-card-value greeting-text">${escapeHtml(data.greeting || "—")}</div>
+        ${data.focus ? `<div class="briefing-focus">⬡ ${escapeHtml(data.focus)}</div>` : ""}
+      </div>
+      <div class="briefing-card">
+        <div class="briefing-card-label">◎ LINEAR SNAPSHOT</div>
+        <div class="briefing-stat-row">
+          <span class="briefing-stat"><span class="stat-num">${linear.inProgress || 0}</span><span class="stat-label">IN PROGRESS</span></span>
+          <span class="briefing-stat"><span class="stat-num">${linear.doneThisWeek || 0}</span><span class="stat-label">DONE THIS WEEK</span></span>
+          <span class="briefing-stat"><span class="stat-num stat-blocked">${linear.blocked || 0}</span><span class="stat-label">BLOCKED</span></span>
+        </div>
+        ${linear.topItem ? `<div class="briefing-top-item">TOP: ${escapeHtml(linear.topItem)}</div>` : ""}
+      </div>
+      <div class="briefing-card">
+        <div class="briefing-card-label">✙ MEETINGS TODAY</div>
+        <div class="briefing-card-value">${granola.meetingsToday || 0} scheduled</div>
+        ${granola.lastMeeting ? `<div class="briefing-top-item">LAST: ${escapeHtml(granola.lastMeeting)} (${granola.lastMeetingDate || ""})</div>` : ""}
+      </div>
+      <div class="briefing-card briefing-dia">
+        <div class="briefing-card-label">⬡ DÍA UPDATE</div>
+        <div class="briefing-dia-msg">${escapeHtml(data.diaUpdate || "All systems nominal.")}</div>
+      </div>
+    </div>
+    ${reminders ? `<div class="briefing-reminders"><div class="briefing-card-label">📌 REMINDERS</div><ul class="briefing-reminder-list">${reminders}</ul></div>` : ""}
+  `;
+}
+
+
 /* ── MAIN INIT ───────────────────────────────────────────── */
 async function init() {
   const [tasks, linear, granola, status] = await Promise.all([
@@ -430,6 +475,7 @@ async function init() {
   renderGranola(granola);
   initDragAndDrop();
   loadDiscoveries();
+  loadBriefing();
 
   // Refresh agent health every 2 minutes
   setInterval(async () => {
