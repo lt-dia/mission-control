@@ -187,8 +187,7 @@ function renderLinear(data) {
     return;
   }
 
-  _renderFns['linearList'] = () => renderLinear(data);
-  makePaginator('linearList', issues, issue => {
+  container.innerHTML = issues.map(issue => {
     const pClass = priorityClass(issue.priority);
     const pLabel = priorityLabel(issue.priority);
     const state  = (issue.state && issue.state.name) ? issue.state.name.toUpperCase() : '—';
@@ -205,7 +204,8 @@ function renderLinear(data) {
         </div>
       </div>
     `;
-  });
+  }).join('');
+}
 
 /* ── GRANOLA ─────────────────────────────────────────────── */
 function renderGranola(data) {
@@ -222,8 +222,7 @@ function renderGranola(data) {
     return;
   }
 
-  _renderFns['granolaList'] = () => renderGranola(data);
-  makePaginator('granolaList', notes, note => {
+  container.innerHTML = notes.slice(0, 5).map(note => {
     const title = note.title || note.name || 'Untitled Meeting';
     const raw   = note.created_at || note.date || note.updatedAt || '';
     const date  = raw ? new Date(raw).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : '—';
@@ -233,7 +232,7 @@ function renderGranola(data) {
         <div class="granola-note-date">${date}</div>
       </div>
     `;
-  }, 4);
+  }).join('');
 }
 
 /* ── UTILITY ─────────────────────────────────────────────── */
@@ -367,10 +366,7 @@ function renderDiscoveries(discoveries, filter) {
   const grid = document.getElementById('discoveries-grid');
   if (!grid) return;
   const filtered = filter === 'all' ? discoveries : discoveries.filter(d => d.status === filter);
-  window._lastDiscoveries = filtered;
-  window._lastDiscoveryFilter = filter;
-  _renderFns['discoveries-grid'] = () => renderDiscoveries(window._lastDiscoveries || [], window._lastDiscoveryFilter || 'all');
-  makePaginator('discoveries-grid', filtered, d => `
+  grid.innerHTML = filtered.map(d => `
     <div class="discovery-card ${d.status || 'pending'}" data-id="${d.id}">
       <span class="source-badge source-${d.source}">${d.source}</span>
       <div class="tags">${(d.tags||[]).map(t => `<span class="tag">#${t}</span>`).join('')}</div>
@@ -387,7 +383,7 @@ function renderDiscoveries(discoveries, filter) {
       ${d.status === 'skipped' ? `<div class="discovery-action-note">SKIPPED — <a href="#" onclick="restoreDiscovery('${d.id}');return false;" style="color:#555">undo</a></div>` : ''}
       ${d.url ? `<a href="${d.url}" target="_blank" style="font-size:10px;color:#444;text-decoration:none">VIEW SOURCE</a>` : ''}
     </div>
-  `, 6);
+  `).join('');
 }
 
 function acceptDiscovery(id)  { setDiscoveryStatus(id, 'accepted'); }
@@ -443,3 +439,63 @@ async function init() {
 }
 
 document.addEventListener('DOMContentLoaded', init);
+
+/* ── PAGINATION LAYER ─────────────────────────────────────── */
+// Non-destructive pagination: wraps existing rendered HTML into pages
+(function() {
+  const PAGE_SIZES = { linearList: 5, 'discoveries-grid': 6, granolaList: 4 };
+  const _state = {};
+
+  function paginate(id) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    const pageSize = PAGE_SIZES[id] || 5;
+    const items = Array.from(el.children).filter(c => !c.classList.contains('pagination') && !c.classList.contains('placeholder-msg'));
+    if (items.length <= pageSize) return; // no need to paginate
+
+    _state[id] = _state[id] || 0;
+    let page = _state[id];
+    const total = Math.ceil(items.length / pageSize);
+    page = Math.min(page, total - 1);
+    _state[id] = page;
+
+    // Hide/show items
+    items.forEach((item, i) => {
+      item.style.display = (i >= page * pageSize && i < (page + 1) * pageSize) ? '' : 'none';
+    });
+
+    // Remove old pagination nav
+    const oldNav = el.querySelector('.pagination');
+    if (oldNav) oldNav.remove();
+
+    if (total > 1) {
+      const nav = document.createElement('div');
+      nav.className = 'pagination';
+      nav.innerHTML = `
+        <button class="page-btn" id="pb_prev_${id}" ${page===0?'disabled':''}>◀</button>
+        <span class="page-info">${page+1} / ${total}</span>
+        <button class="page-btn" id="pb_next_${id}" ${page===total-1?'disabled':''}>▶</button>`;
+      el.appendChild(nav);
+      nav.querySelector(`#pb_prev_${id}`).addEventListener('click', () => { _state[id]--; paginate(id); });
+      nav.querySelector(`#pb_next_${id}`).addEventListener('click', () => { _state[id]++; paginate(id); });
+    }
+  }
+
+  // Run after each data load
+  function paginateAll() {
+    Object.keys(PAGE_SIZES).forEach(paginate);
+  }
+
+  // Hook into the existing fetch cycle — re-paginate after render
+  const _origFetch = window.fetch;
+  window.fetch = function(...args) {
+    return _origFetch.apply(this, args).then(r => {
+      setTimeout(paginateAll, 200);
+      return r;
+    });
+  };
+
+  // Also run on initial load
+  document.addEventListener('DOMContentLoaded', () => setTimeout(paginateAll, 1500));
+  window.addEventListener('load', () => setTimeout(paginateAll, 500));
+})();
