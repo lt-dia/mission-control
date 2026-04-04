@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T18:15:02.000Z",
+  "lastUpdated": "2026-04-04T18:30:01.000Z",
   "mode": "demo",
   "status": {
     "running": true,
@@ -8,23 +8,23 @@
     "circuit_breaker_reason": null
   },
   "performance": {
-    "daily_pnl": -31.4275,
-    "cumulative_pnl": -31.4275,
+    "daily_pnl": -36.5275,
+    "cumulative_pnl": -36.5275,
     "total_trades": 21,
     "wins": 8,
     "losses": 13,
     "win_rate_pct": 38.1,
     "total_notional": 105,
-    "avg_roi_pct": -29.9
+    "avg_roi_pct": -34.8
   },
   "markets": {
     "active": [
-      "xrp",
       "eth",
+      "xrp",
       "sol",
       "btc"
     ],
-    "active_count": 7,
+    "active_count": 8,
     "resolved_count": 4,
     "total_tracked": 12
   },
