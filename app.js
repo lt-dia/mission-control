@@ -475,7 +475,7 @@ async function loadActivityFeed() {
 
   const entries = (data && data.entries) ? data.entries : [];
   if (!entries.length) {
-    container.innerHTML = "<div class="placeholder-msg">No activity yet</div>";
+    container.innerHTML = '<div class="placeholder-msg">No activity yet</div>';
     return;
   }
 
