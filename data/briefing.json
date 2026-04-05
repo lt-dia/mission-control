@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-05T18:42:00.000Z",
+  "lastUpdated": "2026-04-05T19:12:00.000Z",
   "date": "2026-04-05",
-  "dayLabel": "SUNDAY — EVENING",
-  "greeting": "Good evening, Ilolo. Sunday wrapping up — ~2:42pm your time.",
-  "focus": "Rest up. Tomorrow 9am EST: LawTrades standup. Week starts fresh.",
+  "dayLabel": "SUNDAY EVENING — REST UP",
+  "greeting": "Good evening, Ilolo. Sunday wrapping up — it is 3pm your time.",
+  "focus": "Tomorrow 9am EST: LawTrades standup. Week ahead: Marketplace, Linear tickets.",
   "linearSummary": {"inProgress":1,"doneThisWeek":2,"blocked":0,"topItem":"Improvement: Rename weekly limit field to anticipated weekly hours in hire flow"},
   "granolaSummary": {"meetingsToday":0,"lastMeeting":"Product | Daily Standup","lastMeetingDate":"2026-04-03"},
-  "diaUpdate": "Weekend complete. Dashboard fully upgraded. All research banked. Ready for Monday.",
+  "diaUpdate": "Weekend complete. Activity feed, heatmap, briefing panel, playground, 16 Polymarket discoveries — all shipped and banked. Ready for Monday.",
   "reminders": [
     "Polymarket bot — greenlight $100 whenever ready",
     "GitHub org invite (lt-dia) still pending",
