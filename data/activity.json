@@ -1,89 +1,21 @@
 {
-  "lastUpdated": "2026-04-05T13:12:00.000Z",
+  "lastUpdated": "2026-04-05T14:12:00.000Z",
   "entries": [
-    {
-      "ts": "2026-04-05T13:12:00.000Z",
-      "type": "heartbeat",
-      "label": "Sunday check-in",
-      "detail": "Status + briefing updated. Polymarket sweep — quiet Sunday, no breaking alpha."
-    },
-    {
-      "ts": "2026-04-04T20:46:00.000Z",
-      "type": "memory",
-      "label": "Daily memory written",
-      "detail": "Committed 2026-04-04.md — all Saturday research and MC tasks banked."
-    },
-    {
-      "ts": "2026-04-04T20:16:00.000Z",
-      "type": "research",
-      "label": "Twitter alpha sweep",
-      "detail": "disc_016: Key Polymarket Twitter accounts catalogued. @PolyTrackHQ, 0xinsider.com, ArbPoly."
-    },
-    {
-      "ts": "2026-04-04T19:13:00.000Z",
-      "type": "research",
-      "label": "gabagool22 breakdown",
-      "detail": "disc_015: $788K in 3 months, 99.5% win rate via market making. 4-phase upgrade path documented."
-    },
-    {
-      "ts": "2026-04-04T18:13:00.000Z",
-      "type": "research",
-      "label": "YouTube sweep",
-      "detail": "disc_014: PolyGun copy-trading bot + Moon Dev Python tutorials (10K views)."
-    },
-    {
-      "ts": "2026-04-04T17:43:00.000Z",
-      "type": "task",
-      "label": "Task #16 complete",
-      "detail": "Coder subagent research done. ACP + Codex is the answer. sessions_spawn(runtime:acp)."
-    },
-    {
-      "ts": "2026-04-04T17:11:00.000Z",
-      "type": "task",
-      "label": "Tasks #20 + #21 complete",
-      "detail": "/playground fully wired. polymarket.json created. Personal projects migrated."
-    },
-    {
-      "ts": "2026-04-04T16:53:00.000Z",
-      "type": "task",
-      "label": "Task #7 complete",
-      "detail": "Morning briefing panel shipped. briefing.json wired. Fixed status.json schema bug (context bar was broken)."
-    },
-    {
-      "ts": "2026-04-04T16:23:00.000Z",
-      "type": "research",
-      "label": "Kelly criterion + position sizing",
-      "detail": "disc_013: $4-5/trade for $100 seed. 5% max cap. 10% daily halt. Python implementation."
-    },
-    {
-      "ts": "2026-04-04T15:53:00.000Z",
-      "type": "research",
-      "label": "VPS + Kalshi arb analysis",
-      "detail": "disc_012: Dublin <0.5ms CLOB latency. Kalshi arb = Phase 3 only. Resolution risk too high for $100 seed."
-    },
-    {
-      "ts": "2026-04-04T15:23:00.000Z",
-      "type": "research",
-      "label": "Full API setup + Builder Program",
-      "detail": "disc_011: py-clob-client auth, fee structure, Builder Program ($2.5M grants, gasless, 15x rate limits)."
-    },
-    {
-      "ts": "2026-04-04T14:11:00.000Z",
-      "type": "research",
-      "label": "oracle-lag-sniper open source bot",
-      "detail": "disc_010: 61.4% win rate, ~55s Chainlink lag, demo mode available. Best Phase 1 strategy."
-    },
-    {
-      "ts": "2026-04-04T13:41:00.000Z",
-      "type": "research",
-      "label": "Polymarket deep research session",
-      "detail": "disc_008-009: $152K arb bot case study. Columbia Law study ($143M informed traders)."
-    },
-    {
-      "ts": "2026-04-03T22:15:00.000Z",
-      "type": "task",
-      "label": "Task #17 complete",
-      "detail": "Theme engine shipped: 8 presets, Surprise Me, color customizer, localStorage."
-    }
+    {"ts":"2026-04-05T14:12:00.000Z","type":"heartbeat","label":"Sunday afternoon check-in","detail":"Status + briefing updated. All clear."},
+    {"ts":"2026-04-05T13:42:00.000Z","type":"task","label":"Task #12 complete — Productivity heatmap","detail":"GitHub-style 12-week heatmap. Color-coded by intensity. Apr 4 shows hot pink (47 actions)."},
+    {"ts":"2026-04-05T13:12:00.000Z","type":"task","label":"Task #9 complete — Día Activity Feed","detail":"Live audit log panel on Mission Control. Icons, labels, details, timestamps. Color-coded by type."},
+    {"ts":"2026-04-05T13:12:00.000Z","type":"heartbeat","label":"Sunday morning check-in","detail":"Fresh session. Status + briefing updated. No news alpha."},
+    {"ts":"2026-04-04T20:46:00.000Z","type":"memory","label":"Daily memory written","detail":"Committed 2026-04-04.md — all Saturday research and MC tasks banked."},
+    {"ts":"2026-04-04T20:16:00.000Z","type":"research","label":"Twitter alpha sweep","detail":"disc_016: Key Polymarket Twitter accounts catalogued. @PolyTrackHQ, 0xinsider.com, ArbPoly."},
+    {"ts":"2026-04-04T19:13:00.000Z","type":"research","label":"gabagool22 breakdown","detail":"disc_015: $788K in 3 months, 99.5% win rate via market making. 4-phase upgrade path documented."},
+    {"ts":"2026-04-04T18:13:00.000Z","type":"research","label":"YouTube sweep","detail":"disc_014: PolyGun copy-trading bot + Moon Dev Python tutorials (10K views)."},
+    {"ts":"2026-04-04T17:43:00.000Z","type":"task","label":"Task #16 complete — Coder subagent research","detail":"ACP + Codex is the answer. sessions_spawn(runtime:acp, agentId:codex, thread:true)."},
+    {"ts":"2026-04-04T17:11:00.000Z","type":"task","label":"Tasks #20 + #21 complete — /playground","detail":"polymarket.json created. Personal projects migrated to playground-tasks.json."},
+    {"ts":"2026-04-04T16:53:00.000Z","type":"task","label":"Task #7 complete — Morning briefing panel","detail":"briefing.json wired. Fixed status.json schema bug (context bar was broken)."},
+    {"ts":"2026-04-04T16:23:00.000Z","type":"research","label":"Kelly criterion + position sizing","detail":"disc_013: $4-5/trade for $100 seed. 5% max cap. 10% daily halt. Python implementation."},
+    {"ts":"2026-04-04T15:53:00.000Z","type":"research","label":"VPS + Kalshi arb analysis","detail":"disc_012: Dublin <0.5ms CLOB latency. Kalshi arb = Phase 3 only."},
+    {"ts":"2026-04-04T14:11:00.000Z","type":"research","label":"oracle-lag-sniper open source bot","detail":"disc_010: 61.4% win rate, ~55s Chainlink lag, demo mode. Best Phase 1 strategy."},
+    {"ts":"2026-04-04T13:41:00.000Z","type":"research","label":"Polymarket deep research session","detail":"disc_008-009: $152K arb bot case study. Columbia Law study ($143M informed traders)."},
+    {"ts":"2026-04-03T22:15:00.000Z","type":"task","label":"Task #17 complete — Theme engine","detail":"8 presets, Surprise Me, color customizer, localStorage persistence."}
   ]
 }
