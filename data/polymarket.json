@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T07:45:01.000Z",
+  "lastUpdated": "2026-04-05T08:00:02.000Z",
   "mode": "demo",
   "status": {
     "running": true,
@@ -10,26 +10,34 @@
   "performance": {
     "daily_pnl": -1.928,
     "cumulative_pnl": -27.8771,
-    "total_trades": 50,
+    "total_trades": 51,
     "wins": 26,
-    "losses": 24,
-    "win_rate_pct": 52.0,
-    "total_notional": 250,
-    "avg_roi_pct": -11.2
+    "losses": 25,
+    "win_rate_pct": 51.0,
+    "total_notional": 255,
+    "avg_roi_pct": -10.9
   },
   "markets": {
     "active": [
       "btc",
+      "eth",
       "sol",
-      "xrp",
-      "eth"
+      "xrp"
     ],
-    "active_count": 8,
+    "active_count": 7,
     "resolved_count": 4,
     "total_tracked": 12
   },
   "by_asset": {},
   "recent_trades": [
+    {
+      "asset": "SOL",
+      "side": "BUY_YES",
+      "entry_price": 0.62,
+      "pnl": null,
+      "outcome": "",
+      "mode": "demo"
+    },
     {
       "asset": "SOL",
       "side": "BUY_NO",
@@ -56,14 +64,6 @@
     },
     {
       "asset": "XRP",
-      "side": "BUY_NO",
-      "entry_price": 0.52,
-      "pnl": null,
-      "outcome": "",
-      "mode": "demo"
-    },
-    {
-      "asset": "SOL",
       "side": "BUY_NO",
       "entry_price": 0.52,
       "pnl": null,
