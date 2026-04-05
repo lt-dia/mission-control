@@ -45,13 +45,13 @@
       "ai"
     ],
     "status": "pending",
-    "actionNote": "This is D\u00eda's current model."
+    "actionNote": "This is Día's current model."
   },
   {
     "id": "disc_004",
     "date": "2026-04-03T18:30:00Z",
     "source": "NEWS",
-    "title": "Linear ships Cycles v2 \u2014 AI sprint planning with automatic priority scoring",
+    "title": "Linear ships Cycles v2 — AI sprint planning with automatic priority scoring",
     "description": "Linear released Cycles v2 with AI-powered sprint planning that auto-populates cycles based on dependencies, blockers, team velocity, and due dates.",
     "url": "https://linear.app/changelog",
     "tags": [
@@ -94,13 +94,13 @@
       "devtools"
     ],
     "status": "pending",
-    "actionNote": "Ilolo uses Cursor daily \u2014 v3.0 is a big deal."
+    "actionNote": "Ilolo uses Cursor daily — v3.0 is a big deal."
   },
   {
     "id": "disc_007",
     "date": "2026-04-03T21:45:00Z",
     "source": "NEWS",
-    "title": "Microsoft open-sources Agent Governance Toolkit \u2014 covers all 10 OWASP Agentic risks",
+    "title": "Microsoft open-sources Agent Governance Toolkit — covers all 10 OWASP Agentic risks",
     "description": "Microsoft released a 7-package open-source system for governing autonomous AI agents covering all 10 OWASP Agentic Top 10 risks.",
     "url": "https://github.com/microsoft/agent-governance-toolkit",
     "tags": [
@@ -179,14 +179,14 @@
       "side-project"
     ],
     "status": "pending",
-    "actionNote": "Full bot build checklist in polymarket-research.md. Phase 0: demo mode \u2192 Phase 1: $100 USDC \u2192 Phase 2: $5/trade live."
+    "actionNote": "Full bot build checklist in polymarket-research.md. Phase 0: demo mode → Phase 1: $100 USDC → Phase 2: $5/trade live."
   },
   {
     "id": "disc_012",
     "date": "2026-04-04T15:53:00Z",
     "source": "RESEARCH",
     "title": "Polymarket VPS: Dublin <0.5ms CLOB latency + Kalshi cross-platform arb full analysis",
-    "description": "Polymarket CLOB in Dublin EU \u2014 TradoxVPS <0.5ms ($44.9/mo). For oracle-lag ($100 seed) existing EC2 is fine. Kalshi cross-platform arb: 2-5% gross, $800-1200/mo on $10K-20K, but resolution risk is the killer. Need $10K+ on BOTH platforms. Phase 3 only.",
+    "description": "Polymarket CLOB in Dublin EU — TradoxVPS <0.5ms ($44.9/mo). For oracle-lag ($100 seed) existing EC2 is fine. Kalshi cross-platform arb: 2-5% gross, $800-1200/mo on $10K-20K, but resolution risk is the killer. Need $10K+ on BOTH platforms. Phase 3 only.",
     "url": "https://pm.wiki/learn/polymarket-kalshi-arbitrage",
     "tags": [
       "polymarket",
@@ -203,7 +203,7 @@
     "id": "disc_013",
     "date": "2026-04-04T16:23:00Z",
     "source": "RESEARCH",
-    "title": "Production Kelly Criterion implementation for Polymarket bots \u2014 complete code + sizing for $100 seed",
+    "title": "Production Kelly Criterion implementation for Polymarket bots — complete code + sizing for $100 seed",
     "description": "Full production risk system: f* = (p-q)/(1-q), fractional Kelly with Brier-tiered alpha (0.10-0.40). For oracle-lag bot at $100: Kelly says $3.56-$5/trade at 61.4% win rate and 0.50-0.55 entry. Cap at 5% bankroll ($5 max), halt at 10% daily drawdown ($90). Python implementation included. Live Polymarket universe: 53K+ markets, $129M 24h volume, $862M liquidity. BTC/ETH/SOL/XRP 15-min Up/Down = best targets for oracle-lag.",
     "url": "https://mintlify.com/joicodev/polymarket-bot/risk/kelly-criterion",
     "tags": [
@@ -221,7 +221,7 @@
     "date": "2026-04-04T18:13:00Z",
     "source": "RESEARCH",
     "title": "PolyGun copy-trading bot + Moon Dev Polymarket Python tutorials (YouTube sweep)",
-    "description": "PolyGun (Telegram bot, 19K members) auto-copies smart wallet positions on Polymarket with gasless execution. Flow: find wallets on leaderboard/polyax \u2192 set fixed copy amount \u2192 bot mirrors trades. Moon Dev has two 10h+ Python tutorials (10K+ views) covering full Polymarket API bot build from scratch. Phase 2 play for Ilolo after oracle-lag is profitable.",
+    "description": "PolyGun (Telegram bot, 19K members) auto-copies smart wallet positions on Polymarket with gasless execution. Flow: find wallets on leaderboard/polyax → set fixed copy amount → bot mirrors trades. Moon Dev has two 10h+ Python tutorials (10K+ views) covering full Polymarket API bot build from scratch. Phase 2 play for Ilolo after oracle-lag is profitable.",
     "url": "https://www.youtube.com/watch?v=anbatXl6UsQ",
     "tags": [
       "polymarket",
@@ -237,8 +237,8 @@
     "id": "disc_015",
     "date": "2026-04-04T19:13:00Z",
     "source": "RESEARCH",
-    "title": "gabagool22: $788K in 3 months, 99.5% win rate \u2014 pure market making on BTC/ETH Up/Down markets",
-    "description": "Verified on-chain: gabagool22 made $788K in ~100 days (24,525 markets, 8.9M trades) at 99.52% win rate using algorithmic market making + momentum + spread capture. Runs a Rust bot (Arbigab) with Binance aggTrade WebSocket as primary signal. 365 trades per market window avg. Not predicting direction \u2014 capturing bid/ask spread with preemptive cancel on adverse moves. 4-phase upgrade path from oracle-lag to gabagool22-style now documented in polymarket-research.md.",
+    "title": "gabagool22: $788K in 3 months, 99.5% win rate — pure market making on BTC/ETH Up/Down markets",
+    "description": "Verified on-chain: gabagool22 made $788K in ~100 days (24,525 markets, 8.9M trades) at 99.52% win rate using algorithmic market making + momentum + spread capture. Runs a Rust bot (Arbigab) with Binance aggTrade WebSocket as primary signal. 365 trades per market window avg. Not predicting direction — capturing bid/ask spread with preemptive cancel on adverse moves. 4-phase upgrade path from oracle-lag to gabagool22-style now documented in polymarket-research.md.",
     "url": "https://0xinsider.com/research/gabagool22-polymarket-trader-analysis",
     "tags": [
       "polymarket",
@@ -255,7 +255,7 @@
     "date": "2026-04-04T20:16:00Z",
     "source": "RESEARCH",
     "title": "Polymarket Twitter alpha guide: key accounts, whale trackers, news speed breakdown",
-    "description": "Key accounts: @PolyTrackHQ (whale alerts with win rate), @PolymarketWhales (auto large-trade alerts), @AP/@Reuters/@BNONews (fastest news). News moves Polymarket 10-20% in 60s \u2014 window is 5-10s to act. For bot: oracle-lag is structural (no news needed). Phase 3+ add Twitter news feed. Tools: PolyTrack (faster than Twitter for whale alerts), 0xinsider.com (wallet P&L verification), ArbPoly (auto Polymarket+Kalshi arb execution).",
+    "description": "Key accounts: @PolyTrackHQ (whale alerts with win rate), @PolymarketWhales (auto large-trade alerts), @AP/@Reuters/@BNONews (fastest news). News moves Polymarket 10-20% in 60s — window is 5-10s to act. For bot: oracle-lag is structural (no news needed). Phase 3+ add Twitter news feed. Tools: PolyTrack (faster than Twitter for whale alerts), 0xinsider.com (wallet P&L verification), ArbPoly (auto Polymarket+Kalshi arb execution).",
     "url": "https://www.polytrackhq.app/blog/polymarket-twitter",
     "tags": [
       "polymarket",
@@ -266,5 +266,21 @@
     ],
     "status": "pending",
     "actionNote": "Follow @PolyTrackHQ + @PolymarketWhales now for passive intel. News-reaction trading = Phase 3+ (too competitive for 00 seed). Use 0xinsider.com to verify any wallet before copy trading."
+  },
+  {
+    "id": 1775421127083,
+    "date": "2026-04-05",
+    "title": "Cursor 3 launches with Agents Window — parallel AI coding agents",
+    "summary": "Cursor shipped Cursor 3 (April 2, 2026) with a new Agents Window that runs local + cloud coding agents side by side. Engineers can now manage fleets of AI agents, move sessions between local/cloud, and work across multiple repos in one interface. Composer 2 model integrated at /bin/bash.50/1M input tokens. Cursor revenue surpassed B ARR in March 2026.",
+    "url": "https://aiturnpoint.com/cursor-3",
+    "category": "ai-tools"
+  },
+  {
+    "id": 1775421127084,
+    "date": "2026-04-05",
+    "title": "Polymarket-Kalshi arbitrage: 00-1200/month on 0K-20K capital",
+    "summary": "Updated 2026 guide: buy Yes on one platform + No on the other when prices sum to <.00. Typical 2-5% gross edge per position. Resolution risk is the #1 danger — platforms can resolve the same event differently. ArbPoly automates scanning and execution. Kalshi 2B + Polymarket 0B all-time volume.",
+    "url": "https://pm.wiki/learn/polymarket-kalshi-arbitrage",
+    "category": "polymarket"
   }
 ]
