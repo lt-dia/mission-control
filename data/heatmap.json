@@ -1,0 +1,452 @@
+{
+  "lastUpdated": "2026-04-05T13:42:00.000Z",
+  "days": [
+    {
+      "date": "2026-01-12",
+      "count": 9,
+      "label": "9 actions"
+    },
+    {
+      "date": "2026-01-13",
+      "count": 4,
+      "label": "4 actions"
+    },
+    {
+      "date": "2026-01-14",
+      "count": 10,
+      "label": "10 actions"
+    },
+    {
+      "date": "2026-01-15",
+      "count": 6,
+      "label": "6 actions"
+    },
+    {
+      "date": "2026-01-16",
+      "count": 4,
+      "label": "4 actions"
+    },
+    {
+      "date": "2026-01-17",
+      "count": 0,
+      "label": "0 actions"
+    },
+    {
+      "date": "2026-01-18",
+      "count": 0,
+      "label": "0 actions"
+    },
+    {
+      "date": "2026-01-19",
+      "count": 7,
+      "label": "7 actions"
+    },
+    {
+      "date": "2026-01-20",
+      "count": 9,
+      "label": "9 actions"
+    },
+    {
+      "date": "2026-01-21",
+      "count": 11,
+      "label": "11 actions"
+    },
+    {
+      "date": "2026-01-22",
+      "count": 6,
+      "label": "6 actions"
+    },
+    {
+      "date": "2026-01-23",
+      "count": 3,
+      "label": "3 actions"
+    },
+    {
+      "date": "2026-01-24",
+      "count": 0,
+      "label": "0 actions"
+    },
+    {
+      "date": "2026-01-25",
+      "count": 2,
+      "label": "2 actions"
+    },
+    {
+      "date": "2026-01-26",
+      "count": 12,
+      "label": "12 actions"
+    },
+    {
+      "date": "2026-01-27",
+      "count": 9,
+      "label": "9 actions"
+    },
+    {
+      "date": "2026-01-28",
+      "count": 3,
+      "label": "3 actions"
+    },
+    {
+      "date": "2026-01-29",
+      "count": 3,
+      "label": "3 actions"
+    },
+    {
+      "date": "2026-01-30",
+      "count": 8,
+      "label": "8 actions"
+    },
+    {
+      "date": "2026-01-31",
+      "count": 1,
+      "label": "1 actions"
+    },
+    {
+      "date": "2026-02-01",
+      "count": 1,
+      "label": "1 actions"
+    },
+    {
+      "date": "2026-02-02",
+      "count": 11,
+      "label": "11 actions"
+    },
+    {
+      "date": "2026-02-03",
+      "count": 9,
+      "label": "9 actions"
+    },
+    {
+      "date": "2026-02-04",
+      "count": 6,
+      "label": "6 actions"
+    },
+    {
+      "date": "2026-02-05",
+      "count": 5,
+      "label": "5 actions"
+    },
+    {
+      "date": "2026-02-06",
+      "count": 11,
+      "label": "11 actions"
+    },
+    {
+      "date": "2026-02-07",
+      "count": 4,
+      "label": "4 actions"
+    },
+    {
+      "date": "2026-02-08",
+      "count": 0,
+      "label": "0 actions"
+    },
+    {
+      "date": "2026-02-09",
+      "count": 3,
+      "label": "3 actions"
+    },
+    {
+      "date": "2026-02-10",
+      "count": 4,
+      "label": "4 actions"
+    },
+    {
+      "date": "2026-02-11",
+      "count": 11,
+      "label": "11 actions"
+    },
+    {
+      "date": "2026-02-12",
+      "count": 6,
+      "label": "6 actions"
+    },
+    {
+      "date": "2026-02-13",
+      "count": 5,
+      "label": "5 actions"
+    },
+    {
+      "date": "2026-02-14",
+      "count": 2,
+      "label": "2 actions"
+    },
+    {
+      "date": "2026-02-15",
+      "count": 4,
+      "label": "4 actions"
+    },
+    {
+      "date": "2026-02-16",
+      "count": 10,
+      "label": "10 actions"
+    },
+    {
+      "date": "2026-02-17",
+      "count": 7,
+      "label": "7 actions"
+    },
+    {
+      "date": "2026-02-18",
+      "count": 3,
+      "label": "3 actions"
+    },
+    {
+      "date": "2026-02-19",
+      "count": 6,
+      "label": "6 actions"
+    },
+    {
+      "date": "2026-02-20",
+      "count": 8,
+      "label": "8 actions"
+    },
+    {
+      "date": "2026-02-21",
+      "count": 4,
+      "label": "4 actions"
+    },
+    {
+      "date": "2026-02-22",
+      "count": 1,
+      "label": "1 actions"
+    },
+    {
+      "date": "2026-02-23",
+      "count": 8,
+      "label": "8 actions"
+    },
+    {
+      "date": "2026-02-24",
+      "count": 9,
+      "label": "9 actions"
+    },
+    {
+      "date": "2026-02-25",
+      "count": 5,
+      "label": "5 actions"
+    },
+    {
+      "date": "2026-02-26",
+      "count": 12,
+      "label": "12 actions"
+    },
+    {
+      "date": "2026-02-27",
+      "count": 12,
+      "label": "12 actions"
+    },
+    {
+      "date": "2026-02-28",
+      "count": 3,
+      "label": "3 actions"
+    },
+    {
+      "date": "2026-03-01",
+      "count": 3,
+      "label": "3 actions"
+    },
+    {
+      "date": "2026-03-02",
+      "count": 10,
+      "label": "10 actions"
+    },
+    {
+      "date": "2026-03-03",
+      "count": 11,
+      "label": "11 actions"
+    },
+    {
+      "date": "2026-03-04",
+      "count": 3,
+      "label": "3 actions"
+    },
+    {
+      "date": "2026-03-05",
+      "count": 2,
+      "label": "2 actions"
+    },
+    {
+      "date": "2026-03-06",
+      "count": 10,
+      "label": "10 actions"
+    },
+    {
+      "date": "2026-03-07",
+      "count": 4,
+      "label": "4 actions"
+    },
+    {
+      "date": "2026-03-08",
+      "count": 3,
+      "label": "3 actions"
+    },
+    {
+      "date": "2026-03-09",
+      "count": 12,
+      "label": "12 actions"
+    },
+    {
+      "date": "2026-03-10",
+      "count": 5,
+      "label": "5 actions"
+    },
+    {
+      "date": "2026-03-11",
+      "count": 8,
+      "label": "8 actions"
+    },
+    {
+      "date": "2026-03-12",
+      "count": 8,
+      "label": "8 actions"
+    },
+    {
+      "date": "2026-03-13",
+      "count": 6,
+      "label": "6 actions"
+    },
+    {
+      "date": "2026-03-14",
+      "count": 1,
+      "label": "1 actions"
+    },
+    {
+      "date": "2026-03-15",
+      "count": 4,
+      "label": "4 actions"
+    },
+    {
+      "date": "2026-03-16",
+      "count": 12,
+      "label": "12 actions"
+    },
+    {
+      "date": "2026-03-17",
+      "count": 12,
+      "label": "12 actions"
+    },
+    {
+      "date": "2026-03-18",
+      "count": 4,
+      "label": "4 actions"
+    },
+    {
+      "date": "2026-03-19",
+      "count": 10,
+      "label": "10 actions"
+    },
+    {
+      "date": "2026-03-20",
+      "count": 7,
+      "label": "7 actions"
+    },
+    {
+      "date": "2026-03-21",
+      "count": 0,
+      "label": "0 actions"
+    },
+    {
+      "date": "2026-03-22",
+      "count": 4,
+      "label": "4 actions"
+    },
+    {
+      "date": "2026-03-23",
+      "count": 6,
+      "label": "6 actions"
+    },
+    {
+      "date": "2026-03-24",
+      "count": 9,
+      "label": "9 actions"
+    },
+    {
+      "date": "2026-03-25",
+      "count": 9,
+      "label": "9 actions"
+    },
+    {
+      "date": "2026-03-26",
+      "count": 11,
+      "label": "11 actions"
+    },
+    {
+      "date": "2026-03-27",
+      "count": 9,
+      "label": "9 actions"
+    },
+    {
+      "date": "2026-03-28",
+      "count": 4,
+      "label": "4 actions"
+    },
+    {
+      "date": "2026-03-29",
+      "count": 0,
+      "label": "0 actions"
+    },
+    {
+      "date": "2026-03-30",
+      "count": 11,
+      "label": "11 actions"
+    },
+    {
+      "date": "2026-03-31",
+      "count": 11,
+      "label": "11 actions"
+    },
+    {
+      "date": "2026-04-01",
+      "count": 5,
+      "label": "5 actions"
+    },
+    {
+      "date": "2026-04-02",
+      "count": 5,
+      "label": "5 actions"
+    },
+    {
+      "date": "2026-04-03",
+      "count": 8,
+      "label": "8 actions \u2014 LawTrades standup, Granola sync, Linear sync"
+    },
+    {
+      "date": "2026-04-04",
+      "count": 47,
+      "label": "47 actions \u2014 Polymarket research marathon, 5 MC tasks shipped"
+    },
+    {
+      "date": "2026-04-05",
+      "count": 4,
+      "label": "4 actions \u2014 Activity feed, heatmap, status updates"
+    }
+  ],
+  "legend": [
+    {
+      "min": 0,
+      "max": 0,
+      "label": "None"
+    },
+    {
+      "min": 1,
+      "max": 5,
+      "label": "Low"
+    },
+    {
+      "min": 6,
+      "max": 15,
+      "label": "Medium"
+    },
+    {
+      "min": 16,
+      "max": 30,
+      "label": "High"
+    },
+    {
+      "min": 31,
+      "max": 999,
+      "label": "Intense"
+    }
+  ]
+}
