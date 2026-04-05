@@ -1257,3 +1257,101 @@ canvas.poly-chart { width: 100%; height: 100%; display: block; }
   text-align: right;
 }
 
+/* ── PRODUCTIVITY HEATMAP ─────────────────────────────────── */
+.heatmap-section {
+  border: 1px solid rgba(5, 217, 232, 0.15);
+}
+
+.heatmap-subtitle {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--text-dim);
+  margin-left: auto;
+  opacity: 0.6;
+}
+
+.heatmap-wrap {
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.heatmap-grid {
+  display: flex;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+.heatmap-day-labels {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-top: 2px;
+  min-width: 14px;
+}
+
+.heatmap-day-label {
+  font-size: 8px;
+  color: var(--text-dim);
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.heatmap-cols {
+  display: flex;
+  gap: 3px;
+}
+
+.heatmap-col {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.heatmap-cell {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  border: 1px solid rgba(255,255,255,0.04);
+  cursor: default;
+  transition: transform 0.1s, border-color 0.1s;
+}
+
+.heatmap-cell:hover {
+  transform: scale(1.3);
+  border-color: rgba(5, 217, 232, 0.4);
+  z-index: 10;
+  position: relative;
+}
+
+.heatmap-date-range {
+  font-size: 9px;
+  color: var(--text-dim);
+  letter-spacing: 1px;
+  margin-top: 8px;
+  opacity: 0.4;
+}
+
+.heatmap-legend {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.heatmap-legend-label {
+  font-size: 8px;
+  color: var(--text-dim);
+  letter-spacing: 1px;
+  opacity: 0.5;
+}
+
+.heatmap-legend-cell {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  border: 1px solid rgba(255,255,255,0.06);
+  display: inline-block;
+}
+
