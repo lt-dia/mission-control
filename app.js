@@ -457,6 +457,47 @@ async function loadBriefing() {
 }
 
 
+
+/* ── ACTIVITY FEED ───────────────────────────────────────── */
+const ACTIVITY_ICONS = {
+  task:      "✅",
+  research:  "🔬",
+  heartbeat: "💓",
+  memory:    "📝",
+  fix:       "🔧",
+  default:   "⬡"
+};
+
+async function loadActivityFeed() {
+  const data = await fetchJSON("data/activity.json");
+  const container = document.getElementById("activityFeed");
+  if (!container) return;
+
+  const entries = (data && data.entries) ? data.entries : [];
+  if (!entries.length) {
+    container.innerHTML = "<div class="placeholder-msg">No activity yet</div>";
+    return;
+  }
+
+  container.innerHTML = entries.slice(0, 12).map(e => {
+    const icon = ACTIVITY_ICONS[e.type] || ACTIVITY_ICONS.default;
+    const ts = e.ts ? new Date(e.ts) : null;
+    const timeStr = ts ? ts.toLocaleDateString("en-US", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit", timeZone: "UTC" }) + " UTC" : "—";
+    const typeClass = "activity-type-" + (e.type || "default");
+    return `
+      <div class="activity-entry ${typeClass}">
+        <span class="activity-icon">${icon}</span>
+        <div class="activity-body">
+          <div class="activity-label">${escapeHtml(e.label || "")}</div>
+          <div class="activity-detail">${escapeHtml(e.detail || "")}</div>
+        </div>
+        <span class="activity-ts">${timeStr}</span>
+      </div>
+    `;
+  }).join("");
+}
+
+
 /* ── MAIN INIT ───────────────────────────────────────────── */
 async function init() {
   const [tasks, linear, granola, status] = await Promise.all([
@@ -476,6 +517,7 @@ async function init() {
   initDragAndDrop();
   loadDiscoveries();
   loadBriefing();
+  loadActivityFeed();
 
   // Refresh agent health every 2 minutes
   setInterval(async () => {
