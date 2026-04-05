@@ -498,6 +498,62 @@ async function loadActivityFeed() {
 }
 
 
+
+/* ── HEATMAP ─────────────────────────────────────────────── */
+function heatmapColor(count) {
+  if (count === 0) return "rgba(255,255,255,0.04)";
+  if (count <= 5)  return "rgba(5, 217, 232, 0.25)";
+  if (count <= 15) return "rgba(5, 217, 232, 0.55)";
+  if (count <= 30) return "rgba(123, 47, 255, 0.7)";
+  return "rgba(255, 42, 109, 0.9)";
+}
+
+async function loadHeatmap() {
+  const data = await fetchJSON("data/heatmap.json");
+  const wrap = document.getElementById("heatmapWrap");
+  const legend = document.getElementById("heatmapLegend");
+  if (!data || !wrap) return;
+
+  const days = data.days || [];
+  const cols = 12;
+  const weeks = [];
+  for (let w = 0; w < cols; w++) {
+    weeks.push(days.slice(w * 7, w * 7 + 7));
+  }
+
+  const dayLabels = ["S","M","T","W","T","F","S"];
+
+  let html = '<div class="heatmap-grid">';
+  html += '<div class="heatmap-day-labels">';
+  dayLabels.forEach(l => { html += '<span class="heatmap-day-label">' + l + '</span>'; });
+  html += '</div><div class="heatmap-cols">';
+  weeks.forEach(week => {
+    html += '<div class="heatmap-col">';
+    week.forEach(d => {
+      html += '<div class="heatmap-cell" style="background:' + heatmapColor(d.count) + '" title="' + d.date + ': ' + d.label + '"></div>';
+    });
+    html += '</div>';
+  });
+  html += '</div></div>';
+  html += '<div class="heatmap-date-range">' + (days[0] ? days[0].date : '') + ' → ' + (days[days.length-1] ? days[days.length-1].date : '') + '</div>';
+  wrap.innerHTML = html;
+
+  if (legend) {
+    const levels = [
+      {color:"rgba(255,255,255,0.04)",label:"None"},
+      {color:"rgba(5,217,232,0.25)",label:"1-5"},
+      {color:"rgba(5,217,232,0.55)",label:"6-15"},
+      {color:"rgba(123,47,255,0.7)",label:"16-30"},
+      {color:"rgba(255,42,109,0.9)",label:"31+"}
+    ];
+    let leg = '<span class="heatmap-legend-label">LESS</span>';
+    levels.forEach(l => { leg += '<span class="heatmap-legend-cell" style="background:' + l.color + '" title="' + l.label + '"></span>'; });
+    leg += '<span class="heatmap-legend-label">MORE</span>';
+    legend.innerHTML = leg;
+  }
+}
+
+
 /* ── MAIN INIT ───────────────────────────────────────────── */
 async function init() {
   const [tasks, linear, granola, status] = await Promise.all([
@@ -518,6 +574,7 @@ async function init() {
   loadDiscoveries();
   loadBriefing();
   loadActivityFeed();
+  loadHeatmap();
 
   // Refresh agent health every 2 minutes
   setInterval(async () => {
