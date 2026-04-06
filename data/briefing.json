@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-06T15:25:00.000Z",
+  "lastUpdated": "2026-04-06T15:55:00.000Z",
   "date": "2026-04-06",
   "dayLabel": "MONDAY — WORK DAY",
-  "greeting": "Good morning, Ilolo. Monday afternoon — hope the standup went well.",
-  "focus": "LawTrades: Marketplace features. Día monitoring Linear + Granola activity.",
+  "greeting": "Good afternoon, Ilolo. Monday afternoon — deep work hours.",
+  "focus": "LawTrades: Marketplace features. 2.5h until end of day (6:30pm EST).",
   "linearSummary": {"inProgress": 3,"doneThisWeek": 0,"blocked": 0,"topItem": "Improvement: Rename weekly limit field to anticipated weekly hours in hire flow"},
-  "granolaSummary": {"meetingsToday": 1,"lastMeeting": "Product | Daily Standup","lastMeetingDate": "2026-04-03"},
-  "diaUpdate": "Monitoring. All systems nominal. Reach out if you need anything.",
+  "granolaSummary": {"meetingsToday": 1,"lastMeeting": "Product | Daily Standup","lastMeetingDate": "2026-04-06"},
+  "diaUpdate": "Monitoring Linear + Granola. Standing by. Polymarket bot ready to build on your signal.",
   "reminders": [
     "Polymarket bot research DONE — greenlight $100 whenever ready",
     "GitHub org invite (lt-dia) still pending",
