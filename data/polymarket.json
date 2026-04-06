@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T19:45:02.000Z",
+  "lastUpdated": "2026-04-06T20:00:03.000Z",
   "mode": "demo",
   "status": {
     "running": true,
@@ -20,9 +20,9 @@
   "markets": {
     "active": [
       "btc",
-      "eth",
       "sol",
-      "xrp"
+      "xrp",
+      "eth"
     ],
     "active_count": 8,
     "resolved_count": 4,
