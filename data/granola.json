@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_TGzrYcyyfltfDY",
+      "object": "note",
+      "title": "AI Sync",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-04-07T19:04:49.896Z",
+      "updated_at": "2026-04-07T19:48:44.542Z"
+    },
+    {
       "id": "not_eOnmfNLWwjbybQ",
       "object": "note",
       "title": "Raad <> Ilolo",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-03-31T15:01:16.618Z",
       "updated_at": "2026-04-03T15:00:18.604Z"
-    },
-    {
-      "id": "not_6oxuQ0WrijS37z",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-03-30T14:59:52.245Z",
-      "updated_at": "2026-03-31T13:50:08.473Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wMy0zMFQxNDo1OTo1Mi4yNDVaIiwibGFzdF9kb2NfaWQiOiI4MTFjMzZhYy01YjI5LTQ4ZTQtOTlkNS00NWRiMThmMzJjNTYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wMy0zMVQxNTowMToxNi42MThaIiwibGFzdF9kb2NfaWQiOiI2ZDk4MTRlOC0xZTU0LTQwZmItYTcxYS04ZWEzZTM5NmY1NzEifQ"
 }
