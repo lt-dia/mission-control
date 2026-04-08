@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_VmuDzA0nXFYF5P",
+      "object": "note",
+      "title": "570 Lecture 1",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-04-07T23:29:45.344Z",
+      "updated_at": "2026-04-08T01:00:11.745Z"
+    },
+    {
       "id": "not_TGzrYcyyfltfDY",
       "object": "note",
       "title": "AI Sync",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-04-02T15:01:05.354Z",
       "updated_at": "2026-04-02T19:51:53.347Z"
-    },
-    {
-      "id": "not_nJTjgry88Fgxod",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-03-31T15:01:16.618Z",
-      "updated_at": "2026-04-03T15:00:18.604Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wMy0zMVQxNTowMToxNi42MThaIiwibGFzdF9kb2NfaWQiOiI2ZDk4MTRlOC0xZTU0LTQwZmItYTcxYS04ZWEzZTM5NmY1NzEifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0wMlQxNTowMTowNS4zNTRaIiwibGFzdF9kb2NfaWQiOiJhMmE5MGM5NS0xZGFlLTQ1NTUtODIyZC03NmEwOGI2MzZlODgifQ"
 }
