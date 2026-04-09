@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "c69797f3-c177-4c60-ae7f-a81d47d68cb3",
+          "title": "interview scheduling tool is not generating an invite/ updating the interview time",
+          "state": {
+            "name": "Planning"
+          },
+          "priority": 0,
+          "updatedAt": "2026-04-09T14:48:40.601Z"
+        },
+        {
+          "id": "605b4e20-0572-4142-b833-7ecaa5b5ef2c",
+          "title": "Bug: Engagement title defaulting to \"data deletion policy\" instead of position title",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-09T14:31:12.155Z"
+        },
+        {
           "id": "93b8a803-e854-43e4-8b3e-5327f5d022db",
           "title": "[SPIKE] Upfront Hours Tracker - Research & Estimation",
           "state": {
@@ -118,15 +136,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-04-03T15:25:21.046Z"
-        },
-        {
-          "id": "605b4e20-0572-4142-b833-7ecaa5b5ef2c",
-          "title": "Bug: Engagement title defaulting to \"data deletion policy\" instead of position title",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-03T15:25:06.071Z"
         },
         {
           "id": "b2c079e9-fc96-40d9-8b62-1e47501c22b5",
@@ -442,15 +451,6 @@
           },
           "priority": 4,
           "updatedAt": "2026-03-18T15:07:45.335Z"
-        },
-        {
-          "id": "49d2a034-fc8e-4ee6-8fb6-cece9797365f",
-          "title": "Fix: Position Sort Comparator Not Wired to sortValue State",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-18T15:07:43.314Z"
         }
       ]
     }
