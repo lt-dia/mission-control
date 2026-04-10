@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_ia9hTWM5S0ihCQ",
+      "object": "note",
+      "title": "DND session 4/9",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-04-10T01:08:41.687Z",
+      "updated_at": "2026-04-10T03:51:11.196Z"
+    },
+    {
       "id": "not_dVfIGaTbLgr9ij",
       "object": "note",
       "title": "Strategy Lecture 1",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-04-07T23:29:45.344Z",
       "updated_at": "2026-04-10T00:02:41.767Z"
-    },
-    {
-      "id": "not_TGzrYcyyfltfDY",
-      "object": "note",
-      "title": "AI Sync",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-04-07T19:04:49.896Z",
-      "updated_at": "2026-04-08T14:59:20.400Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0wN1QxOTowNDo0OS44OTZaIiwibGFzdF9kb2NfaWQiOiJiOWRmYWMxYi1kOTJkLTRlMDYtOWVkOS03ZTIxOGNmZDViNDEifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0wN1QyMzoyOTo0NS4zNDRaIiwibGFzdF9kb2NfaWQiOiI2N2EyMjI0ZC1iNDY1LTQyNzAtYjUyMi1lZDRlNTc3ZjY2NzgifQ"
 }
