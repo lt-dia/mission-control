@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_UmauI3uIs4q5RO",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-04-13T14:59:57.975Z",
+      "updated_at": "2026-04-13T15:07:00.996Z"
+    },
+    {
       "id": "not_Ao6HF9G50ZchBS",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -9,7 +20,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-04-10T15:00:01.606Z",
-      "updated_at": "2026-04-10T15:14:30.511Z"
+      "updated_at": "2026-04-13T14:59:57.970Z"
     },
     {
       "id": "not_ia9hTWM5S0ihCQ",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-04-09T14:59:29.076Z",
       "updated_at": "2026-04-09T15:29:09.154Z"
-    },
-    {
-      "id": "not_6Z2u1gzh56VOfp",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-04-08T14:59:20.404Z",
-      "updated_at": "2026-04-10T13:02:37.085Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0wOFQxNDo1OToyMC40MDRaIiwibGFzdF9kb2NfaWQiOiIyZDQ0YjJlYS1lYTkwLTQ4OTEtYTk3NC1lNDE5OWNkOTIwZGMifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0wOVQxNDo1OToyOS4wNzZaIiwibGFzdF9kb2NfaWQiOiI1NWUwNWYxYi1mOTZlLTRkNTMtOWY2MS0wNWQ0MTEyM2JmMGEifQ"
 }
