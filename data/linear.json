@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "eeba20df-6432-4c12-b898-94702bcf429f",
+          "title": "feat(candidates): allow un-decline / reactivate declined candidates on open positions",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-14T18:08:50.140Z"
+        },
+        {
           "id": "c69797f3-c177-4c60-ae7f-a81d47d68cb3",
           "title": "interview scheduling tool is not generating an invite/ updating the interview time",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-03-18T15:07:49.190Z"
-        },
-        {
-          "id": "6d35da5c-a1ff-40d2-9d07-4c9a959701cf",
-          "title": "Fix: Duplicate \"Lawtrades AI\" Menu Item in Talent Sidebar",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 4,
-          "updatedAt": "2026-03-18T15:07:45.335Z"
         }
       ]
     }
