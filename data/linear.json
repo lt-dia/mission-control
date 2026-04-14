@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "81239a68-4e51-420c-b083-7422455a87d3",
+          "title": "Terms of use: copy error",
+          "state": {
+            "name": "Triage"
+          },
+          "priority": 0,
+          "updatedAt": "2026-04-14T22:07:59.755Z"
+        },
+        {
           "id": "eeba20df-6432-4c12-b898-94702bcf429f",
           "title": "feat(candidates): allow un-decline / reactivate declined candidates on open positions",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-03-18T15:07:56.464Z"
-        },
-        {
-          "id": "1b794d15-fc11-431c-b517-7b853b8ac71a",
-          "title": "Fix: Offers Nav Item Visible to Talent Users With No Offers (Empty State Flash)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-18T15:07:49.190Z"
         }
       ]
     }
