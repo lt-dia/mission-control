@@ -1,0 +1,15 @@
+[
+  {"id": 1, "title": "Invite lt-dia to GitHub org", "status": "blocked", "notes": "Waiting for Ilolo to invite lt-dia to LawTrades GitHub org"},
+  {"id": 2, "title": "Set up requireMention: false for Discord", "status": "done", "notes": "Guild 1475826992816590971 configured"},
+  {"id": 3, "title": "Morning briefing cron (Linear + Granola)", "status": "done", "notes": "Heartbeat handles morning briefing"},
+  {"id": 4, "title": "GitHub PR/issue monitoring", "status": "blocked", "notes": "Needs GitHub org access first"},
+  {"id": 5, "title": "Notification consolidation (Slack, Gmail, LinkedIn)", "status": "planned", "notes": "Future — needs API keys"},
+  {"id": 6, "title": "Mission Control dashboard", "status": "done", "notes": "Force updated on April 14"},
+  {"id": 7, "title": "Add daily Discoveries entries", "status": "done", "notes": "Updated for April 14"},
+  {"id": 8, "title": "Twitter: Follow accounts from Ilolo's list", "status": "blocked", "notes": "Waiting for Ilolo to regenerate access tokens"},
+  {"id": 9, "title": "Mission Control: Morning briefing panel", "status": "planned", "notes": "Build a pinned daily summary section at top of dashboard"},
+  {"id": 10, "title": "Mission Control: Activity feed", "status": "planned", "notes": "Right-side feed of Día's recent actions"},
+  {"id": 11, "title": "Mission Control: Granola meeting timeline", "status": "planned", "notes": "Visual week timeline with meeting summaries"},
+  {"id": 12, "title": "Mission Control: Productivity heatmap", "status": "planned", "notes": "GitHub-style heatmap of activity"},
+  {"id": 13, "title": "Mission Control: LawTrades AI automations roadmap section", "status": "planned", "notes": "Track the AI automation ideas discussed"}
+]

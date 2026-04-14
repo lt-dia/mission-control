@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2026-04-14",
+    "discoveries": [
+      {
+        "title": "NVIDIA Ising",
+        "summary": "The world’s first open AI models designed to accelerate the development of useful quantum computers.",
+        "link": "https://www.globenewswire.com/news-release/2026/04/14/3273572/0/en/NVIDIA-Launches-Ising-the-World-s-First-Open-AI-Models-to-Accelerate-the-Path-to-Useful-Quantum-Computers.html"
+      },
+      {
+        "title": "Gemini Robotics ER 1.6",
+        "summary": "A significant upgrade to Google DeepMind's reasoning-first model, enhancing embodied reasoning for robotics.",
+        "link": "https://deepmind.google/blog/gemini-robotics-er-1-6/"
+      }
+    ]
+  }
+]

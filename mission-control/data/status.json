@@ -1,0 +1,14 @@
+{
+  "lastUpdated": "Tue Apr 14 2026",
+  "integrations": {
+    "linear": "ok",
+    "granola": "ok",
+    "github": "ok",
+    "discord": "ok"
+  },
+  "metrics": {
+    "model": "Gemma 4",
+    "context": "25%"
+  },
+  "contextBar": 25
+}
