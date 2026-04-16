@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "eeba20df-6432-4c12-b898-94702bcf429f",
+          "title": "feat(candidates): allow un-decline / reactivate declined candidates on open positions",
+          "state": {
+            "name": "Planning"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-16T16:55:03.705Z"
+        },
+        {
           "id": "9b6d7b48-de56-4857-bb1f-a3b017ca1da1",
           "title": "Fix Hire Request Webhook: Rate & Payout Using Budget Instead of Applicant Values",
           "state": {
@@ -28,15 +37,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-04-15T15:23:28.822Z"
-        },
-        {
-          "id": "eeba20df-6432-4c12-b898-94702bcf429f",
-          "title": "feat(candidates): allow un-decline / reactivate declined candidates on open positions",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-14T18:08:50.140Z"
         },
         {
           "id": "c69797f3-c177-4c60-ae7f-a81d47d68cb3",
