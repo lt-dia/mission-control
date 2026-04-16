@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "9b6d7b48-de56-4857-bb1f-a3b017ca1da1",
+          "title": "Fix Hire Request Webhook: Rate & Payout Using Budget Instead of Applicant Values",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-16T16:22:07.606Z"
+        },
+        {
+          "id": "d0128618-49d8-481a-9bbe-398179263cc5",
+          "title": "Bug: SOW payment option language doesn't match product terminology",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-16T16:21:49.324Z"
+        },
+        {
           "id": "81239a68-4e51-420c-b083-7422455a87d3",
           "title": "Terms of use: copy error",
           "state": {
@@ -127,15 +145,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-04-03T15:25:54.725Z"
-        },
-        {
-          "id": "d0128618-49d8-481a-9bbe-398179263cc5",
-          "title": "Bug: SOW payment option language doesn't match product terminology",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-03T15:25:46.077Z"
         },
         {
           "id": "d1a8fd2a-b8bf-4639-8b3f-e57584d54bb8",
@@ -352,15 +361,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-03-24T17:21:30.258Z"
-        },
-        {
-          "id": "9b6d7b48-de56-4857-bb1f-a3b017ca1da1",
-          "title": "Fix Hire Request Webhook: Rate & Payout Using Budget Instead of Applicant Values",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 1,
-          "updatedAt": "2026-03-24T17:20:37.639Z"
         },
         {
           "id": "c4354452-c67a-4604-9d81-5699a519cd31",
