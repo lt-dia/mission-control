@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_AJa8ixVhNyxCMb",
+      "object": "note",
+      "title": "Wedding Onboarding",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-04-17T19:28:15.170Z",
+      "updated_at": "2026-04-17T20:37:39.792Z"
+    },
+    {
       "id": "not_HpzJxRKQi3CfA1",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-04-16T23:39:27.439Z",
       "updated_at": "2026-04-17T01:10:05.968Z"
-    },
-    {
-      "id": "not_cUgRjtP1lQinuC",
-      "object": "note",
-      "title": "Lawtrades AI ",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-04-16T17:00:02.805Z",
-      "updated_at": "2026-04-16T17:16:34.667Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0xNlQxNzowMDowMi44MDVaIiwibGFzdF9kb2NfaWQiOiJhY2ZjOWY0OC1kZjQ1LTRkMGQtOTIwNC0yMGJiMTIyNGFhODgifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0xNlQyMzozOToyNy40MzlaIiwibGFzdF9kb2NfaWQiOiJiZjU2ZmFiNi0xYWE4LTRlNDUtYWQ3Zi1jODI5Y2Q1MDc4OGEifQ"
 }
