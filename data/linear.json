@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "69b2511b-70fb-4033-9864-51eef265c0ba",
+          "title": "delete talent acctount - should be a client account (ASAP for engagement set up!)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-22T22:20:01.660Z"
+        },
+        {
           "id": "5193b6ea-dc78-4374-8ae4-4e40173dfd96",
           "title": "update engagement offer title on talent dashboard",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-03-18T15:10:33.861Z"
-        },
-        {
-          "id": "90563ca2-2303-4f18-a831-9de32b49a7db",
-          "title": "SOW Extensions & Renewals UI Flow",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-18T15:10:26.612Z"
         }
       ]
     }
