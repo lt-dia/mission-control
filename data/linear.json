@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "5193b6ea-dc78-4374-8ae4-4e40173dfd96",
+          "title": "update engagement offer title on talent dashboard",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 0,
+          "updatedAt": "2026-04-22T14:02:12.998Z"
+        },
+        {
           "id": "eeba20df-6432-4c12-b898-94702bcf429f",
           "title": "feat(candidates): allow un-decline / reactivate declined candidates on open positions",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-03-18T15:10:26.612Z"
-        },
-        {
-          "id": "6d4bd03a-bcca-4bbc-a921-2d8e093b8a09",
-          "title": "Fix: req.company.companyId vs user.companyId Mismatch in PositionController & CandidateController",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-03-18T15:07:56.464Z"
         }
       ]
     }
