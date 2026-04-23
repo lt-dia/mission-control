@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "0331caa8-3193-412b-bdfd-937b89bb4f4d",
+          "title": "Calendar Invites Not Sending for Scheduled Interviews",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-23T18:50:19.060Z"
+        },
+        {
           "id": "69b2511b-70fb-4033-9864-51eef265c0ba",
           "title": "delete talent acctount - should be a client account (ASAP for engagement set up!)",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-03-18T15:10:41.683Z"
-        },
-        {
-          "id": "72098d01-09b1-46f6-8c0d-cfd0f7b0d2f0",
-          "title": "Conditional Questionnaire Clauses → Contract Template Mapping",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-18T15:10:33.861Z"
         }
       ]
     }

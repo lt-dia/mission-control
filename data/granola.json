@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_KGhVmINv5xnUjc",
+      "object": "note",
+      "title": "Julio // Ilolo Sync",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-04-23T19:02:46.467Z",
+      "updated_at": "2026-04-23T19:27:53.409Z"
+    },
+    {
       "id": "not_IV3MtMGGUXAWz6",
       "object": "note",
       "title": "Michael // Ilolo Coffe Chat",
@@ -9,7 +20,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-04-23T13:29:11.599Z",
-      "updated_at": "2026-04-23T14:14:55.679Z"
+      "updated_at": "2026-04-23T19:10:52.522Z"
     },
     {
       "id": "not_R9Z7gc3eCKHVlX",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-04-22T14:59:09.966Z",
       "updated_at": "2026-04-22T15:31:21.657Z"
-    },
-    {
-      "id": "not_8Z4UJE3SCFspob",
-      "object": "note",
-      "title": "593 Data Analysis",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-04-21T23:30:22.277Z",
-      "updated_at": "2026-04-22T01:02:55.218Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0yMVQyMzozMDoyMi4yNzdaIiwibGFzdF9kb2NfaWQiOiIzYjI0Njk1MS1kNDExLTRlOGQtOThkZS1hYmQyOTMyNmQwY2QifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0yMlQxNDo1OTowOS45NjZaIiwibGFzdF9kb2NfaWQiOiI5OTg4Mjg3Ni03YjZjLTRjNjctODVjNC1mZDQwNTQyZDE4ZWIifQ"
 }
