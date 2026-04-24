@@ -3,6 +3,177 @@
     "issues": {
       "nodes": [
         {
+          "id": "15222514-ebd8-46ab-a520-6f0cf6a22989",
+          "title": "Add ability to invoice off-platform clients from the invoicing tab",
+          "state": {
+            "name": "Planning"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-24T22:20:13.082Z"
+        },
+        {
+          "id": "db81323e-e8aa-493c-ad65-c74961fd828c",
+          "title": "Bug: #offerdata Slack webhook showing incorrect rate data on offer sends",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-24T22:20:03.525Z"
+        },
+        {
+          "id": "49dae618-bd39-471f-9893-dd1d6373fa52",
+          "title": "Improvement: Rename \"weekly limit\" field to \"anticipated weekly hours\" in hire flow",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-24T22:20:03.487Z"
+        },
+        {
+          "id": "7d4d70f2-a284-49eb-8afa-9bb2579e4b16",
+          "title": "Update invoicing table to differentiate Ironclad vs Ironclad HQ",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-24T22:20:03.436Z"
+        },
+        {
+          "id": "e1cf2c1a-f228-4326-88af-a05297d7392d",
+          "title": "feat(AI): Contract Review Copilot — Phase 1 of AI Product Roadmap",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-24T22:19:35.946Z"
+        },
+        {
+          "id": "0d0aa20c-7069-4add-afd1-c916cd2c27b3",
+          "title": "feat(email): Design & build AI feature announcement email campaign (3-email drip)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-24T22:19:21.330Z"
+        },
+        {
+          "id": "9b620dbf-cdde-4bd2-8701-cc9f2c70fa13",
+          "title": "Ops: Manually correct Jesse & Brian (Security Scorecard) engagement records",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-24T22:19:02.647Z"
+        },
+        {
+          "id": "b2c934d0-fc4b-4ca9-bba6-3aa7491cacb9",
+          "title": "UX: Remove or fix \\\"Independent Contractor\\\" badge on engagement detail",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 4,
+          "updatedAt": "2026-04-24T22:19:02.613Z"
+        },
+        {
+          "id": "77d408a3-e54f-4adc-b44e-0fb6bf9c4760",
+          "title": "UX: Replace \\\"Contract\\\" label with position title on engagement cards",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 4,
+          "updatedAt": "2026-04-24T22:19:02.584Z"
+        },
+        {
+          "id": "14200bdb-6699-4d65-8e14-562486dcc126",
+          "title": "UX: Move \\\"Download Contract\\\" button up on engagement detail page",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 4,
+          "updatedAt": "2026-04-24T22:19:02.550Z"
+        },
+        {
+          "id": "5f795373-e180-4d2c-b12c-283fc30e6085",
+          "title": "Bug: \\\"Copy Contract Link\\\" button not functional on engagement detail",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-24T22:19:02.520Z"
+        },
+        {
+          "id": "72522b61-5e27-4555-b4cb-3f473fce48d5",
+          "title": "Bug: Broken profile link on client-side engagement detail page",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-24T22:19:02.484Z"
+        },
+        {
+          "id": "b434b4b6-5293-460a-b421-3e674b568f0f",
+          "title": "Bug: Engagement rate display showing client rate instead of talent payout",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-24T22:17:59.189Z"
+        },
+        {
+          "id": "4c43b3a6-f0d7-48f2-b7ce-659115c189e5",
+          "title": "Bug: Engagement email templates rendering blank/incorrect data (Talent / Client / Kickoff)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-24T22:17:31.587Z"
+        },
+        {
+          "id": "9ccfcbf4-93b6-4e1a-9629-206704b62fc8",
+          "title": "Ops: Re-trigger and verify engagement emails for Jesse/Brian (Security Scorecard)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-24T22:16:29.665Z"
+        },
+        {
+          "id": "1a366e35-826d-47d7-bdd5-beac3305292e",
+          "title": "Bug: Company ID not linked on engagement creation after DocuSign signing (Root Cause)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-24T22:16:12.266Z"
+        },
+        {
+          "id": "87ec6ad9-ff63-4e02-bed7-4531d58bdb09",
+          "title": "feat(AI): Implement worklog-driven role-aware AI homepage cards",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-24T22:09:49.727Z"
+        },
+        {
+          "id": "9b6d7b48-de56-4857-bb1f-a3b017ca1da1",
+          "title": "Fix Hire Request Webhook: Rate & Payout Using Budget Instead of Applicant Values",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-24T22:09:05.927Z"
+        },
+        {
+          "id": "e7c0af67-8d8c-48c3-8718-fce4a5b1903f",
+          "title": "fix(offers): correct talent-facing pricing across offer channels",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-24T22:08:36.118Z"
+        },
+        {
           "id": "0331caa8-3193-412b-bdfd-937b89bb4f4d",
           "title": "Calendar Invites Not Sending for Scheduled Interviews",
           "state": {
@@ -37,15 +208,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-04-16T16:55:03.705Z"
-        },
-        {
-          "id": "9b6d7b48-de56-4857-bb1f-a3b017ca1da1",
-          "title": "Fix Hire Request Webhook: Rate & Payout Using Budget Instead of Applicant Values",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-16T16:22:07.606Z"
         },
         {
           "id": "d0128618-49d8-481a-9bbe-398179263cc5",
@@ -109,15 +271,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-04-06T14:17:42.740Z"
-        },
-        {
-          "id": "49dae618-bd39-471f-9893-dd1d6373fa52",
-          "title": "Improvement: Rename \"weekly limit\" field to \"anticipated weekly hours\" in hire flow",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-03T21:06:02.029Z"
         },
         {
           "id": "08281e68-d3d8-487b-b094-fbe3655a610f",
@@ -210,15 +363,6 @@
           "updatedAt": "2026-04-03T14:18:11.124Z"
         },
         {
-          "id": "e7c0af67-8d8c-48c3-8718-fce4a5b1903f",
-          "title": "fix(offers): correct talent-facing pricing across offer channels",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-03T14:17:55.958Z"
-        },
-        {
           "id": "3a561de6-5be1-4f5d-81be-92af0f984281",
           "title": "feat(offers): add talent offer banner and pending-offer awareness UX",
           "state": {
@@ -235,15 +379,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-04-02T14:35:15.092Z"
-        },
-        {
-          "id": "7d4d70f2-a284-49eb-8afa-9bb2579e4b16",
-          "title": "Update invoicing table to differentiate Ironclad vs Ironclad HQ",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-02T14:32:52.787Z"
         },
         {
           "id": "3956cf1f-3a76-4459-8c92-421c476f0085",
@@ -316,141 +451,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-04-01T13:40:32.959Z"
-        },
-        {
-          "id": "5040d63e-5ae7-4f2b-9f1d-1e254b55d69f",
-          "title": "Audit and harden tracked env configuration across FE/BE",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-31T18:43:22.019Z"
-        },
-        {
-          "id": "e3de6ced-779a-4d9b-9a5f-78c9d7591fec",
-          "title": "Add PTO hours submission on the LT website",
-          "state": {
-            "name": "Planning"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-30T14:22:30.207Z"
-        },
-        {
-          "id": "1f2f991c-53b8-4fa8-b8dd-7bc24677846e",
-          "title": "DocuSign: Additional Signer Flow — Wire CC Colleague to Real Envelope",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-25T15:31:23.420Z"
-        },
-        {
-          "id": "9823cb89-3cb3-46d3-ab82-5b7ec6ec2436",
-          "title": "BE: Offer Lifecycle Notifications — In-App & Email",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-25T15:31:23.376Z"
-        },
-        {
-          "id": "1d4a189e-311c-44e9-b7a2-dbadcb3668f2",
-          "title": "Talent-Side Offer Experience — Received Offers Page, Accept & Decline Flow",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-03-25T15:31:23.331Z"
-        },
-        {
-          "id": "7e9a0d78-0774-4c47-ace5-91057b74c638",
-          "title": "DocuSign Webhook Handler — Sequential Signing & Engagement Creation (POST /v1/webhooks/docusign)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-03-25T15:31:23.291Z"
-        },
-        {
-          "id": "ebb719fd-5b1c-4ab4-9310-c20a21b8059a",
-          "title": "DocuSign Two-Envelope Architecture — Separate Client & Talent Envelopes + Ashish Countersignature",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-03-25T15:31:23.239Z"
-        },
-        {
-          "id": "15222514-ebd8-46ab-a520-6f0cf6a22989",
-          "title": "Add ability to invoice off-platform clients from the invoicing tab",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-24T17:21:30.258Z"
-        },
-        {
-          "id": "c4354452-c67a-4604-9d81-5699a519cd31",
-          "title": "[Spike] Apple Business Register & SMS Sender Verification",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 4,
-          "updatedAt": "2026-03-24T17:17:42.315Z"
-        },
-        {
-          "id": "71caf724-7b21-4eec-951c-ead86ce6c196",
-          "title": "Rate Change Amendment Flow",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-18T15:11:37.207Z"
-        },
-        {
-          "id": "fa2d49c2-8bc4-429f-9eb1-bef02081e41a",
-          "title": "DocuSign Template Versioning & msa_template_version on Engagement",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-18T15:11:28.571Z"
-        },
-        {
-          "id": "cbb82f79-eb38-4f0f-b26c-b6d5dd073356",
-          "title": "sow_only_allowed Flag — Admin UI & Company Settings",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-18T15:11:15.319Z"
-        },
-        {
-          "id": "6668e500-1ca9-440b-b470-5478778a896e",
-          "title": "Platform Services Agreement (Template 309) — Merge & Fission Labs UI",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-18T15:11:07.322Z"
-        },
-        {
-          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
-          "title": "Client-Paper SOW Upload (Custom Client Agreements)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-18T15:10:55.758Z"
-        },
-        {
-          "id": "09302e25-1095-4586-a51d-960489766cb2",
-          "title": "Multiple SOWs Under Same MSA — UI for MSA Selection",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-03-18T15:10:41.683Z"
         }
       ]
     }
