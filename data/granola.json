@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_DoNGKcuUXkyffS",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-04-24T15:01:37.332Z",
+      "updated_at": "2026-04-24T16:49:43.578Z"
+    },
+    {
       "id": "not_KGhVmINv5xnUjc",
       "object": "note",
       "title": "Julio // Ilolo Sync",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-04-22T15:31:09.094Z",
       "updated_at": "2026-04-22T15:58:56.380Z"
-    },
-    {
-      "id": "not_AnZtWE3L0t90ma",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-04-22T14:59:09.966Z",
-      "updated_at": "2026-04-22T15:31:21.657Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0yMlQxNDo1OTowOS45NjZaIiwibGFzdF9kb2NfaWQiOiI5OTg4Mjg3Ni03YjZjLTRjNjctODVjNC1mZDQwNTQyZDE4ZWIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0yMlQxNTozMTowOS4wOTRaIiwibGFzdF9kb2NfaWQiOiI0NjQ5Y2Y1YS04YWM5LTQwNDQtODI0ZC0wOGQ5YjU3YmI1MWEifQ"
 }
