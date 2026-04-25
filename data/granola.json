@@ -12,6 +12,17 @@
       "updated_at": "2026-04-24T16:49:43.578Z"
     },
     {
+      "id": "not_0IkzDkOz8zB4aJ",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-04-24T14:59:30.576Z",
+      "updated_at": "2026-04-25T14:12:22.589Z"
+    },
+    {
       "id": "not_WYu3VtQOcWs2fD",
       "object": "note",
       "title": "570 ",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-04-23T13:29:11.599Z",
       "updated_at": "2026-04-24T14:59:30.573Z"
-    },
-    {
-      "id": "not_R9Z7gc3eCKHVlX",
-      "object": "note",
-      "title": "Product Business Impacts",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-04-22T15:58:58.921Z",
-      "updated_at": "2026-04-23T13:29:11.595Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0yMlQxNTo1ODo1OC45MjFaIiwibGFzdF9kb2NfaWQiOiJlNTNjNTVkZi03MTRmLTRiMDAtODE0MS1mMjk3OTM5MGM4ODQifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0yM1QxMzoyOToxMS41OTlaIiwibGFzdF9kb2NfaWQiOiJiYzg5NGM2ZS0yODkyLTRjOGMtOGY0MC0wZmJkNjM5MGIxODgifQ"
 }
