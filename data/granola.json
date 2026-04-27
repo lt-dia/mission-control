@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_WczheSFw3Yc7Al",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-04-27T14:59:37.684Z",
+      "updated_at": "2026-04-27T15:28:48.710Z"
+    },
+    {
       "id": "not_ZJFUw5D6LuUDHq",
       "object": "note",
       "title": "Lawtrades AI matching flow optimization",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-04-23T23:32:48.533Z",
       "updated_at": "2026-04-25T01:15:37.935Z"
-    },
-    {
-      "id": "not_KGhVmINv5xnUjc",
-      "object": "note",
-      "title": "Julio // Ilolo Sync",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-04-23T19:02:46.467Z",
-      "updated_at": "2026-04-23T19:27:53.409Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0yM1QxOTowMjo0Ni40NjdaIiwibGFzdF9kb2NfaWQiOiIxOTBkMDZhYy03NWZkLTQzNTItYWQ0ZS05NjkxNDk5YzVjNTQifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0yM1QyMzozMjo0OC41MzNaIiwibGFzdF9kb2NfaWQiOiJjNGJhZjY3Zi0wOTU5LTQwYWMtYTQ2ZS1iOGMxMDQwYzNlOGIifQ"
 }
