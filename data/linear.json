@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "22d05f5d-aaf9-496c-93b5-37c4ad6444f1",
+          "title": "Monk: clean up duplicate/mislinked customer records",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-28T19:52:36.568Z"
+        },
+        {
           "id": "15222514-ebd8-46ab-a520-6f0cf6a22989",
           "title": "Add ability to invoice off-platform clients from the invoicing tab",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-04-01T13:40:32.996Z"
-        },
-        {
-          "id": "80fd892e-08e6-4233-a44c-b832d6036ac3",
-          "title": "Bug: Post-usage rate (SOW Section 8c) not defaulting correctly",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-01T13:40:32.959Z"
         }
       ]
     }
