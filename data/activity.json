@@ -1,6 +1,7 @@
 {
-  "lastUpdated": "2026-04-05T14:12:00.000Z",
+  "lastUpdated": "2026-04-28T16:37:00.000Z",
   "entries": [
+    {"ts":"2026-04-28T16:37:00.000Z","type":"task","label":"Dashboard cleanup","detail":"Removed 10 completed tasks (all pre-April-21) and 18 stale ignored discoveries. Briefing, status, and pending-actions refreshed."},
     {"ts":"2026-04-05T14:12:00.000Z","type":"heartbeat","label":"Sunday afternoon check-in","detail":"Status + briefing updated. All clear."},
     {"ts":"2026-04-05T13:42:00.000Z","type":"task","label":"Task #12 complete — Productivity heatmap","detail":"GitHub-style 12-week heatmap. Color-coded by intensity. Apr 4 shows hot pink (47 actions)."},
     {"ts":"2026-04-05T13:12:00.000Z","type":"task","label":"Task #9 complete — Día Activity Feed","detail":"Live audit log panel on Mission Control. Icons, labels, details, timestamps. Color-coded by type."},
