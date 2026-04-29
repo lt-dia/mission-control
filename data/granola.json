@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_MxAW9KLQ5Vb6CW",
+      "object": "note",
+      "title": "Lawtrades AI ",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-04-29T18:15:30.134Z",
+      "updated_at": "2026-04-29T19:00:49.419Z"
+    },
+    {
       "id": "not_V7v7rNkcFaiFEH",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-04-28T14:59:43.992Z",
       "updated_at": "2026-04-28T17:59:20.753Z"
-    },
-    {
-      "id": "not_QBIJ8cyp64lw6D",
-      "object": "note",
-      "title": "Tyler AI Chat",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-04-28T02:14:01.291Z",
-      "updated_at": "2026-04-28T02:48:04.747Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0yOFQwMjoxNDowMS4yOTFaIiwibGFzdF9kb2NfaWQiOiI5Yzc1Y2NhNC00MjU1LTQ3YzQtODRmZS1hMzhkZDlhYTM3MDQifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0yOFQxNDo1OTo0My45OTJaIiwibGFzdF9kb2NfaWQiOiI0Zjc3MjBkYS05N2IwLTQ4N2ItOGI5My1mZTU2N2JjODZlMDAifQ"
 }
