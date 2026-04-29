@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_V7v7rNkcFaiFEH",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-04-29T15:00:06.734Z",
+      "updated_at": "2026-04-29T15:25:05.947Z"
+    },
+    {
       "id": "not_vJwQG3Se4bAtJ3",
       "object": "note",
       "title": "Rice University Data Analysis",
@@ -9,7 +20,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-04-28T23:48:24.346Z",
-      "updated_at": "2026-04-29T01:04:49.267Z"
+      "updated_at": "2026-04-29T14:21:39.360Z"
     },
     {
       "id": "not_mrQVBhgXkfDUoD",
@@ -20,7 +31,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-04-28T17:59:20.757Z",
-      "updated_at": "2026-04-28T23:48:23.078Z"
+      "updated_at": "2026-04-29T14:50:15.474Z"
     },
     {
       "id": "not_RJQGC2Qv94TslZ",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-04-28T02:14:01.291Z",
       "updated_at": "2026-04-28T02:48:04.747Z"
-    },
-    {
-      "id": "not_485L9crIVwIhaT",
-      "object": "note",
-      "title": "Lawtrades AI ",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-04-27T17:01:48.605Z",
-      "updated_at": "2026-04-27T17:20:22.351Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0yN1QxNzowMTo0OC42MDVaIiwibGFzdF9kb2NfaWQiOiJkZDQxYTg0NC01ZTVjLTQ4MzItOWEwOS0zMmFmYjAwM2UzYTkifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0yOFQwMjoxNDowMS4yOTFaIiwibGFzdF9kb2NfaWQiOiI5Yzc1Y2NhNC00MjU1LTQ3YzQtODRmZS1hMzhkZDlhYTM3MDQifQ"
 }

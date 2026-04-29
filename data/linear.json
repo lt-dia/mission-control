@@ -3,6 +3,69 @@
     "issues": {
       "nodes": [
         {
+          "id": "859932d8-65d2-4f21-b688-7f8776b4b3ce",
+          "title": "Explore DocuSign-to-dashboard sync — auto-populate dashboard from manual contracts",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-29T14:23:32.021Z"
+        },
+        {
+          "id": "cd0e367b-de2e-4698-93fb-ec62e7e4995e",
+          "title": "Improve manual-to-dashboard hiring flow — let ops trigger hiring from dashboard",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-29T14:23:21.852Z"
+        },
+        {
+          "id": "1b1e85fd-34ee-4a75-ad14-7c2245fbbfaf",
+          "title": "Fix hiring-flow notifications — missing Slack alert and \"unknown client\" in email",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-04-29T14:23:08.896Z"
+        },
+        {
+          "id": "3b51cbc2-b065-4f19-b9fc-ac6550b87f2f",
+          "title": "Fix and adjust Zip's prepaid balance total",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-29T14:11:31.724Z"
+        },
+        {
+          "id": "5722ff85-0c9f-46fe-898c-6c0a262bd3c8",
+          "title": "Add Export PDF to prepaid balance invoice for clients",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-29T14:11:24.070Z"
+        },
+        {
+          "id": "a33479d6-193e-4a1c-ac54-5cab56c080a7",
+          "title": "Look into Melissa getting DocuSign access",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-29T14:11:14.030Z"
+        },
+        {
+          "id": "74efb2ee-bb6e-4df2-9d6e-bac138d7eb38",
+          "title": "Sort Legal Jobs page by most recent",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 4,
+          "updatedAt": "2026-04-29T13:57:02.632Z"
+        },
+        {
           "id": "22d05f5d-aaf9-496c-93b5-37c4ad6444f1",
           "title": "Monk: clean up duplicate/mislinked customer records",
           "state": {
@@ -388,69 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-04-02T14:35:15.092Z"
-        },
-        {
-          "id": "3956cf1f-3a76-4459-8c92-421c476f0085",
-          "title": "Align DocuSign focused-view return URL and messaging origin configuration",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-02T14:29:09.500Z"
-        },
-        {
-          "id": "3040748e-a4b7-424f-9a6a-84ba7f8c9f3e",
-          "title": "Harden DocuSign recipient view generation for existing hireflow envelopes",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-02T14:29:09.500Z"
-        },
-        {
-          "id": "8fe669de-4e75-422b-8a9e-8c22c01daf44",
-          "title": "Stabilize hireflow step-4 DocuSign completion flow in focused view",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-02T14:29:09.497Z"
-        },
-        {
-          "id": "ef9d077c-a840-40ac-9680-9c0d1be9a0e0",
-          "title": "End-to-end estimated weekly hours and payout timing support for Talent SOW and hireflow",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-02T14:29:03.192Z"
-        },
-        {
-          "id": "2dcbf194-9f27-4215-8fdb-ef4bbd843afa",
-          "title": "Bug: SOW showing 200 hours/week instead of actual weekly limit",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-01T13:40:33.074Z"
-        },
-        {
-          "id": "2a7d4ce6-8c13-4ecb-b1cb-83118e7bf39f",
-          "title": "Bug: All SOW rates displaying as $212.40 regardless of payment option selected",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-01T13:40:33.036Z"
-        },
-        {
-          "id": "f81f8601-cb61-46cb-997b-af438f980821",
-          "title": "Bug: Pay-as-you-go rate not populating correctly in SOW (should be $236/hr)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-01T13:40:32.996Z"
         }
       ]
     }
