@@ -301,6 +301,70 @@ async function pushIdeaToGitHub(newIdea) {
   }
 }
 
+/* ── SCHOLARSHIPS ─────────────────────────────────────────── */
+async function loadScholarships() {
+  const data = await fetchJSON('data/scholarships.json');
+  if (!data) return;
+
+  window._scholarshipData = data;
+
+  const meta = document.getElementById('scholarshipMeta');
+  if (meta) meta.textContent = `${data.scholarships.length} TRACKED`;
+
+  const lastEl = document.getElementById('scholLastUpdated');
+  if (lastEl && data.lastUpdated) lastEl.textContent = data.lastUpdated.toUpperCase();
+
+  renderScholarships(data.scholarships, 'all');
+  initScholarshipFilters(data.scholarships);
+}
+
+function renderScholarships(scholarships, filter) {
+  const grid = document.getElementById('scholarshipGrid');
+  if (!grid) return;
+
+  const filtered = filter === 'all'
+    ? scholarships
+    : scholarships.filter(s => s.tags && s.tags.includes(filter));
+
+  if (!filtered.length) {
+    grid.innerHTML = '<div class="placeholder-msg">No scholarships match this filter.</div>';
+    return;
+  }
+
+  grid.innerHTML = filtered.map(s => {
+    const tags = (s.tags || []).map(t => `<span class="schol-tag">#${escapeHtml(t)}</span>`).join('');
+    const deadline = s.deadline_iso
+      ? `⏰ ${escapeHtml(s.deadline)}`
+      : `◌ ${escapeHtml(s.deadline || 'Check site')}`;
+
+    return `
+      <div class="schol-card status-${escapeHtml(s.status || 'tracked')}">
+        <div class="schol-name">${escapeHtml(s.name)}</div>
+        <div class="schol-org">${escapeHtml(s.org)}</div>
+        <div class="schol-amount">${escapeHtml(s.amount)}</div>
+        <div class="schol-deadline">${deadline}</div>
+        ${s.why ? `<div class="schol-why">${escapeHtml(s.why)}</div>` : ''}
+        ${tags ? `<div class="schol-tags">${tags}</div>` : ''}
+        <div class="schol-footer">
+          <span class="schol-status-badge ${escapeHtml(s.status || 'tracked')}">${(s.status || 'tracked').toUpperCase()}</span>
+          <a class="schol-link" href="${escapeHtml(s.url)}" target="_blank" rel="noopener">APPLY ↗</a>
+        </div>
+        ${s.notes ? `<div style="font-size:8px;color:#2a4a5a;margin-top:4px;">${escapeHtml(s.notes)}</div>` : ''}
+      </div>
+    `;
+  }).join('');
+}
+
+function initScholarshipFilters(scholarships) {
+  document.querySelectorAll('.schol-filter').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.schol-filter').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderScholarships(scholarships, btn.dataset.filter);
+    });
+  });
+}
+
 /* ── MAIN INIT ───────────────────────────────────────────── */
 async function init() {
   const tasks = await fetchJSON(PLAYGROUND_DATA);
@@ -313,6 +377,7 @@ async function init() {
   renderKanban(window._playgroundTasks);
   initDragAndDrop();
   initInbox();
+  loadScholarships();
   loadPolymarket();
 }
 

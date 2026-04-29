@@ -556,6 +556,140 @@ html, body {
   animation: slideIn 0.3s ease;
 }
 
+/* ── SCHOLARSHIPS ─────────────────────────────────────────── */
+.scholarship-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.schol-filter {
+  background: transparent;
+  border: 1px solid rgba(77, 217, 255, 0.2);
+  color: var(--text-dim);
+  padding: 4px 10px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.15s;
+}
+
+.schol-filter:hover,
+.schol-filter.active {
+  border-color: var(--primary);
+  color: var(--primary);
+  box-shadow: 0 0 6px rgba(77, 217, 255, 0.3);
+}
+
+.scholarship-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 10px;
+}
+
+.schol-card {
+  background: var(--bg-card2);
+  border: 1px solid rgba(77, 217, 255, 0.12);
+  border-left: 3px solid var(--primary);
+  padding: 12px 14px;
+  border-radius: 3px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.schol-card:hover {
+  border-color: rgba(77, 217, 255, 0.4);
+  box-shadow: 0 0 10px rgba(77, 217, 255, 0.1);
+}
+
+.schol-card.status-applied { border-left-color: #00ff88; }
+.schol-card.status-awarded { border-left-color: #ffd700; }
+.schol-card.status-researching { border-left-color: #7b2fff; }
+.schol-card.status-not-eligible { border-left-color: #ff2a6d; opacity: 0.5; }
+
+.schol-name {
+  font-size: 11px;
+  color: var(--primary);
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+.schol-org {
+  font-size: 9px;
+  color: var(--text-dim);
+  letter-spacing: 1px;
+}
+
+.schol-amount {
+  font-size: 13px;
+  color: #00ff88;
+  letter-spacing: 0.5px;
+}
+
+.schol-deadline {
+  font-size: 9px;
+  color: #ff9900;
+  letter-spacing: 1px;
+}
+
+.schol-why {
+  font-size: 9px;
+  color: var(--text-dim);
+  line-height: 1.5;
+  border-top: 1px solid rgba(77,217,255,0.07);
+  padding-top: 6px;
+}
+
+.schol-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.schol-tag {
+  font-size: 8px;
+  padding: 2px 5px;
+  border: 1px solid rgba(77,217,255,0.2);
+  color: rgba(77,217,255,0.6);
+  letter-spacing: 1px;
+  border-radius: 2px;
+}
+
+.schol-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.schol-status-badge {
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.schol-status-badge.tracked { color: var(--primary); border: 1px solid rgba(77,217,255,0.3); }
+.schol-status-badge.applied { color: #00ff88; border: 1px solid rgba(0,255,136,0.3); }
+.schol-status-badge.awarded { color: #ffd700; border: 1px solid rgba(255,215,0,0.4); }
+.schol-status-badge.researching { color: #7b2fff; border: 1px solid rgba(123,47,255,0.3); }
+.schol-status-badge.not-eligible { color: #ff2a6d; border: 1px solid rgba(255,42,109,0.3); }
+
+.schol-link {
+  font-size: 9px;
+  color: var(--primary);
+  text-decoration: none;
+  letter-spacing: 1px;
+  opacity: 0.7;
+  transition: opacity 0.15s;
+}
+.schol-link:hover { opacity: 1; }
+
 /* ── RESPONSIVE ──────────────────────────────────────────── */
 @media (max-width: 900px) {
   .kanban-board { grid-template-columns: repeat(2, 1fr); }
