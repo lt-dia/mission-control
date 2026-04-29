@@ -331,11 +331,27 @@ function renderScholarships(scholarships, filter) {
     return;
   }
 
-  grid.innerHTML = filtered.map(s => {
+  const sorted = filtered.slice().sort((a, b) => {
+    if (!a.deadline_iso && !b.deadline_iso) return 0;
+    if (!a.deadline_iso) return 1;
+    if (!b.deadline_iso) return -1;
+    return a.deadline_iso.localeCompare(b.deadline_iso);
+  });
+
+  grid.innerHTML = sorted.map(s => {
     const tags = (s.tags || []).map(t => `<span class="schol-tag">#${escapeHtml(t)}</span>`).join('');
     const deadline = s.deadline_iso
       ? `⏰ ${escapeHtml(s.deadline)}`
       : `◌ ${escapeHtml(s.deadline || 'Check site')}`;
+
+    let riceBadge;
+    if (s.riceEligible === true) {
+      riceBadge = '<span class="schol-rice-badge" style="background:#0a5a0a;color:#9fffa0;padding:2px 4px;font-size:8px;margin-left:4px;">✓ RICE</span>';
+    } else if (s.riceEligible === false) {
+      riceBadge = '<span class="schol-rice-badge" style="background:#5a0a0a;color:#ff9f9f;padding:2px 4px;font-size:8px;margin-left:4px;">✗ NOT RICE</span>';
+    } else {
+      riceBadge = '<span class="schol-rice-badge" style="background:#3a3a3a;color:#aaa;padding:2px 4px;font-size:8px;margin-left:4px;">? VERIFY</span>';
+    }
 
     return `
       <div class="schol-card status-${escapeHtml(s.status || 'tracked')}">
@@ -347,6 +363,7 @@ function renderScholarships(scholarships, filter) {
         ${tags ? `<div class="schol-tags">${tags}</div>` : ''}
         <div class="schol-footer">
           <span class="schol-status-badge ${escapeHtml(s.status || 'tracked')}">${(s.status || 'tracked').toUpperCase()}</span>
+          ${riceBadge}
           <a class="schol-link" href="${escapeHtml(s.url)}" target="_blank" rel="noopener">APPLY ↗</a>
         </div>
         ${s.notes ? `<div style="font-size:8px;color:#2a4a5a;margin-top:4px;">${escapeHtml(s.notes)}</div>` : ''}
