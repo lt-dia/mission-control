@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "6fe9a871-dc21-4b8b-ac83-bfb2ff5e8c81",
+          "title": "delete talent account (should be a client account)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-04-29T21:22:02.338Z"
+        },
+        {
+          "id": "7b757348-258c-4bba-8630-b848158b77d6",
+          "title": "Upfront (Prepaid) Hours Balance in Dashboard + Low Balance Alerts",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-29T21:01:30.074Z"
+        },
+        {
           "id": "859932d8-65d2-4f21-b688-7f8776b4b3ce",
           "title": "Explore DocuSign-to-dashboard sync — auto-populate dashboard from manual contracts",
           "state": {
@@ -433,24 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-04-03T14:18:11.124Z"
-        },
-        {
-          "id": "3a561de6-5be1-4f5d-81be-92af0f984281",
-          "title": "feat(offers): add talent offer banner and pending-offer awareness UX",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-03T14:17:55.958Z"
-        },
-        {
-          "id": "2988deff-0208-4803-ab0e-bac4ce5643f5",
-          "title": "Monk Integration: Replace Tabs/Invoiced in InvoiceWidget & Invoices Page",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-02T14:35:15.092Z"
         }
       ]
     }
