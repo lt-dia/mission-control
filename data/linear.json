@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "3b51cbc2-b065-4f19-b9fc-ac6550b87f2f",
+          "title": "Fix and adjust Zip's prepaid balance total",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-30T14:04:36.994Z"
+        },
+        {
+          "id": "5722ff85-0c9f-46fe-898c-6c0a262bd3c8",
+          "title": "Add Export PDF to prepaid balance invoice for clients",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-04-30T14:04:17.578Z"
+        },
+        {
           "id": "7b757348-258c-4bba-8630-b848158b77d6",
           "title": "Upfront (Prepaid) Hours Balance in Dashboard + Low Balance Alerts",
           "state": {
@@ -46,24 +64,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-04-29T14:23:08.896Z"
-        },
-        {
-          "id": "3b51cbc2-b065-4f19-b9fc-ac6550b87f2f",
-          "title": "Fix and adjust Zip's prepaid balance total",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-29T14:11:31.724Z"
-        },
-        {
-          "id": "5722ff85-0c9f-46fe-898c-6c0a262bd3c8",
-          "title": "Add Export PDF to prepaid balance invoice for clients",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-29T14:11:24.070Z"
         },
         {
           "id": "a33479d6-193e-4a1c-ac54-5cab56c080a7",
