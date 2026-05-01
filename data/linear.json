@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "74efb2ee-bb6e-4df2-9d6e-bac138d7eb38",
+          "title": "Sort Legal Jobs page by most recent",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 4,
+          "updatedAt": "2026-05-01T16:01:49.043Z"
+        },
+        {
           "id": "3b51cbc2-b065-4f19-b9fc-ac6550b87f2f",
           "title": "Fix and adjust Zip's prepaid balance total",
           "state": {
@@ -73,15 +82,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-04-29T14:11:14.030Z"
-        },
-        {
-          "id": "74efb2ee-bb6e-4df2-9d6e-bac138d7eb38",
-          "title": "Sort Legal Jobs page by most recent",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 4,
-          "updatedAt": "2026-04-29T13:57:02.632Z"
         },
         {
           "id": "22d05f5d-aaf9-496c-93b5-37c4ad6444f1",
