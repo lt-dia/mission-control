@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_J00MAXi1aUjnTQ",
+      "object": "note",
+      "title": "Good start church onboarding meeting with Mike",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-05-02T13:00:02.835Z",
+      "updated_at": "2026-05-02T13:42:18.629Z"
+    },
+    {
       "id": "not_SRdoELm0nTJqOX",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-04-30T14:59:06.797Z",
       "updated_at": "2026-04-30T19:07:35.458Z"
-    },
-    {
-      "id": "not_MxAW9KLQ5Vb6CW",
-      "object": "note",
-      "title": "Lawtrades AI ",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-04-29T18:15:30.134Z",
-      "updated_at": "2026-04-30T14:59:06.794Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0yOVQxODoxNTozMC4xMzRaIiwibGFzdF9kb2NfaWQiOiJmMWRiZmJhZS1mMzBhLTQ4MmUtOTUzYy1mNjU0Y2NiY2E2NjQifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNC0zMFQxNDo1OTowNi43OTdaIiwibGFzdF9kb2NfaWQiOiJiNzVkZmViZC1lNzRlLTQxYjctOTMwZi04MWE4ZTMwMDA4ZDMifQ"
 }
