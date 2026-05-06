@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "43aa83e9-c7dc-4294-a5db-39c14a29d03f",
+          "title": "update comapny ID and name for client dashboards",
+          "state": {
+            "name": "Triage"
+          },
+          "priority": 1,
+          "updatedAt": "2026-05-06T16:52:04.746Z"
+        },
+        {
           "id": "74efb2ee-bb6e-4df2-9d6e-bac138d7eb38",
           "title": "Sort Legal Jobs page by most recent",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 4,
           "updatedAt": "2026-04-03T15:24:37.999Z"
-        },
-        {
-          "id": "e5ad9dbe-ba5b-4737-80bc-9e10e56be6de",
-          "title": "feat(hireflow): replace legacy hire modal with embedded inline hireflow and unify offer-send notifications",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-03T14:18:11.124Z"
         }
       ]
     }
