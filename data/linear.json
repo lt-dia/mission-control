@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "43aa83e9-c7dc-4294-a5db-39c14a29d03f",
+          "title": "update comapny ID and name for client dashboards",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-05-06T21:32:53.718Z"
+        },
+        {
           "id": "9b2b533a-2d11-4a70-8d69-e45e3dc85d46",
           "title": "Engagement Kickoff emails: rework template-routing fix without collapsing per-slot templates",
           "state": {
@@ -10,15 +19,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-05-06T19:37:21.559Z"
-        },
-        {
-          "id": "43aa83e9-c7dc-4294-a5db-39c14a29d03f",
-          "title": "update comapny ID and name for client dashboards",
-          "state": {
-            "name": "Triage"
-          },
-          "priority": 1,
-          "updatedAt": "2026-05-06T17:49:00.681Z"
         },
         {
           "id": "74efb2ee-bb6e-4df2-9d6e-bac138d7eb38",
