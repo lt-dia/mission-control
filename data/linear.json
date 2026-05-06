@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "9b2b533a-2d11-4a70-8d69-e45e3dc85d46",
+          "title": "Engagement Kickoff emails: rework template-routing fix without collapsing per-slot templates",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 2,
+          "updatedAt": "2026-05-06T19:37:21.559Z"
+        },
+        {
           "id": "43aa83e9-c7dc-4294-a5db-39c14a29d03f",
           "title": "update comapny ID and name for client dashboards",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-04-03T15:25:21.046Z"
-        },
-        {
-          "id": "b2c079e9-fc96-40d9-8b62-1e47501c22b5",
-          "title": "Discussion: Consider replacing 20h/week Subscribe & Save tier with a full-time tier (30–40h/week)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 4,
-          "updatedAt": "2026-04-03T15:24:37.999Z"
         }
       ]
     }
