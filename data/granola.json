@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_N8XsXDSXJSa93v",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-05-08T14:59:35.966Z",
+      "updated_at": "2026-05-08T15:53:58.680Z"
+    },
+    {
       "id": "not_ZZ9q3HSYRBKEH5",
       "object": "note",
       "title": "DND 5/7",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-05-06T14:59:49.582Z",
       "updated_at": "2026-05-07T14:59:33.332Z"
-    },
-    {
-      "id": "not_93sYmHRIwl5No8",
-      "object": "note",
-      "title": "Data Analysis",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-05-05T23:31:23.805Z",
-      "updated_at": "2026-05-06T21:59:32.241Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNS0wNVQyMzozMToyMy44MDVaIiwibGFzdF9kb2NfaWQiOiI2MDI0NDU4Ni1mYzM4LTQ2MWYtYjJlNS03MmE3MGNjOWI2NDQifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNS0wNlQxNDo1OTo0OS41ODJaIiwibGFzdF9kb2NfaWQiOiJhYTgxNTkxOS1kNWRlLTRhNDItODk3ZS04MGQ4ZWNjMWIwNmIifQ"
 }
