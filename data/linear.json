@@ -3,13 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "43aa83e9-c7dc-4294-a5db-39c14a29d03f",
-          "title": "update comapny ID and name for client dashboards",
+          "id": "16e1aeed-cb1d-49e4-8c02-c8fe08917847",
+          "title": "Talent receives \"new engagement offer\" email before client signs DocuSign",
           "state": {
-            "name": "Done"
+            "name": "In Progress"
           },
-          "priority": 1,
-          "updatedAt": "2026-05-06T21:32:53.718Z"
+          "priority": 2,
+          "updatedAt": "2026-05-11T17:19:10.940Z"
         },
         {
           "id": "9b2b533a-2d11-4a70-8d69-e45e3dc85d46",
@@ -18,7 +18,16 @@
             "name": "Todo"
           },
           "priority": 2,
-          "updatedAt": "2026-05-06T19:37:21.559Z"
+          "updatedAt": "2026-05-11T16:54:16.695Z"
+        },
+        {
+          "id": "43aa83e9-c7dc-4294-a5db-39c14a29d03f",
+          "title": "update comapny ID and name for client dashboards",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-05-06T21:32:53.718Z"
         },
         {
           "id": "74efb2ee-bb6e-4df2-9d6e-bac138d7eb38",
@@ -442,15 +451,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-04-03T15:25:32.746Z"
-        },
-        {
-          "id": "83563794-b2f8-4771-84ee-fc16ad749dd8",
-          "title": "Bug: Excessive spacing after company name in SOW",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-03T15:25:21.046Z"
         }
       ]
     }
