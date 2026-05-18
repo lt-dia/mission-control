@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "8d595091-e186-4636-8bbb-5e91032f6b5c",
+          "title": "SEEK: Phase 2 — Filter refinement chips (Cheaper / Senior+ / Remote)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-05-18T15:51:26.449Z"
+        },
+        {
+          "id": "7c559ce9-7d17-4c37-8ea1-b8745c168a3b",
+          "title": "SEEK: Phase 3 — Conversational refinement (continue the search in chat)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-05-18T15:51:26.373Z"
+        },
+        {
+          "id": "1fe05f3e-4cc3-454e-8fff-033933480d7b",
+          "title": "SEEK: Phase 1 — \"Show 8 more\" button on workspace",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-05-18T15:51:26.360Z"
+        },
+        {
           "id": "16e1aeed-cb1d-49e4-8c02-c8fe08917847",
           "title": "Talent receives \"new engagement offer\" email before client signs DocuSign",
           "state": {
@@ -424,33 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-04-03T15:26:10.341Z"
-        },
-        {
-          "id": "a77ccbee-fc6e-47bf-8556-d4a212210807",
-          "title": "Improvement: Add Buy in Bulk info popup with hour transfer and expiration terms",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-03T15:26:02.810Z"
-        },
-        {
-          "id": "b3121dcb-cb66-4957-a135-cdc834bd22dd",
-          "title": "Improvement: Add Subscribe & Save info popup with commitment terms in hire flow",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-03T15:25:54.725Z"
-        },
-        {
-          "id": "d1a8fd2a-b8bf-4639-8b3f-e57584d54bb8",
-          "title": "Bug: Second signer added to engagement but no DocuSign email notification sent",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-03T15:25:32.746Z"
         }
       ]
     }
