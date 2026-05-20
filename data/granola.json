@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_w2fQwvzQyJO3Pc",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-05-20T14:59:32.069Z",
+      "updated_at": "2026-05-20T15:42:43.744Z"
+    },
+    {
       "id": "not_bsyWfvP7yBNTUz",
       "object": "note",
       "title": "Data Analysis - 593",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-05-13T15:15:31.613Z",
       "updated_at": "2026-05-13T15:30:19.423Z"
-    },
-    {
-      "id": "not_MBfRfeDQXXjgjA",
-      "object": "note",
-      "title": "Regression analysis — hypothesis testing, joint tests, and prediction intervals",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-05-12T23:36:21.356Z",
-      "updated_at": "2026-05-13T01:03:19.397Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNS0xMlQyMzozNjoyMS4zNTZaIiwibGFzdF9kb2NfaWQiOiIzNzQ2ZTAzOC0wY2M2LTQ4YjItYTRlMy0zODFhOGY2OTk3YTcifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNS0xM1QxNToxNTozMS42MTNaIiwibGFzdF9kb2NfaWQiOiI5MDQ3MzI4Zi05ZjlhLTRlMmQtOTc5Mi1lMDMzMDRlMmJjMGUifQ"
 }
