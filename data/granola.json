@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_KzVcebDX4TFaiE",
+      "object": "note",
+      "title": "Data Analysis ",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-05-26T23:30:36.706Z",
+      "updated_at": "2026-05-27T00:57:05.874Z"
+    },
+    {
       "id": "not_4R4PsgCSWHvlqp",
       "object": "note",
       "title": "SMB talent matching flow — guest onboarding and filtering with Jerry",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-05-24T14:38:39.404Z",
       "updated_at": "2026-05-24T15:57:21.306Z"
-    },
-    {
-      "id": "not_ro6DHpAtV9hfkB",
-      "object": "note",
-      "title": "Hillside",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-05-24T13:05:58.343Z",
-      "updated_at": "2026-05-24T14:00:26.661Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNS0yNFQxMzowNTo1OC4zNDNaIiwibGFzdF9kb2NfaWQiOiI2MjQ5NmM4Zi1iNjc0LTQzMTUtOTFkYi1kMjZiMmIxYjY2YzIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNS0yNFQxNDozODozOS40MDRaIiwibGFzdF9kb2NfaWQiOiI4ZWFhMzBhOS0yNjQ0LTQ1YjUtOTkxYy0zY2Y5ZmYzZGJhZTUifQ"
 }
