@@ -3,6 +3,42 @@
     "issues": {
       "nodes": [
         {
+          "id": "03c9a7de-e825-4544-9dec-6ae1457c9e5c",
+          "title": "SEEK Mobile — Disclaimer footer overlaps bottom of workspace + side panel (blocks \"Request interview\")",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T22:43:14.178Z"
+        },
+        {
+          "id": "fd609482-7b88-4171-8505-1f450bc54055",
+          "title": "SEEK Mobile — Responsive layout for /chat (workspace, side panel, signin modal)",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T22:43:14.178Z"
+        },
+        {
+          "id": "a92d7fc2-3cda-4b1e-8bb0-562de271d86d",
+          "title": "SEEK FE — Layout fixes (sticky input, anchored disclaimer, remove green strip, fix gap)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T22:43:14.178Z"
+        },
+        {
+          "id": "221c3809-91ec-45cc-b273-eec971816275",
+          "title": "SEEK FE — Side-panel view profile for guests + workspace controls (prev/next, close)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T22:43:14.178Z"
+        },
+        {
           "id": "5122aac9-49c0-489c-8fd5-28aa56812148",
           "title": "SEEK FE — Client loses access to SEEK landing once any chat session exists (no in-app affordance to return)",
           "state": {
@@ -46,24 +82,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-01T19:32:00.533Z"
-        },
-        {
-          "id": "221c3809-91ec-45cc-b273-eec971816275",
-          "title": "SEEK FE — Side-panel view profile for guests + workspace controls (prev/next, close)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T19:32:00.533Z"
-        },
-        {
-          "id": "fd609482-7b88-4171-8505-1f450bc54055",
-          "title": "SEEK Mobile — Responsive layout for /chat (workspace, side panel, signin modal)",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T19:18:29.254Z"
         },
         {
           "id": "6b9e4d95-33c6-490d-81bc-ba87d66e2405",
@@ -154,15 +172,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-01T18:59:11.567Z"
-        },
-        {
-          "id": "a92d7fc2-3cda-4b1e-8bb0-562de271d86d",
-          "title": "SEEK FE — Layout fixes (sticky input, anchored disclaimer, remove green strip, fix gap)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-01T18:57:29.067Z"
         },
         {
           "id": "a9824a69-c5e7-4b70-ac41-05dd8957b69d",
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-04-28T19:52:36.568Z"
-        },
-        {
-          "id": "15222514-ebd8-46ab-a520-6f0cf6a22989",
-          "title": "Add ability to invoice off-platform clients from the invoicing tab",
-          "state": {
-            "name": "Planning"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-24T22:20:13.082Z"
         }
       ]
     }
