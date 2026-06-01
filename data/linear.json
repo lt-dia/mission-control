@@ -3,6 +3,60 @@
     "issues": {
       "nodes": [
         {
+          "id": "5122aac9-49c0-489c-8fd5-28aa56812148",
+          "title": "SEEK FE — Client loses access to SEEK landing once any chat session exists (no in-app affordance to return)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T22:00:49.258Z"
+        },
+        {
+          "id": "8db31a91-77a6-424b-8fd4-b5d132d7fb9f",
+          "title": "SEEK Sales Team Onboarding — Jerry, Melissa, Tommie (internal use on sales calls)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 1,
+          "updatedAt": "2026-06-01T22:00:49.258Z"
+        },
+        {
+          "id": "07711b46-2919-4f5a-8807-8a59334603b8",
+          "title": "SEEK FE — Guest conversational UX (session capture, pills, locked actions, modal)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T22:00:49.258Z"
+        },
+        {
+          "id": "337eb6c8-e4dd-478d-a15c-802992165d54",
+          "title": "SEEK — Guest-to-authed return-to-context (preserve search results after signin, no re-run)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T19:47:36.845Z"
+        },
+        {
+          "id": "d17b580c-8cf4-48a3-8d3c-8ff632f1e1ca",
+          "title": "SEEK — Save workspace + Save candidate to shortlist (the \"sign in to save\" promise)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T19:32:00.533Z"
+        },
+        {
+          "id": "221c3809-91ec-45cc-b273-eec971816275",
+          "title": "SEEK FE — Side-panel view profile for guests + workspace controls (prev/next, close)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T19:32:00.533Z"
+        },
+        {
           "id": "fd609482-7b88-4171-8505-1f450bc54055",
           "title": "SEEK Mobile — Responsive layout for /chat (workspace, side panel, signin modal)",
           "state": {
@@ -28,15 +82,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-01T19:14:18.571Z"
-        },
-        {
-          "id": "221c3809-91ec-45cc-b273-eec971816275",
-          "title": "SEEK FE — Side-panel view profile for guests + workspace controls (prev/next, close)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T19:14:09.804Z"
         },
         {
           "id": "7c1d9d82-1f00-4f34-8bd7-b896672ae2e3",
@@ -93,15 +138,6 @@
           "updatedAt": "2026-06-01T18:59:58.507Z"
         },
         {
-          "id": "8db31a91-77a6-424b-8fd4-b5d132d7fb9f",
-          "title": "SEEK Sales Team Onboarding — Jerry, Melissa, Tommie (internal use on sales calls)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 1,
-          "updatedAt": "2026-06-01T18:59:37.337Z"
-        },
-        {
           "id": "3555cfc1-5ea1-4d7f-9eb0-1a1df07e0409",
           "title": "SEEK Dev Env — localhost:8080 served by node-app-fe-v2 (not lawtrades-fe-ai clone) + dev-mode banner",
           "state": {
@@ -154,15 +190,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-01T18:56:33.577Z"
-        },
-        {
-          "id": "07711b46-2919-4f5a-8807-8a59334603b8",
-          "title": "SEEK FE — Guest conversational UX (session capture, pills, locked actions, modal)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T18:56:25.766Z"
         },
         {
           "id": "971e939c-2d31-4d16-898d-5dade2f168e2",
@@ -424,33 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-04-24T22:20:13.082Z"
-        },
-        {
-          "id": "db81323e-e8aa-493c-ad65-c74961fd828c",
-          "title": "Bug: #offerdata Slack webhook showing incorrect rate data on offer sends",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-24T22:20:03.525Z"
-        },
-        {
-          "id": "49dae618-bd39-471f-9893-dd1d6373fa52",
-          "title": "Improvement: Rename \"weekly limit\" field to \"anticipated weekly hours\" in hire flow",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-24T22:20:03.487Z"
-        },
-        {
-          "id": "7d4d70f2-a284-49eb-8afa-9bb2579e4b16",
-          "title": "Update invoicing table to differentiate Ironclad vs Ironclad HQ",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-24T22:20:03.436Z"
         }
       ]
     }
