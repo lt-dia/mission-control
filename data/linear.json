@@ -3,6 +3,258 @@
     "issues": {
       "nodes": [
         {
+          "id": "fd609482-7b88-4171-8505-1f450bc54055",
+          "title": "SEEK Mobile — Responsive layout for /chat (workspace, side panel, signin modal)",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T19:18:29.254Z"
+        },
+        {
+          "id": "6b9e4d95-33c6-490d-81bc-ba87d66e2405",
+          "title": "SEEK FE — Profile parity sections (Notable Clients + Work Experience in SEEK theme)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T19:14:30.789Z"
+        },
+        {
+          "id": "93305c54-bace-45eb-9abe-1a104156b041",
+          "title": "SEEK FE — LinkedIn icon as trust signal (has_linkedin boolean, URL gated, click → signup modal)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T19:14:18.571Z"
+        },
+        {
+          "id": "221c3809-91ec-45cc-b273-eec971816275",
+          "title": "SEEK FE — Side-panel view profile for guests + workspace controls (prev/next, close)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T19:14:09.804Z"
+        },
+        {
+          "id": "7c1d9d82-1f00-4f34-8bd7-b896672ae2e3",
+          "title": "SEEK Chat — Guest payload v2 (near-parity with authed: photos visible, exact employers, full work history)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T19:13:59.631Z"
+        },
+        {
+          "id": "8478b39f-deb1-44bc-8325-338fb158a82a",
+          "title": "SEEK — Expanded role-qualifier pills (pull from Lawtrades website signup flow, run by Jerry)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T19:00:31.191Z"
+        },
+        {
+          "id": "321fde6b-4c4a-4170-9a94-2b83d3af7f00",
+          "title": "SEEK — Supervising-Lawyer Qualification Gate (broken out from ENG-664)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T19:00:21.580Z"
+        },
+        {
+          "id": "13f194f4-0bae-4286-9052-b5660847b027",
+          "title": "SEEK Analytics / KPI Tracking — funnel events + dashboards (1%→2% signup, 4/week hireflow)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T19:00:13.737Z"
+        },
+        {
+          "id": "91745824-c6d2-4e81-ad7f-06606e8918c1",
+          "title": "SEEK Marketing Assets — blog post + 30-sec video + email + changelog + website update",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T18:59:58.507Z"
+        },
+        {
+          "id": "fd6ca593-a2c5-4e92-9f86-7e985d53546c",
+          "title": "SEEK — Push to Production (chat + BE + FE lockstep deploy to ai.lawtrades.com)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 1,
+          "updatedAt": "2026-06-01T18:59:58.507Z"
+        },
+        {
+          "id": "8db31a91-77a6-424b-8fd4-b5d132d7fb9f",
+          "title": "SEEK Sales Team Onboarding — Jerry, Melissa, Tommie (internal use on sales calls)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 1,
+          "updatedAt": "2026-06-01T18:59:37.337Z"
+        },
+        {
+          "id": "3555cfc1-5ea1-4d7f-9eb0-1a1df07e0409",
+          "title": "SEEK Dev Env — localhost:8080 served by node-app-fe-v2 (not lawtrades-fe-ai clone) + dev-mode banner",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T18:59:25.236Z"
+        },
+        {
+          "id": "b17e281d-3c2e-4953-9af3-88677becba9e",
+          "title": "SEEK UI Polish Pass — open hopper for small visual tweaks from QA feedback",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T18:59:11.567Z"
+        },
+        {
+          "id": "a92d7fc2-3cda-4b1e-8bb0-562de271d86d",
+          "title": "SEEK FE — Layout fixes (sticky input, anchored disclaimer, remove green strip, fix gap)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T18:57:29.067Z"
+        },
+        {
+          "id": "a9824a69-c5e7-4b70-ac41-05dd8957b69d",
+          "title": "SEEK FE — Guest card polish (Raad round 1: drop tier labels, real photo, display_rate, first+initial)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T18:57:04.111Z"
+        },
+        {
+          "id": "9efe0b1b-5330-4360-8353-c4f473572013",
+          "title": "SEEK FE — Workspace chip rendering (\"Small Business Focus\") + more/reject actions",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T18:56:53.673Z"
+        },
+        {
+          "id": "e715e921-eb65-4ef2-af90-650a8b5551cf",
+          "title": "SEEK FE — Drop white AI bubbles for prose + honest match-quality tiers",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T18:56:33.577Z"
+        },
+        {
+          "id": "07711b46-2919-4f5a-8807-8a59334603b8",
+          "title": "SEEK FE — Guest conversational UX (session capture, pills, locked actions, modal)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T18:56:25.766Z"
+        },
+        {
+          "id": "971e939c-2d31-4d16-898d-5dade2f168e2",
+          "title": "SEEK BE — Persist authed SMB classification + auto-route SMB pool",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T18:56:14.805Z"
+        },
+        {
+          "id": "e23fc81c-86b5-4964-bfc7-e18486a3248d",
+          "title": "SEEK BE — Guest follow-up routes (/v1/seek/guest/{more,refine,continue}) + redaction pass-through",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T18:56:07.380Z"
+        },
+        {
+          "id": "e7a56340-91b6-4c45-80d1-c2251702e76f",
+          "title": "SEEK Chat — Guest payload v1 (anti-poach posture — block photo, display_rate, anti-poach teaser_bullets)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T18:55:50.874Z"
+        },
+        {
+          "id": "db7a36b2-4fa8-440b-8eaa-a84f703211f0",
+          "title": "SEEK Chat — Soft filters + Zero-result fallback pills + format LLM JSON salvage",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T18:55:41.380Z"
+        },
+        {
+          "id": "c392298c-236f-4938-a744-8cfeb9bc0428",
+          "title": "SEEK Chat — SMB Qualifier Flow (pills, pool='smb', auto-detect, workspace chip)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T18:55:31.982Z"
+        },
+        {
+          "id": "c4ffd372-4c9f-4071-b81d-fe486a1ef5ed",
+          "title": "SEEK Chat — Guest Mode foundation (sessions, /guest/* routes, server-side redaction)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T18:55:21.963Z"
+        },
+        {
+          "id": "f6e29cf0-b6c8-4500-a717-204f05a62ad1",
+          "title": "MVP Scope + Metrics (PRD lite)",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-01T18:54:50.363Z"
+        },
+        {
+          "id": "7c559ce9-7d17-4c37-8ea1-b8745c168a3b",
+          "title": "SEEK: Phase 3 — Conversational refinement (continue the search in chat)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-01T18:54:48.715Z"
+        },
+        {
+          "id": "8d595091-e186-4636-8bbb-5e91032f6b5c",
+          "title": "SEEK: Phase 2 — Filter refinement chips (Cheaper / Senior+ / Remote)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T18:54:46.770Z"
+        },
+        {
+          "id": "1fe05f3e-4cc3-454e-8fff-033933480d7b",
+          "title": "SEEK: Phase 1 — \"Show 8 more\" button on workspace",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-01T18:54:44.958Z"
+        },
+        {
           "id": "7606b0f7-3f1e-4e54-bb2d-5ae586d80a89",
           "title": "Opportunity feed should filter by talent's practice areas and specialization",
           "state": {
@@ -46,33 +298,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-05-19T15:41:49.676Z"
-        },
-        {
-          "id": "8d595091-e186-4636-8bbb-5e91032f6b5c",
-          "title": "SEEK: Phase 2 — Filter refinement chips (Cheaper / Senior+ / Remote)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-05-18T15:51:26.449Z"
-        },
-        {
-          "id": "7c559ce9-7d17-4c37-8ea1-b8745c168a3b",
-          "title": "SEEK: Phase 3 — Conversational refinement (continue the search in chat)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-05-18T15:51:26.373Z"
-        },
-        {
-          "id": "1fe05f3e-4cc3-454e-8fff-033933480d7b",
-          "title": "SEEK: Phase 1 — \"Show 8 more\" button on workspace",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-05-18T15:51:26.360Z"
         },
         {
           "id": "16e1aeed-cb1d-49e4-8c02-c8fe08917847",
@@ -226,231 +451,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-04-24T22:20:03.436Z"
-        },
-        {
-          "id": "e1cf2c1a-f228-4326-88af-a05297d7392d",
-          "title": "feat(AI): Contract Review Copilot — Phase 1 of AI Product Roadmap",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-24T22:19:35.946Z"
-        },
-        {
-          "id": "0d0aa20c-7069-4add-afd1-c916cd2c27b3",
-          "title": "feat(email): Design & build AI feature announcement email campaign (3-email drip)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-24T22:19:21.330Z"
-        },
-        {
-          "id": "9b620dbf-cdde-4bd2-8701-cc9f2c70fa13",
-          "title": "Ops: Manually correct Jesse & Brian (Security Scorecard) engagement records",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-24T22:19:02.647Z"
-        },
-        {
-          "id": "b2c934d0-fc4b-4ca9-bba6-3aa7491cacb9",
-          "title": "UX: Remove or fix \\\"Independent Contractor\\\" badge on engagement detail",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 4,
-          "updatedAt": "2026-04-24T22:19:02.613Z"
-        },
-        {
-          "id": "77d408a3-e54f-4adc-b44e-0fb6bf9c4760",
-          "title": "UX: Replace \\\"Contract\\\" label with position title on engagement cards",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 4,
-          "updatedAt": "2026-04-24T22:19:02.584Z"
-        },
-        {
-          "id": "14200bdb-6699-4d65-8e14-562486dcc126",
-          "title": "UX: Move \\\"Download Contract\\\" button up on engagement detail page",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 4,
-          "updatedAt": "2026-04-24T22:19:02.550Z"
-        },
-        {
-          "id": "5f795373-e180-4d2c-b12c-283fc30e6085",
-          "title": "Bug: \\\"Copy Contract Link\\\" button not functional on engagement detail",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-24T22:19:02.520Z"
-        },
-        {
-          "id": "72522b61-5e27-4555-b4cb-3f473fce48d5",
-          "title": "Bug: Broken profile link on client-side engagement detail page",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-24T22:19:02.484Z"
-        },
-        {
-          "id": "b434b4b6-5293-460a-b421-3e674b568f0f",
-          "title": "Bug: Engagement rate display showing client rate instead of talent payout",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-24T22:17:59.189Z"
-        },
-        {
-          "id": "4c43b3a6-f0d7-48f2-b7ce-659115c189e5",
-          "title": "Bug: Engagement email templates rendering blank/incorrect data (Talent / Client / Kickoff)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-24T22:17:31.587Z"
-        },
-        {
-          "id": "9ccfcbf4-93b6-4e1a-9629-206704b62fc8",
-          "title": "Ops: Re-trigger and verify engagement emails for Jesse/Brian (Security Scorecard)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-24T22:16:29.665Z"
-        },
-        {
-          "id": "1a366e35-826d-47d7-bdd5-beac3305292e",
-          "title": "Bug: Company ID not linked on engagement creation after DocuSign signing (Root Cause)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-24T22:16:12.266Z"
-        },
-        {
-          "id": "87ec6ad9-ff63-4e02-bed7-4531d58bdb09",
-          "title": "feat(AI): Implement worklog-driven role-aware AI homepage cards",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-24T22:09:49.727Z"
-        },
-        {
-          "id": "9b6d7b48-de56-4857-bb1f-a3b017ca1da1",
-          "title": "Fix Hire Request Webhook: Rate & Payout Using Budget Instead of Applicant Values",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-24T22:09:05.927Z"
-        },
-        {
-          "id": "e7c0af67-8d8c-48c3-8718-fce4a5b1903f",
-          "title": "fix(offers): correct talent-facing pricing across offer channels",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-24T22:08:36.118Z"
-        },
-        {
-          "id": "0331caa8-3193-412b-bdfd-937b89bb4f4d",
-          "title": "Calendar Invites Not Sending for Scheduled Interviews",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-24T21:20:05.146Z"
-        },
-        {
-          "id": "69b2511b-70fb-4033-9864-51eef265c0ba",
-          "title": "delete talent acctount - should be a client account (ASAP for engagement set up!)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-22T22:20:01.660Z"
-        },
-        {
-          "id": "5193b6ea-dc78-4374-8ae4-4e40173dfd96",
-          "title": "update engagement offer title on talent dashboard",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-04-22T19:47:00.052Z"
-        },
-        {
-          "id": "eeba20df-6432-4c12-b898-94702bcf429f",
-          "title": "feat(candidates): allow un-decline / reactivate declined candidates on open positions",
-          "state": {
-            "name": "Planning"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-16T16:55:03.705Z"
-        },
-        {
-          "id": "d0128618-49d8-481a-9bbe-398179263cc5",
-          "title": "Bug: SOW payment option language doesn't match product terminology",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-16T16:21:49.324Z"
-        },
-        {
-          "id": "81239a68-4e51-420c-b083-7422455a87d3",
-          "title": "Terms of use: copy error",
-          "state": {
-            "name": "Triage"
-          },
-          "priority": 0,
-          "updatedAt": "2026-04-15T15:23:28.822Z"
-        },
-        {
-          "id": "c69797f3-c177-4c60-ae7f-a81d47d68cb3",
-          "title": "interview scheduling tool is not generating an invite/ updating the interview time",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-09T20:37:46.813Z"
-        },
-        {
-          "id": "605b4e20-0572-4142-b833-7ecaa5b5ef2c",
-          "title": "Bug: Engagement title defaulting to \"data deletion policy\" instead of position title",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-09T14:31:12.155Z"
-        },
-        {
-          "id": "93b8a803-e854-43e4-8b3e-5327f5d022db",
-          "title": "[SPIKE] Upfront Hours Tracker - Research & Estimation",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-06T14:19:14.087Z"
-        },
-        {
-          "id": "c5ff526a-a76a-4057-9c9e-cdb3a0386130",
-          "title": "Admin/Forest UI for Pre-Signed MSA Upload (ops self-service)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-06T14:17:55.189Z"
         }
       ]
     }

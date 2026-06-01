@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_KQQgWa7XXgVtZn",
+      "object": "note",
+      "title": "Lawtrades strategy — organization, hiring, and product metrics",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-06-01T14:30:45.078Z",
+      "updated_at": "2026-06-01T15:31:41.288Z"
+    },
+    {
       "id": "not_Siq787iZ1pbroW",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -9,7 +20,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-05-29T15:00:13.925Z",
-      "updated_at": "2026-05-29T15:27:05.156Z"
+      "updated_at": "2026-06-01T14:30:43.555Z"
     },
     {
       "id": "not_USHuJYAwTcIzNk",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-05-26T23:30:36.706Z",
       "updated_at": "2026-05-28T00:33:16.890Z"
-    },
-    {
-      "id": "not_4R4PsgCSWHvlqp",
-      "object": "note",
-      "title": "SMB talent matching flow — guest onboarding and filtering with Jerry",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-05-26T18:13:39.033Z",
-      "updated_at": "2026-05-26T18:24:59.302Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNS0yNlQxODoxMzozOS4wMzNaIiwibGFzdF9kb2NfaWQiOiIyMGNkMWMyNC0zZDNhLTQwNGItODgyNy04NmU2ZmQwOWM5YTYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNS0yNlQyMzozMDozNi43MDZaIiwibGFzdF9kb2NfaWQiOiI3YzdhM2RlNS03ZmI5LTRmYmYtYTJkMi00ZWM5MmFmZGI5NjcifQ"
 }
