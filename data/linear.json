@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "70e62fdc-4b5a-4b0a-9168-a15a2beb5cba",
+          "title": "UI | Agent Streaming Hidden in longer sessions",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-02T15:09:08.346Z"
+        },
+        {
+          "id": "5f5346fe-c168-4760-955e-aafbebda2e89",
+          "title": "UI | LTSEEK Not Scrollable when Workspace is Closed",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-02T15:09:06.668Z"
+        },
+        {
+          "id": "ed1c79bc-58c6-4057-8f90-d4a7fa0f2f6e",
+          "title": "SEEK | Brian's QA",
+          "state": {
+            "name": "Planning"
+          },
+          "priority": 1,
+          "updatedAt": "2026-06-02T13:13:40.696Z"
+        },
+        {
           "id": "03c9a7de-e825-4544-9dec-6ae1457c9e5c",
           "title": "SEEK Mobile — Disclaimer footer overlaps bottom of workspace + side panel (blocks \"Request interview\")",
           "state": {
@@ -424,33 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-04-29T14:23:21.852Z"
-        },
-        {
-          "id": "1b1e85fd-34ee-4a75-ad14-7c2245fbbfaf",
-          "title": "Fix hiring-flow notifications — missing Slack alert and \"unknown client\" in email",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-04-29T14:23:08.896Z"
-        },
-        {
-          "id": "a33479d6-193e-4a1c-ac54-5cab56c080a7",
-          "title": "Look into Melissa getting DocuSign access",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-29T14:11:14.030Z"
-        },
-        {
-          "id": "22d05f5d-aaf9-496c-93b5-37c4ad6444f1",
-          "title": "Monk: clean up duplicate/mislinked customer records",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-28T19:52:36.568Z"
         }
       ]
     }

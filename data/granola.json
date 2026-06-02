@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_sk3iRC2vZz5Zg7",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-06-02T15:00:02.663Z",
+      "updated_at": "2026-06-02T15:26:44.001Z"
+    },
+    {
       "id": "not_KQQgWa7XXgVtZn",
       "object": "note",
       "title": "Lawtrades strategy — organization, hiring, and product metrics",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-05-27T15:00:07.128Z",
       "updated_at": "2026-05-27T15:38:33.271Z"
-    },
-    {
-      "id": "not_KzVcebDX4TFaiE",
-      "object": "note",
-      "title": "Data Analysis ",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-05-26T23:30:36.706Z",
-      "updated_at": "2026-05-28T00:33:16.890Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNS0yNlQyMzozMDozNi43MDZaIiwibGFzdF9kb2NfaWQiOiI3YzdhM2RlNS03ZmI5LTRmYmYtYTJkMi00ZWM5MmFmZGI5NjcifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNS0yN1QxNTowMDowNy4xMjhaIiwibGFzdF9kb2NfaWQiOiJkNmI4Y2FlYi0zYmI0LTRhZmUtOTg1Yi02NTcyMjczNWU3NmEifQ"
 }
