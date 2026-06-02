@@ -3,46 +3,91 @@
     "issues": {
       "nodes": [
         {
-          "id": "70e62fdc-4b5a-4b0a-9168-a15a2beb5cba",
-          "title": "UI | Agent Streaming Hidden in longer sessions",
+          "id": "ed1c79bc-58c6-4057-8f90-d4a7fa0f2f6e",
+          "title": "SEEK | Brian's QA",
           "state": {
-            "name": "Backlog"
+            "name": "In Review"
+          },
+          "priority": 1,
+          "updatedAt": "2026-06-02T19:00:42.109Z"
+        },
+        {
+          "id": "78eb92ee-6e7d-4aa0-b3df-3fd84026e7d9",
+          "title": "Agent Hallucination?",
+          "state": {
+            "name": "In Review"
           },
           "priority": 0,
-          "updatedAt": "2026-06-02T15:09:08.346Z"
+          "updatedAt": "2026-06-02T18:19:48.474Z"
+        },
+        {
+          "id": "8174f283-9a23-49a3-b422-affddee9dd2d",
+          "title": "Initially Surfaced Matches Disappeared",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-02T18:19:44.912Z"
         },
         {
           "id": "5f5346fe-c168-4760-955e-aafbebda2e89",
           "title": "UI | LTSEEK Not Scrollable when Workspace is Closed",
           "state": {
-            "name": "Backlog"
+            "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-06-02T15:09:06.668Z"
+          "updatedAt": "2026-06-02T17:42:31.893Z"
         },
         {
-          "id": "ed1c79bc-58c6-4057-8f90-d4a7fa0f2f6e",
-          "title": "SEEK | Brian's QA",
+          "id": "70e62fdc-4b5a-4b0a-9168-a15a2beb5cba",
+          "title": "UI | Agent Streaming Hidden in longer sessions",
           "state": {
-            "name": "Planning"
+            "name": "Done"
           },
-          "priority": 1,
-          "updatedAt": "2026-06-02T13:13:40.696Z"
+          "priority": 0,
+          "updatedAt": "2026-06-02T17:42:29.075Z"
+        },
+        {
+          "id": "cc058c57-91e2-48c4-805f-f0a0b9b15ab8",
+          "title": "User Sent Message Persistent in Message Field",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-02T17:42:26.249Z"
+        },
+        {
+          "id": "fd609482-7b88-4171-8505-1f450bc54055",
+          "title": "SEEK Mobile — Responsive layout for /chat (workspace, side panel, signin modal)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-02T17:36:28.087Z"
+        },
+        {
+          "id": "3b51cbc2-b065-4f19-b9fc-ac6550b87f2f",
+          "title": "Fix and adjust Zip's prepaid balance total",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-02T17:15:40.075Z"
+        },
+        {
+          "id": "a1068905-0e1a-4d7f-9408-15136aed28cf",
+          "title": "Fix Hire Flow — Agreement Sequencing & Signature Gating",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-02T17:14:04.878Z"
         },
         {
           "id": "03c9a7de-e825-4544-9dec-6ae1457c9e5c",
           "title": "SEEK Mobile — Disclaimer footer overlaps bottom of workspace + side panel (blocks \"Request interview\")",
           "state": {
             "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T22:43:14.178Z"
-        },
-        {
-          "id": "fd609482-7b88-4171-8505-1f450bc54055",
-          "title": "SEEK Mobile — Responsive layout for /chat (workspace, side panel, signin modal)",
-          "state": {
-            "name": "In Progress"
           },
           "priority": 2,
           "updatedAt": "2026-06-01T22:43:14.178Z"
@@ -399,15 +444,6 @@
           "updatedAt": "2026-05-01T16:01:49.043Z"
         },
         {
-          "id": "3b51cbc2-b065-4f19-b9fc-ac6550b87f2f",
-          "title": "Fix and adjust Zip's prepaid balance total",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-30T14:04:36.994Z"
-        },
-        {
           "id": "5722ff85-0c9f-46fe-898c-6c0a262bd3c8",
           "title": "Add Export PDF to prepaid balance invoice for clients",
           "state": {
@@ -415,42 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-04-30T14:04:17.578Z"
-        },
-        {
-          "id": "7b757348-258c-4bba-8630-b848158b77d6",
-          "title": "Upfront (Prepaid) Hours Balance in Dashboard + Low Balance Alerts",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-29T21:41:09.789Z"
-        },
-        {
-          "id": "6fe9a871-dc21-4b8b-ac83-bfb2ff5e8c81",
-          "title": "delete talent account (should be a client account)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-04-29T21:22:02.338Z"
-        },
-        {
-          "id": "859932d8-65d2-4f21-b688-7f8776b4b3ce",
-          "title": "Explore DocuSign-to-dashboard sync — auto-populate dashboard from manual contracts",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-29T14:23:32.021Z"
-        },
-        {
-          "id": "cd0e367b-de2e-4698-93fb-ec62e7e4995e",
-          "title": "Improve manual-to-dashboard hiring flow — let ops trigger hiring from dashboard",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-29T14:23:21.852Z"
         }
       ]
     }
