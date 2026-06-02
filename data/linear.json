@@ -3,13 +3,31 @@
     "issues": {
       "nodes": [
         {
+          "id": "5122aac9-49c0-489c-8fd5-28aa56812148",
+          "title": "SEEK FE — Client loses access to SEEK landing once any chat session exists (no in-app affordance to return)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-02T22:14:19.156Z"
+        },
+        {
+          "id": "8174f283-9a23-49a3-b422-affddee9dd2d",
+          "title": "Initially Surfaced Matches Disappeared",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-02T22:14:11.336Z"
+        },
+        {
           "id": "ed1c79bc-58c6-4057-8f90-d4a7fa0f2f6e",
           "title": "SEEK | Brian's QA",
           "state": {
-            "name": "In Review"
+            "name": "Done"
           },
           "priority": 1,
-          "updatedAt": "2026-06-02T19:00:42.109Z"
+          "updatedAt": "2026-06-02T20:18:28.325Z"
         },
         {
           "id": "78eb92ee-6e7d-4aa0-b3df-3fd84026e7d9",
@@ -19,15 +37,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-06-02T18:19:48.474Z"
-        },
-        {
-          "id": "8174f283-9a23-49a3-b422-affddee9dd2d",
-          "title": "Initially Surfaced Matches Disappeared",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-02T18:19:44.912Z"
         },
         {
           "id": "5f5346fe-c168-4760-955e-aafbebda2e89",
@@ -109,15 +118,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-01T22:43:14.178Z"
-        },
-        {
-          "id": "5122aac9-49c0-489c-8fd5-28aa56812148",
-          "title": "SEEK FE — Client loses access to SEEK landing once any chat session exists (no in-app affordance to return)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T22:00:49.258Z"
         },
         {
           "id": "8db31a91-77a6-424b-8fd4-b5d132d7fb9f",
