@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "edaa36fd-03c1-493d-b5d6-d0faccc2fbee",
+          "title": "SEEK V1.5: structured-input mode for position-attached searches",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-03T22:02:20.875Z"
+        },
+        {
           "id": "7528dd3e-9370-4d9a-8a32-c9e4417511d6",
           "title": "Hire Flow — Add inline red error validation on Engagement Details step (required fields + char limits)",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-05-06T21:32:53.718Z"
-        },
-        {
-          "id": "74efb2ee-bb6e-4df2-9d6e-bac138d7eb38",
-          "title": "Sort Legal Jobs page by most recent",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 4,
-          "updatedAt": "2026-05-01T16:01:49.043Z"
         }
       ]
     }
