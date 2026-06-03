@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "7528dd3e-9370-4d9a-8a32-c9e4417511d6",
+          "title": "Hire Flow — Add inline red error validation on Engagement Details step (required fields + char limits)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-03T14:00:25.103Z"
+        },
+        {
           "id": "5122aac9-49c0-489c-8fd5-28aa56812148",
           "title": "SEEK FE — Client loses access to SEEK landing once any chat session exists (no in-app affordance to return)",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 4,
           "updatedAt": "2026-05-01T16:01:49.043Z"
-        },
-        {
-          "id": "5722ff85-0c9f-46fe-898c-6c0a262bd3c8",
-          "title": "Add Export PDF to prepaid balance invoice for clients",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-04-30T14:04:17.578Z"
         }
       ]
     }
