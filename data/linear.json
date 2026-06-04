@@ -3,13 +3,58 @@
     "issues": {
       "nodes": [
         {
-          "id": "25fae30c-61c0-4a5f-848e-4c9128e032c7",
-          "title": "SEEK — Show lawyer license jurisdiction(s) + distinguish \"licensed in\" vs \"based in\" on profile",
+          "id": "069b05ab-7124-4298-b911-85f412fd56b5",
+          "title": "SEEK — Request Interview flow needs structured role/position association (replace unstructured notes)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 4,
+          "updatedAt": "2026-06-04T18:17:05.626Z"
+        },
+        {
+          "id": "df1bd4a8-5e12-4684-afe3-16c8102da814",
+          "title": "SEEK — SMB lawyer pool curation + tighter SMB-vs-corporate routing (Tommy + Jerry)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-04T18:08:41.843Z"
+        },
+        {
+          "id": "c392298c-236f-4938-a744-8cfeb9bc0428",
+          "title": "SEEK Chat — SMB Qualifier Flow (pills, pool='smb', auto-detect, workspace chip)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-04T18:08:41.843Z"
+        },
+        {
+          "id": "971e939c-2d31-4d16-898d-5dade2f168e2",
+          "title": "SEEK BE — Persist authed SMB classification + auto-route SMB pool",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-04T18:08:41.843Z"
+        },
+        {
+          "id": "8478b39f-deb1-44bc-8325-338fb158a82a",
+          "title": "SEEK — Expanded role-qualifier pills (pull from Lawtrades website signup flow, run by Jerry)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-04T18:08:41.843Z"
+        },
+        {
+          "id": "8fa48000-1856-49b2-a6df-8edb39792458",
+          "title": "SEEK — Fix broken interview scheduling flow (Melissa + Tommy flagged in demo)",
           "state": {
             "name": "Backlog"
           },
           "priority": 2,
-          "updatedAt": "2026-06-04T18:06:59.870Z"
+          "updatedAt": "2026-06-04T18:08:24.088Z"
         },
         {
           "id": "c60402af-e88f-47a5-a2d6-ac7562cb6e0c",
@@ -18,6 +63,69 @@
             "name": "Done"
           },
           "priority": 1,
+          "updatedAt": "2026-06-04T18:08:24.088Z"
+        },
+        {
+          "id": "221c3809-91ec-45cc-b273-eec971816275",
+          "title": "SEEK FE — Side-panel view profile for guests + workspace controls (prev/next, close)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-04T18:08:24.088Z"
+        },
+        {
+          "id": "7040233b-b85e-4020-bd3f-771f30f4f99e",
+          "title": "SEEK — Filter out inactive talent (require vetted + recent platform activity in last 12 months)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-04T18:07:50.948Z"
+        },
+        {
+          "id": "56fde4f7-60d2-427c-ae2f-a46e4fded600",
+          "title": "SEEK V1.5 — Close the freeform-NL recall ceiling (position-attached structured mode + embedding NL→taxonomy resolution)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-04T18:07:50.948Z"
+        },
+        {
+          "id": "e2f995f2-c59a-4f99-93d5-bb78365b1aa9",
+          "title": "SEEK — AI-generalize candidate job titles in guest mode (anti-LinkedIn-matching)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-04T18:07:35.075Z"
+        },
+        {
+          "id": "7c1d9d82-1f00-4f34-8bd7-b896672ae2e3",
+          "title": "SEEK Chat — Guest payload v2 (near-parity with authed: photos visible, exact employers, full work history)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-04T18:07:35.075Z"
+        },
+        {
+          "id": "ae829f67-b92d-4643-91d2-a7c68e1ff050",
+          "title": "SEEK — Use random / non-matching profile photos for guest workspace (anti-poach via image swap)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-04T18:07:16.991Z"
+        },
+        {
+          "id": "25fae30c-61c0-4a5f-848e-4c9128e032c7",
+          "title": "SEEK — Show lawyer license jurisdiction(s) + distinguish \"licensed in\" vs \"based in\" on profile",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
           "updatedAt": "2026-06-04T18:06:59.870Z"
         },
         {
@@ -45,15 +153,6 @@
             "name": "Backlog"
           },
           "priority": 4,
-          "updatedAt": "2026-06-04T13:56:55.619Z"
-        },
-        {
-          "id": "221c3809-91ec-45cc-b273-eec971816275",
-          "title": "SEEK FE — Side-panel view profile for guests + workspace controls (prev/next, close)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
           "updatedAt": "2026-06-04T13:56:55.619Z"
         },
         {
@@ -91,15 +190,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-04T13:56:26.639Z"
-        },
-        {
-          "id": "56fde4f7-60d2-427c-ae2f-a46e4fded600",
-          "title": "SEEK V1.5 — Close the freeform-NL recall ceiling (position-attached structured mode + embedding NL→taxonomy resolution)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-03T22:16:17.633Z"
         },
         {
           "id": "edaa36fd-03c1-493d-b5d6-d0faccc2fbee",
@@ -264,24 +354,6 @@
           "updatedAt": "2026-06-01T19:32:00.533Z"
         },
         {
-          "id": "7c1d9d82-1f00-4f34-8bd7-b896672ae2e3",
-          "title": "SEEK Chat — Guest payload v2 (near-parity with authed: photos visible, exact employers, full work history)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T19:13:59.631Z"
-        },
-        {
-          "id": "8478b39f-deb1-44bc-8325-338fb158a82a",
-          "title": "SEEK — Expanded role-qualifier pills (pull from Lawtrades website signup flow, run by Jerry)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-01T19:00:31.191Z"
-        },
-        {
           "id": "321fde6b-4c4a-4170-9a94-2b83d3af7f00",
           "title": "SEEK — Supervising-Lawyer Qualification Gate (broken out from ENG-664)",
           "state": {
@@ -363,15 +435,6 @@
           "updatedAt": "2026-06-01T18:56:33.577Z"
         },
         {
-          "id": "971e939c-2d31-4d16-898d-5dade2f168e2",
-          "title": "SEEK BE — Persist authed SMB classification + auto-route SMB pool",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-01T18:56:14.805Z"
-        },
-        {
           "id": "e23fc81c-86b5-4964-bfc7-e18486a3248d",
           "title": "SEEK BE — Guest follow-up routes (/v1/seek/guest/{more,refine,continue}) + redaction pass-through",
           "state": {
@@ -388,69 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-01T18:55:50.874Z"
-        },
-        {
-          "id": "db7a36b2-4fa8-440b-8eaa-a84f703211f0",
-          "title": "SEEK Chat — Soft filters + Zero-result fallback pills + format LLM JSON salvage",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-01T18:55:41.380Z"
-        },
-        {
-          "id": "c392298c-236f-4938-a744-8cfeb9bc0428",
-          "title": "SEEK Chat — SMB Qualifier Flow (pills, pool='smb', auto-detect, workspace chip)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T18:55:31.982Z"
-        },
-        {
-          "id": "c4ffd372-4c9f-4071-b81d-fe486a1ef5ed",
-          "title": "SEEK Chat — Guest Mode foundation (sessions, /guest/* routes, server-side redaction)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T18:55:21.963Z"
-        },
-        {
-          "id": "f6e29cf0-b6c8-4500-a717-204f05a62ad1",
-          "title": "MVP Scope + Metrics (PRD lite)",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-01T18:54:50.363Z"
-        },
-        {
-          "id": "7c559ce9-7d17-4c37-8ea1-b8745c168a3b",
-          "title": "SEEK: Phase 3 — Conversational refinement (continue the search in chat)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-01T18:54:48.715Z"
-        },
-        {
-          "id": "8d595091-e186-4636-8bbb-5e91032f6b5c",
-          "title": "SEEK: Phase 2 — Filter refinement chips (Cheaper / Senior+ / Remote)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T18:54:46.770Z"
-        },
-        {
-          "id": "1fe05f3e-4cc3-454e-8fff-033933480d7b",
-          "title": "SEEK: Phase 1 — \"Show 8 more\" button on workspace",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T18:54:44.958Z"
         }
       ]
     }
