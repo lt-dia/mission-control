@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "25fae30c-61c0-4a5f-848e-4c9128e032c7",
+          "title": "SEEK — Show lawyer license jurisdiction(s) + distinguish \"licensed in\" vs \"based in\" on profile",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-04T18:06:59.870Z"
+        },
+        {
+          "id": "c60402af-e88f-47a5-a2d6-ac7562cb6e0c",
+          "title": "SEEK — Agent SDK + MCP-shape migration V1 (ship in PR #178)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-06-04T18:06:59.870Z"
+        },
+        {
           "id": "3a22e215-8ae2-4188-9d50-aaf3916e894d",
           "title": "SEEK FE — Per-role skill chips missing from side-panel Work Experience (alignment gap with `/profile/{slug}` page)",
           "state": {
@@ -72,15 +90,6 @@
             "name": "Backlog"
           },
           "priority": 2,
-          "updatedAt": "2026-06-04T13:56:26.639Z"
-        },
-        {
-          "id": "c60402af-e88f-47a5-a2d6-ac7562cb6e0c",
-          "title": "SEEK — Agent SDK + MCP-shape migration V1 (ship in PR #178)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
           "updatedAt": "2026-06-04T13:56:26.639Z"
         },
         {
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-01T18:54:44.958Z"
-        },
-        {
-          "id": "7606b0f7-3f1e-4e54-bb2d-5ae586d80a89",
-          "title": "Opportunity feed should filter by talent's practice areas and specialization",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-05-26T16:36:01.214Z"
         }
       ]
     }
