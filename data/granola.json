@@ -1,6 +1,28 @@
 {
   "notes": [
     {
+      "id": "not_GIMyLILKCY0oBN",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-06-04T15:00:50.840Z",
+      "updated_at": "2026-06-04T15:52:06.494Z"
+    },
+    {
+      "id": "not_9Mw9ZOi3rKg1go",
+      "object": "note",
+      "title": "AI-powered candidate matching — location, licensing, and SMB filtering",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-06-04T14:32:46.575Z",
+      "updated_at": "2026-06-04T15:00:50.823Z"
+    },
+    {
       "id": "not_c1HbeYmVqSHpkY",
       "object": "note",
       "title": "6/3 Notes",
@@ -20,7 +42,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-06-03T14:50:34.827Z",
-      "updated_at": "2026-06-03T15:47:55.423Z"
+      "updated_at": "2026-06-04T14:32:46.157Z"
     },
     {
       "id": "not_GhIVQhOtThNTCR",
@@ -32,30 +54,8 @@
       },
       "created_at": "2026-06-02T23:33:13.823Z",
       "updated_at": "2026-06-03T23:03:23.651Z"
-    },
-    {
-      "id": "not_sk3iRC2vZz5Zg7",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-06-02T15:00:02.663Z",
-      "updated_at": "2026-06-02T23:33:12.563Z"
-    },
-    {
-      "id": "not_KQQgWa7XXgVtZn",
-      "object": "note",
-      "title": "Lawtrades strategy — organization, hiring, and product metrics",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-06-01T14:30:45.078Z",
-      "updated_at": "2026-06-01T15:31:41.288Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0wMVQxNDozMDo0NS4wNzhaIiwibGFzdF9kb2NfaWQiOiIwMjFkMzQyYS0xZmUwLTRhMTItYWFjNC02Y2EzOTFlNzVjMTQifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0wMlQyMzozMzoxMy44MjNaIiwibGFzdF9kb2NfaWQiOiI1Nzc3NjUxMC05YWQ4LTRkNmYtOTI1YS1mMWVkM2E2N2ZmZTAifQ"
 }

@@ -3,13 +3,85 @@
     "issues": {
       "nodes": [
         {
+          "id": "3a22e215-8ae2-4188-9d50-aaf3916e894d",
+          "title": "SEEK FE — Per-role skill chips missing from side-panel Work Experience (alignment gap with `/profile/{slug}` page)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 4,
+          "updatedAt": "2026-06-04T13:57:06.956Z"
+        },
+        {
+          "id": "6b9e4d95-33c6-490d-81bc-ba87d66e2405",
+          "title": "SEEK FE — Profile parity sections (Notable Clients + Work Experience in SEEK theme)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-04T13:57:06.956Z"
+        },
+        {
+          "id": "4c74eb90-eb6c-4af7-83e9-e3c55ea3f4ce",
+          "title": "SEEK FE — `SeekSignInModal` for Request Interview missing candidate name in copy",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 4,
+          "updatedAt": "2026-06-04T13:56:55.619Z"
+        },
+        {
+          "id": "221c3809-91ec-45cc-b273-eec971816275",
+          "title": "SEEK FE — Side-panel view profile for guests + workspace controls (prev/next, close)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-04T13:56:55.619Z"
+        },
+        {
+          "id": "dd79f901-86d0-4361-9787-283e8baaf926",
+          "title": "SEEK FE — LinkedIn icon click is non-functional in authed `/profile/{slug}` page",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-04T13:56:45.784Z"
+        },
+        {
+          "id": "93305c54-bace-45eb-9abe-1a104156b041",
+          "title": "SEEK FE — LinkedIn icon as trust signal (has_linkedin boolean, URL gated, click → signup modal)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-04T13:56:45.784Z"
+        },
+        {
+          "id": "90635b08-8ef4-4dce-af4b-5684533b4a71",
+          "title": "SEEK FE — LinkedIn icon absent from guest side-panel overlay",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-04T13:56:30.243Z"
+        },
+        {
+          "id": "0c7ba344-1f60-4b50-9a7a-3efbd677c107",
+          "title": "SEEK — Rate cap (and other tightened filters) don't prune workspace candidates from prior turns",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-04T13:56:26.639Z"
+        },
+        {
           "id": "c60402af-e88f-47a5-a2d6-ac7562cb6e0c",
           "title": "SEEK — Agent SDK + MCP-shape migration V1 (ship in PR #178)",
           "state": {
             "name": "Done"
           },
           "priority": 1,
-          "updatedAt": "2026-06-04T02:15:17.349Z"
+          "updatedAt": "2026-06-04T13:56:26.639Z"
         },
         {
           "id": "56fde4f7-60d2-427c-ae2f-a46e4fded600",
@@ -147,15 +219,6 @@
           "updatedAt": "2026-06-01T22:43:14.178Z"
         },
         {
-          "id": "221c3809-91ec-45cc-b273-eec971816275",
-          "title": "SEEK FE — Side-panel view profile for guests + workspace controls (prev/next, close)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T22:43:14.178Z"
-        },
-        {
           "id": "8db31a91-77a6-424b-8fd4-b5d132d7fb9f",
           "title": "SEEK Sales Team Onboarding — Jerry, Melissa, Tommie (internal use on sales calls)",
           "state": {
@@ -190,24 +253,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-01T19:32:00.533Z"
-        },
-        {
-          "id": "6b9e4d95-33c6-490d-81bc-ba87d66e2405",
-          "title": "SEEK FE — Profile parity sections (Notable Clients + Work Experience in SEEK theme)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T19:14:30.789Z"
-        },
-        {
-          "id": "93305c54-bace-45eb-9abe-1a104156b041",
-          "title": "SEEK FE — LinkedIn icon as trust signal (has_linkedin boolean, URL gated, click → signup modal)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-01T19:14:18.571Z"
         },
         {
           "id": "7c1d9d82-1f00-4f34-8bd7-b896672ae2e3",
@@ -406,51 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-05-26T16:36:01.214Z"
-        },
-        {
-          "id": "5a07d953-0631-4920-8a6c-3cc057681624",
-          "title": "limit ability to schedule two interviews at the same time.",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-05-26T15:09:37.580Z"
-        },
-        {
-          "id": "7b460146-b684-47f9-8455-fe0e7246d5bd",
-          "title": "update interview scheduling tool to make the clanedar reflective of changes",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-05-26T15:09:37.577Z"
-        },
-        {
-          "id": "e6987081-4501-46c9-8c02-eed0276c5309",
-          "title": "update the ability to click on the time drop down when scheduling an interview",
-          "state": {
-            "name": "Planning"
-          },
-          "priority": 0,
-          "updatedAt": "2026-05-22T13:46:53.611Z"
-        },
-        {
-          "id": "4c6cf140-17be-442e-845b-d4e252036da8",
-          "title": "remove client account - linked to wrong comapny",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-05-19T15:41:49.676Z"
-        },
-        {
-          "id": "16e1aeed-cb1d-49e4-8c02-c8fe08917847",
-          "title": "Talent receives \"new engagement offer\" email before client signs DocuSign",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-05-12T16:07:37.241Z"
         }
       ]
     }
