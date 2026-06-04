@@ -3,21 +3,21 @@
     "issues": {
       "nodes": [
         {
-          "id": "56fde4f7-60d2-427c-ae2f-a46e4fded600",
-          "title": "SEEK V1.5 — Close the freeform-NL recall ceiling (position-attached structured mode + embedding NL→taxonomy resolution)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-03T22:16:17.633Z"
-        },
-        {
           "id": "c60402af-e88f-47a5-a2d6-ac7562cb6e0c",
           "title": "SEEK — Agent SDK + MCP-shape migration V1 (ship in PR #178)",
           "state": {
             "name": "Done"
           },
           "priority": 1,
+          "updatedAt": "2026-06-04T02:15:17.349Z"
+        },
+        {
+          "id": "56fde4f7-60d2-427c-ae2f-a46e4fded600",
+          "title": "SEEK V1.5 — Close the freeform-NL recall ceiling (position-attached structured mode + embedding NL→taxonomy resolution)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
           "updatedAt": "2026-06-03T22:16:17.633Z"
         },
         {
