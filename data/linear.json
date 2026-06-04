@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "56fde4f7-60d2-427c-ae2f-a46e4fded600",
+          "title": "SEEK V1.5 — Close the freeform-NL recall ceiling (position-attached structured mode + embedding NL→taxonomy resolution)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-03T22:16:17.633Z"
+        },
+        {
+          "id": "c60402af-e88f-47a5-a2d6-ac7562cb6e0c",
+          "title": "SEEK — Agent SDK + MCP-shape migration V1 (ship in PR #178)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-06-03T22:16:17.633Z"
+        },
+        {
           "id": "edaa36fd-03c1-493d-b5d6-d0faccc2fbee",
           "title": "SEEK V1.5: structured-input mode for position-attached searches",
           "state": {
@@ -433,24 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-05-12T16:07:37.241Z"
-        },
-        {
-          "id": "9b2b533a-2d11-4a70-8d69-e45e3dc85d46",
-          "title": "Engagement Kickoff emails: rework template-routing fix without collapsing per-slot templates",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 2,
-          "updatedAt": "2026-05-11T16:54:16.695Z"
-        },
-        {
-          "id": "43aa83e9-c7dc-4294-a5db-39c14a29d03f",
-          "title": "update comapny ID and name for client dashboards",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-05-06T21:32:53.718Z"
         }
       ]
     }
