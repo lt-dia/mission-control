@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "b8439c7f-627f-4da6-a31b-383467df875b",
+          "title": "Hire Flow — Engagement Kickoff Timing & Payment Configuration incorrect",
+          "state": {
+            "name": "Triage"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-05T16:10:25.657Z"
+        },
+        {
           "id": "8ddc684d-b32f-4001-aeda-cf11a21e78a9",
           "title": "Talent doesn't realize they have a pending offer — increase signal beyond a single email",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-01T18:56:33.577Z"
-        },
-        {
-          "id": "e23fc81c-86b5-4964-bfc7-e18486a3248d",
-          "title": "SEEK BE — Guest follow-up routes (/v1/seek/guest/{more,refine,continue}) + redaction pass-through",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T18:56:07.380Z"
         }
       ]
     }
