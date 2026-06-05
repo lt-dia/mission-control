@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "7b75a7cc-9bbb-4b0b-a6d5-146e952ac353",
+          "title": "Ops Admin Dashboard — multi-client account manager for Melissa",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-05T20:22:21.231Z"
+        },
+        {
           "id": "7528dd3e-9370-4d9a-8a32-c9e4417511d6",
           "title": "Hire Flow — Add inline red error validation on Engagement Details step (required fields + char limits)",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-01T18:59:11.567Z"
-        },
-        {
-          "id": "a9824a69-c5e7-4b70-ac41-05dd8957b69d",
-          "title": "SEEK FE — Guest card polish (Raad round 1: drop tier labels, real photo, display_rate, first+initial)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T18:57:04.111Z"
         }
       ]
     }
