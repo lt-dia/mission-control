@@ -9,7 +9,7 @@
             "name": "Triage"
           },
           "priority": 0,
-          "updatedAt": "2026-06-05T16:10:25.657Z"
+          "updatedAt": "2026-06-05T17:07:47.775Z"
         },
         {
           "id": "8ddc684d-b32f-4001-aeda-cf11a21e78a9",
@@ -139,7 +139,7 @@
         },
         {
           "id": "25fae30c-61c0-4a5f-848e-4c9128e032c7",
-          "title": "SEEK — Show lawyer license jurisdiction(s) + distinguish \"licensed in\" vs \"based in\" on profile",
+          "title": "SEEK ��� Show lawyer license jurisdiction(s) + distinguish \"licensed in\" vs \"based in\" on profile",
           "state": {
             "name": "Backlog"
           },
