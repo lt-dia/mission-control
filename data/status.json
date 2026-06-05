@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-05T18:19:09.816Z",
+  "lastUpdated": "2026-06-05T20:20:30.468Z",
   "integrations": {
     "linear": "ok",
-    "granola": "err",
+    "granola": "ok",
     "github": "warn",
     "discord": "ok"
   }

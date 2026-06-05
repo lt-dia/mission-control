@@ -3,13 +3,40 @@
     "issues": {
       "nodes": [
         {
-          "id": "b8439c7f-627f-4da6-a31b-383467df875b",
-          "title": "Hire Flow — Engagement Kickoff Timing & Payment Configuration incorrect",
+          "id": "7528dd3e-9370-4d9a-8a32-c9e4417511d6",
+          "title": "Hire Flow — Add inline red error validation on Engagement Details step (required fields + char limits)",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-05T19:41:02.846Z"
+        },
+        {
+          "id": "2388dfeb-452c-46ff-ab51-8e8bbe06f299",
+          "title": "[ENG-1760] Issue 3: Returning clients misclassified as new → wrong MSA vs SOW sent",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-05T19:31:43.548Z"
+        },
+        {
+          "id": "e2976c12-0bdb-455f-b30e-0580a88860be",
+          "title": "[ENG-1760] Issue 2: Selected payment structure not applied to engagement (billingCycle sourced from wrong field)",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-05T19:31:41.393Z"
+        },
+        {
+          "id": "5efe71bf-3cf0-4ff2-91f1-5fdf8272fd8c",
+          "title": "SMB-designation/flag at the client account level and Specific Hire Flow",
           "state": {
             "name": "Triage"
           },
           "priority": 0,
-          "updatedAt": "2026-06-05T17:07:47.775Z"
+          "updatedAt": "2026-06-05T19:21:03.292Z"
         },
         {
           "id": "8ddc684d-b32f-4001-aeda-cf11a21e78a9",
@@ -139,7 +166,7 @@
         },
         {
           "id": "25fae30c-61c0-4a5f-848e-4c9128e032c7",
-          "title": "SEEK ��� Show lawyer license jurisdiction(s) + distinguish \"licensed in\" vs \"based in\" on profile",
+          "title": "SEEK — Show lawyer license jurisdiction(s) + distinguish \"licensed in\" vs \"based in\" on profile",
           "state": {
             "name": "Backlog"
           },
@@ -217,15 +244,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-03T22:02:20.875Z"
-        },
-        {
-          "id": "7528dd3e-9370-4d9a-8a32-c9e4417511d6",
-          "title": "Hire Flow — Add inline red error validation on Engagement Details step (required fields + char limits)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-03T14:00:25.103Z"
         },
         {
           "id": "5122aac9-49c0-489c-8fd5-28aa56812148",
@@ -433,24 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-01T18:57:04.111Z"
-        },
-        {
-          "id": "9efe0b1b-5330-4360-8353-c4f473572013",
-          "title": "SEEK FE — Workspace chip rendering (\"Small Business Focus\") + more/reject actions",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-01T18:56:53.673Z"
-        },
-        {
-          "id": "e715e921-eb65-4ef2-af90-650a8b5551cf",
-          "title": "SEEK FE — Drop white AI bubbles for prose + honest match-quality tiers",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-01T18:56:33.577Z"
         }
       ]
     }
