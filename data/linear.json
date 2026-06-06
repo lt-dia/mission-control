@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "2388dfeb-452c-46ff-ab51-8e8bbe06f299",
+          "title": "[ENG-1760] Issue 3: Returning clients misclassified as new → wrong MSA vs SOW sent",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-06T12:47:58.172Z"
+        },
+        {
+          "id": "e2976c12-0bdb-455f-b30e-0580a88860be",
+          "title": "[ENG-1760] Issue 2: Selected payment structure not applied to engagement (billingCycle sourced from wrong field)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-06T12:47:56.415Z"
+        },
+        {
           "id": "7b75a7cc-9bbb-4b0b-a6d5-146e952ac353",
           "title": "Ops Admin Dashboard — multi-client account manager for Melissa",
           "state": {
@@ -19,24 +37,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-05T19:41:02.846Z"
-        },
-        {
-          "id": "2388dfeb-452c-46ff-ab51-8e8bbe06f299",
-          "title": "[ENG-1760] Issue 3: Returning clients misclassified as new → wrong MSA vs SOW sent",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-05T19:31:43.548Z"
-        },
-        {
-          "id": "e2976c12-0bdb-455f-b30e-0580a88860be",
-          "title": "[ENG-1760] Issue 2: Selected payment structure not applied to engagement (billingCycle sourced from wrong field)",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-05T19:31:41.393Z"
         },
         {
           "id": "5efe71bf-3cf0-4ff2-91f1-5fdf8272fd8c",
