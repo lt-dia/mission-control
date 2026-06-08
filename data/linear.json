@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "c60402af-e88f-47a5-a2d6-ac7562cb6e0c",
+          "title": "SEEK — Agent SDK + MCP-shape migration V1 (ship in PR #178)",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 1,
+          "updatedAt": "2026-06-08T16:16:47.714Z"
+        },
+        {
+          "id": "8fa48000-1856-49b2-a6df-8edb39792458",
+          "title": "SEEK — Fix broken interview scheduling flow (Melissa + Tommy flagged in demo)",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-08T16:11:32.548Z"
+        },
+        {
+          "id": "8db31a91-77a6-424b-8fd4-b5d132d7fb9f",
+          "title": "SEEK Sales Team Onboarding — Jerry, Melissa, Tommie (internal use on sales calls)",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 1,
+          "updatedAt": "2026-06-08T15:57:24.581Z"
+        },
+        {
           "id": "2388dfeb-452c-46ff-ab51-8e8bbe06f299",
           "title": "[ENG-1760] Issue 3: Returning clients misclassified as new → wrong MSA vs SOW sent",
           "state": {
@@ -58,7 +85,7 @@
         },
         {
           "id": "069b05ab-7124-4298-b911-85f412fd56b5",
-          "title": "SEEK — Request Interview flow needs structured role/position association (replace unstructured notes)",
+          "title": "SEEK ��� Request Interview flow needs structured role/position association (replace unstructured notes)",
           "state": {
             "name": "Backlog"
           },
@@ -100,24 +127,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-04T18:08:41.843Z"
-        },
-        {
-          "id": "8fa48000-1856-49b2-a6df-8edb39792458",
-          "title": "SEEK — Fix broken interview scheduling flow (Melissa + Tommy flagged in demo)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-04T18:08:24.088Z"
-        },
-        {
-          "id": "c60402af-e88f-47a5-a2d6-ac7562cb6e0c",
-          "title": "SEEK — Agent SDK + MCP-shape migration V1 (ship in PR #178)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-06-04T18:08:24.088Z"
         },
         {
           "id": "221c3809-91ec-45cc-b273-eec971816275",
@@ -361,15 +370,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-01T22:43:14.178Z"
-        },
-        {
-          "id": "8db31a91-77a6-424b-8fd4-b5d132d7fb9f",
-          "title": "SEEK Sales Team Onboarding — Jerry, Melissa, Tommie (internal use on sales calls)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 1,
-          "updatedAt": "2026-06-01T22:00:49.258Z"
         },
         {
           "id": "07711b46-2919-4f5a-8807-8a59334603b8",
