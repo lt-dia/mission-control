@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_GO367rDwf0WXOZ",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-06-09T14:59:22.771Z",
+      "updated_at": "2026-06-09T15:42:33.385Z"
+    },
+    {
       "id": "not_d7qMHylcqkmzWC",
       "object": "note",
       "title": "DND 6/4 Pre-in person",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-06-04T15:00:50.840Z",
       "updated_at": "2026-06-04T15:56:54.286Z"
-    },
-    {
-      "id": "not_9Mw9ZOi3rKg1go",
-      "object": "note",
-      "title": "Meeting With Tommie",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-06-04T14:32:46.575Z",
-      "updated_at": "2026-06-04T18:05:09.036Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0wNFQxNDozMjo0Ni41NzVaIiwibGFzdF9kb2NfaWQiOiI4ZDU0NjNjNi03ZDExLTQzYWEtYmE5MS05OWE0YzdhNGNmZDYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0wNFQxNTowMDo1MC44NDBaIiwibGFzdF9kb2NfaWQiOiI3NDc3ZTY2NS1jMzI5LTQ2ZGQtODk3YS01NzMzYTg1MGIwMmQifQ"
 }
