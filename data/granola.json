@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_b6EYE9Z2Lc4crw",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-06-12T14:59:45.761Z",
+      "updated_at": "2026-06-12T15:30:14.483Z"
+    },
+    {
       "id": "not_TFgzQKBq9joUvM",
       "object": "note",
       "title": "Org Behavior Final Sesh",
@@ -9,7 +20,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-06-11T23:30:08.293Z",
-      "updated_at": "2026-06-12T00:59:26.247Z"
+      "updated_at": "2026-06-12T14:59:45.726Z"
     },
     {
       "id": "not_Mltf8J6wdb3uxs",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-06-09T14:59:22.771Z",
       "updated_at": "2026-06-10T15:00:03.917Z"
-    },
-    {
-      "id": "not_d7qMHylcqkmzWC",
-      "object": "note",
-      "title": "DND 6/4 Pre-in person",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-06-05T01:09:16.957Z",
-      "updated_at": "2026-06-05T06:12:01.559Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0wNVQwMTowOToxNi45NTdaIiwibGFzdF9kb2NfaWQiOiIwMzRhNTI4OS0xOTJhLTQ0MTItYjE4OS01ZWVlYmUyOWYxNjQifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0wOVQxNDo1OToyMi43NzFaIiwibGFzdF9kb2NfaWQiOiI1OGU4NmNjNy1jNTAzLTRjNTgtYmJmOS04NzBjMDc4ZWZhZGMifQ"
 }
