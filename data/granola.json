@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_TFgzQKBq9joUvM",
+      "object": "note",
+      "title": "Org Behavior Final Sesh",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-06-11T23:30:08.293Z",
+      "updated_at": "2026-06-11T23:57:50.941Z"
+    },
+    {
       "id": "not_Mltf8J6wdb3uxs",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -20,7 +31,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-06-10T15:00:03.935Z",
-      "updated_at": "2026-06-11T16:39:26.129Z"
+      "updated_at": "2026-06-11T23:30:04.882Z"
     },
     {
       "id": "not_GO367rDwf0WXOZ",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-06-05T01:09:16.957Z",
       "updated_at": "2026-06-05T06:12:01.559Z"
-    },
-    {
-      "id": "not_yk04nt0YuXTmpz",
-      "object": "note",
-      "title": "Org Behavior 510 6/4",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-06-04T23:30:41.475Z",
-      "updated_at": "2026-06-05T20:08:01.852Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0wNFQyMzozMDo0MS40NzVaIiwibGFzdF9kb2NfaWQiOiI3ZjU1NTBhNy1hNWE2LTQ4M2UtYWMwOC1hMGRlZjcxYTFhYzkifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0wNVQwMTowOToxNi45NTdaIiwibGFzdF9kb2NfaWQiOiIwMzRhNTI4OS0xOTJhLTQ0MTItYjE4OS01ZWVlYmUyOWYxNjQifQ"
 }
