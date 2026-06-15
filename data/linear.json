@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "847043e8-dce2-4ea9-a44f-dea16759dca1",
+          "title": "Product Request: Allow mulitple agreement to be stored on client/ talent dashabords",
+          "state": {
+            "name": "Triage"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-15T17:33:48.708Z"
+        },
+        {
+          "id": "d21b81aa-a7e1-402d-b88c-8b6d82f08f47",
+          "title": "Capture SOW Details at Hire Confirmation",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-15T17:33:18.661Z"
+        },
+        {
           "id": "a1068905-0e1a-4d7f-9408-15136aed28cf",
           "title": "Fix Hire Flow — Agreement Sequencing & Signature Gating",
           "state": {
@@ -433,24 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-01T22:43:14.178Z"
-        },
-        {
-          "id": "a92d7fc2-3cda-4b1e-8bb0-562de271d86d",
-          "title": "SEEK FE — Layout fixes (sticky input, anchored disclaimer, remove green strip, fix gap)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-01T22:43:14.178Z"
-        },
-        {
-          "id": "07711b46-2919-4f5a-8807-8a59334603b8",
-          "title": "SEEK FE — Guest conversational UX (session capture, pills, locked actions, modal)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T22:00:49.258Z"
         }
       ]
     }
