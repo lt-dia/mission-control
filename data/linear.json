@@ -3,31 +3,130 @@
     "issues": {
       "nodes": [
         {
-          "id": "c60402af-e88f-47a5-a2d6-ac7562cb6e0c",
-          "title": "SEEK — Agent SDK + MCP-shape migration V1 (ship in PR #178)",
+          "id": "a1068905-0e1a-4d7f-9408-15136aed28cf",
+          "title": "Fix Hire Flow — Agreement Sequencing & Signature Gating",
           "state": {
-            "name": "In Progress"
-          },
-          "priority": 1,
-          "updatedAt": "2026-06-08T16:16:47.714Z"
-        },
-        {
-          "id": "8fa48000-1856-49b2-a6df-8edb39792458",
-          "title": "SEEK — Fix broken interview scheduling flow (Melissa + Tommy flagged in demo)",
-          "state": {
-            "name": "In Progress"
+            "name": "In Review"
           },
           "priority": 2,
-          "updatedAt": "2026-06-08T16:11:32.548Z"
+          "updatedAt": "2026-06-15T16:23:45.877Z"
+        },
+        {
+          "id": "e6987081-4501-46c9-8c02-eed0276c5309",
+          "title": "update the ability to click on the time drop down when scheduling an interview",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-15T16:17:25.852Z"
+        },
+        {
+          "id": "5040d63e-5ae7-4f2b-9f1d-1e254b55d69f",
+          "title": "Audit and harden tracked env configuration across FE/BE",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-15T15:23:39.517Z"
+        },
+        {
+          "id": "f6e29cf0-b6c8-4500-a717-204f05a62ad1",
+          "title": "MVP Scope + Metrics (PRD lite)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-15T15:18:17.578Z"
+        },
+        {
+          "id": "0331caa8-3193-412b-bdfd-937b89bb4f4d",
+          "title": "Calendar Invites Not Sending for Scheduled Interviews",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-06-15T14:58:44.081Z"
+        },
+        {
+          "id": "87ec6ad9-ff63-4e02-bed7-4531d58bdb09",
+          "title": "feat(AI): Implement worklog-driven role-aware AI homepage cards",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-15T14:53:40.827Z"
         },
         {
           "id": "8db31a91-77a6-424b-8fd4-b5d132d7fb9f",
           "title": "SEEK Sales Team Onboarding — Jerry, Melissa, Tommie (internal use on sales calls)",
           "state": {
-            "name": "In Review"
+            "name": "Done"
           },
           "priority": 1,
-          "updatedAt": "2026-06-08T15:57:24.581Z"
+          "updatedAt": "2026-06-15T14:53:15.686Z"
+        },
+        {
+          "id": "78eb92ee-6e7d-4aa0-b3df-3fd84026e7d9",
+          "title": "Agent Hallucination?",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-15T14:53:02.974Z"
+        },
+        {
+          "id": "c60402af-e88f-47a5-a2d6-ac7562cb6e0c",
+          "title": "SEEK — Agent SDK + MCP-shape migration V1 (ship in PR #178)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 1,
+          "updatedAt": "2026-06-15T14:52:32.925Z"
+        },
+        {
+          "id": "8fa48000-1856-49b2-a6df-8edb39792458",
+          "title": "SEEK — Fix broken interview scheduling flow (Melissa + Tommy flagged in demo)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-15T14:52:12.010Z"
+        },
+        {
+          "id": "3555cfc1-5ea1-4d7f-9eb0-1a1df07e0409",
+          "title": "SEEK Dev Env — localhost:8080 served by node-app-fe-v2 (not lawtrades-fe-ai clone) + dev-mode banner",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-15T14:51:29.904Z"
+        },
+        {
+          "id": "7528dd3e-9370-4d9a-8a32-c9e4417511d6",
+          "title": "Hire Flow — Add inline red error validation on Engagement Details step (required fields + char limits)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-15T14:35:45.412Z"
+        },
+        {
+          "id": "5aa2c8e8-65d5-41d1-9afb-1e66416815ee",
+          "title": "Improve Hiring Flow on Client Dashboard",
+          "state": {
+            "name": "Triage"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-15T14:32:14.335Z"
+        },
+        {
+          "id": "21b7da34-83d6-449f-b7ef-e2fe264f4396",
+          "title": "\"heart\" icon not working on client dashabord.",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-15T14:31:14.770Z"
         },
         {
           "id": "2388dfeb-452c-46ff-ab51-8e8bbe06f299",
@@ -57,15 +156,6 @@
           "updatedAt": "2026-06-05T20:22:21.231Z"
         },
         {
-          "id": "7528dd3e-9370-4d9a-8a32-c9e4417511d6",
-          "title": "Hire Flow — Add inline red error validation on Engagement Details step (required fields + char limits)",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-05T19:41:02.846Z"
-        },
-        {
           "id": "5efe71bf-3cf0-4ff2-91f1-5fdf8272fd8c",
           "title": "SMB-designation/flag at the client account level and Specific Hire Flow",
           "state": {
@@ -85,7 +175,7 @@
         },
         {
           "id": "069b05ab-7124-4298-b911-85f412fd56b5",
-          "title": "SEEK ��� Request Interview flow needs structured role/position association (replace unstructured notes)",
+          "title": "SEEK — Request Interview flow needs structured role/position association (replace unstructured notes)",
           "state": {
             "name": "Backlog"
           },
@@ -291,15 +381,6 @@
           "updatedAt": "2026-06-02T20:18:28.325Z"
         },
         {
-          "id": "78eb92ee-6e7d-4aa0-b3df-3fd84026e7d9",
-          "title": "Agent Hallucination?",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-02T18:19:48.474Z"
-        },
-        {
           "id": "5f5346fe-c168-4760-955e-aafbebda2e89",
           "title": "UI | LTSEEK Not Scrollable when Workspace is Closed",
           "state": {
@@ -345,15 +426,6 @@
           "updatedAt": "2026-06-02T17:15:40.075Z"
         },
         {
-          "id": "a1068905-0e1a-4d7f-9408-15136aed28cf",
-          "title": "Fix Hire Flow — Agreement Sequencing & Signature Gating",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-02T17:14:04.878Z"
-        },
-        {
           "id": "03c9a7de-e825-4544-9dec-6ae1457c9e5c",
           "title": "SEEK Mobile — Disclaimer footer overlaps bottom of workspace + side panel (blocks \"Request interview\")",
           "state": {
@@ -379,78 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-01T22:00:49.258Z"
-        },
-        {
-          "id": "337eb6c8-e4dd-478d-a15c-802992165d54",
-          "title": "SEEK — Guest-to-authed return-to-context (preserve search results after signin, no re-run)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T19:47:36.845Z"
-        },
-        {
-          "id": "d17b580c-8cf4-48a3-8d3c-8ff632f1e1ca",
-          "title": "SEEK — Save workspace + Save candidate to shortlist (the \"sign in to save\" promise)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-01T19:32:00.533Z"
-        },
-        {
-          "id": "321fde6b-4c4a-4170-9a94-2b83d3af7f00",
-          "title": "SEEK ��� Supervising-Lawyer Qualification Gate (broken out from ENG-664)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-01T19:00:21.580Z"
-        },
-        {
-          "id": "13f194f4-0bae-4286-9052-b5660847b027",
-          "title": "SEEK Analytics / KPI Tracking — funnel events + dashboards (1%→2% signup, 4/week hireflow)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T19:00:13.737Z"
-        },
-        {
-          "id": "91745824-c6d2-4e81-ad7f-06606e8918c1",
-          "title": "SEEK Marketing Assets — blog post + 30-sec video + email + changelog + website update",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-01T18:59:58.507Z"
-        },
-        {
-          "id": "fd6ca593-a2c5-4e92-9f86-7e985d53546c",
-          "title": "SEEK — Push to Production (chat + BE + FE lockstep deploy to ai.lawtrades.com)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 1,
-          "updatedAt": "2026-06-01T18:59:58.507Z"
-        },
-        {
-          "id": "3555cfc1-5ea1-4d7f-9eb0-1a1df07e0409",
-          "title": "SEEK Dev Env — localhost:8080 served by node-app-fe-v2 (not lawtrades-fe-ai clone) + dev-mode banner",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-01T18:59:25.236Z"
-        },
-        {
-          "id": "b17e281d-3c2e-4953-9af3-88677becba9e",
-          "title": "SEEK UI Polish Pass — open hopper for small visual tweaks from QA feedback",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-01T18:59:11.567Z"
         }
       ]
     }
