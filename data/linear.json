@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "eeba20df-6432-4c12-b898-94702bcf429f",
+          "title": "feat(candidates): allow un-decline / reactivate declined candidates on open positions",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-15T22:28:56.545Z"
+        },
+        {
+          "id": "5ddd082e-fbc8-4803-b1af-a4bca78d1eca",
+          "title": "Forest Admin auto-CRUD bypasses backend validation — silent data corruption + silent create failures",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-15T22:27:51.163Z"
+        },
+        {
           "id": "847043e8-dce2-4ea9-a44f-dea16759dca1",
           "title": "Product Request: Allow mulitple agreement to be stored on client/ talent dashabords",
           "state": {
@@ -433,24 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-02T17:36:28.087Z"
-        },
-        {
-          "id": "3b51cbc2-b065-4f19-b9fc-ac6550b87f2f",
-          "title": "Fix and adjust Zip's prepaid balance total",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-02T17:15:40.075Z"
-        },
-        {
-          "id": "03c9a7de-e825-4544-9dec-6ae1457c9e5c",
-          "title": "SEEK Mobile — Disclaimer footer overlaps bottom of workspace + side panel (blocks \"Request interview\")",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-01T22:43:14.178Z"
         }
       ]
     }
