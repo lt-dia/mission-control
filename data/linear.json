@@ -6,10 +6,10 @@
           "id": "5ddd082e-fbc8-4803-b1af-a4bca78d1eca",
           "title": "Forest Admin auto-CRUD bypasses backend validation — silent data corruption + silent create failures",
           "state": {
-            "name": "Todo"
+            "name": "In Progress"
           },
           "priority": 2,
-          "updatedAt": "2026-06-16T14:22:26.632Z"
+          "updatedAt": "2026-06-16T16:53:00.398Z"
         },
         {
           "id": "eeba20df-6432-4c12-b898-94702bcf429f",
