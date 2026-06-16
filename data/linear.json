@@ -6,10 +6,10 @@
           "id": "eeba20df-6432-4c12-b898-94702bcf429f",
           "title": "feat(candidates): allow un-decline / reactivate declined candidates on open positions",
           "state": {
-            "name": "In Progress"
+            "name": "Done"
           },
           "priority": 3,
-          "updatedAt": "2026-06-15T22:28:56.545Z"
+          "updatedAt": "2026-06-15T22:32:42.548Z"
         },
         {
           "id": "5ddd082e-fbc8-4803-b1af-a4bca78d1eca",
