@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_U36RcziTDxhl26",
+      "object": "note",
+      "title": "Melissa meeting",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-06-17T20:52:25.946Z",
+      "updated_at": "2026-06-17T21:15:53.687Z"
+    },
+    {
       "id": "not_7z2pc2PmAe6Ue8",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -9,7 +20,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-06-15T15:00:51.205Z",
-      "updated_at": "2026-06-17T17:46:17.257Z"
+      "updated_at": "2026-06-17T20:54:33.647Z"
     },
     {
       "id": "not_b6EYE9Z2Lc4crw",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-06-11T15:00:22.905Z",
       "updated_at": "2026-06-11T16:39:19.147Z"
-    },
-    {
-      "id": "not_h5dlUTXTc6R90Q",
-      "object": "note",
-      "title": "Product | Daily Standup + 1:1 With Brian",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-06-10T15:00:03.935Z",
-      "updated_at": "2026-06-11T23:30:04.882Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0xMFQxNTowMDowMy45MzVaIiwibGFzdF9kb2NfaWQiOiI0MmRjZDFlNi1iMjc1LTRmMTUtYTNhOS0xOWI5ZTBiYzYzMzMifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0xMVQxNTowMDoyMi45MDVaIiwibGFzdF9kb2NfaWQiOiIzMjllMzA2ZS1hM2RkLTQ5OTgtYTI4OC05MmJiZDQwZWEzOTgifQ"
 }
