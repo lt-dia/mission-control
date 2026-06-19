@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_jI8W37WzJ2HMdz",
+      "object": "note",
+      "title": "SMB Workflow (Technical Planning)",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-06-19T15:59:45.500Z",
+      "updated_at": "2026-06-19T17:29:19.283Z"
+    },
+    {
       "id": "not_FyLHXG3U5MeReR",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-06-17T20:52:25.946Z",
       "updated_at": "2026-06-17T21:15:53.687Z"
-    },
-    {
-      "id": "not_7z2pc2PmAe6Ue8",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-06-15T15:00:51.205Z",
-      "updated_at": "2026-06-17T20:54:33.647Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0xNVQxNTowMDo1MS4yMDVaIiwibGFzdF9kb2NfaWQiOiI5MjViYTg2OS04MGUwLTQ2YzEtOWZiOC1lM2Q3MDRlZTA3YTgifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0xN1QyMDo1MjoyNS45NDZaIiwibGFzdF9kb2NfaWQiOiJmNDg0NmIzZi02MDFjLTRiNzUtOTlmYS0yYzk1NDI2MTZiYWQifQ"
 }

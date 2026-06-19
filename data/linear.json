@@ -3,6 +3,60 @@
     "issues": {
       "nodes": [
         {
+          "id": "73d1a385-644a-4e76-90d4-5a0d4b089787",
+          "title": "Docusign Webhook",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-19T17:26:52.968Z"
+        },
+        {
+          "id": "46661f94-2324-4d97-a794-8bbb884bb529",
+          "title": "3. Read & sign the agreement",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-19T17:26:11.947Z"
+        },
+        {
+          "id": "f9bba028-5ec3-4aa8-90e2-7c11d3f9f44a",
+          "title": "Document Storage / State",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-19T17:25:56.663Z"
+        },
+        {
+          "id": "de4a6c0e-1550-46b2-b66f-5ed5fc9a1389",
+          "title": "SMB Lawtrader Onboarding & Setting",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-19T17:24:26.940Z"
+        },
+        {
+          "id": "13800e0d-8ae9-4ca4-957a-6a67d5d31e58",
+          "title": "Profile Panel Cards",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-19T17:23:40.549Z"
+        },
+        {
+          "id": "93eb1686-d928-44ac-8044-305f9fe5de16",
+          "title": "Docusign Solution (Contract Panel)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-19T16:43:31.119Z"
+        },
+        {
           "id": "5ddd082e-fbc8-4803-b1af-a4bca78d1eca",
           "title": "Forest Admin auto-CRUD bypasses backend validation — silent data corruption + silent create failures",
           "state": {
@@ -397,60 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-02T22:14:19.156Z"
-        },
-        {
-          "id": "8174f283-9a23-49a3-b422-affddee9dd2d",
-          "title": "Initially Surfaced Matches Disappeared",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-02T22:14:11.336Z"
-        },
-        {
-          "id": "ed1c79bc-58c6-4057-8f90-d4a7fa0f2f6e",
-          "title": "SEEK | Brian's QA",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-06-02T20:18:28.325Z"
-        },
-        {
-          "id": "5f5346fe-c168-4760-955e-aafbebda2e89",
-          "title": "UI | LTSEEK Not Scrollable when Workspace is Closed",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-02T17:42:31.893Z"
-        },
-        {
-          "id": "70e62fdc-4b5a-4b0a-9168-a15a2beb5cba",
-          "title": "UI | Agent Streaming Hidden in longer sessions",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-02T17:42:29.075Z"
-        },
-        {
-          "id": "cc058c57-91e2-48c4-805f-f0a0b9b15ab8",
-          "title": "User Sent Message Persistent in Message Field",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-02T17:42:26.249Z"
-        },
-        {
-          "id": "fd609482-7b88-4171-8505-1f450bc54055",
-          "title": "SEEK Mobile — Responsive layout for /chat (workspace, side panel, signin modal)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-02T17:36:28.087Z"
         }
       ]
     }
