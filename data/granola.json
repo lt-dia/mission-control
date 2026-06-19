@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_FyLHXG3U5MeReR",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-06-19T14:59:54.800Z",
+      "updated_at": "2026-06-19T15:59:45.478Z"
+    },
+    {
       "id": "not_MPhdi82nh4oS6Y",
       "object": "note",
       "title": "Wedding Notes Photo, Video, DJ",
@@ -10,6 +21,17 @@
       },
       "created_at": "2026-06-18T23:04:17.812Z",
       "updated_at": "2026-06-19T00:09:42.404Z"
+    },
+    {
+      "id": "not_ulmp7gwXYsKKfi",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-06-18T14:59:21.577Z",
+      "updated_at": "2026-06-19T14:29:10.851Z"
     },
     {
       "id": "not_U36RcziTDxhl26",
@@ -32,30 +54,8 @@
       },
       "created_at": "2026-06-15T15:00:51.205Z",
       "updated_at": "2026-06-17T20:54:33.647Z"
-    },
-    {
-      "id": "not_b6EYE9Z2Lc4crw",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-06-12T14:59:45.761Z",
-      "updated_at": "2026-06-12T15:30:14.483Z"
-    },
-    {
-      "id": "not_TFgzQKBq9joUvM",
-      "object": "note",
-      "title": "Org Behavior Final Sesh",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-06-11T23:30:08.293Z",
-      "updated_at": "2026-06-12T14:59:45.726Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0xMVQyMzozMDowOC4yOTNaIiwibGFzdF9kb2NfaWQiOiIzZDNjYjBiMi00NzBjLTQ4MGUtYTE1OC01YjE2NTA2NWE0ZGYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0xNVQxNTowMDo1MS4yMDVaIiwibGFzdF9kb2NfaWQiOiI5MjViYTg2OS04MGUwLTQ2YzEtOWZiOC1lM2Q3MDRlZTA3YTgifQ"
 }
