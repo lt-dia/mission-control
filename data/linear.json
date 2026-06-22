@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "7cf83843-8840-41db-a842-2afdcb0c408c",
+          "title": "Hiring Flow –Talent SOW Agreement Accuracy",
+          "state": {
+            "name": "Triage"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-22T21:02:16.818Z"
+        },
+        {
           "id": "fd6ca593-a2c5-4e92-9f86-7e985d53546c",
           "title": "SEEK — Push to Production (chat + BE + FE lockstep deploy to ai.lawtrades.com)",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-05T20:22:21.231Z"
-        },
-        {
-          "id": "5efe71bf-3cf0-4ff2-91f1-5fdf8272fd8c",
-          "title": "SMB-designation/flag at the client account level and Specific Hire Flow",
-          "state": {
-            "name": "Triage"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-05T19:21:03.292Z"
         }
       ]
     }
