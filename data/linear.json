@@ -3,6 +3,204 @@
     "issues": {
       "nodes": [
         {
+          "id": "fd6ca593-a2c5-4e92-9f86-7e985d53546c",
+          "title": "SEEK — Push to Production (chat + BE + FE lockstep deploy to ai.lawtrades.com)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 1,
+          "updatedAt": "2026-06-22T14:07:29.002Z"
+        },
+        {
+          "id": "56fde4f7-60d2-427c-ae2f-a46e4fded600",
+          "title": "SEEK V1.5 — Close the freeform-NL recall ceiling (position-attached structured mode + embedding NL→taxonomy resolution)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-22T14:07:28.953Z"
+        },
+        {
+          "id": "7040233b-b85e-4020-bd3f-771f30f4f99e",
+          "title": "SEEK — Filter out inactive talent (require vetted + recent platform activity in last 12 months)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-22T14:07:28.911Z"
+        },
+        {
+          "id": "25fae30c-61c0-4a5f-848e-4c9128e032c7",
+          "title": "SEEK — Show lawyer license jurisdiction(s) + distinguish \"licensed in\" vs \"based in\" on profile",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-22T14:07:28.858Z"
+        },
+        {
+          "id": "0c7ba344-1f60-4b50-9a7a-3efbd677c107",
+          "title": "SEEK — Rate cap (and other tightened filters) don't prune workspace candidates from prior turns",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-22T14:07:28.798Z"
+        },
+        {
+          "id": "ae829f67-b92d-4643-91d2-a7c68e1ff050",
+          "title": "SEEK — Use random / non-matching profile photos for guest workspace (anti-poach via image swap)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-22T14:07:28.717Z"
+        },
+        {
+          "id": "03c9a7de-e825-4544-9dec-6ae1457c9e5c",
+          "title": "SEEK Mobile — Disclaimer footer overlaps bottom of workspace + side panel (blocks \"Request interview\")",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-22T14:07:28.619Z"
+        },
+        {
+          "id": "337eb6c8-e4dd-478d-a15c-802992165d54",
+          "title": "SEEK — Guest-to-authed return-to-context (preserve search results after signin, no re-run)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-22T14:07:28.574Z"
+        },
+        {
+          "id": "13f194f4-0bae-4286-9052-b5660847b027",
+          "title": "SEEK Analytics / KPI Tracking — funnel events + dashboards (1%→2% signup, 4/week hireflow)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-22T14:07:28.529Z"
+        },
+        {
+          "id": "e2f995f2-c59a-4f99-93d5-bb78365b1aa9",
+          "title": "SEEK — AI-generalize candidate job titles in guest mode (anti-LinkedIn-matching)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-22T14:07:28.488Z"
+        },
+        {
+          "id": "dd79f901-86d0-4361-9787-283e8baaf926",
+          "title": "SEEK FE — LinkedIn icon click is non-functional in authed `/profile/{slug}` page",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-22T14:07:28.434Z"
+        },
+        {
+          "id": "90635b08-8ef4-4dce-af4b-5684533b4a71",
+          "title": "SEEK FE — LinkedIn icon absent from guest side-panel overlay",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-22T14:07:28.383Z"
+        },
+        {
+          "id": "df1bd4a8-5e12-4684-afe3-16c8102da814",
+          "title": "SEEK — SMB lawyer pool curation + tighter SMB-vs-corporate routing (Tommy + Jerry)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-22T14:07:28.340Z"
+        },
+        {
+          "id": "edaa36fd-03c1-493d-b5d6-d0faccc2fbee",
+          "title": "SEEK V1.5: structured-input mode for position-attached searches",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-22T14:07:28.234Z"
+        },
+        {
+          "id": "d17b580c-8cf4-48a3-8d3c-8ff632f1e1ca",
+          "title": "SEEK — Save workspace + Save candidate to shortlist (the \"sign in to save\" promise)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-22T14:07:28.197Z"
+        },
+        {
+          "id": "b17e281d-3c2e-4953-9af3-88677becba9e",
+          "title": "SEEK UI Polish Pass — open hopper for small visual tweaks from QA feedback",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-22T14:07:28.145Z"
+        },
+        {
+          "id": "8478b39f-deb1-44bc-8325-338fb158a82a",
+          "title": "SEEK — Expanded role-qualifier pills (pull from Lawtrades website signup flow, run by Jerry)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-22T14:07:28.093Z"
+        },
+        {
+          "id": "91745824-c6d2-4e81-ad7f-06606e8918c1",
+          "title": "SEEK Marketing Assets — blog post + 30-sec video + email + changelog + website update",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-22T14:07:28.055Z"
+        },
+        {
+          "id": "321fde6b-4c4a-4170-9a94-2b83d3af7f00",
+          "title": "SEEK — Supervising-Lawyer Qualification Gate (broken out from ENG-664)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-06-22T14:07:28.004Z"
+        },
+        {
+          "id": "4c74eb90-eb6c-4af7-83e9-e3c55ea3f4ce",
+          "title": "SEEK FE — `SeekSignInModal` for Request Interview missing candidate name in copy",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 4,
+          "updatedAt": "2026-06-22T14:07:27.960Z"
+        },
+        {
+          "id": "3a22e215-8ae2-4188-9d50-aaf3916e894d",
+          "title": "SEEK FE — Per-role skill chips missing from side-panel Work Experience (alignment gap with `/profile/{slug}` page)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 4,
+          "updatedAt": "2026-06-22T14:07:27.902Z"
+        },
+        {
+          "id": "069b05ab-7124-4298-b911-85f412fd56b5",
+          "title": "SEEK — Request Interview flow needs structured role/position association (replace unstructured notes)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 4,
+          "updatedAt": "2026-06-22T14:07:27.846Z"
+        },
+        {
           "id": "73d1a385-644a-4e76-90d4-5a0d4b089787",
           "title": "Docusign Webhook",
           "state": {
@@ -253,204 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-06-05T19:21:03.292Z"
-        },
-        {
-          "id": "8ddc684d-b32f-4001-aeda-cf11a21e78a9",
-          "title": "Talent doesn't realize they have a pending offer — increase signal beyond a single email",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-04T21:42:36.637Z"
-        },
-        {
-          "id": "069b05ab-7124-4298-b911-85f412fd56b5",
-          "title": "SEEK — Request Interview flow needs structured role/position association (replace unstructured notes)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 4,
-          "updatedAt": "2026-06-04T18:17:05.626Z"
-        },
-        {
-          "id": "df1bd4a8-5e12-4684-afe3-16c8102da814",
-          "title": "SEEK — SMB lawyer pool curation + tighter SMB-vs-corporate routing (Tommy + Jerry)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-04T18:08:41.843Z"
-        },
-        {
-          "id": "c392298c-236f-4938-a744-8cfeb9bc0428",
-          "title": "SEEK Chat — SMB Qualifier Flow (pills, pool='smb', auto-detect, workspace chip)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-04T18:08:41.843Z"
-        },
-        {
-          "id": "971e939c-2d31-4d16-898d-5dade2f168e2",
-          "title": "SEEK BE — Persist authed SMB classification + auto-route SMB pool",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-04T18:08:41.843Z"
-        },
-        {
-          "id": "8478b39f-deb1-44bc-8325-338fb158a82a",
-          "title": "SEEK — Expanded role-qualifier pills (pull from Lawtrades website signup flow, run by Jerry)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-04T18:08:41.843Z"
-        },
-        {
-          "id": "221c3809-91ec-45cc-b273-eec971816275",
-          "title": "SEEK FE — Side-panel view profile for guests + workspace controls (prev/next, close)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-04T18:08:24.088Z"
-        },
-        {
-          "id": "7040233b-b85e-4020-bd3f-771f30f4f99e",
-          "title": "SEEK — Filter out inactive talent (require vetted + recent platform activity in last 12 months)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-04T18:07:50.948Z"
-        },
-        {
-          "id": "56fde4f7-60d2-427c-ae2f-a46e4fded600",
-          "title": "SEEK V1.5 — Close the freeform-NL recall ceiling (position-attached structured mode + embedding NL→taxonomy resolution)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-04T18:07:50.948Z"
-        },
-        {
-          "id": "e2f995f2-c59a-4f99-93d5-bb78365b1aa9",
-          "title": "SEEK — AI-generalize candidate job titles in guest mode (anti-LinkedIn-matching)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-04T18:07:35.075Z"
-        },
-        {
-          "id": "7c1d9d82-1f00-4f34-8bd7-b896672ae2e3",
-          "title": "SEEK Chat — Guest payload v2 (near-parity with authed: photos visible, exact employers, full work history)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-04T18:07:35.075Z"
-        },
-        {
-          "id": "ae829f67-b92d-4643-91d2-a7c68e1ff050",
-          "title": "SEEK — Use random / non-matching profile photos for guest workspace (anti-poach via image swap)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-04T18:07:16.991Z"
-        },
-        {
-          "id": "25fae30c-61c0-4a5f-848e-4c9128e032c7",
-          "title": "SEEK — Show lawyer license jurisdiction(s) + distinguish \"licensed in\" vs \"based in\" on profile",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-04T18:06:59.870Z"
-        },
-        {
-          "id": "3a22e215-8ae2-4188-9d50-aaf3916e894d",
-          "title": "SEEK FE — Per-role skill chips missing from side-panel Work Experience (alignment gap with `/profile/{slug}` page)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 4,
-          "updatedAt": "2026-06-04T13:57:06.956Z"
-        },
-        {
-          "id": "6b9e4d95-33c6-490d-81bc-ba87d66e2405",
-          "title": "SEEK FE — Profile parity sections (Notable Clients + Work Experience in SEEK theme)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-04T13:57:06.956Z"
-        },
-        {
-          "id": "4c74eb90-eb6c-4af7-83e9-e3c55ea3f4ce",
-          "title": "SEEK FE — `SeekSignInModal` for Request Interview missing candidate name in copy",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 4,
-          "updatedAt": "2026-06-04T13:56:55.619Z"
-        },
-        {
-          "id": "dd79f901-86d0-4361-9787-283e8baaf926",
-          "title": "SEEK FE — LinkedIn icon click is non-functional in authed `/profile/{slug}` page",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-04T13:56:45.784Z"
-        },
-        {
-          "id": "93305c54-bace-45eb-9abe-1a104156b041",
-          "title": "SEEK FE — LinkedIn icon as trust signal (has_linkedin boolean, URL gated, click → signup modal)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-04T13:56:45.784Z"
-        },
-        {
-          "id": "90635b08-8ef4-4dce-af4b-5684533b4a71",
-          "title": "SEEK FE — LinkedIn icon absent from guest side-panel overlay",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-04T13:56:30.243Z"
-        },
-        {
-          "id": "0c7ba344-1f60-4b50-9a7a-3efbd677c107",
-          "title": "SEEK — Rate cap (and other tightened filters) don't prune workspace candidates from prior turns",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-04T13:56:26.639Z"
-        },
-        {
-          "id": "edaa36fd-03c1-493d-b5d6-d0faccc2fbee",
-          "title": "SEEK V1.5: structured-input mode for position-attached searches",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-03T22:02:20.875Z"
-        },
-        {
-          "id": "5122aac9-49c0-489c-8fd5-28aa56812148",
-          "title": "SEEK FE — Client loses access to SEEK landing once any chat session exists (no in-app affordance to return)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-02T22:14:19.156Z"
         }
       ]
     }
