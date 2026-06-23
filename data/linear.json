@@ -3,6 +3,51 @@
     "issues": {
       "nodes": [
         {
+          "id": "46661f94-2324-4d97-a794-8bbb884bb529",
+          "title": "3. Read & sign the agreement",
+          "state": {
+            "name": "Planning"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-23T00:15:38.692Z"
+        },
+        {
+          "id": "de4a6c0e-1550-46b2-b66f-5ed5fc9a1389",
+          "title": "SMB Lawtrader Onboarding & Setting",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-23T00:15:15.077Z"
+        },
+        {
+          "id": "13800e0d-8ae9-4ca4-957a-6a67d5d31e58",
+          "title": "Profile Panel Cards",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-23T00:14:13.634Z"
+        },
+        {
+          "id": "73d1a385-644a-4e76-90d4-5a0d4b089787",
+          "title": "Docusign Webhook",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-23T00:07:18.506Z"
+        },
+        {
+          "id": "93eb1686-d928-44ac-8044-305f9fe5de16",
+          "title": "Docusign Solution (Contract Panel)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-23T00:07:17.467Z"
+        },
+        {
           "id": "7cf83843-8840-41db-a842-2afdcb0c408c",
           "title": "Hiring Flow –Talent SOW Agreement Accuracy",
           "state": {
@@ -210,24 +255,6 @@
           "updatedAt": "2026-06-22T14:07:27.846Z"
         },
         {
-          "id": "73d1a385-644a-4e76-90d4-5a0d4b089787",
-          "title": "Docusign Webhook",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-19T17:26:52.968Z"
-        },
-        {
-          "id": "46661f94-2324-4d97-a794-8bbb884bb529",
-          "title": "3. Read & sign the agreement",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-19T17:26:11.947Z"
-        },
-        {
           "id": "f9bba028-5ec3-4aa8-90e2-7c11d3f9f44a",
           "title": "Document Storage / State",
           "state": {
@@ -235,33 +262,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-06-19T17:25:56.663Z"
-        },
-        {
-          "id": "de4a6c0e-1550-46b2-b66f-5ed5fc9a1389",
-          "title": "SMB Lawtrader Onboarding & Setting",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-19T17:24:26.940Z"
-        },
-        {
-          "id": "13800e0d-8ae9-4ca4-957a-6a67d5d31e58",
-          "title": "Profile Panel Cards",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-19T17:23:40.549Z"
-        },
-        {
-          "id": "93eb1686-d928-44ac-8044-305f9fe5de16",
-          "title": "Docusign Solution (Contract Panel)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-19T16:43:31.119Z"
         },
         {
           "id": "5ddd082e-fbc8-4803-b1af-a4bca78d1eca",
