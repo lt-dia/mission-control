@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_oJm8EQlBvi6KdE",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-06-24T14:59:35.503Z",
+      "updated_at": "2026-06-24T15:27:58.998Z"
+    },
+    {
       "id": "not_AqUwqvDD9Hwbye",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-06-19T14:59:54.800Z",
       "updated_at": "2026-06-19T15:59:45.478Z"
-    },
-    {
-      "id": "not_MPhdi82nh4oS6Y",
-      "object": "note",
-      "title": "Wedding Notes Photo, Video, DJ",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-06-18T23:04:17.812Z",
-      "updated_at": "2026-06-19T00:09:42.404Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0xOFQyMzowNDoxNy44MTJaIiwibGFzdF9kb2NfaWQiOiIxN2Y0MTRjYi1iODYxLTQ4MjktOTI3OS04ZWVjZWI0N2Y1MDUifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0xOVQxNDo1OTo1NC44MDBaIiwibGFzdF9kb2NfaWQiOiJjNTM1ZjM2OC00OGY1LTQzMTgtYjEyZi02N2RlYzgwMTI5ZTgifQ"
 }
