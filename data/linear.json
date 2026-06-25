@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "db355e19-e147-4671-811b-2b8112f7e138",
+          "title": "erroris in client SOW when going through the hire flow.",
+          "state": {
+            "name": "Triage"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-25T21:49:02.209Z"
+        },
+        {
           "id": "46661f94-2324-4d97-a794-8bbb884bb529",
           "title": "3. Read & sign the agreement",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-06-06T12:47:56.415Z"
-        },
-        {
-          "id": "7b75a7cc-9bbb-4b0b-a6d5-146e952ac353",
-          "title": "Ops Admin Dashboard — multi-client account manager for Melissa",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-05T20:22:21.231Z"
         }
       ]
     }
