@@ -3,22 +3,67 @@
     "issues": {
       "nodes": [
         {
-          "id": "db355e19-e147-4671-811b-2b8112f7e138",
-          "title": "erroris in client SOW when going through the hire flow.",
+          "id": "f9bba028-5ec3-4aa8-90e2-7c11d3f9f44a",
+          "title": "Document Storage / State",
           "state": {
             "name": "In Progress"
           },
-          "priority": 2,
-          "updatedAt": "2026-06-26T15:44:27.022Z"
+          "priority": 0,
+          "updatedAt": "2026-06-30T20:37:03.394Z"
+        },
+        {
+          "id": "73d1a385-644a-4e76-90d4-5a0d4b089787",
+          "title": "Docusign Webhook",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-30T20:36:54.537Z"
+        },
+        {
+          "id": "93eb1686-d928-44ac-8044-305f9fe5de16",
+          "title": "Docusign Solution (Contract Panel)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-30T20:36:38.789Z"
         },
         {
           "id": "46661f94-2324-4d97-a794-8bbb884bb529",
           "title": "3. Read & sign the agreement",
           "state": {
-            "name": "Planning"
+            "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-06-23T00:15:38.692Z"
+          "updatedAt": "2026-06-30T20:36:14.961Z"
+        },
+        {
+          "id": "13800e0d-8ae9-4ca4-957a-6a67d5d31e58",
+          "title": "Profile Panel Cards",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-06-30T20:35:35.981Z"
+        },
+        {
+          "id": "db355e19-e147-4671-811b-2b8112f7e138",
+          "title": "errors in client SOW when going through the hire flow.",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-06-30T19:59:40.438Z"
+        },
+        {
+          "id": "4932a3ab-ec3c-49a2-8ddf-c63321e8edf7",
+          "title": "Missing SoW for Yelp",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-06-30T19:58:56.307Z"
         },
         {
           "id": "de4a6c0e-1550-46b2-b66f-5ed5fc9a1389",
@@ -28,33 +73,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-06-23T00:15:15.077Z"
-        },
-        {
-          "id": "13800e0d-8ae9-4ca4-957a-6a67d5d31e58",
-          "title": "Profile Panel Cards",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-23T00:14:13.634Z"
-        },
-        {
-          "id": "73d1a385-644a-4e76-90d4-5a0d4b089787",
-          "title": "Docusign Webhook",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-23T00:07:18.506Z"
-        },
-        {
-          "id": "93eb1686-d928-44ac-8044-305f9fe5de16",
-          "title": "Docusign Solution (Contract Panel)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-23T00:07:17.467Z"
         },
         {
           "id": "7cf83843-8840-41db-a842-2afdcb0c408c",
@@ -264,15 +282,6 @@
           "updatedAt": "2026-06-22T14:07:27.846Z"
         },
         {
-          "id": "f9bba028-5ec3-4aa8-90e2-7c11d3f9f44a",
-          "title": "Document Storage / State",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-19T17:25:56.663Z"
-        },
-        {
           "id": "5ddd082e-fbc8-4803-b1af-a4bca78d1eca",
           "title": "Forest Admin auto-CRUD bypasses backend validation — silent data corruption + silent create failures",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-06-06T12:47:58.172Z"
-        },
-        {
-          "id": "e2976c12-0bdb-455f-b30e-0580a88860be",
-          "title": "[ENG-1760] Issue 2: Selected payment structure not applied to engagement (billingCycle sourced from wrong field)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-06T12:47:56.415Z"
         }
       ]
     }
