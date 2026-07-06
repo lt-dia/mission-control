@@ -3,13 +3,58 @@
     "issues": {
       "nodes": [
         {
+          "id": "9d2f58c0-62c8-4c23-987a-f132c5c6f3dd",
+          "title": "7. Notifications",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-06T17:26:48.516Z"
+        },
+        {
+          "id": "2d6e063f-6698-4316-bcb9-ba41ffa46b38",
+          "title": "Engagements Component",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-06T17:26:32.136Z"
+        },
+        {
+          "id": "bb1ea294-1112-4682-847a-fc32fcfa6c4f",
+          "title": "Worklog Component",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-06T17:26:28.744Z"
+        },
+        {
+          "id": "f116d71a-d727-4d01-86a2-d4225a890564",
+          "title": "SMB Lawtrader Onboarding Intake",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-06T17:17:14.579Z"
+        },
+        {
           "id": "f9bba028-5ec3-4aa8-90e2-7c11d3f9f44a",
           "title": "Document Storage / State",
           "state": {
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-06-30T20:37:03.394Z"
+          "updatedAt": "2026-07-06T17:03:14.410Z"
+        },
+        {
+          "id": "de4a6c0e-1550-46b2-b66f-5ed5fc9a1389",
+          "title": "SMB Lawtrader Onboarding & Setting",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-06T17:02:23.511Z"
         },
         {
           "id": "73d1a385-644a-4e76-90d4-5a0d4b089787",
@@ -64,15 +109,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-06-30T19:58:56.307Z"
-        },
-        {
-          "id": "de4a6c0e-1550-46b2-b66f-5ed5fc9a1389",
-          "title": "SMB Lawtrader Onboarding & Setting",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-23T00:15:15.077Z"
         },
         {
           "id": "7cf83843-8840-41db-a842-2afdcb0c408c",
@@ -391,7 +427,7 @@
         },
         {
           "id": "c60402af-e88f-47a5-a2d6-ac7562cb6e0c",
-          "title": "SEEK — Agent SDK + MCP-shape migration V1 (ship in PR #178)",
+          "title": "SEEK �� Agent SDK + MCP-shape migration V1 (ship in PR #178)",
           "state": {
             "name": "Canceled"
           },
@@ -415,42 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-15T14:51:29.904Z"
-        },
-        {
-          "id": "7528dd3e-9370-4d9a-8a32-c9e4417511d6",
-          "title": "Hire Flow — Add inline red error validation on Engagement Details step (required fields + char limits)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-15T14:35:45.412Z"
-        },
-        {
-          "id": "5aa2c8e8-65d5-41d1-9afb-1e66416815ee",
-          "title": "Improve Hiring Flow on Client Dashboard",
-          "state": {
-            "name": "Triage"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-15T14:32:14.335Z"
-        },
-        {
-          "id": "21b7da34-83d6-449f-b7ef-e2fe264f4396",
-          "title": "\"heart\" icon not working on client dashabord.",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-15T14:31:14.770Z"
-        },
-        {
-          "id": "2388dfeb-452c-46ff-ab51-8e8bbe06f299",
-          "title": "[ENG-1760] Issue 3: Returning clients misclassified as new → wrong MSA vs SOW sent",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-06T12:47:58.172Z"
         }
       ]
     }
