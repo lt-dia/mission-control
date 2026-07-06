@@ -3,13 +3,22 @@
     "issues": {
       "nodes": [
         {
+          "id": "f116d71a-d727-4d01-86a2-d4225a890564",
+          "title": "SMB Lawtrader Onboarding Intake",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-06T21:59:24.204Z"
+        },
+        {
           "id": "ab24a138-a252-4958-8058-a25d8f428a84",
           "title": "delete client account - should be. talent account",
           "state": {
-            "name": "In Progress"
+            "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-07-06T21:18:07.542Z"
+          "updatedAt": "2026-07-06T21:27:34.847Z"
         },
         {
           "id": "9d2f58c0-62c8-4c23-987a-f132c5c6f3dd",
@@ -37,15 +46,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-07-06T17:26:28.744Z"
-        },
-        {
-          "id": "f116d71a-d727-4d01-86a2-d4225a890564",
-          "title": "SMB Lawtrader Onboarding Intake",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-06T17:17:14.579Z"
         },
         {
           "id": "f9bba028-5ec3-4aa8-90e2-7c11d3f9f44a",
