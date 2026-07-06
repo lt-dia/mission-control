@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "ab24a138-a252-4958-8058-a25d8f428a84",
+          "title": "delete client account - should be. talent account",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-07-06T21:18:07.542Z"
+        },
+        {
           "id": "9d2f58c0-62c8-4c23-987a-f132c5c6f3dd",
           "title": "7. Notifications",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-15T14:52:12.010Z"
-        },
-        {
-          "id": "3555cfc1-5ea1-4d7f-9eb0-1a1df07e0409",
-          "title": "SEEK Dev Env — localhost:8080 served by node-app-fe-v2 (not lawtrades-fe-ai clone) + dev-mode banner",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-15T14:51:29.904Z"
         }
       ]
     }
