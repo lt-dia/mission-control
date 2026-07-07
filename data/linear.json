@@ -3,13 +3,22 @@
     "issues": {
       "nodes": [
         {
+          "id": "f2163b28-89c3-4647-af93-c7a504579794",
+          "title": "rescheduled interviews not sending out talent/ client calendar invites",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-07-07T21:03:19.497Z"
+        },
+        {
           "id": "f116d71a-d727-4d01-86a2-d4225a890564",
           "title": "SMB Lawtrader Onboarding Intake",
           "state": {
-            "name": "In Review"
+            "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-07-07T16:53:21.385Z"
+          "updatedAt": "2026-07-07T20:10:50.080Z"
         },
         {
           "id": "ab24a138-a252-4958-8058-a25d8f428a84",
@@ -442,15 +451,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-06-15T14:52:32.925Z"
-        },
-        {
-          "id": "8fa48000-1856-49b2-a6df-8edb39792458",
-          "title": "SEEK — Fix broken interview scheduling flow (Melissa + Tommy flagged in demo)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-15T14:52:12.010Z"
         }
       ]
     }
