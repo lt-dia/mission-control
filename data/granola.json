@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_DRHC5ijMvXs3dw",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-07-07T14:59:39.249Z",
+      "updated_at": "2026-07-07T15:30:48.304Z"
+    },
+    {
       "id": "not_aYbxChjbIC2E7l",
       "object": "note",
       "title": "Wedding notes 7/2",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-06-29T14:59:06.274Z",
       "updated_at": "2026-06-30T15:00:07.156Z"
-    },
-    {
-      "id": "not_jsn3syVqqzcyns",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-06-26T14:59:58.677Z",
-      "updated_at": "2026-06-26T17:10:11.499Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0yNlQxNDo1OTo1OC42NzdaIiwibGFzdF9kb2NfaWQiOiIwOGFiZGJhZi1mMTQyLTQ2ZTQtYmFhNC0zYjRlY2IzYjllMzIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNi0yOVQxNDo1OTowNi4yNzRaIiwibGFzdF9kb2NfaWQiOiJmZTNhMGIyNS05NWYyLTRhZjUtYTkzMC1kYWZiNzhkYTEzOTMifQ"
 }
