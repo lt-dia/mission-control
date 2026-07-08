@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "9d2f58c0-62c8-4c23-987a-f132c5c6f3dd",
+          "title": "7. Notifications",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-08T17:39:31.899Z"
+        },
+        {
           "id": "f2163b28-89c3-4647-af93-c7a504579794",
           "title": "rescheduled interviews not sending out talent/ client calendar invites",
           "state": {
@@ -10,15 +19,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-07-08T17:01:35.015Z"
-        },
-        {
-          "id": "9d2f58c0-62c8-4c23-987a-f132c5c6f3dd",
-          "title": "7. Notifications",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-08T01:34:47.351Z"
         },
         {
           "id": "f9bba028-5ec3-4aa8-90e2-7c11d3f9f44a",
