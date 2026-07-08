@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "f2163b28-89c3-4647-af93-c7a504579794",
+          "title": "rescheduled interviews not sending out talent/ client calendar invites",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-07-08T19:23:25.906Z"
+        },
+        {
+          "id": "d5f42991-2e78-4e57-ac11-c09eab14249f",
+          "title": "Created an Engagement (twice) but it is not showing up under engagements",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 2,
+          "updatedAt": "2026-07-08T19:21:56.156Z"
+        },
+        {
           "id": "9d2f58c0-62c8-4c23-987a-f132c5c6f3dd",
           "title": "7. Notifications",
           "state": {
@@ -10,15 +28,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-07-08T17:39:31.899Z"
-        },
-        {
-          "id": "f2163b28-89c3-4647-af93-c7a504579794",
-          "title": "rescheduled interviews not sending out talent/ client calendar invites",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-07-08T17:01:35.015Z"
         },
         {
           "id": "f9bba028-5ec3-4aa8-90e2-7c11d3f9f44a",
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-06-15T14:53:02.974Z"
-        },
-        {
-          "id": "c60402af-e88f-47a5-a2d6-ac7562cb6e0c",
-          "title": "SEEK — Agent SDK + MCP-shape migration V1 (ship in PR #178)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 1,
-          "updatedAt": "2026-06-15T14:52:32.925Z"
         }
       ]
     }
