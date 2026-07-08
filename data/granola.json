@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_7aqCRwJeHfZAFY",
+      "object": "note",
+      "title": "Marketing Lecture 1",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-07-08T01:30:12.934Z",
+      "updated_at": "2026-07-08T02:58:15.877Z"
+    },
+    {
       "id": "not_g0Ih8NGPJ9fvZn",
       "object": "note",
       "title": "Wedding Meeting with Parents",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-07-02T16:01:52.204Z",
       "updated_at": "2026-07-02T16:45:15.308Z"
-    },
-    {
-      "id": "not_chA8veEjrvhAqd",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-07-01T15:00:02.038Z",
-      "updated_at": "2026-07-02T16:01:51.040Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0wMVQxNTowMDowMi4wMzhaIiwibGFzdF9kb2NfaWQiOiJmMjk2ZDYzNC0wYjhjLTQ0YzAtOGE1NS0yNmMwODljYTNkNzAifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0wMlQxNjowMTo1Mi4yMDRaIiwibGFzdF9kb2NfaWQiOiI3Y2YwOGVmZC00MmY1LTQ1OGItOGU3YS03MmViMjk2MDdiMjEifQ"
 }

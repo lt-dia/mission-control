@@ -9,7 +9,16 @@
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-07-07T21:40:10.074Z"
+          "updatedAt": "2026-07-08T01:34:47.351Z"
+        },
+        {
+          "id": "f9bba028-5ec3-4aa8-90e2-7c11d3f9f44a",
+          "title": "Document Storage / State",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-08T01:32:02.079Z"
         },
         {
           "id": "f2163b28-89c3-4647-af93-c7a504579794",
@@ -55,15 +64,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-07-06T17:26:28.744Z"
-        },
-        {
-          "id": "f9bba028-5ec3-4aa8-90e2-7c11d3f9f44a",
-          "title": "Document Storage / State",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-06T17:03:14.410Z"
         },
         {
           "id": "de4a6c0e-1550-46b2-b66f-5ed5fc9a1389",
