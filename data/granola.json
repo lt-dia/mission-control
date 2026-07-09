@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_vwsf7oQVyuN1vF",
+      "object": "note",
+      "title": "MGMT Business Comms",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-07-09T01:36:27.451Z",
+      "updated_at": "2026-07-09T03:03:08.555Z"
+    },
+    {
       "id": "not_4D1KJVb4L1Cdhh",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-07-07T19:06:09.817Z",
       "updated_at": "2026-07-07T23:00:08.839Z"
-    },
-    {
-      "id": "not_DRHC5ijMvXs3dw",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-07-07T14:59:39.249Z",
-      "updated_at": "2026-07-07T15:30:48.304Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0wN1QxNDo1OTozOS4yNDlaIiwibGFzdF9kb2NfaWQiOiIwNjQwODY1OS1mNzA5LTQ5NzktOTAxMi05ZmJjYzAxZDIwZGUifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0wN1QxOTowNjowOS44MTdaIiwibGFzdF9kb2NfaWQiOiI1ODU2MGJjNi04MWZmLTQ5NzMtOGQ3Mi1mNjJhMThlMDBlYWUifQ"
 }
