@@ -6,10 +6,10 @@
           "id": "d5f42991-2e78-4e57-ac11-c09eab14249f",
           "title": "Created an Engagement (twice) but it is not showing up under engagements",
           "state": {
-            "name": "In Review"
+            "name": "In Progress"
           },
           "priority": 2,
-          "updatedAt": "2026-07-08T21:54:40.200Z"
+          "updatedAt": "2026-07-09T17:24:43.417Z"
         },
         {
           "id": "5ddd082e-fbc8-4803-b1af-a4bca78d1eca",
@@ -18,7 +18,16 @@
             "name": "In Progress"
           },
           "priority": 2,
-          "updatedAt": "2026-07-08T20:55:09.856Z"
+          "updatedAt": "2026-07-09T17:10:05.080Z"
+        },
+        {
+          "id": "282a521d-a57e-470b-92c8-617bf6a126a4",
+          "title": "ENG-1790 follow-ups: staging FOREST config + AM-sender verification + tracked follow-ups",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-07-09T17:02:09.176Z"
         },
         {
           "id": "f2163b28-89c3-4647-af93-c7a504579794",
@@ -442,15 +451,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-06-15T14:53:15.686Z"
-        },
-        {
-          "id": "78eb92ee-6e7d-4aa0-b3df-3fd84026e7d9",
-          "title": "Agent Hallucination?",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-15T14:53:02.974Z"
         }
       ]
     }
