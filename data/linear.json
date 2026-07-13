@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "9d2f58c0-62c8-4c23-987a-f132c5c6f3dd",
+          "title": "7. Notifications",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-13T00:08:53.043Z"
+        },
+        {
           "id": "fed69659-2121-45fc-88f4-9d54d008bffe",
           "title": "update existing engagement with new SOWs",
           "state": {
@@ -10,15 +19,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-07-10T18:37:04.648Z"
-        },
-        {
-          "id": "9d2f58c0-62c8-4c23-987a-f132c5c6f3dd",
-          "title": "7. Notifications",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-09T20:41:55.349Z"
         },
         {
           "id": "d5f42991-2e78-4e57-ac11-c09eab14249f",
