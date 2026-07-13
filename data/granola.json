@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_5ZBe0wa1iRKaNv",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-07-13T14:59:10.087Z",
+      "updated_at": "2026-07-13T15:42:33.485Z"
+    },
+    {
       "id": "not_PDcdX12uTCtH1N",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -20,7 +31,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-07-09T01:36:27.451Z",
-      "updated_at": "2026-07-13T00:27:31.804Z"
+      "updated_at": "2026-07-13T14:59:11.022Z"
     },
     {
       "id": "not_4D1KJVb4L1Cdhh",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-07-08T01:30:12.934Z",
       "updated_at": "2026-07-08T14:59:05.313Z"
-    },
-    {
-      "id": "not_g0Ih8NGPJ9fvZn",
-      "object": "note",
-      "title": "Wedding Meeting with Parents",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-07-07T23:00:11.951Z",
-      "updated_at": "2026-07-08T01:13:26.398Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0wN1QyMzowMDoxMS45NTFaIiwibGFzdF9kb2NfaWQiOiIxZDVhNGVmNS04YjhlLTQzNDUtOTE4Mi0zNjg2Y2RlOTIxM2IifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0wOFQwMTozMDoxMi45MzRaIiwibGFzdF9kb2NfaWQiOiI0NWQ1ZDAyYi0zZWZhLTRjMmUtODQwNS1mYzM5NGM3OWMyN2MifQ"
 }

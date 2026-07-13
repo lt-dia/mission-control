@@ -8,17 +8,44 @@
           "state": {
             "name": "In Progress"
           },
+          "priority": 2,
+          "updatedAt": "2026-07-13T16:24:13.937Z"
+        },
+        {
+          "id": "5971f373-d276-4728-9de1-dd9c964177ca",
+          "title": "Hire Flow Redesign — In-Dashboard Offer Builder",
+          "state": {
+            "name": "Done"
+          },
           "priority": 0,
-          "updatedAt": "2026-07-13T00:08:53.043Z"
+          "updatedAt": "2026-07-13T16:24:03.670Z"
+        },
+        {
+          "id": "db355e19-e147-4671-811b-2b8112f7e138",
+          "title": "errors in client SOW when going through the hire flow.",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-07-13T16:23:44.953Z"
+        },
+        {
+          "id": "a1068905-0e1a-4d7f-9408-15136aed28cf",
+          "title": "Fix Hire Flow — Agreement Sequencing & Signature Gating",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-07-13T16:23:28.196Z"
         },
         {
           "id": "fed69659-2121-45fc-88f4-9d54d008bffe",
           "title": "update existing engagement with new SOWs",
           "state": {
-            "name": "Triage"
+            "name": "Done"
           },
-          "priority": 0,
-          "updatedAt": "2026-07-10T18:37:04.648Z"
+          "priority": 4,
+          "updatedAt": "2026-07-13T14:32:22.265Z"
         },
         {
           "id": "d5f42991-2e78-4e57-ac11-c09eab14249f",
@@ -145,15 +172,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-06-30T20:35:35.981Z"
-        },
-        {
-          "id": "db355e19-e147-4671-811b-2b8112f7e138",
-          "title": "errors in client SOW when going through the hire flow.",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-30T19:59:40.438Z"
         },
         {
           "id": "4932a3ab-ec3c-49a2-8ddf-c63321e8edf7",
@@ -399,15 +417,6 @@
           "updatedAt": "2026-06-15T17:33:18.661Z"
         },
         {
-          "id": "a1068905-0e1a-4d7f-9408-15136aed28cf",
-          "title": "Fix Hire Flow — Agreement Sequencing & Signature Gating",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-15T16:23:45.877Z"
-        },
-        {
           "id": "e6987081-4501-46c9-8c02-eed0276c5309",
           "title": "update the ability to click on the time drop down when scheduling an interview",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-06-15T14:58:44.081Z"
-        },
-        {
-          "id": "87ec6ad9-ff63-4e02-bed7-4531d58bdb09",
-          "title": "feat(AI): Implement worklog-driven role-aware AI homepage cards",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-15T14:53:40.827Z"
         }
       ]
     }
