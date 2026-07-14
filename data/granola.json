@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_AnlwK8S8JJB0NG",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-07-14T15:01:43.222Z",
+      "updated_at": "2026-07-14T15:34:19.303Z"
+    },
+    {
       "id": "not_5ZBe0wa1iRKaNv",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-07-08T14:59:05.350Z",
       "updated_at": "2026-07-09T01:29:24.280Z"
-    },
-    {
-      "id": "not_7aqCRwJeHfZAFY",
-      "object": "note",
-      "title": "Marketing Lecture 1",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-07-08T01:30:12.934Z",
-      "updated_at": "2026-07-08T14:59:05.313Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0wOFQwMTozMDoxMi45MzRaIiwibGFzdF9kb2NfaWQiOiI0NWQ1ZDAyYi0zZWZhLTRjMmUtODQwNS1mYzM5NGM3OWMyN2MifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0wOFQxNDo1OTowNS4zNTBaIiwibGFzdF9kb2NfaWQiOiIzMjc2ZGQ1ZC1kOTkxLTQwZWYtODU2Ny04ZDc2ODZkN2I0ZDQifQ"
 }
