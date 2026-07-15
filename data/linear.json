@@ -3,13 +3,148 @@
     "issues": {
       "nodes": [
         {
+          "id": "d845cddc-34a0-48e2-ae76-fdbf48dd3553",
+          "title": "Marketplace vs SMB email dedup",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:22:19.954Z"
+        },
+        {
+          "id": "71d55504-ed71-42c3-a40f-3463b30c5c04",
+          "title": "Final SMB email copy applied",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:21:46.646Z"
+        },
+        {
           "id": "9d2f58c0-62c8-4c23-987a-f132c5c6f3dd",
           "title": "7. Notifications",
           "state": {
             "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-07-14T16:16:38.164Z"
+          "updatedAt": "2026-07-15T21:21:46.646Z"
+        },
+        {
+          "id": "a2c03d04-66fb-47c6-82ad-37583f757f9f",
+          "title": "Messaging reliability (persistence, reconnect, presence)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:21:13.631Z"
+        },
+        {
+          "id": "49ceaebf-ea87-4df3-a300-b42e9eb0f968",
+          "title": "Unread-message badges on the Rooms nav",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:21:08.194Z"
+        },
+        {
+          "id": "025bd6b6-6265-4b92-a532-56b2445e7290",
+          "title": "Read receipts and online/typing presence",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:21:04.864Z"
+        },
+        {
+          "id": "7a03ad4c-09ec-4718-b38b-9772b465a25e",
+          "title": "Live messages without refreshing",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:20:27.686Z"
+        },
+        {
+          "id": "462056df-9359-45a5-b035-4015983bebe7",
+          "title": "SMB engagement room — live messaging & presence",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:20:27.686Z"
+        },
+        {
+          "id": "da93eb22-77ca-46e6-9026-108745dff4a4",
+          "title": "Fix the #offerdata Slack alert",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:20:24.982Z"
+        },
+        {
+          "id": "8becd69a-a410-4f15-b522-7c93d48efd89",
+          "title": "Dashboard polish (worklogs, documents, loading)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:20:17.486Z"
+        },
+        {
+          "id": "e3429b09-9861-4ef7-a518-d2ad98c2d063",
+          "title": "Decline confirmation with reason",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:20:11.493Z"
+        },
+        {
+          "id": "495b71a7-881e-4b05-8e5b-8135801161f2",
+          "title": "Billing page cleanup",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:20:02.146Z"
+        },
+        {
+          "id": "5ba20dcd-7315-4eca-980e-b1cb124355d2",
+          "title": "SMB QA fixes (site walkthrough with Brian)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:20:02.146Z"
+        },
+        {
+          "id": "0b9d8279-466e-4c06-b43d-55dc08102245",
+          "title": "Talent can open the client message room",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:16:33.412Z"
+        },
+        {
+          "id": "8caaa46a-d200-41df-89f7-7ec21d97ebee",
+          "title": "Unread badges in the /smb navigation",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:16:28.728Z"
+        },
+        {
+          "id": "ff909a1b-1a50-4b52-bbde-a6ec57ae14f7",
+          "title": "Engagement titles across the app and emails",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-15T21:16:25.486Z"
         },
         {
           "id": "5971f373-d276-4728-9de1-dd9c964177ca",
@@ -316,141 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-22T14:07:28.234Z"
-        },
-        {
-          "id": "d17b580c-8cf4-48a3-8d3c-8ff632f1e1ca",
-          "title": "SEEK — Save workspace + Save candidate to shortlist (the \"sign in to save\" promise)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-22T14:07:28.197Z"
-        },
-        {
-          "id": "b17e281d-3c2e-4953-9af3-88677becba9e",
-          "title": "SEEK UI Polish Pass — open hopper for small visual tweaks from QA feedback",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-22T14:07:28.145Z"
-        },
-        {
-          "id": "8478b39f-deb1-44bc-8325-338fb158a82a",
-          "title": "SEEK — Expanded role-qualifier pills (pull from Lawtrades website signup flow, run by Jerry)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-22T14:07:28.093Z"
-        },
-        {
-          "id": "91745824-c6d2-4e81-ad7f-06606e8918c1",
-          "title": "SEEK Marketing Assets — blog post + 30-sec video + email + changelog + website update",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-22T14:07:28.055Z"
-        },
-        {
-          "id": "321fde6b-4c4a-4170-9a94-2b83d3af7f00",
-          "title": "SEEK — Supervising-Lawyer Qualification Gate (broken out from ENG-664)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-22T14:07:28.004Z"
-        },
-        {
-          "id": "4c74eb90-eb6c-4af7-83e9-e3c55ea3f4ce",
-          "title": "SEEK FE — `SeekSignInModal` for Request Interview missing candidate name in copy",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 4,
-          "updatedAt": "2026-06-22T14:07:27.960Z"
-        },
-        {
-          "id": "3a22e215-8ae2-4188-9d50-aaf3916e894d",
-          "title": "SEEK FE — Per-role skill chips missing from side-panel Work Experience (alignment gap with `/profile/{slug}` page)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 4,
-          "updatedAt": "2026-06-22T14:07:27.902Z"
-        },
-        {
-          "id": "069b05ab-7124-4298-b911-85f412fd56b5",
-          "title": "SEEK — Request Interview flow needs structured role/position association (replace unstructured notes)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 4,
-          "updatedAt": "2026-06-22T14:07:27.846Z"
-        },
-        {
-          "id": "eeba20df-6432-4c12-b898-94702bcf429f",
-          "title": "feat(candidates): allow un-decline / reactivate declined candidates on open positions",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-15T22:32:42.548Z"
-        },
-        {
-          "id": "847043e8-dce2-4ea9-a44f-dea16759dca1",
-          "title": "Product Request: Allow mulitple agreement to be stored on client/ talent dashabords",
-          "state": {
-            "name": "Triage"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-15T17:33:48.708Z"
-        },
-        {
-          "id": "d21b81aa-a7e1-402d-b88c-8b6d82f08f47",
-          "title": "Capture SOW Details at Hire Confirmation",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-15T17:33:18.661Z"
-        },
-        {
-          "id": "e6987081-4501-46c9-8c02-eed0276c5309",
-          "title": "update the ability to click on the time drop down when scheduling an interview",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-15T16:17:25.852Z"
-        },
-        {
-          "id": "5040d63e-5ae7-4f2b-9f1d-1e254b55d69f",
-          "title": "Audit and harden tracked env configuration across FE/BE",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-15T15:23:39.517Z"
-        },
-        {
-          "id": "f6e29cf0-b6c8-4500-a717-204f05a62ad1",
-          "title": "MVP Scope + Metrics (PRD lite)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-15T15:18:17.578Z"
-        },
-        {
-          "id": "0331caa8-3193-412b-bdfd-937b89bb4f4d",
-          "title": "Calendar Invites Not Sending for Scheduled Interviews",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-06-15T14:58:44.081Z"
         }
       ]
     }
