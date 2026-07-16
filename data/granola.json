@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_kZQ0z8B01OSUNC",
+      "object": "note",
+      "title": "Lawtrades AI Hackathon",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-07-16T18:47:39.961Z",
+      "updated_at": "2026-07-16T20:19:18.105Z"
+    },
+    {
       "id": "not_0DbQrymTZKjCtt",
       "object": "note",
       "title": "Wedding Videographer",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-07-13T14:59:10.087Z",
       "updated_at": "2026-07-13T15:42:33.485Z"
-    },
-    {
-      "id": "not_PDcdX12uTCtH1N",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-07-09T15:00:21.329Z",
-      "updated_at": "2026-07-13T00:27:27.777Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0wOVQxNTowMDoyMS4zMjlaIiwibGFzdF9kb2NfaWQiOiIxNzAxNjcyYS1jNzlhLTRlNTItOTNiYy1hODU0MjY4YjQxZjYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0xM1QxNDo1OToxMC4wODdaIiwibGFzdF9kb2NfaWQiOiI0MWZjMzM0Ni1hOGY4LTRlMmMtYmMyNC00NzdkNDgyYjU3OTAifQ"
 }
