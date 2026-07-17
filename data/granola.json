@@ -12,6 +12,17 @@
       "updated_at": "2026-07-16T20:19:18.105Z"
     },
     {
+      "id": "not_uH5a25J7oZnFTY",
+      "object": "note",
+      "title": "MGMT 592 - Business Comms",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-07-16T01:31:30.207Z",
+      "updated_at": "2026-07-17T01:03:05.379Z"
+    },
+    {
       "id": "not_0DbQrymTZKjCtt",
       "object": "note",
       "title": "Wedding Videographer",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-07-14T15:01:43.222Z",
       "updated_at": "2026-07-15T01:32:52.240Z"
-    },
-    {
-      "id": "not_5ZBe0wa1iRKaNv",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-07-13T14:59:10.087Z",
-      "updated_at": "2026-07-13T15:42:33.485Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0xM1QxNDo1OToxMC4wODdaIiwibGFzdF9kb2NfaWQiOiI0MWZjMzM0Ni1hOGY4LTRlMmMtYmMyNC00NzdkNDgyYjU3OTAifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0xNFQxNTowMTo0My4yMjJaIiwibGFzdF9kb2NfaWQiOiIwNTFlNmNiNy03OGU3LTQ5ZjItYjc4NS05NWM4ZDhiZWMwNjEifQ"
 }
