@@ -12,6 +12,17 @@
       "updated_at": "2026-07-18T03:46:32.669Z"
     },
     {
+      "id": "not_IxpwuBN6eIee3w",
+      "object": "note",
+      "title": "All Day Off-Site!!",
+      "owner": {
+        "name": "Zoe McDonald",
+        "email": "zoe@lawtrades.com"
+      },
+      "created_at": "2026-07-16T14:18:40.453Z",
+      "updated_at": "2026-07-20T14:11:12.021Z"
+    },
+    {
       "id": "not_uH5a25J7oZnFTY",
       "object": "note",
       "title": "MGMT 592 - Business Comms",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-07-15T01:32:55.342Z",
       "updated_at": "2026-07-18T03:46:30.971Z"
-    },
-    {
-      "id": "not_AnlwK8S8JJB0NG",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-07-14T15:01:43.222Z",
-      "updated_at": "2026-07-15T01:32:52.240Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0xNFQxNTowMTo0My4yMjJaIiwibGFzdF9kb2NfaWQiOiIwNTFlNmNiNy03OGU3LTQ5ZjItYjc4NS05NWM4ZDhiZWMwNjEifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0xNVQwMTozMjo1NS4zNDJaIiwibGFzdF9kb2NfaWQiOiI3Y2FlYjcwMi0xNmZiLTQzYjMtOGQ4NS1kNjRkMzBlNjIwZmEifQ"
 }
