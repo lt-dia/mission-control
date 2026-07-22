@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "3d417de8-c7d3-4d76-bd23-8b9e95bd80a4",
+          "title": "Notification when a customer send out an offer",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 3,
+          "updatedAt": "2026-07-22T21:08:42.663Z"
+        },
+        {
           "id": "de031556-5634-449b-8955-4464b778274b",
           "title": "Notification",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-22T14:07:28.383Z"
-        },
-        {
-          "id": "df1bd4a8-5e12-4684-afe3-16c8102da814",
-          "title": "SEEK — SMB lawyer pool curation + tighter SMB-vs-corporate routing (Tommy + Jerry)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-22T14:07:28.340Z"
         }
       ]
     }
