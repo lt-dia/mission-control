@@ -6,10 +6,10 @@
           "id": "3d417de8-c7d3-4d76-bd23-8b9e95bd80a4",
           "title": "Notification when a customer send out an offer",
           "state": {
-            "name": "In Review"
+            "name": "Done"
           },
           "priority": 3,
-          "updatedAt": "2026-07-22T21:08:42.663Z"
+          "updatedAt": "2026-07-22T21:41:47.908Z"
         },
         {
           "id": "de031556-5634-449b-8955-4464b778274b",
