@@ -3,21 +3,21 @@
     "issues": {
       "nodes": [
         {
+          "id": "9fc13e0e-c2ec-48bb-87c9-961b6946712f",
+          "title": "\"Offer Withdrawn\" email incorrectly sent to talent who is engaged on the position",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-07-23T20:50:55.016Z"
+        },
+        {
           "id": "b515502a-e46c-4b77-9c49-8fae011a45fd",
           "title": "Reword \"Offer withdrawn\" email when the loss is due to another candidate being hired",
           "state": {
             "name": "Backlog"
           },
           "priority": 3,
-          "updatedAt": "2026-07-23T20:01:09.879Z"
-        },
-        {
-          "id": "9fc13e0e-c2ec-48bb-87c9-961b6946712f",
-          "title": "\"Offer Withdrawn\" email incorrectly sent to talent who is engaged on the position",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 2,
           "updatedAt": "2026-07-23T20:01:09.879Z"
         },
         {
