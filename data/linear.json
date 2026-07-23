@@ -3,13 +3,31 @@
     "issues": {
       "nodes": [
         {
+          "id": "b515502a-e46c-4b77-9c49-8fae011a45fd",
+          "title": "Reword \"Offer withdrawn\" email when the loss is due to another candidate being hired",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-07-23T20:01:09.879Z"
+        },
+        {
           "id": "9fc13e0e-c2ec-48bb-87c9-961b6946712f",
           "title": "\"Offer Withdrawn\" email incorrectly sent to talent who is engaged on the position",
           "state": {
-            "name": "Todo"
+            "name": "In Review"
           },
           "priority": 2,
-          "updatedAt": "2026-07-23T18:27:24.626Z"
+          "updatedAt": "2026-07-23T20:01:09.879Z"
+        },
+        {
+          "id": "1ec0b628-3c14-4999-8c69-d26980ffe21c",
+          "title": "update client account to link with correct company ID",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-07-23T19:18:40.752Z"
         },
         {
           "id": "3d417de8-c7d3-4d76-bd23-8b9e95bd80a4",
@@ -433,24 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-22T14:07:28.529Z"
-        },
-        {
-          "id": "e2f995f2-c59a-4f99-93d5-bb78365b1aa9",
-          "title": "SEEK — AI-generalize candidate job titles in guest mode (anti-LinkedIn-matching)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-22T14:07:28.488Z"
-        },
-        {
-          "id": "dd79f901-86d0-4361-9787-283e8baaf926",
-          "title": "SEEK FE — LinkedIn icon click is non-functional in authed `/profile/{slug}` page",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-22T14:07:28.434Z"
         }
       ]
     }
