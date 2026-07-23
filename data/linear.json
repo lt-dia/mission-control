@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "9fc13e0e-c2ec-48bb-87c9-961b6946712f",
+          "title": "\"Offer Withdrawn\" email incorrectly sent to talent who is engaged on the position",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 2,
+          "updatedAt": "2026-07-23T18:27:24.626Z"
+        },
+        {
           "id": "3d417de8-c7d3-4d76-bd23-8b9e95bd80a4",
           "title": "Notification when a customer send out an offer",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-06-22T14:07:28.434Z"
-        },
-        {
-          "id": "90635b08-8ef4-4dce-af4b-5684533b4a71",
-          "title": "SEEK FE — LinkedIn icon absent from guest side-panel overlay",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-06-22T14:07:28.383Z"
         }
       ]
     }

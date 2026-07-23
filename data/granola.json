@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_e4QtwOpFsCzHbn",
+      "object": "note",
+      "title": "LT Agent | Baseline | North Star",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-07-23T16:59:10.386Z",
+      "updated_at": "2026-07-23T18:07:31.310Z"
+    },
+    {
       "id": "not_4WxmAVgMjiwaod",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-07-21T17:56:58.002Z",
       "updated_at": "2026-07-23T01:32:36.484Z"
-    },
-    {
-      "id": "not_6kzpK4RIxJMJtT",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-07-21T14:59:05.561Z",
-      "updated_at": "2026-07-21T15:55:34.406Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0yMVQxNDo1OTowNS41NjFaIiwibGFzdF9kb2NfaWQiOiJiOGQ0YWM4Ny05MDBkLTQ4NDctYjQ4ZC1lMDBmMTNhMzgwZTYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0yMVQxNzo1Njo1OC4wMDJaIiwibGFzdF9kb2NfaWQiOiI2N2Y0NDFiNy0zOTI5LTQ3MWMtOGQ0Ni01NmZmMjU1N2JmNmQifQ"
 }
