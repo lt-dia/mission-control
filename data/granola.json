@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_yrnkDbEnFuvxcz",
+      "object": "note",
+      "title": "Business Comms Lecture 3",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-07-23T01:32:51.791Z",
+      "updated_at": "2026-07-23T03:19:10.144Z"
+    },
+    {
       "id": "not_jxMWLr8w0hJYQ0",
       "object": "note",
       "title": "Marketing Lecture 3",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-07-20T14:59:05.493Z",
       "updated_at": "2026-07-21T14:59:05.532Z"
-    },
-    {
-      "id": "not_kZQ0z8B01OSUNC",
-      "object": "note",
-      "title": "Lawtrades AI Hackathon",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-07-16T18:47:39.961Z",
-      "updated_at": "2026-07-18T03:46:32.669Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0xNlQxODo0NzozOS45NjFaIiwibGFzdF9kb2NfaWQiOiJhMzFmZTI1Yy0wYzBhLTQ4ZmEtYWRkZi1jODZmNzNkMjc1MTYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0yMFQxNDo1OTowNS40OTNaIiwibGFzdF9kb2NfaWQiOiI2NzczMzBiNy0zOWI5LTRkMzAtYjc0Ny0xMTY0MDFiMTJjOWYifQ"
 }
