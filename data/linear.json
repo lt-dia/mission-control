@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "ea83468d-2200-4420-b043-29fa8cad28f6",
+          "title": "interview rescheduled but calendar invite not updated",
+          "state": {
+            "name": "Planning"
+          },
+          "priority": 2,
+          "updatedAt": "2026-07-24T19:11:06.601Z"
+        },
+        {
           "id": "9fc13e0e-c2ec-48bb-87c9-961b6946712f",
           "title": "\"Offer Withdrawn\" email incorrectly sent to talent who is engaged on the position",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-22T14:07:28.574Z"
-        },
-        {
-          "id": "13f194f4-0bae-4286-9052-b5660847b027",
-          "title": "SEEK Analytics / KPI Tracking — funnel events + dashboards (1%→2% signup, 4/week hireflow)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-22T14:07:28.529Z"
         }
       ]
     }

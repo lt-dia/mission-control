@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_G2GQuJbHnpS9CV",
+      "object": "note",
+      "title": "Brian <> Ilolo (1:1) Engineering",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-07-24T18:00:09.718Z",
+      "updated_at": "2026-07-24T18:37:19.161Z"
+    },
+    {
       "id": "not_Xx7l5udYCR4hoW",
       "object": "note",
       "title": "SMB engagement room walkthrough and UI polish with Iris",
@@ -9,7 +20,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-07-24T15:58:50.694Z",
-      "updated_at": "2026-07-24T16:31:14.473Z"
+      "updated_at": "2026-07-24T18:00:09.697Z"
     },
     {
       "id": "not_48oATrHSeBgexa",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-07-24T14:00:53.781Z",
       "updated_at": "2026-07-24T15:00:49.384Z"
-    },
-    {
-      "id": "not_e4QtwOpFsCzHbn",
-      "object": "note",
-      "title": "LT Agent | Baseline | North Star",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-07-23T16:59:10.386Z",
-      "updated_at": "2026-07-24T14:29:38.921Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0yM1QxNjo1OToxMC4zODZaIiwibGFzdF9kb2NfaWQiOiI4NmRhYjMwZi1jZDJkLTQyMDMtYjY0NC1hY2M4N2Y4ZjAyOGUifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0yNFQxNDowMDo1My43ODFaIiwibGFzdF9kb2NfaWQiOiI1NTVkNDhiNy05NzhkLTRhYmYtOGU5Ny03YWY2YTI0ZDUxNjMifQ"
 }
