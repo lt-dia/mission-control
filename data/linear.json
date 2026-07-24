@@ -3,13 +3,22 @@
     "issues": {
       "nodes": [
         {
+          "id": "7b460146-b684-47f9-8455-fe0e7246d5bd",
+          "title": "update interview scheduling tool to make the clanedar reflective of changes",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-24T20:25:10.036Z"
+        },
+        {
           "id": "ea83468d-2200-4420-b043-29fa8cad28f6",
           "title": "interview rescheduled but calendar invite not updated",
           "state": {
-            "name": "Planning"
+            "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-07-24T19:11:06.601Z"
+          "updatedAt": "2026-07-24T20:24:44.143Z"
         },
         {
           "id": "9fc13e0e-c2ec-48bb-87c9-961b6946712f",
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-22T14:07:28.619Z"
-        },
-        {
-          "id": "337eb6c8-e4dd-478d-a15c-802992165d54",
-          "title": "SEEK — Guest-to-authed return-to-context (preserve search results after signin, no re-run)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-22T14:07:28.574Z"
         }
       ]
     }
