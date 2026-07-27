@@ -3,13 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "7b460146-b684-47f9-8455-fe0e7246d5bd",
-          "title": "update interview scheduling tool to make the clanedar reflective of changes",
+          "id": "aebdedab-2885-43c3-b190-ea803e7fe919",
+          "title": "Past interviews stuck showing as \"Upcoming\" (Zoom meeting.ended webhook failure)",
           "state": {
             "name": "Done"
           },
-          "priority": 0,
-          "updatedAt": "2026-07-24T20:25:10.036Z"
+          "priority": 2,
+          "updatedAt": "2026-07-27T17:51:42.427Z"
         },
         {
           "id": "ea83468d-2200-4420-b043-29fa8cad28f6",
@@ -18,7 +18,16 @@
             "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-07-24T20:24:44.143Z"
+          "updatedAt": "2026-07-27T17:34:46.494Z"
+        },
+        {
+          "id": "7b460146-b684-47f9-8455-fe0e7246d5bd",
+          "title": "update interview scheduling tool to make the clanedar reflective of changes",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-24T20:25:10.036Z"
         },
         {
           "id": "9fc13e0e-c2ec-48bb-87c9-961b6946712f",
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-22T14:07:28.717Z"
-        },
-        {
-          "id": "03c9a7de-e825-4544-9dec-6ae1457c9e5c",
-          "title": "SEEK Mobile — Disclaimer footer overlaps bottom of workspace + side panel (blocks \"Request interview\")",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-22T14:07:28.619Z"
         }
       ]
     }
