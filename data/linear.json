@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "3fe9157b-2455-414b-9218-27e45cebcfd3",
+          "title": "Add \"Resend Notification\" button at position level (admin)",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 3,
+          "updatedAt": "2026-07-27T19:16:41.247Z"
+        },
+        {
           "id": "aebdedab-2885-43c3-b190-ea803e7fe919",
           "title": "Past interviews stuck showing as \"Upcoming\" (Zoom meeting.ended webhook failure)",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-22T14:07:28.798Z"
-        },
-        {
-          "id": "ae829f67-b92d-4643-91d2-a7c68e1ff050",
-          "title": "SEEK — Use random / non-matching profile photos for guest workspace (anti-poach via image swap)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-22T14:07:28.717Z"
         }
       ]
     }
