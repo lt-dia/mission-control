@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_89N8UE2c3Zjb3x",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-07-27T14:59:10.622Z",
+      "updated_at": "2026-07-27T15:22:17.063Z"
+    },
+    {
       "id": "not_G2GQuJbHnpS9CV",
       "object": "note",
       "title": "Brian <> Ilolo (1:1) Engineering",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-07-24T15:00:49.402Z",
       "updated_at": "2026-07-27T14:59:10.583Z"
-    },
-    {
-      "id": "not_lfj0NgLDmqqvJu",
-      "object": "note",
-      "title": "Law Trades | Datadog - intro ",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-07-24T14:00:53.781Z",
-      "updated_at": "2026-07-24T15:00:49.384Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0yNFQxNDowMDo1My43ODFaIiwibGFzdF9kb2NfaWQiOiI1NTVkNDhiNy05NzhkLTRhYmYtOGU5Ny03YWY2YTI0ZDUxNjMifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0yNFQxNTowMDo0OS40MDJaIiwibGFzdF9kb2NfaWQiOiJhYjliMmVjZi0wMGEzLTQ5ZGItODAwYy1hNjM5YjRiNWQyYzYifQ"
 }
