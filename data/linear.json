@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "9196cb27-ca08-4e2e-b021-0481d909a5d9",
+          "title": "Rescheduled interviews leave old calendar invite on attendee personal calendars (Zapier teardown missing)",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-07-28T18:42:34.661Z"
+        },
+        {
+          "id": "ea83468d-2200-4420-b043-29fa8cad28f6",
+          "title": "interview rescheduled but calendar invite not updated",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-07-28T18:41:59.821Z"
+        },
+        {
           "id": "b20c7da0-8c83-4510-acfb-93d365219c53",
           "title": "Payments Tab Bug in Talent Dashboard",
           "state": {
@@ -28,15 +46,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-07-27T17:51:42.427Z"
-        },
-        {
-          "id": "ea83468d-2200-4420-b043-29fa8cad28f6",
-          "title": "interview rescheduled but calendar invite not updated",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-07-27T17:34:46.494Z"
         },
         {
           "id": "7b460146-b684-47f9-8455-fe0e7246d5bd",
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-22T14:07:28.911Z"
-        },
-        {
-          "id": "25fae30c-61c0-4a5f-848e-4c9128e032c7",
-          "title": "SEEK — Show lawyer license jurisdiction(s) + distinguish \"licensed in\" vs \"based in\" on profile",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-22T14:07:28.858Z"
         }
       ]
     }
