@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "3fe9157b-2455-414b-9218-27e45cebcfd3",
+          "title": "Add \"Resend Notification\" button at position level (admin)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-07-28T21:13:27.062Z"
+        },
+        {
           "id": "9196cb27-ca08-4e2e-b021-0481d909a5d9",
           "title": "Rescheduled interviews leave old calendar invite on attendee personal calendars (Zapier teardown missing)",
           "state": {
@@ -28,15 +37,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-07-28T14:31:00.271Z"
-        },
-        {
-          "id": "3fe9157b-2455-414b-9218-27e45cebcfd3",
-          "title": "Add \"Resend Notification\" button at position level (admin)",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 3,
-          "updatedAt": "2026-07-27T21:38:40.091Z"
         },
         {
           "id": "aebdedab-2885-43c3-b190-ea803e7fe919",
@@ -166,7 +166,7 @@
         },
         {
           "id": "462056df-9359-45a5-b035-4015983bebe7",
-          "title": "SMB engagement room ��� live messaging & presence",
+          "title": "SMB engagement room — live messaging & presence",
           "state": {
             "name": "Done"
           },
