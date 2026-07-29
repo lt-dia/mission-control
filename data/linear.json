@@ -3,13 +3,22 @@
     "issues": {
       "nodes": [
         {
+          "id": "80c23e2c-ec7b-4356-a892-f084ee913eba",
+          "title": "merge companies so client can see all engagements: Ironclad.",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-07-29T21:02:23.880Z"
+        },
+        {
           "id": "b20c7da0-8c83-4510-acfb-93d365219c53",
           "title": "Payments Tab Bug in Talent Dashboard",
           "state": {
-            "name": "In Review"
+            "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-07-29T16:39:25.556Z"
+          "updatedAt": "2026-07-29T20:20:38.060Z"
         },
         {
           "id": "3fe9157b-2455-414b-9218-27e45cebcfd3",
@@ -166,7 +175,7 @@
         },
         {
           "id": "462056df-9359-45a5-b035-4015983bebe7",
-          "title": "SMB engagement room ��� live messaging & presence",
+          "title": "SMB engagement room — live messaging & presence",
           "state": {
             "name": "Done"
           },
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-06-22T14:07:28.953Z"
-        },
-        {
-          "id": "7040233b-b85e-4020-bd3f-771f30f4f99e",
-          "title": "SEEK — Filter out inactive talent (require vetted + recent platform activity in last 12 months)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-22T14:07:28.911Z"
         }
       ]
     }
