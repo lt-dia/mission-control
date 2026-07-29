@@ -6,10 +6,10 @@
           "id": "b20c7da0-8c83-4510-acfb-93d365219c53",
           "title": "Payments Tab Bug in Talent Dashboard",
           "state": {
-            "name": "Todo"
+            "name": "In Review"
           },
           "priority": 2,
-          "updatedAt": "2026-07-29T15:04:38.960Z"
+          "updatedAt": "2026-07-29T16:39:25.556Z"
         },
         {
           "id": "3fe9157b-2455-414b-9218-27e45cebcfd3",
@@ -166,7 +166,7 @@
         },
         {
           "id": "462056df-9359-45a5-b035-4015983bebe7",
-          "title": "SMB engagement room — live messaging & presence",
+          "title": "SMB engagement room ��� live messaging & presence",
           "state": {
             "name": "Done"
           },
