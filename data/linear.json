@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "b20c7da0-8c83-4510-acfb-93d365219c53",
+          "title": "Payments Tab Bug in Talent Dashboard",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 2,
+          "updatedAt": "2026-07-29T15:04:38.960Z"
+        },
+        {
           "id": "3fe9157b-2455-414b-9218-27e45cebcfd3",
           "title": "Add \"Resend Notification\" button at position level (admin)",
           "state": {
@@ -28,15 +37,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-07-28T18:41:59.821Z"
-        },
-        {
-          "id": "b20c7da0-8c83-4510-acfb-93d365219c53",
-          "title": "Payments Tab Bug in Talent Dashboard",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 2,
-          "updatedAt": "2026-07-28T14:31:00.271Z"
         },
         {
           "id": "aebdedab-2885-43c3-b190-ea803e7fe919",
