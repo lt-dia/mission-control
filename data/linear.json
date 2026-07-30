@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "70e8268f-19ae-4a9c-9aa3-ccd1720fb3ac",
+          "title": "Automate abandonment email for SMB AI intake workflow (ai.lawtrades.com)",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 3,
+          "updatedAt": "2026-07-30T15:03:02.630Z"
+        },
+        {
           "id": "80c23e2c-ec7b-4356-a892-f084ee913eba",
           "title": "merge companies so client can see all engagements: Ironclad.",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-06-22T14:07:29.002Z"
-        },
-        {
-          "id": "56fde4f7-60d2-427c-ae2f-a46e4fded600",
-          "title": "SEEK V1.5 — Close the freeform-NL recall ceiling (position-attached structured mode + embedding NL→taxonomy resolution)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-06-22T14:07:28.953Z"
         }
       ]
     }
