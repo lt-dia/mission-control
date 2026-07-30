@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "f3b69215-0b8b-4672-8d8c-7fd2a0e3ff41",
+          "title": "SMB flow + landing page live",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 1,
+          "updatedAt": "2026-07-30T22:40:21.051Z"
+        },
+        {
+          "id": "54cc3ff2-f95e-402b-82d2-fdc1d66a3b39",
+          "title": "Engagements / chat merge implementation",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-07-30T22:40:16.253Z"
+        },
+        {
           "id": "70e8268f-19ae-4a9c-9aa3-ccd1720fb3ac",
           "title": "Automate abandonment email for SMB AI intake workflow (ai.lawtrades.com)",
           "state": {
@@ -433,24 +451,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-06-30T19:58:56.307Z"
-        },
-        {
-          "id": "7cf83843-8840-41db-a842-2afdcb0c408c",
-          "title": "Hiring Flow –Talent SOW Agreement Accuracy",
-          "state": {
-            "name": "Triage"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-22T21:02:16.818Z"
-        },
-        {
-          "id": "fd6ca593-a2c5-4e92-9f86-7e985d53546c",
-          "title": "SEEK — Push to Production (chat + BE + FE lockstep deploy to ai.lawtrades.com)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 1,
-          "updatedAt": "2026-06-22T14:07:29.002Z"
         }
       ]
     }
