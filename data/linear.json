@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "d9ab3bf3-ed21-4d50-9999-bc8df5e07761",
+          "title": "update interview prep call scheduling link to Melissa's calendar",
+          "state": {
+            "name": "Triage"
+          },
+          "priority": 0,
+          "updatedAt": "2026-07-31T16:14:58.795Z"
+        },
+        {
           "id": "f3b69215-0b8b-4672-8d8c-7fd2a0e3ff41",
           "title": "SMB flow + landing page live",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-06-30T20:35:35.981Z"
-        },
-        {
-          "id": "4932a3ab-ec3c-49a2-8ddf-c63321e8edf7",
-          "title": "Missing SoW for Yelp",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-06-30T19:58:56.307Z"
         }
       ]
     }
