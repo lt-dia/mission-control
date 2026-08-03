@@ -3,13 +3,40 @@
     "issues": {
       "nodes": [
         {
+          "id": "7c87a88d-a4b6-44de-a21a-18c94152ead1",
+          "title": "DocuSign iframe silently refuses to render for clients on non-default Lawtrades subdomains (Mercor / Aref)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-03T20:09:33.243Z"
+        },
+        {
+          "id": "f116d71a-d727-4d01-86a2-d4225a890564",
+          "title": "SMB Lawtrader Onboarding Intake",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-03T19:36:17.275Z"
+        },
+        {
+          "id": "aebdedab-2885-43c3-b190-ea803e7fe919",
+          "title": "Past interviews stuck showing as \"Upcoming\" (Zoom meeting.ended webhook failure)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-03T19:36:17.275Z"
+        },
+        {
           "id": "d60991e5-fb79-4ce7-8447-2d4be897336e",
           "title": "Update the SOW for active engagement",
           "state": {
-            "name": "Todo"
+            "name": "Done"
           },
           "priority": 3,
-          "updatedAt": "2026-08-03T18:27:47.425Z"
+          "updatedAt": "2026-08-03T19:11:30.468Z"
         },
         {
           "id": "d9ab3bf3-ed21-4d50-9999-bc8df5e07761",
@@ -91,15 +118,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-07-28T18:41:59.821Z"
-        },
-        {
-          "id": "aebdedab-2885-43c3-b190-ea803e7fe919",
-          "title": "Past interviews stuck showing as \"Upcoming\" (Zoom meeting.ended webhook failure)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-07-27T17:51:42.427Z"
         },
         {
           "id": "7b460146-b684-47f9-8455-fe0e7246d5bd",
@@ -381,15 +399,6 @@
           "updatedAt": "2026-07-08T01:32:02.079Z"
         },
         {
-          "id": "f116d71a-d727-4d01-86a2-d4225a890564",
-          "title": "SMB Lawtrader Onboarding Intake",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-07T20:10:50.080Z"
-        },
-        {
           "id": "ab24a138-a252-4958-8058-a25d8f428a84",
           "title": "delete client account - should be. talent account",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-06-30T20:36:38.789Z"
-        },
-        {
-          "id": "46661f94-2324-4d97-a794-8bbb884bb529",
-          "title": "3. Read & sign the agreement",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-30T20:36:14.961Z"
         }
       ]
     }
