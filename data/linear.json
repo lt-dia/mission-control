@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "d60991e5-fb79-4ce7-8447-2d4be897336e",
+          "title": "Update the SOW for active engagement",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 3,
+          "updatedAt": "2026-08-03T16:25:28.194Z"
+        },
+        {
           "id": "d9ab3bf3-ed21-4d50-9999-bc8df5e07761",
           "title": "update interview prep call scheduling link to Melissa's calendar",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-06-30T20:36:14.961Z"
-        },
-        {
-          "id": "13800e0d-8ae9-4ca4-957a-6a67d5d31e58",
-          "title": "Profile Panel Cards",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-30T20:35:35.981Z"
         }
       ]
     }
