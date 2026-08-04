@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "b20c7da0-8c83-4510-acfb-93d365219c53",
+          "title": "Payments Tab Bug in Talent Dashboard",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-04T15:38:46.096Z"
+        },
+        {
           "id": "54cc3ff2-f95e-402b-82d2-fdc1d66a3b39",
           "title": "Engagements / chat merge implementation",
           "state": {
@@ -82,15 +91,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-07-29T21:02:23.880Z"
-        },
-        {
-          "id": "b20c7da0-8c83-4510-acfb-93d365219c53",
-          "title": "Payments Tab Bug in Talent Dashboard",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-07-29T20:20:38.060Z"
         },
         {
           "id": "3fe9157b-2455-414b-9218-27e45cebcfd3",
