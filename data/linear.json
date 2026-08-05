@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "b38c441f-689a-4080-a779-057eacd599d1",
+          "title": "Fix SMB prompt gray-area logic + PII masking for lawyer names",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-05T16:29:24.075Z"
+        },
+        {
           "id": "9fc13e0e-c2ec-48bb-87c9-961b6946712f",
           "title": "\"Offer Withdrawn\" email incorrectly sent to talent who is engaged on the position",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-06-30T20:36:54.537Z"
-        },
-        {
-          "id": "93eb1686-d928-44ac-8044-305f9fe5de16",
-          "title": "Docusign Solution (Contract Panel)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-30T20:36:38.789Z"
         }
       ]
     }
