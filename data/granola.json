@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_k9ydijv0TmCgNY",
+      "object": "note",
+      "title": "Marketing Lecture 5",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-08-05T01:48:31.182Z",
+      "updated_at": "2026-08-05T02:49:35.156Z"
+    },
+    {
       "id": "not_jRuuiV2ISL657G",
       "object": "note",
       "title": "Engagement chat flow and talent notification redesign",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-07-31T01:58:40.761Z",
       "updated_at": "2026-08-01T12:19:05.633Z"
-    },
-    {
-      "id": "not_BbErXAWs1RgC30",
-      "object": "note",
-      "title": "SMB flow project update",
-      "owner": {
-        "name": "Iris",
-        "email": "iris@lawtrades.com"
-      },
-      "created_at": "2026-07-30T20:30:56.272Z",
-      "updated_at": "2026-08-03T15:00:35.439Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0zMFQyMDozMDo1Ni4yNzJaIiwibGFzdF9kb2NfaWQiOiI3YzQ3MjQ3Yi05MDkxLTQ3YzgtYWJmNy1mOWQ1NDIxMjliNGQifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wNy0zMVQwMTo1ODo0MC43NjFaIiwibGFzdF9kb2NfaWQiOiJkMjQ2YTRmOC0wZWZlLTRhNDgtYTQyMC1lOGZkMmE3MWMwNDEifQ"
 }
