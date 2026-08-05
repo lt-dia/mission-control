@@ -6,10 +6,19 @@
           "id": "b38c441f-689a-4080-a779-057eacd599d1",
           "title": "Fix SMB prompt gray-area logic + PII masking for lawyer names",
           "state": {
+            "name": "In Review"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-05T21:17:34.196Z"
+        },
+        {
+          "id": "bcce8fc1-df1a-45ea-8f14-8ab1888c9a26",
+          "title": "Mask attorney names at source in lawtrades-mcp bench tools (close the transcript PII gap from ENG-1893)",
+          "state": {
             "name": "Backlog"
           },
           "priority": 0,
-          "updatedAt": "2026-08-05T16:29:24.075Z"
+          "updatedAt": "2026-08-05T21:16:16.349Z"
         },
         {
           "id": "9fc13e0e-c2ec-48bb-87c9-961b6946712f",
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-07-06T17:02:23.511Z"
-        },
-        {
-          "id": "73d1a385-644a-4e76-90d4-5a0d4b089787",
-          "title": "Docusign Webhook",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-06-30T20:36:54.537Z"
         }
       ]
     }
