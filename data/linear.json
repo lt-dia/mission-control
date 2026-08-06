@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "54cc3ff2-f95e-402b-82d2-fdc1d66a3b39",
+          "title": "Engagements / chat merge implementation",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-06T04:55:20.172Z"
+        },
+        {
           "id": "b38c441f-689a-4080-a779-057eacd599d1",
           "title": "Fix SMB prompt gray-area logic + PII masking for lawyer names",
           "state": {
@@ -37,15 +46,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-08-04T15:38:46.096Z"
-        },
-        {
-          "id": "54cc3ff2-f95e-402b-82d2-fdc1d66a3b39",
-          "title": "Engagements / chat merge implementation",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-04T14:41:37.882Z"
         },
         {
           "id": "d9ab3bf3-ed21-4d50-9999-bc8df5e07761",
