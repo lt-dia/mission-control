@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "03869772-c247-4c6b-9b4d-adb2b42a7d05",
+          "title": "[Ideation] MCP tool for engagement top-ups (hours, connects, etc.)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-11T20:25:39.321Z"
+        },
+        {
           "id": "df1bd4a8-5e12-4684-afe3-16c8102da814",
           "title": "SEEK — SMB lawyer pool curation + tighter SMB-vs-corporate routing (Tommy + Jerry)",
           "state": {
@@ -427,7 +436,7 @@
         },
         {
           "id": "5ddd082e-fbc8-4803-b1af-a4bca78d1eca",
-          "title": "Forest Admin auto-CRUD bypasses backend validation ��� silent data corruption + silent create failures",
+          "title": "Forest Admin auto-CRUD bypasses backend validation — silent data corruption + silent create failures",
           "state": {
             "name": "Done"
           },
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-07-09T19:36:09.997Z"
-        },
-        {
-          "id": "f2163b28-89c3-4647-af93-c7a504579794",
-          "title": "rescheduled interviews not sending out talent/ client calendar invites",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-07-08T19:23:25.906Z"
         }
       ]
     }
