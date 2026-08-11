@@ -3,6 +3,51 @@
     "issues": {
       "nodes": [
         {
+          "id": "df1bd4a8-5e12-4684-afe3-16c8102da814",
+          "title": "SEEK — SMB lawyer pool curation + tighter SMB-vs-corporate routing (Tommy + Jerry)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-08-11T18:31:08.070Z"
+        },
+        {
+          "id": "c9dd5ac6-a456-4d89-ae1e-e40128ea1a30",
+          "title": "Clarify Client vs. Talent Account Creation Flow",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-08-11T18:31:08.070Z"
+        },
+        {
+          "id": "c392298c-236f-4938-a744-8cfeb9bc0428",
+          "title": "SEEK Chat — SMB Qualifier Flow (pills, pool='smb', auto-detect, workspace chip)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-11T18:31:08.070Z"
+        },
+        {
+          "id": "5efe71bf-3cf0-4ff2-91f1-5fdf8272fd8c",
+          "title": "SMB-designation/flag at the client account level and Specific Hire Flow",
+          "state": {
+            "name": "Triage"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-11T18:31:08.070Z"
+        },
+        {
+          "id": "321fde6b-4c4a-4170-9a94-2b83d3af7f00",
+          "title": "SEEK — Supervising-Lawyer Qualification Gate (broken out from ENG-664)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-08-11T18:31:08.070Z"
+        },
+        {
           "id": "f3b69215-0b8b-4672-8d8c-7fd2a0e3ff41",
           "title": "SMB flow + landing page live",
           "state": {
@@ -382,7 +427,7 @@
         },
         {
           "id": "5ddd082e-fbc8-4803-b1af-a4bca78d1eca",
-          "title": "Forest Admin auto-CRUD bypasses backend validation — silent data corruption + silent create failures",
+          "title": "Forest Admin auto-CRUD bypasses backend validation ��� silent data corruption + silent create failures",
           "state": {
             "name": "Done"
           },
@@ -406,51 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-07-08T19:23:25.906Z"
-        },
-        {
-          "id": "f9bba028-5ec3-4aa8-90e2-7c11d3f9f44a",
-          "title": "Document Storage / State",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-08T01:32:02.079Z"
-        },
-        {
-          "id": "ab24a138-a252-4958-8058-a25d8f428a84",
-          "title": "delete client account - should be. talent account",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-07-06T21:27:34.847Z"
-        },
-        {
-          "id": "2d6e063f-6698-4316-bcb9-ba41ffa46b38",
-          "title": "Engagements Component",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-06T17:26:32.136Z"
-        },
-        {
-          "id": "bb1ea294-1112-4682-847a-fc32fcfa6c4f",
-          "title": "Worklog Component",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-06T17:26:28.744Z"
-        },
-        {
-          "id": "de4a6c0e-1550-46b2-b66f-5ed5fc9a1389",
-          "title": "SMB Lawtrader Onboarding & Setting",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-06T17:02:23.511Z"
         }
       ]
     }
