@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "72ad0797-2af3-4bba-b45b-e43a62c31640",
+          "title": "client POC is not included when creating an engagement manually",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-12T17:22:53.947Z"
+        },
+        {
           "id": "de4a6c0e-1550-46b2-b66f-5ed5fc9a1389",
           "title": "SMB Lawtrader Onboarding & Setting",
           "state": {
@@ -10,15 +19,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-08-12T15:41:33.321Z"
-        },
-        {
-          "id": "72ad0797-2af3-4bba-b45b-e43a62c31640",
-          "title": "client POC is not included when creating an engagement manually",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 0,
-          "updatedAt": "2026-08-11T22:53:07.749Z"
         },
         {
           "id": "03869772-c247-4c6b-9b4d-adb2b42a7d05",
