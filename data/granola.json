@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_2pBLQgscvLIlGA",
+      "object": "note",
+      "title": "Managerial Econ Lecture 1",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-08-13T23:30:07.177Z",
+      "updated_at": "2026-08-14T01:28:54.056Z"
+    },
+    {
       "id": "not_LJQRI4dz0D6rT7",
       "object": "note",
       "title": "SMB bench rollout — targeting, email strategy, and product flow with Melissa",
@@ -9,7 +20,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-08-13T18:58:57.121Z",
-      "updated_at": "2026-08-13T23:30:07.171Z"
+      "updated_at": "2026-08-14T01:38:58.962Z"
     },
     {
       "id": "not_9oGd7KnlyQYkk1",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-08-12T21:08:26.210Z",
       "updated_at": "2026-08-12T23:38:01.482Z"
-    },
-    {
-      "id": "not_oOGHYFiE1b4BoX",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-08-12T15:00:15.957Z",
-      "updated_at": "2026-08-13T14:25:01.719Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xMlQxNTowMDoxNS45NTdaIiwibGFzdF9kb2NfaWQiOiJlMzNhNGRkYy00MzIxLTQxYjEtODI3OS02NzBjNzM3Zjk4OGMifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xMlQyMTowODoyNi4yMTBaIiwibGFzdF9kb2NfaWQiOiJlNDc1YmI5My00ZmVmLTQ5YzMtODE2Ny03Y2I4YmIxODM3MTQifQ"
 }
