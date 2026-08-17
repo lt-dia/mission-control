@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_eqWLVJoRYnqs1S",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-08-17T15:00:08.201Z",
+      "updated_at": "2026-08-17T15:31:43.592Z"
+    },
+    {
       "id": "not_5haUjwv6HILJWi",
       "object": "note",
       "title": "DND 5e",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-08-13T01:32:04.750Z",
       "updated_at": "2026-08-13T18:48:59.143Z"
-    },
-    {
-      "id": "not_rh8zooCgwW52iA",
-      "object": "note",
-      "title": "DJ Double J & meeting with Elana ",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-08-12T22:04:48.487Z",
-      "updated_at": "2026-08-13T01:31:59.596Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xMlQyMjowNDo0OC40ODdaIiwibGFzdF9kb2NfaWQiOiI1ZTkzYTNiMy01MjAwLTQ5MGUtODA4ZS1lODBjODRiYTljOGYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xM1QwMTozMjowNC43NTBaIiwibGFzdF9kb2NfaWQiOiJiYmIzNTA1YS1iZTBmLTQ5MzctOWIzZi0xZGEwMTUyNGQyY2QifQ"
 }
