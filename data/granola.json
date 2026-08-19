@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_UUdTUbgVCILj6E",
+      "object": "note",
+      "title": "SMB platform growth — user acquisition, retention emails, and feature prioritization",
+      "owner": {
+        "name": "Iris",
+        "email": "iris@lawtrades.com"
+      },
+      "created_at": "2026-08-19T15:39:19.744Z",
+      "updated_at": "2026-08-19T16:26:38.632Z"
+    },
+    {
       "id": "not_KSOXSFxZUOZEVi",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -9,7 +20,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-08-19T14:59:27.559Z",
-      "updated_at": "2026-08-19T15:39:30.432Z"
+      "updated_at": "2026-08-19T16:20:51.152Z"
     },
     {
       "id": "not_c5PRRNxsop9aFM",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-08-14T01:30:08.649Z",
       "updated_at": "2026-08-14T04:10:13.954Z"
-    },
-    {
-      "id": "not_2pBLQgscvLIlGA",
-      "object": "note",
-      "title": "Managerial Econ Lecture 1",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-08-13T23:30:07.177Z",
-      "updated_at": "2026-08-14T01:28:54.056Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xM1QyMzozMDowNy4xNzdaIiwibGFzdF9kb2NfaWQiOiIxZWQ2NjVlYS1mYjk0LTRmMDYtYjI2Ni1hODk5YjA0ZmFmMDQifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xNFQwMTozMDowOC42NDlaIiwibGFzdF9kb2NfaWQiOiJjY2VhMmEwMy04NzQ3LTRjODMtYTA4Zi03Mzg4MWUwYzhlMWYifQ"
 }
