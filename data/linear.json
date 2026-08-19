@@ -3,13 +3,22 @@
     "issues": {
       "nodes": [
         {
+          "id": "aac92bbc-4b84-4055-ac74-d84c914a92f2",
+          "title": "Hire Offer not showing on the talent's dashbaord.",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-19T14:00:28.340Z"
+        },
+        {
           "id": "72ad0797-2af3-4bba-b45b-e43a62c31640",
           "title": "client POC is not included when creating an engagement manually",
           "state": {
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-08-12T17:22:53.947Z"
+          "updatedAt": "2026-08-19T13:32:54.043Z"
         },
         {
           "id": "de4a6c0e-1550-46b2-b66f-5ed5fc9a1389",
@@ -442,15 +451,6 @@
           },
           "priority": 4,
           "updatedAt": "2026-07-13T14:32:22.265Z"
-        },
-        {
-          "id": "d5f42991-2e78-4e57-ac11-c09eab14249f",
-          "title": "Created an Engagement (twice) but it is not showing up under engagements",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-07-09T20:18:58.985Z"
         }
       ]
     }
