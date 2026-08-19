@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_AGv3MhvF9jk35x",
+      "object": "note",
+      "title": "SMB product roadmap — tracking, messaging, pricing, and email campaigns",
+      "owner": {
+        "name": "Iris",
+        "email": "iris@lawtrades.com"
+      },
+      "created_at": "2026-08-19T20:34:58.087Z",
+      "updated_at": "2026-08-19T22:01:20.344Z"
+    },
+    {
       "id": "not_UUdTUbgVCILj6E",
       "object": "note",
       "title": "SMB platform growth — user acquisition, retention emails, and feature prioritization",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-08-17T15:00:08.201Z",
       "updated_at": "2026-08-18T14:59:09.406Z"
-    },
-    {
-      "id": "not_5haUjwv6HILJWi",
-      "object": "note",
-      "title": "DND 5e",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-08-14T01:30:08.649Z",
-      "updated_at": "2026-08-14T04:10:13.954Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xNFQwMTozMDowOC42NDlaIiwibGFzdF9kb2NfaWQiOiJjY2VhMmEwMy04NzQ3LTRjODMtYTA4Zi03Mzg4MWUwYzhlMWYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xN1QxNTowMDowOC4yMDFaIiwibGFzdF9kb2NfaWQiOiI0MzBjOWEzYS04NTNhLTQyYTQtOTE5NS1lZjc0NmMzZWZjMzIifQ"
 }
