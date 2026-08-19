@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_KSOXSFxZUOZEVi",
+      "object": "note",
+      "title": "Product | Daily Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-08-19T14:59:27.559Z",
+      "updated_at": "2026-08-19T15:39:30.432Z"
+    },
+    {
       "id": "not_c5PRRNxsop9aFM",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-08-13T23:30:07.177Z",
       "updated_at": "2026-08-14T01:28:54.056Z"
-    },
-    {
-      "id": "not_LJQRI4dz0D6rT7",
-      "object": "note",
-      "title": "SMB bench rollout — targeting, email strategy, and product flow with Melissa",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-08-13T18:58:57.121Z",
-      "updated_at": "2026-08-14T01:38:58.962Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xM1QxODo1ODo1Ny4xMjFaIiwibGFzdF9kb2NfaWQiOiIwOGJiMzI0Ni01ZjY5LTRjODAtYmZiYy05NmIwNTZiMWNhMTAifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xM1QyMzozMDowNy4xNzdaIiwibGFzdF9kb2NfaWQiOiIxZWQ2NjVlYS1mYjk0LTRmMDYtYjI2Ni1hODk5YjA0ZmFmMDQifQ"
 }
