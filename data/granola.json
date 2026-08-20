@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_iiQpXKqvQQgLQI",
+      "object": "note",
+      "title": "Messaging feature scope and rollout strategy with Iris",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-08-20T17:58:05.323Z",
+      "updated_at": "2026-08-20T18:32:45.467Z"
+    },
+    {
       "id": "not_xz6vN02nfg61p9",
       "object": "note",
       "title": "Messaging feature planning — UX design, build timeline, and talent education with Ilolo",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-08-20T01:29:43.409Z",
       "updated_at": "2026-08-20T01:39:05.785Z"
-    },
-    {
-      "id": "not_AGv3MhvF9jk35x",
-      "object": "note",
-      "title": "SMB product roadmap — tracking, messaging, pricing, and email campaigns",
-      "owner": {
-        "name": "Iris",
-        "email": "iris@lawtrades.com"
-      },
-      "created_at": "2026-08-19T20:34:58.087Z",
-      "updated_at": "2026-08-19T22:01:20.344Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xOVQyMDozNDo1OC4wODdaIiwibGFzdF9kb2NfaWQiOiI2M2U4OGFlMC05NWZiLTRjZDctYjNjNC1iZDBjNGJlYWYwZjYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0yMFQwMToyOTo0My40MDlaIiwibGFzdF9kb2NfaWQiOiI2NTdjMTBhZS1lNWJjLTQzNDctOGYzMy0xODA2YzFlZGI5YzIifQ"
 }
