@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_cQxygXbPWK7NZm",
+      "object": "note",
+      "title": "MGMT 571 Strategy",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-08-20T01:39:27.593Z",
+      "updated_at": "2026-08-20T03:26:10.255Z"
+    },
+    {
       "id": "not_BPmGo66Ce3BcVf",
       "object": "note",
       "title": "Profitable growth frameworks — revenue, cost reduction, and market strategies",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-08-19T14:59:27.559Z",
       "updated_at": "2026-08-19T16:54:14.220Z"
-    },
-    {
-      "id": "not_c5PRRNxsop9aFM",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-08-18T14:59:09.497Z",
-      "updated_at": "2026-08-18T19:52:53.434Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xOFQxNDo1OTowOS40OTdaIiwibGFzdF9kb2NfaWQiOiJmY2YwN2Q3MS03ODQ2LTQzZDktOGI2YS0wN2YxZGE3YjQzMWIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xOVQxNDo1OToyNy41NTlaIiwibGFzdF9kb2NfaWQiOiJiMDZiMjZlMC02YmVjLTRjM2UtOWIwNC1hMmVlNTJhMjI0OWIifQ"
 }
