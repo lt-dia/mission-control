@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_BPmGo66Ce3BcVf",
+      "object": "note",
+      "title": "Profitable growth frameworks — revenue, cost reduction, and market strategies",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-08-20T01:29:43.409Z",
+      "updated_at": "2026-08-20T01:39:05.785Z"
+    },
+    {
       "id": "not_AGv3MhvF9jk35x",
       "object": "note",
       "title": "SMB product roadmap — tracking, messaging, pricing, and email campaigns",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-08-18T14:59:09.497Z",
       "updated_at": "2026-08-18T19:52:53.434Z"
-    },
-    {
-      "id": "not_eqWLVJoRYnqs1S",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-08-17T15:00:08.201Z",
-      "updated_at": "2026-08-18T14:59:09.406Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xN1QxNTowMDowOC4yMDFaIiwibGFzdF9kb2NfaWQiOiI0MzBjOWEzYS04NTNhLTQyYTQtOTE5NS1lZjc0NmMzZWZjMzIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xOFQxNDo1OTowOS40OTdaIiwibGFzdF9kb2NfaWQiOiJmY2YwN2Q3MS03ODQ2LTQzZDktOGI2YS0wN2YxZGE3YjQzMWIifQ"
 }
