@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_xz6vN02nfg61p9",
+      "object": "note",
+      "title": "Messaging feature planning — UX design, build timeline, and talent education with Ilolo",
+      "owner": {
+        "name": "Iris",
+        "email": "iris@lawtrades.com"
+      },
+      "created_at": "2026-08-20T15:43:25.617Z",
+      "updated_at": "2026-08-20T16:04:34.630Z"
+    },
+    {
       "id": "not_vaP8bwT0ID4n38",
       "object": "note",
       "title": "Product | Daily Standup",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-08-19T20:34:58.087Z",
       "updated_at": "2026-08-19T22:01:20.344Z"
-    },
-    {
-      "id": "not_UUdTUbgVCILj6E",
-      "object": "note",
-      "title": "SMB platform growth — user acquisition, retention emails, and feature prioritization",
-      "owner": {
-        "name": "Iris",
-        "email": "iris@lawtrades.com"
-      },
-      "created_at": "2026-08-19T15:39:19.744Z",
-      "updated_at": "2026-08-19T20:34:56.534Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xOVQxNTozOToxOS43NDRaIiwibGFzdF9kb2NfaWQiOiI1ODUzM2UwOC0wNjkxLTRmMDktYmQ2ZS1mYWMxZDE1NTNjZmYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0xOVQyMDozNDo1OC4wODdaIiwibGFzdF9kb2NfaWQiOiI2M2U4OGFlMC05NWZiLTRjZDctYjNjNC1iZDBjNGJlYWYwZjYifQ"
 }
