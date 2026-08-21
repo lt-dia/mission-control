@@ -34,6 +34,17 @@
       "updated_at": "2026-08-20T21:00:56.992Z"
     },
     {
+      "id": "not_suc4mzdKQ2km03",
+      "object": "note",
+      "title": "Message room feature — UX design, timeline, and launch strategy with Iris",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-08-20T15:45:16.035Z",
+      "updated_at": "2026-08-21T15:16:47.642Z"
+    },
+    {
       "id": "not_xz6vN02nfg61p9",
       "object": "note",
       "title": "Messaging feature planning — UX design, build timeline, and talent education with Ilolo",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-08-20T15:43:25.617Z",
       "updated_at": "2026-08-20T17:58:04.517Z"
-    },
-    {
-      "id": "not_vaP8bwT0ID4n38",
-      "object": "note",
-      "title": "Product | Daily Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-08-20T14:59:21.802Z",
-      "updated_at": "2026-08-20T17:45:06.711Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0yMFQxNDo1OToyMS44MDJaIiwibGFzdF9kb2NfaWQiOiJiNzI4OGEwYy1iNDU1LTRjYmEtOTNhMC03OTkwYTdjYjQ4ZjYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0yMFQxNTo0MzoyNS42MTdaIiwibGFzdF9kb2NfaWQiOiI5NzVlNGY1Ni1iMGRjLTRjMzktODVlZi0yNzQyNGVhMGZlZjAifQ"
 }
