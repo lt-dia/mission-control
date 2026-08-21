@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "ce147784-1ada-49df-a86f-dad28df6f4bb",
+          "title": "LT Agent | Fix Delaware C Corp + startup lawyer matching (Ilolo)",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-21T20:12:21.871Z"
+        },
+        {
           "id": "bca8ae11-5318-41a1-9659-e20f7cbd8012",
           "title": "Screener questions: required/optional flags + configurable answer length (shipped)",
           "state": {
@@ -46,15 +55,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-08-21T19:22:01.346Z"
-        },
-        {
-          "id": "ce147784-1ada-49df-a86f-dad28df6f4bb",
-          "title": "LT Agent | Fix Delaware C Corp + startup lawyer matching (Ilolo)",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-21T19:21:11.169Z"
         },
         {
           "id": "45feb16f-22b7-40f6-a08e-e27ffd121591",
