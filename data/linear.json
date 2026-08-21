@@ -3,6 +3,78 @@
     "issues": {
       "nodes": [
         {
+          "id": "bca8ae11-5318-41a1-9659-e20f7cbd8012",
+          "title": "Screener questions: required/optional flags + configurable answer length (shipped)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-08-21T19:37:26.840Z"
+        },
+        {
+          "id": "cd9f65c2-7f92-474e-a290-bc8cbd76e6d0",
+          "title": "Week of Aug 17: small fixes across worklogs, offers, and profiles (shipped)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-21T19:22:22.541Z"
+        },
+        {
+          "id": "992a8d22-da27-4a9e-9664-805c4f19a8cd",
+          "title": "Private profile visibility fixes (shipped)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-21T19:22:11.938Z"
+        },
+        {
+          "id": "1b5a009a-5d03-4812-8bd8-63967f358c3b",
+          "title": "Tell our stalled SMB leads they can now message attorneys",
+          "state": {
+            "name": "Planning"
+          },
+          "priority": 1,
+          "updatedAt": "2026-08-21T19:22:01.710Z"
+        },
+        {
+          "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
+          "title": "SMB drop-off dashboard + re-engagement nudge emails (shipped)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-21T19:22:01.346Z"
+        },
+        {
+          "id": "ce147784-1ada-49df-a86f-dad28df6f4bb",
+          "title": "LT Agent | Fix Delaware C Corp + startup lawyer matching (Ilolo)",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-21T19:21:11.169Z"
+        },
+        {
+          "id": "45feb16f-22b7-40f6-a08e-e27ffd121591",
+          "title": "Follow up with Odini and Matteo on their kickoff emails",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 1,
+          "updatedAt": "2026-08-21T19:18:12.479Z"
+        },
+        {
+          "id": "05bcb57f-4cc3-49be-93be-70611af7ef67",
+          "title": "SMB pre-hire messaging: clients can talk to an attorney before hiring (shipped)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-08-21T19:17:57.669Z"
+        },
+        {
           "id": "282a521d-a57e-470b-92c8-617bf6a126a4",
           "title": "ENG-1790 follow-ups: staging FOREST config + AM-sender verification + tracked follow-ups",
           "state": {
@@ -379,78 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-07-15T21:20:11.493Z"
-        },
-        {
-          "id": "495b71a7-881e-4b05-8e5b-8135801161f2",
-          "title": "Billing page cleanup",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-15T21:20:02.146Z"
-        },
-        {
-          "id": "5ba20dcd-7315-4eca-980e-b1cb124355d2",
-          "title": "SMB QA fixes (site walkthrough with Brian)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-15T21:20:02.146Z"
-        },
-        {
-          "id": "0b9d8279-466e-4c06-b43d-55dc08102245",
-          "title": "Talent can open the client message room",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-15T21:16:33.412Z"
-        },
-        {
-          "id": "8caaa46a-d200-41df-89f7-7ec21d97ebee",
-          "title": "Unread badges in the /smb navigation",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-15T21:16:28.728Z"
-        },
-        {
-          "id": "ff909a1b-1a50-4b52-bbde-a6ec57ae14f7",
-          "title": "Engagement titles across the app and emails",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-15T21:16:25.486Z"
-        },
-        {
-          "id": "5971f373-d276-4728-9de1-dd9c964177ca",
-          "title": "Hire Flow Redesign ��� In-Dashboard Offer Builder",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-13T16:24:03.670Z"
-        },
-        {
-          "id": "db355e19-e147-4671-811b-2b8112f7e138",
-          "title": "errors in client SOW when going through the hire flow.",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-07-13T16:23:44.953Z"
-        },
-        {
-          "id": "a1068905-0e1a-4d7f-9408-15136aed28cf",
-          "title": "Fix Hire Flow — Agreement Sequencing & Signature Gating",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-07-13T16:23:28.196Z"
         }
       ]
     }
