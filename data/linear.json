@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "72ad0797-2af3-4bba-b45b-e43a62c31640",
+          "title": "client POC is not included when creating an engagement manually",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-25T18:06:14.271Z"
+        },
+        {
           "id": "a2c49a54-2097-473d-a4ec-65f00ea54972",
           "title": "Position posting overview not saving",
           "state": {
@@ -91,15 +100,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-08-20T14:36:51.418Z"
-        },
-        {
-          "id": "72ad0797-2af3-4bba-b45b-e43a62c31640",
-          "title": "client POC is not included when creating an engagement manually",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 0,
-          "updatedAt": "2026-08-19T17:59:05.560Z"
         },
         {
           "id": "54cc3ff2-f95e-402b-82d2-fdc1d66a3b39",
