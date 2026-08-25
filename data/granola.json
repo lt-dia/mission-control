@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_x6UjzpI6Tyt2vU",
+      "object": "note",
+      "title": "Product Ideas — invoicing, Stripe Connect, and marketplace expansion",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-08-25T21:03:57.961Z",
+      "updated_at": "2026-08-25T22:09:09.515Z"
+    },
+    {
       "id": "not_fHNznuO1KcMOGL",
       "object": "note",
       "title": "Product Meeting With Ash/Brian/Raad",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-08-20T21:00:57.014Z",
       "updated_at": "2026-08-20T23:30:22.642Z"
-    },
-    {
-      "id": "not_iiQpXKqvQQgLQI",
-      "object": "note",
-      "title": "Messaging feature scope and rollout strategy with Iris",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-08-20T17:58:05.323Z",
-      "updated_at": "2026-08-20T21:00:56.992Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0yMFQxNzo1ODowNS4zMjNaIiwibGFzdF9kb2NfaWQiOiJmYmViZjg5Yi04NjdiLTQ1MGQtYTkyMS1mMWRjMGYzN2NhYTcifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0yMFQyMTowMDo1Ny4wMTRaIiwibGFzdF9kb2NfaWQiOiJhMzBiM2I3Zi03YzRjLTQ1YzMtOGQ3ZC1kZTI1NTU2Y2JlODkifQ"
 }
