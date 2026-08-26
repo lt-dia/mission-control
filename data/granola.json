@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_PyKIwbjX6zXk8x",
+      "object": "note",
+      "title": "MKTG Lecture 8",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-08-26T01:31:38.998Z",
+      "updated_at": "2026-08-26T02:57:20.276Z"
+    },
+    {
       "id": "not_x6UjzpI6Tyt2vU",
       "object": "note",
       "title": "Product Ideas — invoicing, Stripe Connect, and marketplace expansion",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-08-20T23:30:22.651Z",
       "updated_at": "2026-08-21T16:28:14.131Z"
-    },
-    {
-      "id": "not_fX4jbp06OjGaZv",
-      "object": "note",
-      "title": "Imani Photo",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-08-20T21:00:57.014Z",
-      "updated_at": "2026-08-20T23:30:22.642Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0yMFQyMTowMDo1Ny4wMTRaIiwibGFzdF9kb2NfaWQiOiJhMzBiM2I3Zi03YzRjLTQ1YzMtOGQ3ZC1kZTI1NTU2Y2JlODkifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0yMFQyMzozMDoyMi42NTFaIiwibGFzdF9kb2NfaWQiOiI1NTA5YjA2OC0wOWE1LTRjZGUtOWFiNy0xMzliZDkxNWM0OTAifQ"
 }
