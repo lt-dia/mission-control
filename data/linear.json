@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "2c74a87d-8af3-4bcf-94e2-7430337e95c5",
+          "title": "Make traditional hire-flow DocuSign reliable and add verified alerting",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-27T15:54:32.195Z"
+        },
+        {
           "id": "45feb16f-22b7-40f6-a08e-e27ffd121591",
           "title": "Follow up with Odini and Matteo on their kickoff emails",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-07-15T21:21:08.194Z"
-        },
-        {
-          "id": "025bd6b6-6265-4b92-a532-56b2445e7290",
-          "title": "Read receipts and online/typing presence",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-15T21:21:04.864Z"
         }
       ]
     }
