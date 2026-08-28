@@ -1,6 +1,28 @@
 {
   "notes": [
     {
+      "id": "not_cN97X9sSidouF7",
+      "object": "note",
+      "title": "Microeconomics lecture — cost minimization, profit maximization, and market structures",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-08-27T23:30:58.039Z",
+      "updated_at": "2026-08-28T01:02:14.287Z"
+    },
+    {
+      "id": "not_RKOv7Dx3PZrlTk",
+      "object": "note",
+      "title": "Quick Sync with Raad",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-08-27T17:13:09.616Z",
+      "updated_at": "2026-08-27T17:33:45.354Z"
+    },
+    {
       "id": "not_NX8mKJZ7QB92CZ",
       "object": "note",
       "title": "War Room",
@@ -9,7 +31,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-08-27T14:59:07.883Z",
-      "updated_at": "2026-08-27T15:59:02.274Z"
+      "updated_at": "2026-08-27T17:12:17.361Z"
     },
     {
       "id": "not_huXO8nicghFiYe",
@@ -20,7 +42,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-08-27T01:30:23.335Z",
-      "updated_at": "2026-08-27T14:59:08.867Z"
+      "updated_at": "2026-08-27T17:33:48.168Z"
     },
     {
       "id": "not_PyKIwbjX6zXk8x",
@@ -32,30 +54,8 @@
       },
       "created_at": "2026-08-26T01:31:38.998Z",
       "updated_at": "2026-08-27T00:57:49.631Z"
-    },
-    {
-      "id": "not_x6UjzpI6Tyt2vU",
-      "object": "note",
-      "title": "Product Ideas — invoicing, Stripe Connect, and marketplace expansion",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-08-25T21:03:57.961Z",
-      "updated_at": "2026-08-26T01:31:34.268Z"
-    },
-    {
-      "id": "not_fHNznuO1KcMOGL",
-      "object": "note",
-      "title": "Product Meeting With Ash/Brian/Raad",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-08-25T14:37:29.578Z",
-      "updated_at": "2026-08-25T16:03:14.582Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0yNVQxNDozNzoyOS41NzhaIiwibGFzdF9kb2NfaWQiOiJhMTA5NTQ5Ni0yZDdhLTQwZTQtODJkOS1mZmYyYmE4YTk1YTcifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOC0yNlQwMTozMTozOC45OThaIiwibGFzdF9kb2NfaWQiOiJhZGVkNDMxMC1kZDdkLTRhMGEtOTlhMS0xMTVkODEwYTcwYzQifQ"
 }

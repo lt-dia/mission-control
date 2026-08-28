@@ -3,13 +3,85 @@
     "issues": {
       "nodes": [
         {
+          "id": "5a0faaef-6520-44bf-8547-ddae247e1b2d",
+          "title": "Investigate unexpected increase in monthly-rate position postings",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-28T00:39:25.198Z"
+        },
+        {
+          "id": "ccec1ca7-7508-4417-964e-0623a529271b",
+          "title": "Simplify talent navigation and conditionally show Rooms",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-28T00:02:10.393Z"
+        },
+        {
+          "id": "5b47fbc2-b08c-4754-a147-a31e8b105cd1",
+          "title": "Suppress client kickoff emails for Surge test engagements",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-27T22:28:30.445Z"
+        },
+        {
+          "id": "015ab994-4765-43f5-8072-69b11812681d",
+          "title": "Restore reliable Forest engagement creation",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-27T20:36:09.081Z"
+        },
+        {
+          "id": "05bcb57f-4cc3-49be-93be-70611af7ef67",
+          "title": "SMB pre-hire messaging: clients can talk to an attorney before hiring (shipped)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-08-27T20:35:57.567Z"
+        },
+        {
+          "id": "30f7f08e-6247-4d26-bef7-0c5c523d93b7",
+          "title": "Scope SMB projects conversationally through the Lawtrades Agent",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-27T20:35:54.035Z"
+        },
+        {
+          "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
+          "title": "SMB drop-off dashboard and re-engagement nudge emails",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-27T20:35:46.623Z"
+        },
+        {
           "id": "2c74a87d-8af3-4bcf-94e2-7430337e95c5",
           "title": "Make traditional hire-flow DocuSign reliable and add verified alerting",
           "state": {
-            "name": "Backlog"
+            "name": "In Progress"
           },
           "priority": 2,
-          "updatedAt": "2026-08-27T15:54:32.195Z"
+          "updatedAt": "2026-08-27T20:35:40.824Z"
+        },
+        {
+          "id": "766e65a1-d331-4d68-baca-de6ee017af93",
+          "title": "SMB talent-controlled hourly rates across product and Agent",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-08-27T20:35:32.092Z"
         },
         {
           "id": "45feb16f-22b7-40f6-a08e-e27ffd121591",
@@ -30,15 +102,6 @@
           "updatedAt": "2026-08-27T00:51:04.904Z"
         },
         {
-          "id": "05bcb57f-4cc3-49be-93be-70611af7ef67",
-          "title": "SMB pre-hire messaging: clients can talk to an attorney before hiring (shipped)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-08-27T00:50:59.527Z"
-        },
-        {
           "id": "44420569-ed94-468c-b1d2-57d22aac2cae",
           "title": "Guarded talent auto-replies for SMB pre-hire messaging",
           "state": {
@@ -46,24 +109,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-08-27T00:50:56.385Z"
-        },
-        {
-          "id": "30f7f08e-6247-4d26-bef7-0c5c523d93b7",
-          "title": "Scope SMB projects conversationally through the Lawtrades Agent",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-27T00:50:49.319Z"
-        },
-        {
-          "id": "766e65a1-d331-4d68-baca-de6ee017af93",
-          "title": "SMB talent-controlled hourly rates across product and Agent",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 1,
-          "updatedAt": "2026-08-27T00:50:43.695Z"
         },
         {
           "id": "1b5a009a-5d03-4812-8bd8-63967f358c3b",
@@ -127,15 +172,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-08-21T19:22:11.938Z"
-        },
-        {
-          "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
-          "title": "SMB drop-off dashboard + re-engagement nudge emails (shipped)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-08-21T19:22:01.346Z"
         },
         {
           "id": "282a521d-a57e-470b-92c8-617bf6a126a4",
@@ -415,42 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-07-15T21:22:19.954Z"
-        },
-        {
-          "id": "71d55504-ed71-42c3-a40f-3463b30c5c04",
-          "title": "Final SMB email copy applied",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-15T21:21:46.646Z"
-        },
-        {
-          "id": "9d2f58c0-62c8-4c23-987a-f132c5c6f3dd",
-          "title": "7. Notifications",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-07-15T21:21:46.646Z"
-        },
-        {
-          "id": "a2c03d04-66fb-47c6-82ad-37583f757f9f",
-          "title": "Messaging reliability (persistence, reconnect, presence)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-15T21:21:13.631Z"
-        },
-        {
-          "id": "49ceaebf-ea87-4df3-a300-b42e9eb0f968",
-          "title": "Unread-message badges on the Rooms nav",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-15T21:21:08.194Z"
         }
       ]
     }
