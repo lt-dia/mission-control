@@ -3,13 +3,121 @@
     "issues": {
       "nodes": [
         {
-          "id": "5a0faaef-6520-44bf-8547-ddae247e1b2d",
-          "title": "Investigate unexpected increase in monthly-rate position postings",
+          "id": "5a127b12-fac2-4cb4-9c36-2aa2c3f7e91b",
+          "title": "Fix Opp 4340 mobile role details and preserve apply context",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 1,
+          "updatedAt": "2026-08-28T22:46:32.186Z"
+        },
+        {
+          "id": "edaeb951-6d46-451b-9272-4666ad1bb52f",
+          "title": "Talent AI onboarding: resume upload fails for both Word and PDF",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-08-28T22:20:35.916Z"
+        },
+        {
+          "id": "e3de6ced-779a-4d9b-9a5f-78c9d7591fec",
+          "title": "Add PTO hours submission on the LT website",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-08-28T21:00:44.913Z"
+        },
+        {
+          "id": "15222514-ebd8-46ab-a520-6f0cf6a22989",
+          "title": "Add ability to invoice off-platform clients from the invoicing tab",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-08-28T21:00:44.855Z"
+        },
+        {
+          "id": "9b2b533a-2d11-4a70-8d69-e45e3dc85d46",
+          "title": "Engagement Kickoff emails: rework template-routing fix without collapsing per-slot templates",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-28T21:00:44.792Z"
+        },
+        {
+          "id": "70e8268f-19ae-4a9c-9aa3-ccd1720fb3ac",
+          "title": "Automate abandonment email for SMB AI intake workflow (ai.lawtrades.com)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-08-28T21:00:44.730Z"
+        },
+        {
+          "id": "ef0fc647-05a6-4824-8dc1-a035a4455fbe",
+          "title": "Restore password-reset delivery for one globally unsubscribed user",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 4,
+          "updatedAt": "2026-08-28T20:41:41.594Z"
+        },
+        {
+          "id": "07c9a936-ffd2-4dc1-9db8-1af83d2e1ee5",
+          "title": "Prevent AI position creation from rejecting weekly-hour estimates",
           "state": {
             "name": "In Progress"
           },
           "priority": 2,
-          "updatedAt": "2026-08-28T00:39:25.198Z"
+          "updatedAt": "2026-08-28T20:40:58.183Z"
+        },
+        {
+          "id": "2c74a87d-8af3-4bcf-94e2-7430337e95c5",
+          "title": "Make traditional hire-flow DocuSign reliable and add verified alerting",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-28T20:38:37.450Z"
+        },
+        {
+          "id": "30f7f08e-6247-4d26-bef7-0c5c523d93b7",
+          "title": "Scope SMB projects conversationally through the Lawtrades Agent",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-28T20:38:34.189Z"
+        },
+        {
+          "id": "5a0faaef-6520-44bf-8547-ddae247e1b2d",
+          "title": "Investigate unexpected increase in monthly-rate position postings",
+          "state": {
+            "name": "Planning"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-28T19:39:04.150Z"
+        },
+        {
+          "id": "b38c441f-689a-4080-a779-057eacd599d1",
+          "title": "Fix SMB prompt gray-area logic + PII masking for lawyer names",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-28T19:37:45.680Z"
+        },
+        {
+          "id": "d4fc34b1-a048-4a85-b637-d34c46435254",
+          "title": "Repair and track high-value Quora links",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 3,
+          "updatedAt": "2026-08-28T19:37:41.552Z"
         },
         {
           "id": "ccec1ca7-7508-4417-964e-0623a529271b",
@@ -48,15 +156,6 @@
           "updatedAt": "2026-08-27T20:35:57.567Z"
         },
         {
-          "id": "30f7f08e-6247-4d26-bef7-0c5c523d93b7",
-          "title": "Scope SMB projects conversationally through the Lawtrades Agent",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-27T20:35:54.035Z"
-        },
-        {
           "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
           "title": "SMB drop-off dashboard and re-engagement nudge emails",
           "state": {
@@ -64,15 +163,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-08-27T20:35:46.623Z"
-        },
-        {
-          "id": "2c74a87d-8af3-4bcf-94e2-7430337e95c5",
-          "title": "Make traditional hire-flow DocuSign reliable and add verified alerting",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-27T20:35:40.824Z"
         },
         {
           "id": "766e65a1-d331-4d68-baca-de6ee017af93",
@@ -91,15 +181,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-08-27T02:36:14.345Z"
-        },
-        {
-          "id": "d4fc34b1-a048-4a85-b637-d34c46435254",
-          "title": "Repair and track high-value Quora links",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-08-27T00:51:04.904Z"
         },
         {
           "id": "44420569-ed94-468c-b1d2-57d22aac2cae",
@@ -273,15 +354,6 @@
           "updatedAt": "2026-08-11T04:55:37.716Z"
         },
         {
-          "id": "b38c441f-689a-4080-a779-057eacd599d1",
-          "title": "Fix SMB prompt gray-area logic + PII masking for lawyer names",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 0,
-          "updatedAt": "2026-08-05T21:17:34.196Z"
-        },
-        {
           "id": "bcce8fc1-df1a-45ea-8f14-8ab1888c9a26",
           "title": "Mask attorney names at source in lawtrades-mcp bench tools (close the transcript PII gap from ENG-1893)",
           "state": {
@@ -354,15 +426,6 @@
           "updatedAt": "2026-08-03T19:11:30.468Z"
         },
         {
-          "id": "70e8268f-19ae-4a9c-9aa3-ccd1720fb3ac",
-          "title": "Automate abandonment email for SMB AI intake workflow (ai.lawtrades.com)",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 3,
-          "updatedAt": "2026-07-30T15:03:02.630Z"
-        },
-        {
           "id": "80c23e2c-ec7b-4356-a892-f084ee913eba",
           "title": "merge companies so client can see all engagements: Ironclad.",
           "state": {
@@ -388,69 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-07-28T19:50:12.183Z"
-        },
-        {
-          "id": "ea83468d-2200-4420-b043-29fa8cad28f6",
-          "title": "interview rescheduled but calendar invite not updated",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-07-28T18:41:59.821Z"
-        },
-        {
-          "id": "7b460146-b684-47f9-8455-fe0e7246d5bd",
-          "title": "update interview scheduling tool to make the clanedar reflective of changes",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-24T20:25:10.036Z"
-        },
-        {
-          "id": "b515502a-e46c-4b77-9c49-8fae011a45fd",
-          "title": "Reword \"Offer withdrawn\" email when the loss is due to another candidate being hired",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-07-23T20:01:09.879Z"
-        },
-        {
-          "id": "1ec0b628-3c14-4999-8c69-d26980ffe21c",
-          "title": "update client account to link with correct company ID",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-07-23T19:18:40.752Z"
-        },
-        {
-          "id": "3d417de8-c7d3-4d76-bd23-8b9e95bd80a4",
-          "title": "Notification when a customer send out an offer",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-07-22T21:41:47.908Z"
-        },
-        {
-          "id": "de031556-5634-449b-8955-4464b778274b",
-          "title": "Notification",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-21T00:55:10.543Z"
-        },
-        {
-          "id": "d845cddc-34a0-48e2-ae76-fdbf48dd3553",
-          "title": "Marketplace vs SMB email dedup",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-07-15T21:22:19.954Z"
         }
       ]
     }
