@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "f116d71a-d727-4d01-86a2-d4225a890564",
+          "title": "SMB Lawtrader Onboarding Intake",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-30T20:34:12.018Z"
+        },
+        {
           "id": "30f7f08e-6247-4d26-bef7-0c5c523d93b7",
           "title": "Scope SMB projects conversationally through the Lawtrades Agent",
           "state": {
@@ -397,15 +406,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-08-03T20:09:33.243Z"
-        },
-        {
-          "id": "f116d71a-d727-4d01-86a2-d4225a890564",
-          "title": "SMB Lawtrader Onboarding Intake",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-08-03T19:36:17.275Z"
         },
         {
           "id": "aebdedab-2885-43c3-b190-ea803e7fe919",
