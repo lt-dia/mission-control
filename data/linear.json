@@ -3,6 +3,60 @@
     "issues": {
       "nodes": [
         {
+          "id": "07b88f1b-ebd8-408c-9ef8-b112c7f35961",
+          "title": "Restore interrupted SMB conversations and help Brown Ballers reach lawyer checkout",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-31T19:07:52.224Z"
+        },
+        {
+          "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
+          "title": "SMB Agent follow-up requests repeatedly fail for newly registered user",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-08-31T19:05:33.251Z"
+        },
+        {
+          "id": "93b8a803-e854-43e4-8b3e-5327f5d022db",
+          "title": "[SPIKE] Upfront Hours Tracker - Research & Estimation",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-31T18:36:01.346Z"
+        },
+        {
+          "id": "7b757348-258c-4bba-8630-b848158b77d6",
+          "title": "Upfront (Prepaid) Hours Balance in Dashboard + Low Balance Alerts",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-08-31T18:36:01.346Z"
+        },
+        {
+          "id": "fb2cb18b-4433-4f64-8922-d6aa1be4b7ad",
+          "title": "update the worklogs for July for Stepehen Bosse <> Yelp",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-31T15:57:17.904Z"
+        },
+        {
+          "id": "edaeb951-6d46-451b-9272-4666ad1bb52f",
+          "title": "Talent AI onboarding: resume upload fails for both Word and PDF",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-08-31T14:42:10.652Z"
+        },
+        {
           "id": "82766ea3-084d-4039-9bc7-8c287ab8b1fe",
           "title": "SMB position suggestions stall for 30 seconds before returning to Agent welcome",
           "state": {
@@ -37,15 +91,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-08-29T04:43:05.930Z"
-        },
-        {
-          "id": "edaeb951-6d46-451b-9272-4666ad1bb52f",
-          "title": "Talent AI onboarding: resume upload fails for both Word and PDF",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-08-28T23:53:36.214Z"
         },
         {
           "id": "e3de6ced-779a-4d9b-9a5f-78c9d7591fec",
@@ -406,51 +451,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-08-04T14:13:39.333Z"
-        },
-        {
-          "id": "7c87a88d-a4b6-44de-a21a-18c94152ead1",
-          "title": "DocuSign iframe silently refuses to render for clients on non-default Lawtrades subdomains (Mercor / Aref)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-03T20:09:33.243Z"
-        },
-        {
-          "id": "aebdedab-2885-43c3-b190-ea803e7fe919",
-          "title": "Past interviews stuck showing as \"Upcoming\" (Zoom meeting.ended webhook failure)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-03T19:36:17.275Z"
-        },
-        {
-          "id": "d60991e5-fb79-4ce7-8447-2d4be897336e",
-          "title": "Update the SOW for active engagement",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-08-03T19:11:30.468Z"
-        },
-        {
-          "id": "80c23e2c-ec7b-4356-a892-f084ee913eba",
-          "title": "merge companies so client can see all engagements: Ironclad.",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-07-29T21:02:23.880Z"
-        },
-        {
-          "id": "3fe9157b-2455-414b-9218-27e45cebcfd3",
-          "title": "Add \"Resend Notification\" button at position level (admin)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-07-28T21:13:27.062Z"
         }
       ]
     }
