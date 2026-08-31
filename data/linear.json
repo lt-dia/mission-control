@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "82766ea3-084d-4039-9bc7-8c287ab8b1fe",
+          "title": "SMB position suggestions stall for 30 seconds before returning to Agent welcome",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-08-31T14:29:25.137Z"
+        },
+        {
           "id": "f116d71a-d727-4d01-86a2-d4225a890564",
           "title": "SMB Lawtrader Onboarding Intake",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-07-28T21:13:27.062Z"
-        },
-        {
-          "id": "9196cb27-ca08-4e2e-b021-0481d909a5d9",
-          "title": "Rescheduled interviews leave old calendar invite on attendee personal calendars (Zapier teardown missing)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-07-28T19:50:12.183Z"
         }
       ]
     }
