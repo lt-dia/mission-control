@@ -3,13 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "07b88f1b-ebd8-408c-9ef8-b112c7f35961",
-          "title": "Restore interrupted SMB conversations and help Brown Ballers reach lawyer checkout",
+          "id": "73e839d1-0c21-4348-afe8-49591e3a74f4",
+          "title": "Let talent finish SMB engagements from the engagements list",
           "state": {
-            "name": "In Progress"
+            "name": "Done"
           },
-          "priority": 2,
-          "updatedAt": "2026-08-31T19:07:52.224Z"
+          "priority": 3,
+          "updatedAt": "2026-08-31T21:50:21.927Z"
         },
         {
           "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
@@ -18,7 +18,61 @@
             "name": "Backlog"
           },
           "priority": 3,
-          "updatedAt": "2026-08-31T19:05:33.251Z"
+          "updatedAt": "2026-08-31T20:36:24.047Z"
+        },
+        {
+          "id": "07b88f1b-ebd8-408c-9ef8-b112c7f35961",
+          "title": "Restore interrupted SMB conversations and help Brown Ballers reach lawyer checkout",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-31T20:36:23.913Z"
+        },
+        {
+          "id": "2b895970-1f49-4423-a7a6-b362abdee6f3",
+          "title": "Restore client dashboard access for Applied Intuition contact",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-08-31T20:35:27.404Z"
+        },
+        {
+          "id": "30f7f08e-6247-4d26-bef7-0c5c523d93b7",
+          "title": "Scope SMB projects conversationally through the Lawtrades Agent",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-31T20:35:21.658Z"
+        },
+        {
+          "id": "f116d71a-d727-4d01-86a2-d4225a890564",
+          "title": "SMB Lawtrader Onboarding Intake",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-08-31T20:35:20.983Z"
+        },
+        {
+          "id": "13a40997-7f8c-437a-a480-c81a446e4ab3",
+          "title": "Offline Agreement & Extension Fields on Engagement — Migration",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-08-31T20:31:15.077Z"
+        },
+        {
+          "id": "015ab994-4765-43f5-8072-69b11812681d",
+          "title": "Restore reliable Forest engagement creation",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-08-31T20:31:14.519Z"
         },
         {
           "id": "93b8a803-e854-43e4-8b3e-5327f5d022db",
@@ -64,24 +118,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-08-31T14:29:25.137Z"
-        },
-        {
-          "id": "f116d71a-d727-4d01-86a2-d4225a890564",
-          "title": "SMB Lawtrader Onboarding Intake",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-08-30T20:34:12.018Z"
-        },
-        {
-          "id": "30f7f08e-6247-4d26-bef7-0c5c523d93b7",
-          "title": "Scope SMB projects conversationally through the Lawtrades Agent",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-29T20:31:39.767Z"
         },
         {
           "id": "5a127b12-fac2-4cb4-9c36-2aa2c3f7e91b",
@@ -199,15 +235,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-08-27T22:28:30.445Z"
-        },
-        {
-          "id": "015ab994-4765-43f5-8072-69b11812681d",
-          "title": "Restore reliable Forest engagement creation",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-27T20:36:09.081Z"
         },
         {
           "id": "05bcb57f-4cc3-49be-93be-70611af7ef67",
@@ -424,33 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-08-05T21:16:16.349Z"
-        },
-        {
-          "id": "9fc13e0e-c2ec-48bb-87c9-961b6946712f",
-          "title": "\"Offer Withdrawn\" email incorrectly sent to talent who is engaged on the position",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-05T00:48:23.505Z"
-        },
-        {
-          "id": "b20c7da0-8c83-4510-acfb-93d365219c53",
-          "title": "Payments Tab Bug in Talent Dashboard",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-04T15:38:46.096Z"
-        },
-        {
-          "id": "d9ab3bf3-ed21-4d50-9999-bc8df5e07761",
-          "title": "update interview prep call scheduling link to Melissa's calendar",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-08-04T14:13:39.333Z"
         }
       ]
     }
