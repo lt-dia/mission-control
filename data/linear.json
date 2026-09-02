@@ -3,13 +3,31 @@
     "issues": {
       "nodes": [
         {
+          "id": "a8bc2398-f151-47fd-a478-3c03089e0762",
+          "title": "SMB AI entry /ltai remains blank through session end",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-02T04:17:19.041Z"
+        },
+        {
+          "id": "80fef80a-d0a2-4815-98d8-82d43c78005d",
+          "title": "Talent onboarding renders blank at /v2/onboarding",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-02T04:16:39.359Z"
+        },
+        {
           "id": "5a127b12-fac2-4cb4-9c36-2aa2c3f7e91b",
           "title": "Fix Opp 4340 mobile role details and preserve apply context",
           "state": {
             "name": "Done"
           },
           "priority": 1,
-          "updatedAt": "2026-09-01T23:23:23.935Z"
+          "updatedAt": "2026-09-02T01:23:09.912Z"
         },
         {
           "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
@@ -37,15 +55,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-01T20:34:46.546Z"
-        },
-        {
-          "id": "80fef80a-d0a2-4815-98d8-82d43c78005d",
-          "title": "Talent onboarding renders blank at /v2/onboarding",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-01T20:34:42.378Z"
         },
         {
           "id": "4be569ab-32b1-450e-b89c-b7be83c32e50",
@@ -441,15 +450,6 @@
             "name": "Done"
           },
           "priority": 1,
-          "updatedAt": "2026-08-11T18:31:08.070Z"
-        },
-        {
-          "id": "c392298c-236f-4938-a744-8cfeb9bc0428",
-          "title": "SEEK Chat — SMB Qualifier Flow (pills, pool='smb', auto-detect, workspace chip)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
           "updatedAt": "2026-08-11T18:31:08.070Z"
         }
       ]
