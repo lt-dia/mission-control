@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "30f7f08e-6247-4d26-bef7-0c5c523d93b7",
+          "title": "Scope SMB projects conversationally through the Lawtrades Agent",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-02T18:29:25.986Z"
+        },
+        {
+          "id": "6c5e7d82-2c2c-447b-92ec-625276254685",
+          "title": "Decouple Apply eligibility from profile completion and make phone non-blocking",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-02T18:14:22.676Z"
+        },
+        {
           "id": "a8bc2398-f151-47fd-a478-3c03089e0762",
           "title": "SMB AI entry /ltai remains blank through session end",
           "state": {
@@ -37,15 +55,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-01T20:34:58.424Z"
-        },
-        {
-          "id": "30f7f08e-6247-4d26-bef7-0c5c523d93b7",
-          "title": "Scope SMB projects conversationally through the Lawtrades Agent",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-01T20:34:58.042Z"
         },
         {
           "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
@@ -441,15 +450,6 @@
             "name": "Canceled"
           },
           "priority": 3,
-          "updatedAt": "2026-08-11T18:31:08.070Z"
-        },
-        {
-          "id": "c9dd5ac6-a456-4d89-ae1e-e40128ea1a30",
-          "title": "Clarify Client vs. Talent Account Creation Flow",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
           "updatedAt": "2026-08-11T18:31:08.070Z"
         }
       ]
