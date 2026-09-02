@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "6c5e7d82-2c2c-447b-92ec-625276254685",
+          "title": "Decouple Apply eligibility from profile completion and make phone non-blocking",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-02T20:37:03.929Z"
+        },
+        {
+          "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
+          "title": "Route SMB clients through marketplace intake and hiring",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-02T20:37:01.351Z"
+        },
+        {
+          "id": "8809feb8-642d-4c42-b02f-33f615833292",
+          "title": "Restore shortlist and archive controls for fixed-fee roles",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-02T20:36:10.049Z"
+        },
+        {
           "id": "30f7f08e-6247-4d26-bef7-0c5c523d93b7",
           "title": "Scope SMB projects conversationally through the Lawtrades Agent",
           "state": {
@@ -10,15 +37,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-02T18:29:25.986Z"
-        },
-        {
-          "id": "6c5e7d82-2c2c-447b-92ec-625276254685",
-          "title": "Decouple Apply eligibility from profile completion and make phone non-blocking",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-02T18:14:22.676Z"
         },
         {
           "id": "a8bc2398-f151-47fd-a478-3c03089e0762",
@@ -46,15 +64,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-09-02T01:23:09.912Z"
-        },
-        {
-          "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
-          "title": "Route SMB clients through marketplace intake and hiring",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-01T20:34:58.424Z"
         },
         {
           "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-08-11T20:25:39.321Z"
-        },
-        {
-          "id": "df1bd4a8-5e12-4684-afe3-16c8102da814",
-          "title": "SEEK — SMB lawyer pool curation + tighter SMB-vs-corporate routing (Tommy + Jerry)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-08-11T18:31:08.070Z"
         }
       ]
     }
