@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "82766ea3-084d-4039-9bc7-8c287ab8b1fe",
+          "title": "SMB position suggestions stall for 30 seconds before returning to Agent welcome",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-03T12:57:02.700Z"
+        },
+        {
           "id": "6c5e7d82-2c2c-447b-92ec-625276254685",
           "title": "Decouple Apply eligibility from profile completion and make phone non-blocking",
           "state": {
@@ -181,15 +190,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-08-31T14:42:10.652Z"
-        },
-        {
-          "id": "82766ea3-084d-4039-9bc7-8c287ab8b1fe",
-          "title": "SMB position suggestions stall for 30 seconds before returning to Agent welcome",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-08-31T14:29:25.137Z"
         },
         {
           "id": "e3de6ced-779a-4d9b-9a5f-78c9d7591fec",
