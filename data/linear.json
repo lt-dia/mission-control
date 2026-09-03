@@ -6,19 +6,19 @@
           "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
           "title": "SMB Agent follow-up requests repeatedly fail for newly registered user",
           "state": {
-            "name": "Backlog"
+            "name": "In Progress"
           },
           "priority": 3,
-          "updatedAt": "2026-09-03T19:45:23.640Z"
+          "updatedAt": "2026-09-03T20:37:31.852Z"
         },
         {
-          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
-          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
+          "id": "82766ea3-084d-4039-9bc7-8c287ab8b1fe",
+          "title": "SMB position suggestions stall for 30 seconds before returning to Agent welcome",
           "state": {
-            "name": "Done"
+            "name": "In Progress"
           },
-          "priority": 2,
-          "updatedAt": "2026-09-03T19:38:16.659Z"
+          "priority": 3,
+          "updatedAt": "2026-09-03T20:37:28.057Z"
         },
         {
           "id": "80fef80a-d0a2-4815-98d8-82d43c78005d",
@@ -27,7 +27,25 @@
             "name": "Done"
           },
           "priority": 3,
-          "updatedAt": "2026-09-03T19:27:23.339Z"
+          "updatedAt": "2026-09-03T20:37:14.700Z"
+        },
+        {
+          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
+          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-03T20:37:11.600Z"
+        },
+        {
+          "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
+          "title": "Route SMB clients through marketplace intake and hiring",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-03T20:37:08.263Z"
         },
         {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
@@ -55,24 +73,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-03T14:28:02.240Z"
-        },
-        {
-          "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
-          "title": "Route SMB clients through marketplace intake and hiring",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-03T14:27:50.663Z"
-        },
-        {
-          "id": "82766ea3-084d-4039-9bc7-8c287ab8b1fe",
-          "title": "SMB position suggestions stall for 30 seconds before returning to Agent welcome",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-03T12:57:02.700Z"
         },
         {
           "id": "8809feb8-642d-4c42-b02f-33f615833292",
