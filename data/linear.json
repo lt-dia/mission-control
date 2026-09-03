@@ -3,6 +3,42 @@
     "issues": {
       "nodes": [
         {
+          "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
+          "title": "SMB Agent follow-up requests repeatedly fail for newly registered user",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-03T19:45:23.640Z"
+        },
+        {
+          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
+          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-03T19:38:16.659Z"
+        },
+        {
+          "id": "80fef80a-d0a2-4815-98d8-82d43c78005d",
+          "title": "Talent onboarding renders blank at /v2/onboarding",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-03T19:27:23.339Z"
+        },
+        {
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email Template Audit & ASM Categorization",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-09-03T18:06:49.925Z"
+        },
+        {
           "id": "6c5e7d82-2c2c-447b-92ec-625276254685",
           "title": "Decouple Apply eligibility from profile completion and make phone non-blocking",
           "state": {
@@ -10,15 +46,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-03T17:51:50.604Z"
-        },
-        {
-          "id": "80fef80a-d0a2-4815-98d8-82d43c78005d",
-          "title": "Talent onboarding renders blank at /v2/onboarding",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-03T17:31:30.028Z"
         },
         {
           "id": "5efe71bf-3cf0-4ff2-91f1-5fdf8272fd8c",
@@ -37,15 +64,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-03T14:27:50.663Z"
-        },
-        {
-          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
-          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-03T14:11:12.412Z"
         },
         {
           "id": "82766ea3-084d-4039-9bc7-8c287ab8b1fe",
@@ -109,15 +127,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-08-31T21:50:21.927Z"
-        },
-        {
-          "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
-          "title": "SMB Agent follow-up requests repeatedly fail for newly registered user",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-08-31T20:36:24.047Z"
         },
         {
           "id": "07b88f1b-ebd8-408c-9ef8-b112c7f35961",
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-08-19T17:53:38.264Z"
-        },
-        {
-          "id": "de4a6c0e-1550-46b2-b66f-5ed5fc9a1389",
-          "title": "SMB Lawtrader Onboarding & Setting",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-08-12T15:41:33.321Z"
         }
       ]
     }
