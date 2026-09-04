@@ -3,13 +3,22 @@
     "issues": {
       "nodes": [
         {
+          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
+          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-04T12:38:03.225Z"
+        },
+        {
           "id": "07489aa9-e0e7-4562-923c-87a02027fb1d",
           "title": "POST/PUT Position Error | Company_Client Missing Data",
           "state": {
             "name": "In Progress"
           },
           "priority": 1,
-          "updatedAt": "2026-09-04T01:07:07.406Z"
+          "updatedAt": "2026-09-04T12:38:02.899Z"
         },
         {
           "id": "2c74a87d-8af3-4bcf-94e2-7430337e95c5",
@@ -46,15 +55,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-03T20:37:14.700Z"
-        },
-        {
-          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
-          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-03T20:37:11.600Z"
         },
         {
           "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
