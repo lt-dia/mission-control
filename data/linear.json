@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "2c74a87d-8af3-4bcf-94e2-7430337e95c5",
+          "title": "Make traditional hire-flow DocuSign reliable and add verified alerting",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-03T23:41:45.447Z"
+        },
+        {
           "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
           "title": "SMB Agent follow-up requests repeatedly fail for newly registered user",
           "state": {
@@ -262,15 +271,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-08-28T20:40:58.183Z"
-        },
-        {
-          "id": "2c74a87d-8af3-4bcf-94e2-7430337e95c5",
-          "title": "Make traditional hire-flow DocuSign reliable and add verified alerting",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-28T20:38:37.450Z"
         },
         {
           "id": "5a0faaef-6520-44bf-8547-ddae247e1b2d",
