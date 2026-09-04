@@ -3,6 +3,51 @@
     "issues": {
       "nodes": [
         {
+          "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
+          "title": "Route SMB clients through marketplace intake and hiring",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-04T20:37:19.100Z"
+        },
+        {
+          "id": "05bcb57f-4cc3-49be-93be-70611af7ef67",
+          "title": "SMB pre-hire messaging: clients can talk to an attorney before hiring (shipped)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-09-04T20:37:19.097Z"
+        },
+        {
+          "id": "76d10b34-d52b-4dda-957f-f1b98a50c42f",
+          "title": "Let SMB clients request and track interviews inside pre-hire message rooms",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-04T20:37:18.360Z"
+        },
+        {
+          "id": "c8c17c22-747f-4c98-b926-24c70f697075",
+          "title": "Open SMB pre-hire message links immediately after sign-in",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-04T20:37:10.487Z"
+        },
+        {
+          "id": "6f3cb55a-2c78-4b2b-b540-c1ed64597413",
+          "title": "Show SMB clients matched lawyers immediately after publishing a position",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-04T20:37:05.260Z"
+        },
+        {
           "id": "7606b0f7-3f1e-4e54-bb2d-5ae586d80a89",
           "title": "Opportunity feed should filter by talent's practice areas and specialization",
           "state": {
@@ -73,15 +118,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-03T20:37:14.700Z"
-        },
-        {
-          "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
-          "title": "Route SMB clients through marketplace intake and hiring",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-03T20:37:08.263Z"
         },
         {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
@@ -345,15 +381,6 @@
           "updatedAt": "2026-08-27T22:28:30.445Z"
         },
         {
-          "id": "05bcb57f-4cc3-49be-93be-70611af7ef67",
-          "title": "SMB pre-hire messaging: clients can talk to an attorney before hiring (shipped)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-08-27T20:35:57.567Z"
-        },
-        {
           "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
           "title": "SMB drop-off dashboard and re-engagement nudge emails",
           "state": {
@@ -424,33 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-08-21T20:13:00.168Z"
-        },
-        {
-          "id": "bca8ae11-5318-41a1-9659-e20f7cbd8012",
-          "title": "Screener questions: required/optional flags + configurable answer length (shipped)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-08-21T19:37:26.840Z"
-        },
-        {
-          "id": "cd9f65c2-7f92-474e-a290-bc8cbd76e6d0",
-          "title": "Week of Aug 17: small fixes across worklogs, offers, and profiles (shipped)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-08-21T19:22:22.541Z"
-        },
-        {
-          "id": "992a8d22-da27-4a9e-9664-805c4f19a8cd",
-          "title": "Private profile visibility fixes (shipped)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-08-21T19:22:11.938Z"
         }
       ]
     }
