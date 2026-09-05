@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "edaeb951-6d46-451b-9272-4666ad1bb52f",
+          "title": "Talent AI onboarding: resume upload fails for both Word and PDF",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-09-05T19:53:46.252Z"
+        },
+        {
           "id": "07489aa9-e0e7-4562-923c-87a02027fb1d",
           "title": "POST/PUT Position Error | Company_Client Missing Data",
           "state": {
@@ -280,15 +289,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-08-31T15:57:17.904Z"
-        },
-        {
-          "id": "edaeb951-6d46-451b-9272-4666ad1bb52f",
-          "title": "Talent AI onboarding: resume upload fails for both Word and PDF",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-08-31T14:42:10.652Z"
         },
         {
           "id": "e3de6ced-779a-4d9b-9a5f-78c9d7591fec",
