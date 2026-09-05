@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "07489aa9-e0e7-4562-923c-87a02027fb1d",
+          "title": "POST/PUT Position Error | Company_Client Missing Data",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-09-05T04:47:07.101Z"
+        },
+        {
+          "id": "2d850bf0-f643-4a8e-8069-5b689a1f8680",
+          "title": "Extend talent dashboard message bell to engagement rooms",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 4,
+          "updatedAt": "2026-09-05T03:41:52.498Z"
+        },
+        {
           "id": "6f3cb55a-2c78-4b2b-b540-c1ed64597413",
           "title": "Show SMB clients matched lawyers immediately after publishing a position",
           "state": {
@@ -73,15 +91,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-04T15:19:46.354Z"
-        },
-        {
-          "id": "07489aa9-e0e7-4562-923c-87a02027fb1d",
-          "title": "POST/PUT Position Error | Company_Client Missing Data",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 1,
-          "updatedAt": "2026-09-04T14:43:26.093Z"
         },
         {
           "id": "2c74a87d-8af3-4bcf-94e2-7430337e95c5",
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-08-24T17:58:16.964Z"
-        },
-        {
-          "id": "ce147784-1ada-49df-a86f-dad28df6f4bb",
-          "title": "LT Agent | Fix Delaware C Corp + startup lawyer matching (Ilolo)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-21T20:13:00.168Z"
         }
       ]
     }
