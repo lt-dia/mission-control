@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "6f3cb55a-2c78-4b2b-b540-c1ed64597413",
+          "title": "Show SMB clients matched lawyers immediately after publishing a position",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-05T00:00:46.977Z"
+        },
+        {
           "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
           "title": "Route SMB clients through marketplace intake and hiring",
           "state": {
@@ -37,15 +46,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-04T20:37:10.487Z"
-        },
-        {
-          "id": "6f3cb55a-2c78-4b2b-b540-c1ed64597413",
-          "title": "Show SMB clients matched lawyers immediately after publishing a position",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-04T20:37:05.260Z"
         },
         {
           "id": "7606b0f7-3f1e-4e54-bb2d-5ae586d80a89",
