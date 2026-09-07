@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "6f3cb55a-2c78-4b2b-b540-c1ed64597413",
+          "title": "Show SMB clients matched lawyers immediately after publishing a position",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-07T19:50:43.224Z"
+        },
+        {
+          "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
+          "title": "Route SMB clients through marketplace intake and hiring",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-07T19:50:40.566Z"
+        },
+        {
+          "id": "76d10b34-d52b-4dda-957f-f1b98a50c42f",
+          "title": "Let SMB clients request and track interviews inside pre-hire message rooms",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-07T19:50:38.486Z"
+        },
+        {
           "id": "c8c17c22-747f-4c98-b926-24c70f697075",
           "title": "Open SMB pre-hire message links immediately after sign-in",
           "state": {
@@ -28,15 +55,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-07T17:35:09.111Z"
-        },
-        {
-          "id": "6f3cb55a-2c78-4b2b-b540-c1ed64597413",
-          "title": "Show SMB clients matched lawyers immediately after publishing a position",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-07T16:33:34.835Z"
         },
         {
           "id": "edaeb951-6d46-451b-9272-4666ad1bb52f",
@@ -75,15 +93,6 @@
           "updatedAt": "2026-09-05T03:41:52.498Z"
         },
         {
-          "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
-          "title": "Route SMB clients through marketplace intake and hiring",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-04T20:37:19.100Z"
-        },
-        {
           "id": "05bcb57f-4cc3-49be-93be-70611af7ef67",
           "title": "SMB pre-hire messaging: clients can talk to an attorney before hiring (shipped)",
           "state": {
@@ -91,15 +100,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-09-04T20:37:19.097Z"
-        },
-        {
-          "id": "76d10b34-d52b-4dda-957f-f1b98a50c42f",
-          "title": "Let SMB clients request and track interviews inside pre-hire message rooms",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-04T20:37:18.360Z"
         },
         {
           "id": "7606b0f7-3f1e-4e54-bb2d-5ae586d80a89",
