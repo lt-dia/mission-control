@@ -3,13 +3,58 @@
     "issues": {
       "nodes": [
         {
+          "id": "c8c17c22-747f-4c98-b926-24c70f697075",
+          "title": "Open SMB pre-hire message links immediately after sign-in",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-07T17:35:09.111Z"
+        },
+        {
+          "id": "30f7f08e-6247-4d26-bef7-0c5c523d93b7",
+          "title": "Scope SMB projects conversationally through the Lawtrades Agent",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-07T17:35:09.111Z"
+        },
+        {
+          "id": "07b88f1b-ebd8-408c-9ef8-b112c7f35961",
+          "title": "Restore interrupted SMB conversations and help Brown Ballers reach lawyer checkout",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-07T17:35:09.111Z"
+        },
+        {
+          "id": "6f3cb55a-2c78-4b2b-b540-c1ed64597413",
+          "title": "Show SMB clients matched lawyers immediately after publishing a position",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-07T16:33:34.835Z"
+        },
+        {
           "id": "edaeb951-6d46-451b-9272-4666ad1bb52f",
           "title": "Talent AI onboarding: resume upload fails for both Word and PDF",
           "state": {
             "name": "Done"
           },
           "priority": 1,
-          "updatedAt": "2026-09-05T19:53:46.252Z"
+          "updatedAt": "2026-09-07T16:08:40.648Z"
+        },
+        {
+          "id": "e83c05c3-3851-43ec-a4cb-7ff15a312aec",
+          "title": "Bid submission: Fix placeholder text and validation UX on cover letter field",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-07T15:11:28.352Z"
         },
         {
           "id": "07489aa9-e0e7-4562-923c-87a02027fb1d",
@@ -28,15 +73,6 @@
           },
           "priority": 4,
           "updatedAt": "2026-09-05T03:41:52.498Z"
-        },
-        {
-          "id": "6f3cb55a-2c78-4b2b-b540-c1ed64597413",
-          "title": "Show SMB clients matched lawyers immediately after publishing a position",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-05T00:00:46.977Z"
         },
         {
           "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
@@ -64,15 +100,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-04T20:37:18.360Z"
-        },
-        {
-          "id": "c8c17c22-747f-4c98-b926-24c70f697075",
-          "title": "Open SMB pre-hire message links immediately after sign-in",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-04T20:37:10.487Z"
         },
         {
           "id": "7606b0f7-3f1e-4e54-bb2d-5ae586d80a89",
@@ -174,15 +201,6 @@
           "updatedAt": "2026-09-02T20:36:10.049Z"
         },
         {
-          "id": "30f7f08e-6247-4d26-bef7-0c5c523d93b7",
-          "title": "Scope SMB projects conversationally through the Lawtrades Agent",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-02T18:29:25.986Z"
-        },
-        {
           "id": "a8bc2398-f151-47fd-a478-3c03089e0762",
           "title": "SMB AI entry /ltai remains blank through session end",
           "state": {
@@ -217,15 +235,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-08-31T21:50:21.927Z"
-        },
-        {
-          "id": "07b88f1b-ebd8-408c-9ef8-b112c7f35961",
-          "title": "Restore interrupted SMB conversations and help Brown Ballers reach lawyer checkout",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-31T20:36:23.913Z"
         },
         {
           "id": "2b895970-1f49-4423-a7a6-b362abdee6f3",
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-08-25T18:06:14.271Z"
-        },
-        {
-          "id": "a2c49a54-2097-473d-a4ec-65f00ea54972",
-          "title": "Position posting overview not saving",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-24T17:58:16.964Z"
         }
       ]
     }
