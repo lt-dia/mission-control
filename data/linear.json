@@ -3,13 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "6f3cb55a-2c78-4b2b-b540-c1ed64597413",
-          "title": "Show SMB clients matched lawyers immediately after publishing a position",
+          "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
+          "title": "SMB Analytics | Track position creation through messaging and signed hires",
           "state": {
             "name": "In Progress"
           },
-          "priority": 3,
-          "updatedAt": "2026-09-07T19:50:43.224Z"
+          "priority": 2,
+          "updatedAt": "2026-09-08T14:54:08.768Z"
         },
         {
           "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
@@ -18,7 +18,34 @@
             "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-09-07T19:50:40.566Z"
+          "updatedAt": "2026-09-08T13:47:41.227Z"
+        },
+        {
+          "id": "6f3cb55a-2c78-4b2b-b540-c1ed64597413",
+          "title": "Show SMB clients matched lawyers immediately after publishing a position",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-08T13:47:41.227Z"
+        },
+        {
+          "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
+          "title": "SMB drop-off dashboard and re-engagement nudge emails",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-08T13:47:41.227Z"
+        },
+        {
+          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
+          "title": "SMB | Simplify interactions and validate Agent/app parity",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-08T13:09:26.010Z"
         },
         {
           "id": "76d10b34-d52b-4dda-957f-f1b98a50c42f",
@@ -399,15 +426,6 @@
           "updatedAt": "2026-08-27T22:28:30.445Z"
         },
         {
-          "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
-          "title": "SMB drop-off dashboard and re-engagement nudge emails",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-08-27T20:35:46.623Z"
-        },
-        {
           "id": "766e65a1-d331-4d68-baca-de6ee017af93",
           "title": "SMB talent-controlled hourly rates across product and Agent",
           "state": {
@@ -433,24 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-08-27T00:50:56.385Z"
-        },
-        {
-          "id": "1b5a009a-5d03-4812-8bd8-63967f358c3b",
-          "title": "Tell our stalled SMB leads they can now message attorneys",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 1,
-          "updatedAt": "2026-08-27T00:46:19.282Z"
-        },
-        {
-          "id": "72ad0797-2af3-4bba-b45b-e43a62c31640",
-          "title": "client POC is not included when creating an engagement manually",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-08-25T18:06:14.271Z"
         }
       ]
     }
