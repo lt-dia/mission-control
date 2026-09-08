@@ -3,22 +3,40 @@
     "issues": {
       "nodes": [
         {
-          "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
-          "title": "SMB | Keep project messages and files together, with private Agent chats separate",
+          "id": "273c2e46-d9ec-4336-a3c1-a36b546f185d",
+          "title": "ICON | Route non-attorney hires to the correct agreement template",
           "state": {
-            "name": "In Progress"
+            "name": "Todo"
           },
-          "priority": 0,
-          "updatedAt": "2026-09-08T18:52:27.981Z"
+          "priority": 2,
+          "updatedAt": "2026-09-08T21:11:14.731Z"
         },
         {
-          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
-          "title": "SMB | Simplify interactions and validate Agent/app parity",
+          "id": "72098d01-09b1-46f6-8c0d-cfd0f7b0d2f0",
+          "title": "Conditional Questionnaire Clauses → Contract Template Mapping",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-08T21:11:14.731Z"
+        },
+        {
+          "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
+          "title": "SMB Analytics | Track position creation through messaging and signed hires",
           "state": {
             "name": "In Progress"
           },
           "priority": 2,
-          "updatedAt": "2026-09-08T18:23:05.040Z"
+          "updatedAt": "2026-09-08T20:34:37.656Z"
+        },
+        {
+          "id": "76d10b34-d52b-4dda-957f-f1b98a50c42f",
+          "title": "Let SMB clients request and track interviews inside pre-hire message rooms",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-08T20:34:33.190Z"
         },
         {
           "id": "6f3cb55a-2c78-4b2b-b540-c1ed64597413",
@@ -27,7 +45,25 @@
             "name": "Canceled"
           },
           "priority": 3,
-          "updatedAt": "2026-09-08T18:17:39.486Z"
+          "updatedAt": "2026-09-08T20:34:25.663Z"
+        },
+        {
+          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
+          "title": "SMB | Simplify interactions and validate Agent/app parity",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-08T20:34:15.966Z"
+        },
+        {
+          "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
+          "title": "SMB | Keep project messages and files together, with private Agent chats separate",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-08T20:34:10.271Z"
         },
         {
           "id": "d216038b-49e0-4201-865f-125070127d07",
@@ -57,15 +93,6 @@
           "updatedAt": "2026-09-08T15:40:37.272Z"
         },
         {
-          "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
-          "title": "SMB Analytics | Track position creation through messaging and signed hires",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-08T14:54:08.768Z"
-        },
-        {
           "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
           "title": "Route SMB clients through marketplace intake and hiring",
           "state": {
@@ -82,15 +109,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-08T13:47:41.227Z"
-        },
-        {
-          "id": "76d10b34-d52b-4dda-957f-f1b98a50c42f",
-          "title": "Let SMB clients request and track interviews inside pre-hire message rooms",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-07T19:50:38.486Z"
         },
         {
           "id": "c8c17c22-747f-4c98-b926-24c70f697075",
@@ -433,24 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-08-28T19:37:41.552Z"
-        },
-        {
-          "id": "ccec1ca7-7508-4417-964e-0623a529271b",
-          "title": "Simplify talent navigation and conditionally show Rooms",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-28T00:02:10.393Z"
-        },
-        {
-          "id": "5b47fbc2-b08c-4754-a147-a31e8b105cd1",
-          "title": "Suppress client kickoff emails for Surge test engagements",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-27T22:28:30.445Z"
         }
       ]
     }
