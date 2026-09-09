@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_sxeYrKbE1i3x1Y",
+      "object": "note",
+      "title": "War Room",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-09-09T14:59:04.626Z",
+      "updated_at": "2026-09-09T15:36:26.304Z"
+    },
+    {
       "id": "not_kssZHtm8QZ47nT",
       "object": "note",
       "title": "LT agent and dashboard simplification — projects, messaging, and scope cleanup with Ilolo",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-09-03T15:08:02.735Z",
       "updated_at": "2026-09-05T00:52:21.635Z"
-    },
-    {
-      "id": "not_CkafUM3DyVZFZN",
-      "object": "note",
-      "title": "MGMT 571 ",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-09-03T01:30:51.902Z",
-      "updated_at": "2026-09-03T03:03:57.505Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0wM1QwMTozMDo1MS45MDJaIiwibGFzdF9kb2NfaWQiOiIxZDBkMzEwYi00ZGE2LTQ3ODQtYmNmYi0xNTU3NDMyOTY4OTUifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0wM1QxNTowODowMi43MzVaIiwibGFzdF9kb2NfaWQiOiJhNjNmZTdjYi00YWIwLTRlYzAtYmVhZS00OWU3MzQxNzY5ZmQifQ"
 }
