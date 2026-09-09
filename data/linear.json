@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
+          "title": "SMB Agent follow-up requests repeatedly fail for newly registered user",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-09T17:35:38.076Z"
+        },
+        {
           "id": "273c2e46-d9ec-4336-a3c1-a36b546f185d",
           "title": "ICON | Route non-attorney hires to the correct agreement template",
           "state": {
@@ -217,15 +226,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-03T23:41:45.447Z"
-        },
-        {
-          "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
-          "title": "SMB Agent follow-up requests repeatedly fail for newly registered user",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-03T20:37:31.852Z"
         },
         {
           "id": "82766ea3-084d-4039-9bc7-8c287ab8b1fe",
