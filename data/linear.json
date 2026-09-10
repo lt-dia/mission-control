@@ -9,7 +9,16 @@
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-09-09T20:52:13.033Z"
+          "updatedAt": "2026-09-10T02:31:27.505Z"
+        },
+        {
+          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
+          "title": "SMB | Simplify interactions and validate Agent/app parity",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-10T02:26:14.258Z"
         },
         {
           "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
@@ -19,15 +28,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-09T20:48:37.432Z"
-        },
-        {
-          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
-          "title": "SMB | Simplify interactions and validate Agent/app parity",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-09T20:48:35.923Z"
         },
         {
           "id": "273c2e46-d9ec-4336-a3c1-a36b546f185d",
