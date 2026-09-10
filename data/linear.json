@@ -3,22 +3,22 @@
     "issues": {
       "nodes": [
         {
-          "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
-          "title": "SMB | Keep project messages and files together, with private Agent chats separate",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-10T02:31:27.505Z"
-        },
-        {
           "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
           "title": "SMB | Simplify interactions and validate Agent/app parity",
           "state": {
             "name": "In Progress"
           },
           "priority": 2,
-          "updatedAt": "2026-09-10T02:26:14.258Z"
+          "updatedAt": "2026-09-10T20:41:39.173Z"
+        },
+        {
+          "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
+          "title": "SMB | Keep project messages and files together, with private Agent chats separate",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-10T20:41:38.681Z"
         },
         {
           "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
