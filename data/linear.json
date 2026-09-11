@@ -3,13 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "2b06eed2-5a5e-4eea-ba61-504a899348c3",
-          "title": "SMB | Reserve project payments until approved payout with Stripe Funds Segregation",
+          "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
+          "title": "SMB | Keep project messages and files together, with private Agent chats separate",
           "state": {
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-09-11T19:00:24.866Z"
+          "updatedAt": "2026-09-11T20:49:51.992Z"
         },
         {
           "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
@@ -18,16 +18,16 @@
             "name": "In Progress"
           },
           "priority": 2,
-          "updatedAt": "2026-09-10T20:41:39.173Z"
+          "updatedAt": "2026-09-11T20:49:51.509Z"
         },
         {
-          "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
-          "title": "SMB | Keep project messages and files together, with private Agent chats separate",
+          "id": "2b06eed2-5a5e-4eea-ba61-504a899348c3",
+          "title": "SMB | Reserve project payments until approved payout with Stripe Funds Segregation",
           "state": {
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-09-10T20:41:38.681Z"
+          "updatedAt": "2026-09-11T19:00:24.866Z"
         },
         {
           "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
