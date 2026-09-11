@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "2b06eed2-5a5e-4eea-ba61-504a899348c3",
+          "title": "SMB | Reserve project payments until approved payout with Stripe Funds Segregation",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-11T19:00:24.866Z"
+        },
+        {
           "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
           "title": "SMB | Simplify interactions and validate Agent/app parity",
           "state": {
@@ -37,15 +46,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-09T20:48:35.471Z"
-        },
-        {
-          "id": "2b06eed2-5a5e-4eea-ba61-504a899348c3",
-          "title": "SMB | Reserve project payments until approved payout with Stripe Funds Segregation",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-09T20:46:41.580Z"
         },
         {
           "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
