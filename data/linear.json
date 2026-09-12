@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "2b06eed2-5a5e-4eea-ba61-504a899348c3",
+          "title": "SMB | Reserve project payments until approved payout with Stripe Funds Segregation",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-12T00:13:44.253Z"
+        },
+        {
+          "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
+          "title": "SMB Analytics | Track position creation through messaging and signed hires",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-11T22:59:41.042Z"
+        },
+        {
           "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
           "title": "SMB | Keep project messages and files together, with private Agent chats separate",
           "state": {
@@ -19,15 +37,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-11T20:49:51.509Z"
-        },
-        {
-          "id": "2b06eed2-5a5e-4eea-ba61-504a899348c3",
-          "title": "SMB | Reserve project payments until approved payout with Stripe Funds Segregation",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-11T19:00:24.866Z"
         },
         {
           "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
@@ -64,15 +73,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-08T21:11:14.731Z"
-        },
-        {
-          "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
-          "title": "SMB Analytics | Track position creation through messaging and signed hires",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-08T20:34:37.656Z"
         },
         {
           "id": "76d10b34-d52b-4dda-957f-f1b98a50c42f",
