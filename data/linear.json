@@ -3,6 +3,51 @@
     "issues": {
       "nodes": [
         {
+          "id": "273c2e46-d9ec-4336-a3c1-a36b546f185d",
+          "title": "ICON | Route non-attorney hires to the correct agreement template",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-14T20:35:15.265Z"
+        },
+        {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-14T20:35:12.974Z"
+        },
+        {
+          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
+          "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-14T20:35:11.423Z"
+        },
+        {
+          "id": "07b88f1b-ebd8-408c-9ef8-b112c7f35961",
+          "title": "Restore interrupted SMB conversations and help Brown Ballers reach lawyer checkout",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-14T18:49:31.090Z"
+        },
+        {
+          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
+          "title": "SMB | Simplify interactions and validate Agent/app parity",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-14T18:03:22.926Z"
+        },
+        {
           "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
           "title": "SMB | Keep project messages and files together, with private Agent chats separate",
           "state": {
@@ -39,15 +84,6 @@
           "updatedAt": "2026-09-11T22:59:41.042Z"
         },
         {
-          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
-          "title": "SMB | Simplify interactions and validate Agent/app parity",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-11T20:49:51.509Z"
-        },
-        {
           "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
           "title": "SMB drop-off dashboard and re-engagement nudge emails",
           "state": {
@@ -55,15 +91,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-09T20:48:37.432Z"
-        },
-        {
-          "id": "273c2e46-d9ec-4336-a3c1-a36b546f185d",
-          "title": "ICON | Route non-attorney hires to the correct agreement template",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-09T20:48:35.471Z"
         },
         {
           "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
@@ -142,15 +169,6 @@
           "title": "Scope SMB projects conversationally through the Lawtrades Agent",
           "state": {
             "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-07T17:35:09.111Z"
-        },
-        {
-          "id": "07b88f1b-ebd8-408c-9ef8-b112c7f35961",
-          "title": "Restore interrupted SMB conversations and help Brown Ballers reach lawyer checkout",
-          "state": {
-            "name": "In Progress"
           },
           "priority": 2,
           "updatedAt": "2026-09-07T17:35:09.111Z"
@@ -433,24 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-08-28T20:40:58.183Z"
-        },
-        {
-          "id": "5a0faaef-6520-44bf-8547-ddae247e1b2d",
-          "title": "Investigate unexpected increase in monthly-rate position postings",
-          "state": {
-            "name": "Planning"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-28T19:39:04.150Z"
-        },
-        {
-          "id": "b38c441f-689a-4080-a779-057eacd599d1",
-          "title": "Fix SMB prompt gray-area logic + PII masking for lawyer names",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-08-28T19:37:45.680Z"
         }
       ]
     }
