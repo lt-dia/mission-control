@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_GrcDfChdUIIIz2",
+      "object": "note",
+      "title": "War Room",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-09-14T14:58:37.582Z",
+      "updated_at": "2026-09-14T15:59:15.481Z"
+    },
+    {
       "id": "not_4klWUmw40PH1IW",
       "object": "note",
       "title": "Final exam prep — format, submission, and quiz bowl review",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-09-04T15:00:32.005Z",
       "updated_at": "2026-09-04T23:21:10.732Z"
-    },
-    {
-      "id": "not_13scTXXcXmbKmn",
-      "object": "note",
-      "title": "MGMT 540",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-09-03T23:30:15.134Z",
-      "updated_at": "2026-09-04T15:00:31.959Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0wM1QyMzozMDoxNS4xMzRaIiwibGFzdF9kb2NfaWQiOiI1NDllZDBkMC00MjYyLTQ3MzYtYjZmMi1mZDJlNTk2MDBmZjMifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0wNFQxNTowMDozMi4wMDVaIiwibGFzdF9kb2NfaWQiOiJmODJkNDY0Mi02OTA5LTQwZWYtYWNiYi0yYWQyNjY3YmZlYjIifQ"
 }
