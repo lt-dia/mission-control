@@ -9,7 +9,16 @@
             "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-09-15T15:17:58.838Z"
+          "updatedAt": "2026-09-15T20:15:10.262Z"
+        },
+        {
+          "id": "e262d4f2-cc99-4ebb-be7f-646e5bfde1da",
+          "title": "Replace the in-house question when posting a position",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-15T19:47:02.989Z"
         },
         {
           "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
@@ -442,15 +451,6 @@
           },
           "priority": 4,
           "updatedAt": "2026-08-28T20:41:41.594Z"
-        },
-        {
-          "id": "07c9a936-ffd2-4dc1-9db8-1af83d2e1ee5",
-          "title": "Prevent AI position creation from rejecting weekly-hour estimates",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-28T20:40:58.183Z"
         }
       ]
     }
