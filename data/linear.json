@@ -3,13 +3,67 @@
     "issues": {
       "nodes": [
         {
+          "id": "c5b2ec17-465f-416f-922d-7eab922d72fb",
+          "title": "SMB | Open shared hire links in the correct company project",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-15T22:57:09.802Z"
+        },
+        {
+          "id": "93eb1686-d928-44ac-8044-305f9fe5de16",
+          "title": "Docusign Solution (Contract Panel)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-15T22:57:08.779Z"
+        },
+        {
+          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
+          "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-15T22:57:06.960Z"
+        },
+        {
+          "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
+          "title": "SMB | Keep project messages and files together, with private Agent chats separate",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-15T22:57:05.932Z"
+        },
+        {
+          "id": "76d10b34-d52b-4dda-957f-f1b98a50c42f",
+          "title": "Let SMB clients request and track interviews inside pre-hire message rooms",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-15T22:57:03.455Z"
+        },
+        {
+          "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
+          "title": "SMB drop-off dashboard and re-engagement nudge emails",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-15T21:47:00.621Z"
+        },
+        {
           "id": "273c2e46-d9ec-4336-a3c1-a36b546f185d",
           "title": "ICON | Route non-attorney hires to the correct agreement template",
           "state": {
             "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-09-15T20:15:10.262Z"
+          "updatedAt": "2026-09-15T21:47:00.258Z"
         },
         {
           "id": "e262d4f2-cc99-4ebb-be7f-646e5bfde1da",
@@ -18,7 +72,7 @@
             "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-09-15T19:47:02.989Z"
+          "updatedAt": "2026-09-15T20:58:58.905Z"
         },
         {
           "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
@@ -39,15 +93,6 @@
           "updatedAt": "2026-09-14T20:35:12.974Z"
         },
         {
-          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
-          "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-14T20:35:11.423Z"
-        },
-        {
           "id": "07b88f1b-ebd8-408c-9ef8-b112c7f35961",
           "title": "Restore interrupted SMB conversations and help Brown Ballers reach lawyer checkout",
           "state": {
@@ -66,24 +111,6 @@
           "updatedAt": "2026-09-14T18:03:22.926Z"
         },
         {
-          "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
-          "title": "SMB | Keep project messages and files together, with private Agent chats separate",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-13T01:27:35.208Z"
-        },
-        {
-          "id": "76d10b34-d52b-4dda-957f-f1b98a50c42f",
-          "title": "Let SMB clients request and track interviews inside pre-hire message rooms",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-13T01:27:33.945Z"
-        },
-        {
           "id": "2b06eed2-5a5e-4eea-ba61-504a899348c3",
           "title": "SMB | Reserve project payments until approved payout with Stripe Funds Segregation",
           "state": {
@@ -91,15 +118,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-12T05:00:10.872Z"
-        },
-        {
-          "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
-          "title": "SMB drop-off dashboard and re-engagement nudge emails",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-09T20:48:37.432Z"
         },
         {
           "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
@@ -433,24 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-08-28T21:00:44.792Z"
-        },
-        {
-          "id": "70e8268f-19ae-4a9c-9aa3-ccd1720fb3ac",
-          "title": "Automate abandonment email for SMB AI intake workflow (ai.lawtrades.com)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-08-28T21:00:44.730Z"
-        },
-        {
-          "id": "ef0fc647-05a6-4824-8dc1-a035a4455fbe",
-          "title": "Restore password-reset delivery for one globally unsubscribed user",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 4,
-          "updatedAt": "2026-08-28T20:41:41.594Z"
         }
       ]
     }
