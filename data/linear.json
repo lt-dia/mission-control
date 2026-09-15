@@ -9,7 +9,16 @@
             "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-09-15T04:22:28.040Z"
+          "updatedAt": "2026-09-15T12:27:02.317Z"
+        },
+        {
+          "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
+          "title": "SMB Analytics | Track position creation through messaging and signed hires",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-15T12:12:54.702Z"
         },
         {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
@@ -73,15 +82,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-12T05:00:10.872Z"
-        },
-        {
-          "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
-          "title": "SMB Analytics | Track position creation through messaging and signed hires",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-11T22:59:41.042Z"
         },
         {
           "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
