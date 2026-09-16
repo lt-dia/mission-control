@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_2CDVeJJ6z5PvMq",
+      "object": "note",
+      "title": "Monday.com",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-09-16T18:58:44.610Z",
+      "updated_at": "2026-09-16T19:29:27.014Z"
+    },
+    {
       "id": "not_H6pNCkrEylUcav",
       "object": "note",
       "title": "War Room",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-09-09T14:59:04.626Z",
       "updated_at": "2026-09-09T15:36:26.304Z"
-    },
-    {
-      "id": "not_kssZHtm8QZ47nT",
-      "object": "note",
-      "title": "LT agent and dashboard simplification — projects, messaging, and scope cleanup with Ilolo",
-      "owner": {
-        "name": "Brian Ryu",
-        "email": "brianryu@lawtrades.com"
-      },
-      "created_at": "2026-09-08T14:51:33.789Z",
-      "updated_at": "2026-09-08T20:46:10.966Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0wOFQxNDo1MTozMy43ODlaIiwibGFzdF9kb2NfaWQiOiI4ODc5ZTEwMi01MWJmLTRkZmYtYmZiOC1hM2FjMjk5MGM5MTIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0wOVQxNDo1OTowNC42MjZaIiwibGFzdF9kb2NfaWQiOiIzZmQxZDE2MC0zYTJiLTQzYjQtYWM1Yy00YWU0MjAyY2U1NGMifQ"
 }

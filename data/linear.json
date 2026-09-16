@@ -9,7 +9,43 @@
             "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-09-16T02:01:47.745Z"
+          "updatedAt": "2026-09-16T20:34:44.415Z"
+        },
+        {
+          "id": "c3be22dc-3e8c-43d4-a48f-36db7eeab684",
+          "title": "SMB talent | Prototype open-work discovery inside Lawtrades Agent",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-16T20:34:28.502Z"
+        },
+        {
+          "id": "7606b0f7-3f1e-4e54-bb2d-5ae586d80a89",
+          "title": "Opportunity feed should filter by talent's practice areas and specialization",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-16T20:34:28.502Z"
+        },
+        {
+          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
+          "title": "SMB | Simplify interactions and validate Agent/app parity",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-16T20:34:28.502Z"
+        },
+        {
+          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
+          "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-16T20:34:27.089Z"
         },
         {
           "id": "e262d4f2-cc99-4ebb-be7f-646e5bfde1da",
@@ -28,15 +64,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-15T22:57:08.779Z"
-        },
-        {
-          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
-          "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-15T22:57:06.960Z"
         },
         {
           "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
@@ -100,15 +127,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-14T18:49:31.090Z"
-        },
-        {
-          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
-          "title": "SMB | Simplify interactions and validate Agent/app parity",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-14T18:03:22.926Z"
         },
         {
           "id": "2b06eed2-5a5e-4eea-ba61-504a899348c3",
@@ -244,15 +262,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-09-04T20:37:19.097Z"
-        },
-        {
-          "id": "7606b0f7-3f1e-4e54-bb2d-5ae586d80a89",
-          "title": "Opportunity feed should filter by talent's practice areas and specialization",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-04T16:07:58.513Z"
         },
         {
           "id": "409e649c-2e88-4925-8eee-f54c0e43e15b",
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-08-28T21:00:44.855Z"
-        },
-        {
-          "id": "9b2b533a-2d11-4a70-8d69-e45e3dc85d46",
-          "title": "Engagement Kickoff emails: rework template-routing fix without collapsing per-slot templates",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-28T21:00:44.792Z"
         }
       ]
     }
