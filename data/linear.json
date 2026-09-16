@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "e262d4f2-cc99-4ebb-be7f-646e5bfde1da",
+          "title": "Replace the in-house question when posting a position",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-15T23:22:45.498Z"
+        },
+        {
           "id": "c5b2ec17-465f-416f-922d-7eab922d72fb",
           "title": "SMB | Open shared hire links in the correct company project",
           "state": {
@@ -64,15 +73,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-15T21:47:00.258Z"
-        },
-        {
-          "id": "e262d4f2-cc99-4ebb-be7f-646e5bfde1da",
-          "title": "Replace the in-house question when posting a position",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-15T20:58:58.905Z"
         },
         {
           "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
