@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
+          "title": "SMB | Keep project messages and files together, with private Agent chats separate",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-17T21:47:36.231Z"
+        },
+        {
+          "id": "c1e4e1ff-f21c-4c41-a6f4-27175edc8755",
+          "title": "SMB Agent project selection opens persistent blank page for empty project key",
+          "state": {
+            "name": "Triage"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-17T20:14:54.452Z"
+        },
+        {
+          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
+          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-17T19:58:47.095Z"
+        },
+        {
           "id": "c5b2ec17-465f-416f-922d-7eab922d72fb",
           "title": "SMB | Open shared hire links in the correct company project",
           "state": {
@@ -64,15 +91,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-15T22:57:08.779Z"
-        },
-        {
-          "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
-          "title": "SMB | Keep project messages and files together, with private Agent chats separate",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-15T22:57:05.932Z"
         },
         {
           "id": "76d10b34-d52b-4dda-957f-f1b98a50c42f",
@@ -273,15 +291,6 @@
           "updatedAt": "2026-09-04T15:19:46.354Z"
         },
         {
-          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
-          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-04T15:19:46.354Z"
-        },
-        {
           "id": "2c74a87d-8af3-4bcf-94e2-7430337e95c5",
           "title": "Make traditional hire-flow DocuSign reliable and add verified alerting",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-08-28T21:00:44.913Z"
-        },
-        {
-          "id": "15222514-ebd8-46ab-a520-6f0cf6a22989",
-          "title": "Add ability to invoice off-platform clients from the invoicing tab",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-08-28T21:00:44.855Z"
         }
       ]
     }
