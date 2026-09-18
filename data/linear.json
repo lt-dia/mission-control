@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email Template Audit & ASM Categorization",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-09-18T20:37:58.564Z"
+        },
+        {
+          "id": "a1068905-0e1a-4d7f-9408-15136aed28cf",
+          "title": "Fix Hire Flow — Agreement Sequencing & Signature Gating",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-18T20:37:57.881Z"
+        },
+        {
+          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
+          "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-18T20:37:51.896Z"
+        },
+        {
           "id": "c1e4e1ff-f21c-4c41-a6f4-27175edc8755",
           "title": "SMB Agent project selection opens persistent blank page for empty project key",
           "state": {
@@ -10,15 +37,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-18T14:51:50.996Z"
-        },
-        {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email Template Audit & ASM Categorization",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 4,
-          "updatedAt": "2026-09-18T04:55:15.654Z"
         },
         {
           "id": "71d55504-ed71-42c3-a40f-3463b30c5c04",
@@ -100,15 +118,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-16T20:34:28.502Z"
-        },
-        {
-          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
-          "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-16T20:34:27.089Z"
         },
         {
           "id": "e262d4f2-cc99-4ebb-be7f-646e5bfde1da",
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-08-31T18:36:01.346Z"
-        },
-        {
-          "id": "fb2cb18b-4433-4f64-8922-d6aa1be4b7ad",
-          "title": "update the worklogs for July for Stepehen Bosse <> Yelp",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-08-31T15:57:17.904Z"
         }
       ]
     }
