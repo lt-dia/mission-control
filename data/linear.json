@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "c1e4e1ff-f21c-4c41-a6f4-27175edc8755",
+          "title": "SMB Agent project selection opens persistent blank page for empty project key",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-18T14:51:50.996Z"
+        },
+        {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
           "title": "Email Template Audit & ASM Categorization",
           "state": {
@@ -46,15 +55,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-17T21:47:36.231Z"
-        },
-        {
-          "id": "c1e4e1ff-f21c-4c41-a6f4-27175edc8755",
-          "title": "SMB Agent project selection opens persistent blank page for empty project key",
-          "state": {
-            "name": "Triage"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-17T20:14:54.452Z"
         },
         {
           "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
