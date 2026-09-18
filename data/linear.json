@@ -3,6 +3,42 @@
     "issues": {
       "nodes": [
         {
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email Template Audit & ASM Categorization",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-09-18T04:55:15.654Z"
+        },
+        {
+          "id": "71d55504-ed71-42c3-a40f-3463b30c5c04",
+          "title": "Final SMB email copy applied",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-18T04:54:09.142Z"
+        },
+        {
+          "id": "2d850bf0-f643-4a8e-8069-5b689a1f8680",
+          "title": "Extend talent dashboard message bell to engagement rooms",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 4,
+          "updatedAt": "2026-09-18T04:53:08.350Z"
+        },
+        {
+          "id": "4be569ab-32b1-450e-b89c-b7be83c32e50",
+          "title": "Include the engagement best-practices guide in kickoff emails",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-18T04:53:05.463Z"
+        },
+        {
           "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
           "title": "SMB | Keep project messages and files together, with private Agent chats separate",
           "state": {
@@ -264,15 +300,6 @@
           "updatedAt": "2026-09-05T04:47:07.101Z"
         },
         {
-          "id": "2d850bf0-f643-4a8e-8069-5b689a1f8680",
-          "title": "Extend talent dashboard message bell to engagement rooms",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 4,
-          "updatedAt": "2026-09-05T03:41:52.498Z"
-        },
-        {
           "id": "05bcb57f-4cc3-49be-93be-70611af7ef67",
           "title": "SMB pre-hire messaging: clients can talk to an attorney before hiring (shipped)",
           "state": {
@@ -318,15 +345,6 @@
           "updatedAt": "2026-09-03T20:37:14.700Z"
         },
         {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email Template Audit & ASM Categorization",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 4,
-          "updatedAt": "2026-09-03T18:06:49.925Z"
-        },
-        {
           "id": "6c5e7d82-2c2c-447b-92ec-625276254685",
           "title": "Decouple Apply eligibility from profile completion and make phone non-blocking",
           "state": {
@@ -370,15 +388,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-09-02T01:23:09.912Z"
-        },
-        {
-          "id": "4be569ab-32b1-450e-b89c-b7be83c32e50",
-          "title": "Include the engagement best-practices guide in kickoff emails",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-01T20:34:08.253Z"
         },
         {
           "id": "73e839d1-0c21-4348-afe8-49591e3a74f4",
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-08-31T15:57:17.904Z"
-        },
-        {
-          "id": "e3de6ced-779a-4d9b-9a5f-78c9d7591fec",
-          "title": "Add PTO hours submission on the LT website",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-08-28T21:00:44.913Z"
         }
       ]
     }
