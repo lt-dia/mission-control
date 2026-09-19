@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "a2c03d04-66fb-47c6-82ad-37583f757f9f",
+          "title": "Messaging reliability (persistence, reconnect, presence)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-18T22:12:26.145Z"
+        },
+        {
+          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
+          "title": "SMB | Simplify interactions and validate Agent/app parity",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-18T22:12:25.682Z"
+        },
+        {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
           "title": "Email Template Audit & ASM Categorization",
           "state": {
@@ -106,15 +124,6 @@
           "title": "Opportunity feed should filter by talent's practice areas and specialization",
           "state": {
             "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-16T20:34:28.502Z"
-        },
-        {
-          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
-          "title": "SMB | Simplify interactions and validate Agent/app parity",
-          "state": {
-            "name": "In Progress"
           },
           "priority": 2,
           "updatedAt": "2026-09-16T20:34:28.502Z"
@@ -441,15 +450,6 @@
             "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-08-31T18:36:01.346Z"
-        },
-        {
-          "id": "7b757348-258c-4bba-8630-b848158b77d6",
-          "title": "Upfront (Prepaid) Hours Balance in Dashboard + Low Balance Alerts",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
           "updatedAt": "2026-08-31T18:36:01.346Z"
         }
       ]
