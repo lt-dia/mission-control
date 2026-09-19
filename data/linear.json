@@ -3,6 +3,60 @@
     "issues": {
       "nodes": [
         {
+          "id": "fa2d49c2-8bc4-429f-9eb1-bef02081e41a",
+          "title": "DocuSign Template Versioning & msa_template_version on Engagement",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-19T06:58:06.433Z"
+        },
+        {
+          "id": "cbb82f79-eb38-4f0f-b26c-b6d5dd073356",
+          "title": "sow_only_allowed Flag — Admin UI & Company Settings",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-19T06:58:06.357Z"
+        },
+        {
+          "id": "90563ca2-2303-4f18-a831-9de32b49a7db",
+          "title": "SOW Extensions & Renewals UI Flow",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-19T06:58:06.254Z"
+        },
+        {
+          "id": "71caf724-7b21-4eec-951c-ead86ce6c196",
+          "title": "Rate Change Amendment Flow",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-19T06:58:06.185Z"
+        },
+        {
+          "id": "6668e500-1ca9-440b-b470-5478778a896e",
+          "title": "Platform Services Agreement (Template 309) — Merge & Fission Labs UI",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-19T06:58:06.104Z"
+        },
+        {
+          "id": "09302e25-1095-4586-a51d-960489766cb2",
+          "title": "Multiple SOWs Under Same MSA — UI for MSA Selection",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-19T06:58:06.005Z"
+        },
+        {
           "id": "a2c03d04-66fb-47c6-82ad-37583f757f9f",
           "title": "Messaging reliability (persistence, reconnect, presence)",
           "state": {
@@ -397,60 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-02T04:17:19.041Z"
-        },
-        {
-          "id": "5a127b12-fac2-4cb4-9c36-2aa2c3f7e91b",
-          "title": "Fix Opp 4340 mobile role details and preserve apply context",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-09-02T01:23:09.912Z"
-        },
-        {
-          "id": "73e839d1-0c21-4348-afe8-49591e3a74f4",
-          "title": "Let talent finish SMB engagements from the engagements list",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-08-31T21:50:21.927Z"
-        },
-        {
-          "id": "2b895970-1f49-4423-a7a6-b362abdee6f3",
-          "title": "Restore client dashboard access for Applied Intuition contact",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-08-31T20:35:27.404Z"
-        },
-        {
-          "id": "f116d71a-d727-4d01-86a2-d4225a890564",
-          "title": "SMB Lawtrader Onboarding Intake",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-08-31T20:35:20.983Z"
-        },
-        {
-          "id": "13a40997-7f8c-437a-a480-c81a446e4ab3",
-          "title": "Offline Agreement & Extension Fields on Engagement — Migration",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-08-31T20:31:15.077Z"
-        },
-        {
-          "id": "93b8a803-e854-43e4-8b3e-5327f5d022db",
-          "title": "[SPIKE] Upfront Hours Tracker - Research & Estimation",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-08-31T18:36:01.346Z"
         }
       ]
     }
