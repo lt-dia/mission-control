@@ -3,13 +3,58 @@
     "issues": {
       "nodes": [
         {
+          "id": "d4fc34b1-a048-4a85-b637-d34c46435254",
+          "title": "Repair and track high-value Quora links",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-21T20:34:09.454Z"
+        },
+        {
+          "id": "c3be22dc-3e8c-43d4-a48f-36db7eeab684",
+          "title": "SMB talent | Prototype open-work discovery inside Lawtrades Agent",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-21T20:34:08.017Z"
+        },
+        {
           "id": "8e428dd1-520f-4a38-83e2-5780433c5902",
           "title": "SMB talent | One project dashboard before and after hiring, with meetings",
           "state": {
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-09-21T16:08:15.768Z"
+          "updatedAt": "2026-09-21T20:34:07.162Z"
+        },
+        {
+          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
+          "title": "SMB | Simplify interactions and validate Agent/app parity",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-21T20:34:06.358Z"
+        },
+        {
+          "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
+          "title": "SMB Analytics | Track position creation through messaging and signed hires",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-21T20:34:05.866Z"
+        },
+        {
+          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
+          "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-21T20:34:04.480Z"
         },
         {
           "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
@@ -23,15 +68,6 @@
         {
           "id": "76d10b34-d52b-4dda-957f-f1b98a50c42f",
           "title": "Let SMB clients request and track interviews inside pre-hire message rooms",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-21T16:08:15.768Z"
-        },
-        {
-          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
-          "title": "SMB | Simplify interactions and validate Agent/app parity",
           "state": {
             "name": "In Progress"
           },
@@ -120,15 +156,6 @@
           "updatedAt": "2026-09-18T20:37:57.881Z"
         },
         {
-          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
-          "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-18T20:37:51.896Z"
-        },
-        {
           "id": "c1e4e1ff-f21c-4c41-a6f4-27175edc8755",
           "title": "SMB Agent project selection opens persistent blank page for empty project key",
           "state": {
@@ -183,15 +210,6 @@
           "updatedAt": "2026-09-16T20:34:44.415Z"
         },
         {
-          "id": "c3be22dc-3e8c-43d4-a48f-36db7eeab684",
-          "title": "SMB talent | Prototype open-work discovery inside Lawtrades Agent",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-16T20:34:28.502Z"
-        },
-        {
           "id": "7606b0f7-3f1e-4e54-bb2d-5ae586d80a89",
           "title": "Opportunity feed should filter by talent's practice areas and specialization",
           "state": {
@@ -235,15 +253,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-15T21:47:00.258Z"
-        },
-        {
-          "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
-          "title": "SMB Analytics | Track position creation through messaging and signed hires",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-15T12:12:54.702Z"
         },
         {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-03T14:28:02.240Z"
-        },
-        {
-          "id": "8809feb8-642d-4c42-b02f-33f615833292",
-          "title": "Restore shortlist and archive controls for fixed-fee roles",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-02T20:36:10.049Z"
         }
       ]
     }
