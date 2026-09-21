@@ -3,6 +3,42 @@
     "issues": {
       "nodes": [
         {
+          "id": "8e428dd1-520f-4a38-83e2-5780433c5902",
+          "title": "SMB talent | One project dashboard before and after hiring, with meetings",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-21T16:08:15.768Z"
+        },
+        {
+          "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
+          "title": "SMB | Keep project messages and files together, with private Agent chats separate",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-21T16:08:15.768Z"
+        },
+        {
+          "id": "76d10b34-d52b-4dda-957f-f1b98a50c42f",
+          "title": "Let SMB clients request and track interviews inside pre-hire message rooms",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-21T16:08:15.768Z"
+        },
+        {
+          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
+          "title": "SMB | Simplify interactions and validate Agent/app parity",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-21T16:08:15.768Z"
+        },
+        {
           "id": "fa2d49c2-8bc4-429f-9eb1-bef02081e41a",
           "title": "DocuSign Template Versioning & msa_template_version on Engagement",
           "state": {
@@ -64,15 +100,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-18T22:12:26.145Z"
-        },
-        {
-          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
-          "title": "SMB | Simplify interactions and validate Agent/app parity",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-18T22:12:25.682Z"
         },
         {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
@@ -138,15 +165,6 @@
           "updatedAt": "2026-09-18T04:53:05.463Z"
         },
         {
-          "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
-          "title": "SMB | Keep project messages and files together, with private Agent chats separate",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-17T21:47:36.231Z"
-        },
-        {
           "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
           "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
           "state": {
@@ -199,15 +217,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-15T22:57:08.779Z"
-        },
-        {
-          "id": "76d10b34-d52b-4dda-957f-f1b98a50c42f",
-          "title": "Let SMB clients request and track interviews inside pre-hire message rooms",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-15T22:57:03.455Z"
         },
         {
           "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-02T20:36:10.049Z"
-        },
-        {
-          "id": "a8bc2398-f151-47fd-a478-3c03089e0762",
-          "title": "SMB AI entry /ltai remains blank through session end",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-02T04:17:19.041Z"
         }
       ]
     }
