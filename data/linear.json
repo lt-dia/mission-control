@@ -3,6 +3,42 @@
     "issues": {
       "nodes": [
         {
+          "id": "d4fc34b1-a048-4a85-b637-d34c46435254",
+          "title": "Repair and track high-value Quora links",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-22T20:37:03.237Z"
+        },
+        {
+          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
+          "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-22T20:37:02.755Z"
+        },
+        {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-22T20:37:02.239Z"
+        },
+        {
+          "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
+          "title": "SMB Analytics | Track position creation through messaging and signed hires",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-22T20:29:12.255Z"
+        },
+        {
           "id": "6620ee80-fc59-4317-8e3b-570c20a4de49",
           "title": "SMB Hire blocked by missing client company at lead creation",
           "state": {
@@ -39,15 +75,6 @@
           "updatedAt": "2026-09-22T18:45:14.924Z"
         },
         {
-          "id": "d4fc34b1-a048-4a85-b637-d34c46435254",
-          "title": "Repair and track high-value Quora links",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-21T20:34:09.454Z"
-        },
-        {
           "id": "c3be22dc-3e8c-43d4-a48f-36db7eeab684",
           "title": "SMB talent | Prototype open-work discovery inside Lawtrades Agent",
           "state": {
@@ -73,24 +100,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-21T20:34:06.358Z"
-        },
-        {
-          "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
-          "title": "SMB Analytics | Track position creation through messaging and signed hires",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-21T20:34:05.866Z"
-        },
-        {
-          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
-          "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-21T20:34:04.480Z"
         },
         {
           "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
@@ -289,15 +298,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-15T21:47:00.258Z"
-        },
-        {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-14T20:35:12.974Z"
         },
         {
           "id": "07b88f1b-ebd8-408c-9ef8-b112c7f35961",
