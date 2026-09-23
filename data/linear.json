@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
+          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-23T18:01:14.782Z"
+        },
+        {
+          "id": "9479bdb4-8bf0-46d9-a758-69036d63c11c",
+          "title": "Fixed-fee Hire opens Agent with empty position and candidate IDs",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-23T18:01:14.619Z"
+        },
+        {
+          "id": "6620ee80-fc59-4317-8e3b-570c20a4de49",
+          "title": "SMB Hire blocked by missing client company at lead creation",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-23T18:00:34.808Z"
+        },
+        {
           "id": "a8bc2398-f151-47fd-a478-3c03089e0762",
           "title": "SMB AI entry /ltai remains blank through session end",
           "state": {
@@ -46,15 +73,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-22T20:29:12.255Z"
-        },
-        {
-          "id": "6620ee80-fc59-4317-8e3b-570c20a4de49",
-          "title": "SMB Hire blocked by missing client company at lead creation",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-22T19:59:05.641Z"
         },
         {
           "id": "576849f3-7d26-4f08-9aa4-4e2734d38189",
@@ -246,15 +264,6 @@
           "updatedAt": "2026-09-18T04:53:05.463Z"
         },
         {
-          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
-          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-17T19:58:47.095Z"
-        },
-        {
           "id": "c5b2ec17-465f-416f-922d-7eab922d72fb",
           "title": "SMB | Open shared hire links in the correct company project",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-04T15:19:46.354Z"
-        },
-        {
-          "id": "2c74a87d-8af3-4bcf-94e2-7430337e95c5",
-          "title": "Make traditional hire-flow DocuSign reliable and add verified alerting",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-03T23:41:45.447Z"
         }
       ]
     }
