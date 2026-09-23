@@ -3,13 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
-          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
           "state": {
-            "name": "Done"
+            "name": "In Progress"
           },
-          "priority": 2,
-          "updatedAt": "2026-09-23T18:01:14.782Z"
+          "priority": 3,
+          "updatedAt": "2026-09-23T21:18:00.912Z"
         },
         {
           "id": "9479bdb4-8bf0-46d9-a758-69036d63c11c",
@@ -18,7 +18,7 @@
             "name": "Backlog"
           },
           "priority": 3,
-          "updatedAt": "2026-09-23T18:01:14.619Z"
+          "updatedAt": "2026-09-23T20:34:48.659Z"
         },
         {
           "id": "6620ee80-fc59-4317-8e3b-570c20a4de49",
@@ -27,7 +27,43 @@
             "name": "Backlog"
           },
           "priority": 2,
-          "updatedAt": "2026-09-23T18:00:34.808Z"
+          "updatedAt": "2026-09-23T20:34:48.659Z"
+        },
+        {
+          "id": "8e428dd1-520f-4a38-83e2-5780433c5902",
+          "title": "SMB talent | One project dashboard before and after hiring, with meetings",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-23T20:34:47.224Z"
+        },
+        {
+          "id": "d4fc34b1-a048-4a85-b637-d34c46435254",
+          "title": "Repair and track high-value Quora links",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-23T20:34:46.416Z"
+        },
+        {
+          "id": "1f1868fe-5d66-4ed5-a46d-470531909b6d",
+          "title": "Require unique phone verification for new signups without blocking existing accounts",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-23T20:34:04.153Z"
+        },
+        {
+          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
+          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-23T18:01:14.782Z"
         },
         {
           "id": "a8bc2398-f151-47fd-a478-3c03089e0762",
@@ -39,15 +75,6 @@
           "updatedAt": "2026-09-23T14:40:54.342Z"
         },
         {
-          "id": "d4fc34b1-a048-4a85-b637-d34c46435254",
-          "title": "Repair and track high-value Quora links",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-22T20:37:03.237Z"
-        },
-        {
           "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
           "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
           "state": {
@@ -55,15 +82,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-22T20:37:02.755Z"
-        },
-        {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-22T20:37:02.239Z"
         },
         {
           "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
@@ -109,15 +127,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-21T20:34:08.017Z"
-        },
-        {
-          "id": "8e428dd1-520f-4a38-83e2-5780433c5902",
-          "title": "SMB talent | One project dashboard before and after hiring, with meetings",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-21T20:34:07.162Z"
         },
         {
           "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
@@ -442,15 +451,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-09-04T20:37:19.097Z"
-        },
-        {
-          "id": "409e649c-2e88-4925-8eee-f54c0e43e15b",
-          "title": "Public opportunity 4389 renders a blank page",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-04T15:19:46.354Z"
         }
       ]
     }
