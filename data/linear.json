@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "43ce4abe-8182-4d2d-9dbb-ca5c43a3aa6d",
+          "title": "Job application project details briefly fail on position 4475 (HTTP 444)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-24T16:39:11.396Z"
+        },
+        {
           "id": "7446c533-8064-48e0-bf32-ea98ec31a814",
           "title": "SMB Agent entry shows app-load fallback after /ltai navigation",
           "state": {
@@ -400,7 +409,7 @@
         },
         {
           "id": "5ddd082e-fbc8-4803-b1af-a4bca78d1eca",
-          "title": "Forest Admin auto-CRUD bypasses backend validation ��� silent data corruption + silent create failures",
+          "title": "Forest Admin auto-CRUD bypasses backend validation — silent data corruption + silent create failures",
           "state": {
             "name": "Done"
           },
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-07T17:35:09.111Z"
-        },
-        {
-          "id": "edaeb951-6d46-451b-9272-4666ad1bb52f",
-          "title": "Talent AI onboarding: resume upload fails for both Word and PDF",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-09-07T16:08:40.648Z"
         }
       ]
     }
