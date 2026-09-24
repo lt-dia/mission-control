@@ -9,7 +9,34 @@
             "name": "In Progress"
           },
           "priority": 3,
-          "updatedAt": "2026-09-23T21:18:00.912Z"
+          "updatedAt": "2026-09-23T23:23:46.042Z"
+        },
+        {
+          "id": "d11e36db-69e4-44f4-a85c-74da8ed5ad09",
+          "title": "SMB billing | Pay a fixed-fee project in agreed milestones",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-23T23:23:45.084Z"
+        },
+        {
+          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
+          "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-23T23:23:39.270Z"
+        },
+        {
+          "id": "1712454c-5a0a-466b-a8a4-2346cd8acf58",
+          "title": "SMB talent | Use an approved personal agreement to start a project",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-23T23:23:38.956Z"
         },
         {
           "id": "9479bdb4-8bf0-46d9-a758-69036d63c11c",
@@ -73,15 +100,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-23T14:40:54.342Z"
-        },
-        {
-          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
-          "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-22T20:37:02.755Z"
         },
         {
           "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
@@ -433,24 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-07T15:11:28.352Z"
-        },
-        {
-          "id": "07489aa9-e0e7-4562-923c-87a02027fb1d",
-          "title": "POST/PUT Position Error | Company_Client Missing Data",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-09-05T04:47:07.101Z"
-        },
-        {
-          "id": "05bcb57f-4cc3-49be-93be-70611af7ef67",
-          "title": "SMB pre-hire messaging: clients can talk to an attorney before hiring (shipped)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-09-04T20:37:19.097Z"
         }
       ]
     }
