@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "7446c533-8064-48e0-bf32-ea98ec31a814",
+          "title": "SMB Agent entry shows app-load fallback after /ltai navigation",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-24T04:12:36.469Z"
+        },
+        {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
           "title": "Take over help@lawtrades support coverage without duplicate replies",
           "state": {
@@ -391,7 +400,7 @@
         },
         {
           "id": "5ddd082e-fbc8-4803-b1af-a4bca78d1eca",
-          "title": "Forest Admin auto-CRUD bypasses backend validation — silent data corruption + silent create failures",
+          "title": "Forest Admin auto-CRUD bypasses backend validation ��� silent data corruption + silent create failures",
           "state": {
             "name": "Done"
           },
@@ -442,15 +451,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-09-07T16:08:40.648Z"
-        },
-        {
-          "id": "e83c05c3-3851-43ec-a4cb-7ff15a312aec",
-          "title": "Bid submission: Fix placeholder text and validation UX on cover letter field",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-07T15:11:28.352Z"
         }
       ]
     }
