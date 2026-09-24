@@ -9,7 +9,34 @@
             "name": "In Progress"
           },
           "priority": 3,
-          "updatedAt": "2026-09-24T18:02:14.374Z"
+          "updatedAt": "2026-09-24T22:52:15.477Z"
+        },
+        {
+          "id": "d11e36db-69e4-44f4-a85c-74da8ed5ad09",
+          "title": "SMB billing | Pay a fixed-fee project in agreed milestones",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-24T20:36:22.221Z"
+        },
+        {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-24T20:36:06.500Z"
+        },
+        {
+          "id": "3783a61c-26a9-4108-979e-1014b325a468",
+          "title": "Talent | Keep opportunity applications usable when payout is missing",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-24T20:36:04.763Z"
         },
         {
           "id": "43ce4abe-8182-4d2d-9dbb-ca5c43a3aa6d",
@@ -28,24 +55,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-24T04:12:36.469Z"
-        },
-        {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-23T23:23:46.042Z"
-        },
-        {
-          "id": "d11e36db-69e4-44f4-a85c-74da8ed5ad09",
-          "title": "SMB billing | Pay a fixed-fee project in agreed milestones",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-23T23:23:45.084Z"
         },
         {
           "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-08T13:47:41.227Z"
-        },
-        {
-          "id": "c8c17c22-747f-4c98-b926-24c70f697075",
-          "title": "Open SMB pre-hire message links immediately after sign-in",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-07T17:35:09.111Z"
         }
       ]
     }
