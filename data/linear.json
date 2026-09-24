@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
+          "title": "App | Recover safely when deployment JavaScript fails to load",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-24T18:02:14.374Z"
+        },
+        {
           "id": "43ce4abe-8182-4d2d-9dbb-ca5c43a3aa6d",
           "title": "Job application project details briefly fail on position 4475 (HTTP 444)",
           "state": {
@@ -441,15 +450,6 @@
             "name": "In Progress"
           },
           "priority": 3,
-          "updatedAt": "2026-09-07T17:35:09.111Z"
-        },
-        {
-          "id": "30f7f08e-6247-4d26-bef7-0c5c523d93b7",
-          "title": "Scope SMB projects conversationally through the Lawtrades Agent",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
           "updatedAt": "2026-09-07T17:35:09.111Z"
         }
       ]
