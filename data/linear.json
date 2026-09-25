@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "afbeed74-e8ba-47de-a2fb-567013b44d74",
+          "title": "SMB talent payout setup times out and leaves user before Stripe onboarding",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-25T21:59:08.686Z"
+        },
+        {
           "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
           "title": "App | Recover safely when deployment JavaScript fails to load",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-08T21:11:14.731Z"
-        },
-        {
-          "id": "6f3cb55a-2c78-4b2b-b540-c1ed64597413",
-          "title": "Show SMB clients matched lawyers immediately after publishing a position",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-08T20:34:25.663Z"
         }
       ]
     }
