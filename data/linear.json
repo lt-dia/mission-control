@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
+          "title": "SMB AI scope preparation repeatedly returns 502; approval card and lawyer matching never appear",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-26T02:44:50.579Z"
+        },
+        {
           "id": "afbeed74-e8ba-47de-a2fb-567013b44d74",
           "title": "SMB talent payout setup times out and leaves user before Stripe onboarding",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-12T05:00:10.872Z"
-        },
-        {
-          "id": "72098d01-09b1-46f6-8c0d-cfd0f7b0d2f0",
-          "title": "Conditional Questionnaire Clauses → Contract Template Mapping",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-08T21:11:14.731Z"
         }
       ]
     }
