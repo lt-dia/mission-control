@@ -3,13 +3,22 @@
     "issues": {
       "nodes": [
         {
+          "id": "d11e36db-69e4-44f4-a85c-74da8ed5ad09",
+          "title": "SMB billing | Pay a fixed-fee project in agreed milestones",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-27T20:35:15.322Z"
+        },
+        {
           "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
           "title": "SMB AI scope preparation repeatedly returns 502; approval card and lawyer matching never appear",
           "state": {
-            "name": "Done"
+            "name": "In Progress"
           },
           "priority": 2,
-          "updatedAt": "2026-09-27T15:18:25.036Z"
+          "updatedAt": "2026-09-27T20:35:14.627Z"
         },
         {
           "id": "afbeed74-e8ba-47de-a2fb-567013b44d74",
@@ -73,15 +82,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-25T20:36:14.688Z"
-        },
-        {
-          "id": "d11e36db-69e4-44f4-a85c-74da8ed5ad09",
-          "title": "SMB billing | Pay a fixed-fee project in agreed milestones",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-25T20:36:11.400Z"
         },
         {
           "id": "3783a61c-26a9-4108-979e-1014b325a468",
