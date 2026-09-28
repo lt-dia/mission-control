@@ -9,7 +9,25 @@
             "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-09-27T23:43:14.634Z"
+          "updatedAt": "2026-09-28T13:42:39.347Z"
+        },
+        {
+          "id": "ccec1ca7-7508-4417-964e-0623a529271b",
+          "title": "Simplify talent navigation and conditionally show Rooms",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-28T13:12:59.410Z"
+        },
+        {
+          "id": "319b40e1-45ed-4df6-be47-e9c1034bf742",
+          "title": "Worklog submission times out twice with visible error in Agent-using session",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-28T13:12:24.680Z"
         },
         {
           "id": "d11e36db-69e4-44f4-a85c-74da8ed5ad09",
@@ -433,24 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-15T21:47:00.258Z"
-        },
-        {
-          "id": "07b88f1b-ebd8-408c-9ef8-b112c7f35961",
-          "title": "Restore interrupted SMB conversations and help Brown Ballers reach lawyer checkout",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-14T18:49:31.090Z"
-        },
-        {
-          "id": "2b06eed2-5a5e-4eea-ba61-504a899348c3",
-          "title": "SMB | Reserve project payments until approved payout with Stripe Funds Segregation",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-12T05:00:10.872Z"
         }
       ]
     }
