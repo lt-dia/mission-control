@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_zfbYXTLkihjXPT",
+      "object": "note",
+      "title": "War Room",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-09-29T14:59:10.572Z",
+      "updated_at": "2026-09-29T15:27:02.445Z"
+    },
+    {
       "id": "not_ajPuKUVG2HTC4F",
       "object": "note",
       "title": "Lawtrades Demo Day Prep ",
@@ -9,7 +20,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-09-28T20:32:01.245Z",
-      "updated_at": "2026-09-28T20:43:49.725Z"
+      "updated_at": "2026-09-29T14:59:10.550Z"
     },
     {
       "id": "not_VyZJk6u956SdFO",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-09-24T17:29:27.819Z",
       "updated_at": "2026-09-24T18:03:04.910Z"
-    },
-    {
-      "id": "not_YVqV067GSKgZhr",
-      "object": "note",
-      "title": "War Room",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-09-24T15:00:04.495Z",
-      "updated_at": "2026-09-24T18:03:04.947Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0yNFQxNTowMDowNC40OTVaIiwibGFzdF9kb2NfaWQiOiJmOTJlNjA0My0zNDRlLTQyM2YtODVmZC01YTM4ZDNiZTZmYmIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0yNFQxNzoyOToyNy44MTlaIiwibGFzdF9kb2NfaWQiOiJjMTczNmFiZS04ZmI5LTQwOWEtYTRhNy0xZDUzYTkwMDc1ZjcifQ"
 }

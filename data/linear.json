@@ -9,7 +9,25 @@
             "name": "Backlog"
           },
           "priority": 3,
-          "updatedAt": "2026-09-29T03:50:20.381Z"
+          "updatedAt": "2026-09-29T17:35:41.940Z"
+        },
+        {
+          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
+          "title": "SMB | Simplify interactions and validate Agent/app parity",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-29T16:30:29.579Z"
+        },
+        {
+          "id": "be1efa5f-5e90-4e6a-bfa8-c67094b67d4d",
+          "title": "Talent referrals fail to load roles when requesting a referral link",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 1,
+          "updatedAt": "2026-09-29T15:38:07.240Z"
         },
         {
           "id": "574d8fb3-126d-4fc1-be29-8bd954c9c97d",
@@ -18,7 +36,7 @@
             "name": "Backlog"
           },
           "priority": 2,
-          "updatedAt": "2026-09-29T03:01:07.558Z"
+          "updatedAt": "2026-09-29T15:22:05.560Z"
         },
         {
           "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
@@ -27,7 +45,34 @@
             "name": "In Progress"
           },
           "priority": 3,
-          "updatedAt": "2026-09-29T00:45:37.117Z"
+          "updatedAt": "2026-09-29T13:55:06.741Z"
+        },
+        {
+          "id": "2bc6faac-da55-4bce-a6a2-f2a091d98404",
+          "title": "SMB Agent cannot advance project draft after approval and timing details are supplied",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-29T13:53:44.746Z"
+        },
+        {
+          "id": "924fbc89-4f24-4c77-8070-57c29b68927b",
+          "title": "Talent profile Background save fails when practiceAreaId is undefined",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 1,
+          "updatedAt": "2026-09-29T13:49:39.573Z"
+        },
+        {
+          "id": "ccec1ca7-7508-4417-964e-0623a529271b",
+          "title": "Simplify talent navigation and conditionally show Rooms",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-29T13:44:26.001Z"
         },
         {
           "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
@@ -73,15 +118,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-28T20:35:10.780Z"
-        },
-        {
-          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
-          "title": "SMB | Simplify interactions and validate Agent/app parity",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-28T20:35:10.289Z"
         },
         {
           "id": "b74d254f-4354-433b-8f2e-5fc62eb5f9ee",
@@ -136,15 +172,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-28T15:45:45.392Z"
-        },
-        {
-          "id": "ccec1ca7-7508-4417-964e-0623a529271b",
-          "title": "Simplify talent navigation and conditionally show Rooms",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-28T13:12:59.410Z"
         },
         {
           "id": "afbeed74-e8ba-47de-a2fb-567013b44d74",
@@ -424,33 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-18T04:53:05.463Z"
-        },
-        {
-          "id": "c5b2ec17-465f-416f-922d-7eab922d72fb",
-          "title": "SMB | Open shared hire links in the correct company project",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-16T20:34:44.415Z"
-        },
-        {
-          "id": "7606b0f7-3f1e-4e54-bb2d-5ae586d80a89",
-          "title": "Opportunity feed should filter by talent's practice areas and specialization",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-16T20:34:28.502Z"
-        },
-        {
-          "id": "e262d4f2-cc99-4ebb-be7f-646e5bfde1da",
-          "title": "Replace the in-house question when posting a position",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-15T23:22:45.498Z"
         }
       ]
     }
