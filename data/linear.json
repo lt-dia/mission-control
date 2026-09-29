@@ -9,7 +9,25 @@
             "name": "Backlog"
           },
           "priority": 3,
-          "updatedAt": "2026-09-28T23:17:40.229Z"
+          "updatedAt": "2026-09-29T03:50:20.381Z"
+        },
+        {
+          "id": "574d8fb3-126d-4fc1-be29-8bd954c9c97d",
+          "title": "SMB post-signing “View Project messages” opens unavailable Agent project",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-29T03:01:07.558Z"
+        },
+        {
+          "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
+          "title": "App | Recover safely when deployment JavaScript fails to load",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-29T00:45:37.117Z"
         },
         {
           "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
@@ -100,24 +118,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-28T20:33:15.781Z"
-        },
-        {
-          "id": "574d8fb3-126d-4fc1-be29-8bd954c9c97d",
-          "title": "SMB post-signing “View Project messages” opens unavailable Agent project",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-28T20:33:15.425Z"
-        },
-        {
-          "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
-          "title": "App | Recover safely when deployment JavaScript fails to load",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-28T18:46:10.170Z"
         },
         {
           "id": "43ce4abe-8182-4d2d-9dbb-ca5c43a3aa6d",
