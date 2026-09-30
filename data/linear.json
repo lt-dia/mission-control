@@ -9,7 +9,70 @@
             "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-09-30T19:09:43.972Z"
+          "updatedAt": "2026-09-30T20:35:26.937Z"
+        },
+        {
+          "id": "45b4a09f-607e-4067-a4b5-d9c945ad8b45",
+          "title": "Direct full-time hiring | Map the Sales process and identify the smallest working flow",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-30T20:35:26.937Z"
+        },
+        {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-30T20:35:26.659Z"
+        },
+        {
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email systems | Map active sends and plan the cleanup",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-09-30T20:35:25.894Z"
+        },
+        {
+          "id": "42c008dc-6e49-4e53-a027-de91dd130a09",
+          "title": "Refresh the Marketplace demo environment for Sales",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-30T20:34:48.962Z"
+        },
+        {
+          "id": "0c1374ec-7cd4-463c-a2c7-19d1d4e09a0f",
+          "title": "Help talent discover the featured DataAnnotation opportunity",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-30T20:34:47.704Z"
+        },
+        {
+          "id": "319b40e1-45ed-4df6-be47-e9c1034bf742",
+          "title": "Worklog submission times out twice with visible error in Agent-using session",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-30T20:03:30.858Z"
+        },
+        {
+          "id": "574d8fb3-126d-4fc1-be29-8bd954c9c97d",
+          "title": "SMB post-signing “View Project messages” opens unavailable Agent project",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-09-30T20:03:11.905Z"
         },
         {
           "id": "be1efa5f-5e90-4e6a-bfa8-c67094b67d4d",
@@ -28,24 +91,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-30T17:33:37.096Z"
-        },
-        {
-          "id": "45b4a09f-607e-4067-a4b5-d9c945ad8b45",
-          "title": "Direct full-time hiring | Map the Sales process and identify the smallest working flow",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-30T17:25:10.281Z"
-        },
-        {
-          "id": "574d8fb3-126d-4fc1-be29-8bd954c9c97d",
-          "title": "SMB post-signing “View Project messages” opens unavailable Agent project",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-30T17:25:08.957Z"
         },
         {
           "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
@@ -156,24 +201,6 @@
           "updatedAt": "2026-09-30T16:22:18.662Z"
         },
         {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-30T16:22:18.394Z"
-        },
-        {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email systems | Map active sends and plan the cleanup",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 4,
-          "updatedAt": "2026-09-30T16:22:17.676Z"
-        },
-        {
           "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
           "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
           "state": {
@@ -262,15 +289,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-30T15:50:28.179Z"
-        },
-        {
-          "id": "319b40e1-45ed-4df6-be47-e9c1034bf742",
-          "title": "Worklog submission times out twice with visible error in Agent-using session",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-30T05:33:23.255Z"
         },
         {
           "id": "e964194a-8f4a-4de4-badd-48ce0f5436bf",
@@ -433,24 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-22T18:46:27.138Z"
-        },
-        {
-          "id": "fa2d49c2-8bc4-429f-9eb1-bef02081e41a",
-          "title": "DocuSign Template Versioning & msa_template_version on Engagement",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-19T06:58:06.433Z"
-        },
-        {
-          "id": "cbb82f79-eb38-4f0f-b26c-b6d5dd073356",
-          "title": "sow_only_allowed Flag — Admin UI & Company Settings",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-19T06:58:06.357Z"
         }
       ]
     }
