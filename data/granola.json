@@ -1,6 +1,28 @@
 {
   "notes": [
     {
+      "id": "not_i17hqM9ARKKmZq",
+      "object": "note",
+      "title": "Training plan and marketplace focus for Hell Week with Brian",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-09-30T18:00:52.002Z",
+      "updated_at": "2026-09-30T18:50:46.876Z"
+    },
+    {
+      "id": "not_F1PcEtA5X3e6CX",
+      "object": "note",
+      "title": "Role transition: email systems and support ownership with Brian Ryu",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-09-30T14:59:54.353Z",
+      "updated_at": "2026-09-30T18:00:49.731Z"
+    },
+    {
       "id": "not_zfbYXTLkihjXPT",
       "object": "note",
       "title": "War Room",
@@ -9,7 +31,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-09-29T14:59:10.572Z",
-      "updated_at": "2026-09-29T15:27:02.445Z"
+      "updated_at": "2026-09-30T14:59:52.565Z"
     },
     {
       "id": "not_ajPuKUVG2HTC4F",
@@ -32,30 +54,8 @@
       },
       "created_at": "2026-09-25T14:59:30.380Z",
       "updated_at": "2026-09-28T16:45:16.291Z"
-    },
-    {
-      "id": "not_hFxr8AxfH2XXAh",
-      "object": "note",
-      "title": "D&D session: Wailing Caves and the pleasure dome",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-09-25T00:12:59.581Z",
-      "updated_at": "2026-09-25T13:20:32.423Z"
-    },
-    {
-      "id": "not_6iFfkZTgg4xMvP",
-      "object": "note",
-      "title": "eng",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-09-24T17:29:27.819Z",
-      "updated_at": "2026-09-24T18:03:04.910Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0yNFQxNzoyOToyNy44MTlaIiwibGFzdF9kb2NfaWQiOiJjMTczNmFiZS04ZmI5LTQwOWEtYTRhNy0xZDUzYTkwMDc1ZjcifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0yNVQxNDo1OTozMC4zODBaIiwibGFzdF9kb2NfaWQiOiJjMzk0NmEzZi1iYjAyLTRlNTAtOWZkOC02MjFmMGRkNmQwZGIifQ"
 }
