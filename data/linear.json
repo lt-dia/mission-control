@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "319b40e1-45ed-4df6-be47-e9c1034bf742",
+          "title": "Worklog submission times out twice with visible error in Agent-using session",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-30T05:33:23.255Z"
+        },
+        {
           "id": "e964194a-8f4a-4de4-badd-48ce0f5436bf",
           "title": "SMB Agent shows processing error after scope confirmation, then recovers on follow-up",
           "state": {
@@ -190,15 +199,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-28T16:01:15.396Z"
-        },
-        {
-          "id": "319b40e1-45ed-4df6-be47-e9c1034bf742",
-          "title": "Worklog submission times out twice with visible error in Agent-using session",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-28T15:45:45.392Z"
         },
         {
           "id": "afbeed74-e8ba-47de-a2fb-567013b44d74",
