@@ -57,24 +57,6 @@
           "updatedAt": "2026-09-29T20:37:55.111Z"
         },
         {
-          "id": "924fbc89-4f24-4c77-8070-57c29b68927b",
-          "title": "Talent profile Background save fails when practiceAreaId is undefined",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 1,
-          "updatedAt": "2026-09-29T19:53:49.632Z"
-        },
-        {
-          "id": "f3d53a09-55ca-4675-85f7-79bb5ea1cd0f",
-          "title": "Talent work-experience save partially succeeds while practice-area and skill links fail",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-29T19:53:47.016Z"
-        },
-        {
           "id": "be1efa5f-5e90-4e6a-bfa8-c67094b67d4d",
           "title": "Talent referrals fail to load roles when requesting a referral link",
           "state": {
@@ -451,6 +433,24 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-18T14:51:50.996Z"
+        },
+        {
+          "id": "71d55504-ed71-42c3-a40f-3463b30c5c04",
+          "title": "Final SMB email copy applied",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-18T04:54:09.142Z"
+        },
+        {
+          "id": "4be569ab-32b1-450e-b89c-b7be83c32e50",
+          "title": "Include the engagement best-practices guide in kickoff emails",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-09-18T04:53:05.463Z"
         }
       ]
     }
