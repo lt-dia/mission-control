@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_tBb72Cwy97LzLm",
+      "object": "note",
+      "title": "Sales Team - stand up",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-01T16:59:50.619Z",
+      "updated_at": "2026-10-01T17:35:31.317Z"
+    },
+    {
       "id": "not_c3LN4X00oWFldr",
       "object": "note",
       "title": "War Room",
@@ -9,7 +20,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-10-01T14:59:04.974Z",
-      "updated_at": "2026-10-01T15:42:51.036Z"
+      "updated_at": "2026-10-01T16:59:13.160Z"
     },
     {
       "id": "not_i17hqM9ARKKmZq",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-09-29T14:59:10.572Z",
       "updated_at": "2026-09-30T14:59:52.565Z"
-    },
-    {
-      "id": "not_ajPuKUVG2HTC4F",
-      "object": "note",
-      "title": "Lawtrades Demo Day Prep ",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-09-28T20:32:01.245Z",
-      "updated_at": "2026-09-29T14:59:10.550Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0yOFQyMDozMjowMS4yNDVaIiwibGFzdF9kb2NfaWQiOiIyNzY1YzBiNC1iYTUzLTRkNGUtYjNjNS0xOTYzMWM3OTQ0N2YifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0yOVQxNDo1OToxMC41NzJaIiwibGFzdF9kb2NfaWQiOiI1MWFlOGUwMC1mMDFhLTRlNWQtYTFiYi1iZDU4NTJkZjc1YzIifQ"
 }

@@ -3,6 +3,105 @@
     "issues": {
       "nodes": [
         {
+          "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
+          "title": "App | Recover safely when deployment JavaScript fails to load",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-01T21:10:51.706Z"
+        },
+        {
+          "id": "c9fa5e44-120a-4a7e-b966-a07971fd11e7",
+          "title": "Show the correct rate on client and talent interview views",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-01T21:01:26.850Z"
+        },
+        {
+          "id": "d6fd9de2-541d-467b-92fd-cb378ba7713f",
+          "title": "Hotfix: restore Forest margin updates for position 4518 (45% → 37%)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-01T20:37:58.933Z"
+        },
+        {
+          "id": "2900b67d-e440-4739-acb9-9a8593810429",
+          "title": "Fix invited Coinflow client left pending after registration",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-01T20:37:58.502Z"
+        },
+        {
+          "id": "bf6c32fa-d386-44af-a503-2f05c9f825fd",
+          "title": "Surface “Suggested Next Action” to clients post-match",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-01T20:37:58.208Z"
+        },
+        {
+          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
+          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-01T20:37:58.208Z"
+        },
+        {
+          "id": "0c1374ec-7cd4-463c-a2c7-19d1d4e09a0f",
+          "title": "Help talent discover the featured DataAnnotation opportunity",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-01T20:37:56.242Z"
+        },
+        {
+          "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
+          "title": "Record success fees without initiating a new charge",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-01T20:37:19.307Z"
+        },
+        {
+          "id": "42c008dc-6e49-4e53-a027-de91dd130a09",
+          "title": "Refresh the Marketplace demo environment for Sales",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-01T20:37:16.138Z"
+        },
+        {
+          "id": "397b6c0d-82b3-4834-90a1-44b3887698a5",
+          "title": "AI-onboarded talent profile save shows error after slow or uncertain request",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-01T19:38:26.858Z"
+        },
+        {
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email systems | Map active sends and plan the cleanup",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-10-01T17:53:42.132Z"
+        },
+        {
           "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
           "title": "SMB Agent follow-up requests repeatedly fail for newly registered user",
           "state": {
@@ -57,33 +156,6 @@
           "updatedAt": "2026-09-30T20:35:26.659Z"
         },
         {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email systems | Map active sends and plan the cleanup",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 4,
-          "updatedAt": "2026-09-30T20:35:25.894Z"
-        },
-        {
-          "id": "42c008dc-6e49-4e53-a027-de91dd130a09",
-          "title": "Refresh the Marketplace demo environment for Sales",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-30T20:34:48.962Z"
-        },
-        {
-          "id": "0c1374ec-7cd4-463c-a2c7-19d1d4e09a0f",
-          "title": "Help talent discover the featured DataAnnotation opportunity",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-30T20:34:47.704Z"
-        },
-        {
           "id": "319b40e1-45ed-4df6-be47-e9c1034bf742",
           "title": "Worklog submission times out twice with visible error in Agent-using session",
           "state": {
@@ -109,15 +181,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-30T17:25:06.280Z"
-        },
-        {
-          "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
-          "title": "App | Recover safely when deployment JavaScript fails to load",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-30T16:22:18.662Z"
         },
         {
           "id": "d4fc34b1-a048-4a85-b637-d34c46435254",
@@ -388,69 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-25T20:36:14.688Z"
-        },
-        {
-          "id": "3783a61c-26a9-4108-979e-1014b325a468",
-          "title": "Talent | Keep opportunity applications usable when payout is missing",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-25T19:27:24.934Z"
-        },
-        {
-          "id": "9479bdb4-8bf0-46d9-a758-69036d63c11c",
-          "title": "Fixed-fee Hire opens Agent with empty position and candidate IDs",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-25T18:23:30.305Z"
-        },
-        {
-          "id": "7446c533-8064-48e0-bf32-ea98ec31a814",
-          "title": "SMB Agent entry shows app-load fallback after /ltai navigation",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-24T04:12:36.469Z"
-        },
-        {
-          "id": "6620ee80-fc59-4317-8e3b-570c20a4de49",
-          "title": "SMB Hire blocked by missing client company at lead creation",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-23T20:34:48.659Z"
-        },
-        {
-          "id": "a8bc2398-f151-47fd-a478-3c03089e0762",
-          "title": "SMB AI entry /ltai remains blank through session end",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-23T14:40:54.342Z"
-        },
-        {
-          "id": "fcb0a987-f261-43b1-b185-b7fecdd17a68",
-          "title": "Interview Send Request fails with Unknown Position or Talent in chat-using session",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-22T18:46:27.138Z"
-        },
-        {
-          "id": "fa2d49c2-8bc4-429f-9eb1-bef02081e41a",
-          "title": "DocuSign Template Versioning & msa_template_version on Engagement",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-19T06:58:06.433Z"
         }
       ]
     }
