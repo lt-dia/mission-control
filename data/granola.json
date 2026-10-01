@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_c3LN4X00oWFldr",
+      "object": "note",
+      "title": "War Room",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-01T14:59:04.974Z",
+      "updated_at": "2026-10-01T15:42:51.036Z"
+    },
+    {
       "id": "not_i17hqM9ARKKmZq",
       "object": "note",
       "title": "Training plan and marketplace focus for Hell Week with Brian",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-09-28T20:32:01.245Z",
       "updated_at": "2026-09-29T14:59:10.550Z"
-    },
-    {
-      "id": "not_VyZJk6u956SdFO",
-      "object": "note",
-      "title": "War Room",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-09-25T14:59:30.380Z",
-      "updated_at": "2026-09-28T16:45:16.291Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0yNVQxNDo1OTozMC4zODBaIiwibGFzdF9kb2NfaWQiOiJjMzk0NmEzZi1iYjAyLTRlNTAtOWZkOC02MjFmMGRkNmQwZGIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0yOFQyMDozMjowMS4yNDVaIiwibGFzdF9kb2NfaWQiOiIyNzY1YzBiNC1iYTUzLTRkNGUtYjNjNS0xOTYzMWM3OTQ0N2YifQ"
 }

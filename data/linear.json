@@ -3,13 +3,31 @@
     "issues": {
       "nodes": [
         {
-          "id": "be1efa5f-5e90-4e6a-bfa8-c67094b67d4d",
-          "title": "Talent referrals fail to load roles when requesting a referral link",
+          "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
+          "title": "SMB Agent follow-up requests repeatedly fail for newly registered user",
           "state": {
             "name": "Backlog"
           },
-          "priority": 1,
-          "updatedAt": "2026-10-01T08:37:08.023Z"
+          "priority": 3,
+          "updatedAt": "2026-10-01T16:22:19.414Z"
+        },
+        {
+          "id": "c1e4e1ff-f21c-4c41-a6f4-27175edc8755",
+          "title": "SMB Agent project selection opens persistent blank page for empty project key",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-01T16:08:00.310Z"
+        },
+        {
+          "id": "e964194a-8f4a-4de4-badd-48ce0f5436bf",
+          "title": "SMB Agent shows processing error after scope confirmation, then recovers on follow-up",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-01T15:36:57.775Z"
         },
         {
           "id": "5775ccae-4784-4855-bbe9-7ded1e069006",
@@ -84,15 +102,6 @@
           "updatedAt": "2026-09-30T20:03:11.905Z"
         },
         {
-          "id": "c1e4e1ff-f21c-4c41-a6f4-27175edc8755",
-          "title": "SMB Agent project selection opens persistent blank page for empty project key",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-30T17:33:37.096Z"
-        },
-        {
           "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
           "title": "SMB AI scope preparation repeatedly returns 502; approval card and lawyer matching never appear",
           "state": {
@@ -104,15 +113,6 @@
         {
           "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
           "title": "App | Recover safely when deployment JavaScript fails to load",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-30T16:22:18.662Z"
-        },
-        {
-          "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
-          "title": "SMB Agent follow-up requests repeatedly fail for newly registered user",
           "state": {
             "name": "Backlog"
           },
@@ -291,15 +291,6 @@
           "updatedAt": "2026-09-30T15:50:28.179Z"
         },
         {
-          "id": "e964194a-8f4a-4de4-badd-48ce0f5436bf",
-          "title": "SMB Agent shows processing error after scope confirmation, then recovers on follow-up",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-29T23:02:44.884Z"
-        },
-        {
           "id": "d11e36db-69e4-44f4-a85c-74da8ed5ad09",
           "title": "SMB billing | Pay a fixed-fee project in agreed milestones",
           "state": {
@@ -451,6 +442,15 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-22T18:46:27.138Z"
+        },
+        {
+          "id": "fa2d49c2-8bc4-429f-9eb1-bef02081e41a",
+          "title": "DocuSign Template Versioning & msa_template_version on Engagement",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-09-19T06:58:06.433Z"
         }
       ]
     }
