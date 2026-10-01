@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "be1efa5f-5e90-4e6a-bfa8-c67094b67d4d",
+          "title": "Talent referrals fail to load roles when requesting a referral link",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 1,
+          "updatedAt": "2026-10-01T08:37:08.023Z"
+        },
+        {
           "id": "5775ccae-4784-4855-bbe9-7ded1e069006",
           "title": "update client dashboard: name misspelled",
           "state": {
@@ -73,15 +82,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-30T20:03:11.905Z"
-        },
-        {
-          "id": "be1efa5f-5e90-4e6a-bfa8-c67094b67d4d",
-          "title": "Talent referrals fail to load roles when requesting a referral link",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 1,
-          "updatedAt": "2026-09-30T17:33:37.608Z"
         },
         {
           "id": "c1e4e1ff-f21c-4c41-a6f4-27175edc8755",
