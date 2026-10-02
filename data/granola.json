@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_NmdD01MNWSrnAb",
+      "object": "note",
+      "title": "Wedding planning with Elana Walker",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-02T21:16:57.210Z",
+      "updated_at": "2026-10-02T22:02:52.596Z"
+    },
+    {
       "id": "not_upEO6AgRJ10vMo",
       "object": "note",
       "title": "Roses and thorns with the D&D crew",
@@ -9,7 +20,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-10-02T00:21:56.650Z",
-      "updated_at": "2026-10-02T04:14:21.060Z"
+      "updated_at": "2026-10-02T21:16:57.195Z"
     },
     {
       "id": "not_tBb72Cwy97LzLm",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-09-30T18:00:52.002Z",
       "updated_at": "2026-09-30T19:31:32.630Z"
-    },
-    {
-      "id": "not_F1PcEtA5X3e6CX",
-      "object": "note",
-      "title": "Role transition: email systems and support ownership with Brian Ryu",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-09-30T14:59:54.353Z",
-      "updated_at": "2026-09-30T18:00:49.731Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0zMFQxNDo1OTo1NC4zNTNaIiwibGFzdF9kb2NfaWQiOiI2MTQyMDk0Ni1kMDdmLTRhNzQtOGIwNy02OWNjZGViMDFjNjIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0zMFQxODowMDo1Mi4wMDJaIiwibGFzdF9kb2NfaWQiOiI5ODM4MGU0ZC02N2Q4LTQ5NzgtOTc0Mi03NDlkZjU1OTgyNWEifQ"
 }

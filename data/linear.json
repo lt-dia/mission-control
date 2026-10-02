@@ -3,13 +3,76 @@
     "issues": {
       "nodes": [
         {
+          "id": "2900b67d-e440-4739-acb9-9a8593810429",
+          "title": "Fix invited Coinflow client left pending after registration",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-02T21:34:56.920Z"
+        },
+        {
+          "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
+          "title": "Record success fees without initiating a new charge",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-02T20:36:06.795Z"
+        },
+        {
           "id": "c9fa5e44-120a-4a7e-b966-a07971fd11e7",
           "title": "Show the correct rate on client and talent interview views",
           "state": {
             "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-10-02T15:14:23.868Z"
+          "updatedAt": "2026-10-02T20:36:05.807Z"
+        },
+        {
+          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
+          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-02T20:35:40.082Z"
+        },
+        {
+          "id": "42c008dc-6e49-4e53-a027-de91dd130a09",
+          "title": "Refresh the Marketplace demo environment for Sales",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-02T20:35:35.492Z"
+        },
+        {
+          "id": "1f1868fe-5d66-4ed5-a46d-470531909b6d",
+          "title": "Require unique phone verification for new signups without blocking existing accounts",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-02T20:35:33.375Z"
+        },
+        {
+          "id": "3837db96-4ecd-4fb7-addd-3528065cfe50",
+          "title": "AI onboarding profile creation repeatedly returns 401 while UI appears signed in",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-02T19:43:38.995Z"
+        },
+        {
+          "id": "397b6c0d-82b3-4834-90a1-44b3887698a5",
+          "title": "AI-onboarded talent profile save shows error after slow or uncertain request",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-02T19:42:13.205Z"
         },
         {
           "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
@@ -28,15 +91,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-02T00:02:44.500Z"
-        },
-        {
-          "id": "397b6c0d-82b3-4834-90a1-44b3887698a5",
-          "title": "AI-onboarded talent profile save shows error after slow or uncertain request",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-02T00:02:20.003Z"
         },
         {
           "id": "07b88f1b-ebd8-408c-9ef8-b112c7f35961",
@@ -66,26 +120,8 @@
           "updatedAt": "2026-10-01T20:37:58.933Z"
         },
         {
-          "id": "2900b67d-e440-4739-acb9-9a8593810429",
-          "title": "Fix invited Coinflow client left pending after registration",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-01T20:37:58.502Z"
-        },
-        {
           "id": "bf6c32fa-d386-44af-a503-2f05c9f825fd",
           "title": "Surface “Suggested Next Action” to clients post-match",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-01T20:37:58.208Z"
-        },
-        {
-          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
-          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
           "state": {
             "name": "Todo"
           },
@@ -100,24 +136,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-01T20:37:56.242Z"
-        },
-        {
-          "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
-          "title": "Record success fees without initiating a new charge",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-01T20:37:19.307Z"
-        },
-        {
-          "id": "42c008dc-6e49-4e53-a027-de91dd130a09",
-          "title": "Refresh the Marketplace demo environment for Sales",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-01T20:37:16.138Z"
         },
         {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
@@ -433,24 +451,6 @@
           },
           "priority": 4,
           "updatedAt": "2026-09-28T20:35:12.210Z"
-        },
-        {
-          "id": "43ce4abe-8182-4d2d-9dbb-ca5c43a3aa6d",
-          "title": "Job application project details briefly fail on position 4475 (HTTP 444)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-28T16:01:15.396Z"
-        },
-        {
-          "id": "afbeed74-e8ba-47de-a2fb-567013b44d74",
-          "title": "SMB talent payout setup times out and leaves user before Stripe onboarding",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-25T21:59:08.686Z"
         }
       ]
     }
