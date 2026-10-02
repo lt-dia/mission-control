@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "c9fa5e44-120a-4a7e-b966-a07971fd11e7",
+          "title": "Show the correct rate on client and talent interview views",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-02T15:14:23.868Z"
+        },
+        {
           "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
           "title": "App | Recover safely when deployment JavaScript fails to load",
           "state": {
@@ -46,15 +55,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-01T21:38:15.404Z"
-        },
-        {
-          "id": "c9fa5e44-120a-4a7e-b966-a07971fd11e7",
-          "title": "Show the correct rate on client and talent interview views",
-          "state": {
-            "name": "In Review"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-01T21:01:26.850Z"
         },
         {
           "id": "d6fd9de2-541d-467b-92fd-cb378ba7713f",
