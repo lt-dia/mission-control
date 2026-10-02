@@ -1,6 +1,17 @@
 {
   "notes": [
     {
+      "id": "not_upEO6AgRJ10vMo",
+      "object": "note",
+      "title": "Roses and thorns with the D&D crew",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-02T00:21:56.650Z",
+      "updated_at": "2026-10-02T04:14:21.060Z"
+    },
+    {
       "id": "not_tBb72Cwy97LzLm",
       "object": "note",
       "title": "Sales Team - stand up",
@@ -43,19 +54,8 @@
       },
       "created_at": "2026-09-30T14:59:54.353Z",
       "updated_at": "2026-09-30T18:00:49.731Z"
-    },
-    {
-      "id": "not_zfbYXTLkihjXPT",
-      "object": "note",
-      "title": "War Room",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-09-29T14:59:10.572Z",
-      "updated_at": "2026-09-30T14:59:52.565Z"
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0yOVQxNDo1OToxMC41NzJaIiwibGFzdF9kb2NfaWQiOiI1MWFlOGUwMC1mMDFhLTRlNWQtYTFiYi1iZDU4NTJkZjc1YzIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0wOS0zMFQxNDo1OTo1NC4zNTNaIiwibGFzdF9kb2NfaWQiOiI2MTQyMDk0Ni1kMDdmLTRhNzQtOGIwNy02OWNjZGViMDFjNjIifQ"
 }
