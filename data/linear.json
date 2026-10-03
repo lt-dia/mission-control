@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "1f1868fe-5d66-4ed5-a46d-470531909b6d",
+          "title": "Require unique phone verification for new signups without blocking existing accounts",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-03T20:33:06.711Z"
+        },
+        {
           "id": "2900b67d-e440-4739-acb9-9a8593810429",
           "title": "Fix invited Coinflow client left pending after registration",
           "state": {
@@ -46,15 +55,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-02T20:35:35.492Z"
-        },
-        {
-          "id": "1f1868fe-5d66-4ed5-a46d-470531909b6d",
-          "title": "Require unique phone verification for new signups without blocking existing accounts",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-02T20:35:33.375Z"
         },
         {
           "id": "3837db96-4ecd-4fb7-addd-3528065cfe50",
