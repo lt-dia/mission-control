@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
+          "title": "App | Recover safely when deployment JavaScript fails to load",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-05T02:45:34.351Z"
+        },
+        {
+          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
+          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-05T01:01:14.442Z"
+        },
+        {
           "id": "1f1868fe-5d66-4ed5-a46d-470531909b6d",
           "title": "Require unique phone verification for new signups without blocking existing accounts",
           "state": {
@@ -73,15 +91,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-02T19:42:13.205Z"
-        },
-        {
-          "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
-          "title": "App | Recover safely when deployment JavaScript fails to load",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-02T12:56:32.933Z"
         },
         {
           "id": "a49c1847-6101-4800-9d96-e5f4f7d3cd3a",
@@ -406,15 +415,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-29T20:37:57.541Z"
-        },
-        {
-          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
-          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-29T19:23:58.895Z"
         },
         {
           "id": "576849f3-7d26-4f08-9aa4-4e2734d38189",
