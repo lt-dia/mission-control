@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
+          "title": "SMB AI scope preparation repeatedly returns 502; approval card and lawyer matching never appear",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-06T13:09:11.925Z"
+        },
+        {
+          "id": "6c271c9f-01c6-4997-984e-ee248f4ca03a",
+          "title": "SMB AI entry: Google sign-in times out and shows Network Error",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-06T12:29:51.667Z"
+        },
+        {
+          "id": "bb9fd58a-fd0d-4cdf-99f4-bbec2c3b8ba8",
+          "title": "Please merge company dashboards",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-06T10:05:38.677Z"
+        },
+        {
           "id": "273c2e46-d9ec-4336-a3c1-a36b546f185d",
           "title": "ICON | Route non-attorney hires to the correct agreement template",
           "state": {
@@ -19,15 +46,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-05T23:57:01.129Z"
-        },
-        {
-          "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
-          "title": "SMB AI scope preparation repeatedly returns 502; approval card and lawyer matching never appear",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-05T22:11:03.240Z"
         },
         {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
@@ -433,24 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-30T15:50:29.942Z"
-        },
-        {
-          "id": "c3be22dc-3e8c-43d4-a48f-36db7eeab684",
-          "title": "SMB talent | Prototype open-work discovery inside Lawtrades Agent",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-30T15:50:29.235Z"
-        },
-        {
-          "id": "61c2035f-7b3e-4518-bc87-bb5b58cacff1",
-          "title": "SMB | Simplify interactions and validate Agent/app parity",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-30T15:50:28.179Z"
         }
       ]
     }
