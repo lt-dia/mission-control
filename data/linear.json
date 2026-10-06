@@ -3,13 +3,31 @@
     "issues": {
       "nodes": [
         {
-          "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
-          "title": "SMB AI scope preparation repeatedly returns 502; approval card and lawyer matching never appear",
+          "id": "273c2e46-d9ec-4336-a3c1-a36b546f185d",
+          "title": "ICON | Route non-attorney hires to the correct agreement template",
           "state": {
             "name": "In Progress"
           },
           "priority": 2,
-          "updatedAt": "2026-10-05T21:10:36.591Z"
+          "updatedAt": "2026-10-06T00:34:08.489Z"
+        },
+        {
+          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
+          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-05T23:57:01.129Z"
+        },
+        {
+          "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
+          "title": "SMB AI scope preparation repeatedly returns 502; approval card and lawyer matching never appear",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-05T22:11:03.240Z"
         },
         {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
@@ -37,15 +55,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-05T20:35:56.655Z"
-        },
-        {
-          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
-          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-05T20:35:56.236Z"
         },
         {
           "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
@@ -82,15 +91,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-05T20:35:03.058Z"
-        },
-        {
-          "id": "273c2e46-d9ec-4336-a3c1-a36b546f185d",
-          "title": "ICON | Route non-attorney hires to the correct agreement template",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-05T20:34:58.523Z"
         },
         {
           "id": "f81f8601-cb61-46cb-997b-af438f980821",
