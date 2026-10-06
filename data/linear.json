@@ -3,13 +3,22 @@
     "issues": {
       "nodes": [
         {
-          "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
-          "title": "App | Recover safely when deployment JavaScript fails to load",
+          "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
+          "title": "SMB AI scope preparation repeatedly returns 502; approval card and lawyer matching never appear",
           "state": {
-            "name": "Backlog"
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-06T21:06:34.279Z"
+        },
+        {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "In Progress"
           },
           "priority": 3,
-          "updatedAt": "2026-10-06T19:47:38.435Z"
+          "updatedAt": "2026-10-06T20:38:22.570Z"
         },
         {
           "id": "5128b43d-c552-472d-a278-2f4fc22d8c3f",
@@ -18,16 +27,61 @@
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-10-06T19:45:53.301Z"
+          "updatedAt": "2026-10-06T20:38:22.119Z"
         },
         {
-          "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
-          "title": "SMB AI scope preparation repeatedly returns 502; approval card and lawyer matching never appear",
+          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
+          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
           "state": {
-            "name": "Done"
+            "name": "In Progress"
           },
-          "priority": 2,
-          "updatedAt": "2026-10-06T19:33:09.873Z"
+          "priority": 0,
+          "updatedAt": "2026-10-06T20:38:21.851Z"
+        },
+        {
+          "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
+          "title": "Record success fees without initiating a new charge",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-06T20:38:15.228Z"
+        },
+        {
+          "id": "372dad84-7872-4bc8-a5b9-8745d1c8e6d2",
+          "title": "Insights | Show consistent talent details and accurate invoice CSV exports",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-06T20:38:11.503Z"
+        },
+        {
+          "id": "979b7490-7a06-4723-a03a-100fc8c39e2e",
+          "title": "SMB | Keep checkout controls reachable on the Candidates page",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-06T20:38:08.435Z"
+        },
+        {
+          "id": "1561ee34-06e4-4e50-a93f-cabc438ab5d5",
+          "title": "SMB | Keep unsigned agreements aligned with saved company and talent details",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-06T20:38:03.099Z"
+        },
+        {
+          "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
+          "title": "App | Recover safely when deployment JavaScript fails to load",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-06T19:47:38.435Z"
         },
         {
           "id": "6c271c9f-01c6-4997-984e-ee248f4ca03a",
@@ -57,24 +111,6 @@
           "updatedAt": "2026-10-06T00:34:08.489Z"
         },
         {
-          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
-          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-05T23:57:01.129Z"
-        },
-        {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-05T20:35:57.469Z"
-        },
-        {
           "id": "859932d8-65d2-4f21-b688-7f8776b4b3ce",
           "title": "Explore DocuSign-to-dashboard sync — auto-populate dashboard from manual contracts",
           "state": {
@@ -91,15 +127,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-05T20:35:56.655Z"
-        },
-        {
-          "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
-          "title": "Record success fees without initiating a new charge",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-05T20:35:55.845Z"
         },
         {
           "id": "bef54aba-76e4-4333-89b8-0c095dc4f643",
@@ -424,33 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-09-30T16:21:01.872Z"
-        },
-        {
-          "id": "fb525a7d-7b93-4fb2-91d0-7447647248b7",
-          "title": "SMB Analytics | Track position creation through messaging and signed hires",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-30T16:21:01.039Z"
-        },
-        {
-          "id": "604b131a-c2ec-446c-b29c-5c8ec0c13c42",
-          "title": "SMB drop-off dashboard and re-engagement nudge emails",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-30T16:21:00.296Z"
-        },
-        {
-          "id": "1b5a009a-5d03-4812-8bd8-63967f358c3b",
-          "title": "Tell our stalled SMB leads they can now message attorneys",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 1,
-          "updatedAt": "2026-09-30T16:20:57.844Z"
         }
       ]
     }
