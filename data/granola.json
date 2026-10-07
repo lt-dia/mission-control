@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_2VhaTMGQnJvV1S",
+      "object": "note",
+      "title": "Finance",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-07T01:33:42.619Z",
+      "updated_at": "2026-10-07T02:59:59.582Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_W8hit4CKzPLqx3",
       "object": "note",
       "title": "War Room",
@@ -47,20 +59,8 @@
       "created_at": "2026-10-05T14:59:09.890Z",
       "updated_at": "2026-10-06T15:00:05.587Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_NmdD01MNWSrnAb",
-      "object": "note",
-      "title": "Wedding planning with Elana Walker",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-02T21:16:57.210Z",
-      "updated_at": "2026-10-05T12:26:12.140Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0wMlQyMToxNjo1Ny4yMTBaIiwibGFzdF9kb2NfaWQiOiJiNmJiZDViYi02NzJhLTQ5ZDYtYmUxZC0wZTQwNWUyNjA4NzYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0wNVQxNDo1OTowOS44OTBaIiwibGFzdF9kb2NfaWQiOiJhNDk1YWUwMC1kODg5LTQ4MTYtYmRmZC1iYzIyNDRhNzVmOWUifQ"
 }
