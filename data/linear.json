@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
+          "title": "App | Recover safely when deployment JavaScript fails to load",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-07T16:35:33.348Z"
+        },
+        {
           "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
           "title": "SMB AI scope preparation repeatedly returns 502; approval card and lawyer matching never appear",
           "state": {
@@ -73,15 +82,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-06T20:38:03.099Z"
-        },
-        {
-          "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
-          "title": "App | Recover safely when deployment JavaScript fails to load",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-06T19:47:38.435Z"
         },
         {
           "id": "6c271c9f-01c6-4997-984e-ee248f4ca03a",
