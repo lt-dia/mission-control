@@ -3,6 +3,51 @@
     "issues": {
       "nodes": [
         {
+          "id": "da2a1191-6d87-46bf-80f3-6802fe3e3228",
+          "title": "Active Lawtrader not seeing email notification for interview request",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-07T19:46:02.361Z"
+        },
+        {
+          "id": "c4354452-c67a-4604-9d81-5699a519cd31",
+          "title": "[Spike] Apple Business Register & SMS Sender Verification",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 4,
+          "updatedAt": "2026-10-07T19:46:02.361Z"
+        },
+        {
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email systems | Map active sends and plan the cleanup",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-10-07T19:46:02.361Z"
+        },
+        {
+          "id": "e94a56b5-94f4-49f4-82e9-1f8d44e8d8ab",
+          "title": "Investigate interview SMS trust and email spam placement from Sean's feedback",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-07T19:46:01.923Z"
+        },
+        {
+          "id": "93b12134-25a2-4df3-afa3-65fd9509d0cb",
+          "title": "connect client account to existing client comapny dashboard",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-10-07T19:01:53.481Z"
+        },
+        {
           "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
           "title": "App | Recover safely when deployment JavaScript fails to load",
           "state": {
@@ -282,15 +327,6 @@
           "updatedAt": "2026-10-01T20:37:56.242Z"
         },
         {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email systems | Map active sends and plan the cleanup",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 4,
-          "updatedAt": "2026-10-01T17:53:42.132Z"
-        },
-        {
           "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
           "title": "SMB Agent follow-up requests repeatedly fail for newly registered user",
           "state": {
@@ -415,42 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-30T16:22:18.662Z"
-        },
-        {
-          "id": "6d34566b-165b-47d0-b5d7-27acf7bb2e74",
-          "title": "Client-paper agreements | Upload, review, sign, and replace Lawtrades paper",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-30T16:21:11.576Z"
-        },
-        {
-          "id": "76d10b34-d52b-4dda-957f-f1b98a50c42f",
-          "title": "Let SMB clients request and track interviews inside pre-hire message rooms",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-30T16:21:10.481Z"
-        },
-        {
-          "id": "1712454c-5a0a-466b-a8a4-2346cd8acf58",
-          "title": "SMB talent | Use an approved personal agreement to start a project",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-30T16:21:06.829Z"
-        },
-        {
-          "id": "772511ee-cc29-4bb7-b232-6f1f6922a392",
-          "title": "SMB | Keep project messages and files together, with private Agent chats separate",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-30T16:21:01.872Z"
         }
       ]
     }

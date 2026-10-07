@@ -25,6 +25,18 @@
       "deleted_at": null
     },
     {
+      "id": "not_MW9FQEvXJ1XTJS",
+      "object": "note",
+      "title": "High lvl metrics q3",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-06T20:03:30.357Z",
+      "updated_at": "2026-10-07T20:04:36.918Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_W8hit4CKzPLqx3",
       "object": "note",
       "title": "War Room",
@@ -47,20 +59,8 @@
       "created_at": "2026-10-06T11:59:08.327Z",
       "updated_at": "2026-10-06T14:31:40.335Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_sTezLznaPjvw5n",
-      "object": "note",
-      "title": "eng",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-05T20:32:01.529Z",
-      "updated_at": "2026-10-06T11:59:08.317Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0wNVQyMDozMjowMS41MjlaIiwibGFzdF9kb2NfaWQiOiI1OWM4MGUwMy1jYzk1LTRmNTUtODI2YS1iZTEyMDc5YjlkOTUifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0wNlQxMTo1OTowOC4zMjdaIiwibGFzdF9kb2NfaWQiOiI3NmRmOTRhYi1mZjc4LTQzNTYtODc2My1hYTYxYzQ0MDRiNGEifQ"
 }
