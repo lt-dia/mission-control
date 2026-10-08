@@ -9,7 +9,97 @@
             "name": "Backlog"
           },
           "priority": 3,
-          "updatedAt": "2026-10-08T13:48:31.691Z"
+          "updatedAt": "2026-10-08T21:28:17.750Z"
+        },
+        {
+          "id": "52f60e70-1962-466e-8bbe-6491efb1e627",
+          "title": "Evaluate practical answer limits for talent applications",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-08T20:36:07.296Z"
+        },
+        {
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email systems | Map active sends and plan the cleanup",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-10-08T20:33:07.504Z"
+        },
+        {
+          "id": "bca8ae11-5318-41a1-9659-e20f7cbd8012",
+          "title": "Screener questions: required/optional flags + configurable answer length (shipped)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-10-08T20:33:07.499Z"
+        },
+        {
+          "id": "d70bf540-4753-4529-8e03-6d7a97871e0b",
+          "title": "Info missing in forest- SMB engagement",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-08T20:33:00.310Z"
+        },
+        {
+          "id": "ea748c7d-992f-42af-8409-636fce0f6bbf",
+          "title": "Restore company and client details for Cross River positions in Forest",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-08T20:32:58.527Z"
+        },
+        {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-08T20:31:37.953Z"
+        },
+        {
+          "id": "979b7490-7a06-4723-a03a-100fc8c39e2e",
+          "title": "SMB | Keep checkout controls reachable on the Candidates page",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-08T20:31:34.197Z"
+        },
+        {
+          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
+          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-08T20:31:31.411Z"
+        },
+        {
+          "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
+          "title": "Record success fees without initiating a new charge",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-08T20:31:26.550Z"
+        },
+        {
+          "id": "1f1868fe-5d66-4ed5-a46d-470531909b6d",
+          "title": "Require unique phone verification for new signups without blocking existing accounts",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-08T17:44:55.427Z"
         },
         {
           "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
@@ -66,15 +156,6 @@
           "updatedAt": "2026-10-07T19:46:02.361Z"
         },
         {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email systems | Map active sends and plan the cleanup",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 4,
-          "updatedAt": "2026-10-07T19:46:02.361Z"
-        },
-        {
           "id": "93b12134-25a2-4df3-afa3-65fd9509d0cb",
           "title": "connect client account to existing client comapny dashboard",
           "state": {
@@ -93,15 +174,6 @@
           "updatedAt": "2026-10-06T21:06:34.279Z"
         },
         {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-06T20:38:22.570Z"
-        },
-        {
           "id": "5128b43d-c552-472d-a278-2f4fc22d8c3f",
           "title": "Error prevents follow-up interview request from being sent",
           "state": {
@@ -111,24 +183,6 @@
           "updatedAt": "2026-10-06T20:38:22.119Z"
         },
         {
-          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
-          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-06T20:38:21.851Z"
-        },
-        {
-          "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
-          "title": "Record success fees without initiating a new charge",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-06T20:38:15.228Z"
-        },
-        {
           "id": "372dad84-7872-4bc8-a5b9-8745d1c8e6d2",
           "title": "Insights | Show consistent talent details and accurate invoice CSV exports",
           "state": {
@@ -136,15 +190,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-06T20:38:11.503Z"
-        },
-        {
-          "id": "979b7490-7a06-4723-a03a-100fc8c39e2e",
-          "title": "SMB | Keep checkout controls reachable on the Candidates page",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-06T20:38:08.435Z"
         },
         {
           "id": "1561ee34-06e4-4e50-a93f-cabc438ab5d5",
@@ -217,15 +262,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-05T20:35:04.323Z"
-        },
-        {
-          "id": "1f1868fe-5d66-4ed5-a46d-470531909b6d",
-          "title": "Require unique phone verification for new signups without blocking existing accounts",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-05T20:35:03.058Z"
         },
         {
           "id": "f81f8601-cb61-46cb-997b-af438f980821",
@@ -414,42 +450,6 @@
             "name": "Backlog"
           },
           "priority": 3,
-          "updatedAt": "2026-09-30T16:22:18.662Z"
-        },
-        {
-          "id": "c68ff63d-5dab-45cc-a7f4-555a47dc5f23",
-          "title": "Route SMB clients through marketplace intake and hiring",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-30T16:22:18.662Z"
-        },
-        {
-          "id": "82766ea3-084d-4039-9bc7-8c287ab8b1fe",
-          "title": "SMB position suggestions stall for 30 seconds before returning to Agent welcome",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-30T16:22:18.662Z"
-        },
-        {
-          "id": "5efe71bf-3cf0-4ff2-91f1-5fdf8272fd8c",
-          "title": "SMB-designation/flag at the client account level and Specific Hire Flow",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-30T16:22:18.662Z"
-        },
-        {
-          "id": "43690614-4477-4760-a507-22fb0f8104b2",
-          "title": "Insulet | Restore talent payout on roles 4479 and 4480 (40% margin) and block publishing roles without pricing",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
           "updatedAt": "2026-09-30T16:22:18.662Z"
         }
       ]
