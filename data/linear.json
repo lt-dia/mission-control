@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "ac79cd0a-12e3-469c-94fb-2b41b367478a",
+          "title": "LTAgent work-history query times out and retry remains generating",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-08T02:50:36.972Z"
+        },
+        {
+          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
+          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-08T02:39:10.823Z"
+        },
+        {
           "id": "da2a1191-6d87-46bf-80f3-6802fe3e3228",
           "title": "Active Lawtrader not seeing email notification for interview request",
           "state": {
@@ -28,15 +46,6 @@
           },
           "priority": 4,
           "updatedAt": "2026-10-07T19:46:02.361Z"
-        },
-        {
-          "id": "e94a56b5-94f4-49f4-82e9-1f8d44e8d8ab",
-          "title": "Investigate interview SMS trust and email spam placement from Sean's feedback",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-07T19:46:01.923Z"
         },
         {
           "id": "93b12134-25a2-4df3-afa3-65fd9509d0cb",
@@ -226,15 +235,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-10-05T14:49:53.757Z"
-        },
-        {
-          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
-          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-05T01:01:14.442Z"
         },
         {
           "id": "2900b67d-e440-4739-acb9-9a8593810429",
