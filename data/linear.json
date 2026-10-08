@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "397b6c0d-82b3-4834-90a1-44b3887698a5",
+          "title": "AI-onboarded talent profile save shows error after slow or uncertain request",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-08T13:48:31.691Z"
+        },
+        {
+          "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
+          "title": "App | Recover safely when deployment JavaScript fails to load",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-08T13:48:25.650Z"
+        },
+        {
+          "id": "ccec1ca7-7508-4417-964e-0623a529271b",
+          "title": "Simplify talent navigation and conditionally show Rooms",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-08T13:33:26.704Z"
+        },
+        {
           "id": "ac79cd0a-12e3-469c-94fb-2b41b367478a",
           "title": "LTAgent work-history query times out and retry remains generating",
           "state": {
@@ -55,15 +82,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-10-07T19:01:53.481Z"
-        },
-        {
-          "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
-          "title": "App | Recover safely when deployment JavaScript fails to load",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-07T16:35:33.348Z"
         },
         {
           "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
@@ -264,15 +282,6 @@
           "updatedAt": "2026-10-02T19:43:38.995Z"
         },
         {
-          "id": "397b6c0d-82b3-4834-90a1-44b3887698a5",
-          "title": "AI-onboarded talent profile save shows error after slow or uncertain request",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-02T19:42:13.205Z"
-        },
-        {
           "id": "a49c1847-6101-4800-9d96-e5f4f7d3cd3a",
           "title": "Honor Save retries create duplicate talent profile entries after timeouts",
           "state": {
@@ -437,15 +446,6 @@
         {
           "id": "43690614-4477-4760-a507-22fb0f8104b2",
           "title": "Insulet | Restore talent payout on roles 4479 and 4480 (40% margin) and block publishing roles without pricing",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-30T16:22:18.662Z"
-        },
-        {
-          "id": "07c9a936-ffd2-4dc1-9db8-1af83d2e1ee5",
-          "title": "Prevent AI position creation from rejecting weekly-hour estimates",
           "state": {
             "name": "Backlog"
           },

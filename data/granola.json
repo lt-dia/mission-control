@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_qScLMw2an0lnQP",
+      "object": "note",
+      "title": "Plugin UX flow and dashboard shortlist feature with Raad and Brian",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-08T14:26:14.960Z",
+      "updated_at": "2026-10-08T15:42:14.373Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_Jlk2ltxuDn7KYv",
       "object": "note",
       "title": "War Room",
@@ -9,7 +21,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-10-07T15:31:58.122Z",
-      "updated_at": "2026-10-07T15:55:06.115Z",
+      "updated_at": "2026-10-08T14:26:14.941Z",
       "deleted_at": null
     },
     {
@@ -47,20 +59,8 @@
       "created_at": "2026-10-06T15:00:05.598Z",
       "updated_at": "2026-10-06T20:03:29.526Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_t6yyMrrWmgfWTx",
-      "object": "note",
-      "title": "eng",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-06T11:59:08.327Z",
-      "updated_at": "2026-10-06T14:31:40.335Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0wNlQxMTo1OTowOC4zMjdaIiwibGFzdF9kb2NfaWQiOiI3NmRmOTRhYi1mZjc4LTQzNTYtODc2My1hYTYxYzQ0MDRiNGEifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0wNlQxNTowMDowNS41OThaIiwibGFzdF9kb2NfaWQiOiI0NGQwM2M3Mi05YzExLTQxNjAtYWU1MS03ZDk5NmEzMmEzNzAifQ"
 }
