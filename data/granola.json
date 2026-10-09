@@ -1,6 +1,30 @@
 {
   "notes": [
     {
+      "id": "not_IRoMGRAnOj53qd",
+      "object": "note",
+      "title": "Sales Team - stand up",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-09T15:59:54.075Z",
+      "updated_at": "2026-10-09T16:47:08.410Z",
+      "deleted_at": null
+    },
+    {
+      "id": "not_03zElEGMSaSAmT",
+      "object": "note",
+      "title": "War Room",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-09T14:59:07.782Z",
+      "updated_at": "2026-10-09T15:38:47.417Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_qScLMw2an0lnQP",
       "object": "note",
       "title": "Plugin UX flow and dashboard shortlist feature with Raad and Brian",
@@ -35,32 +59,8 @@
       "created_at": "2026-10-07T01:33:42.619Z",
       "updated_at": "2026-10-07T08:38:40.731Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_MW9FQEvXJ1XTJS",
-      "object": "note",
-      "title": "High lvl metrics q3",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-06T20:03:30.357Z",
-      "updated_at": "2026-10-07T20:04:36.918Z",
-      "deleted_at": null
-    },
-    {
-      "id": "not_W8hit4CKzPLqx3",
-      "object": "note",
-      "title": "War Room",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-06T15:00:05.598Z",
-      "updated_at": "2026-10-06T20:03:29.526Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0wNlQxNTowMDowNS41OThaIiwibGFzdF9kb2NfaWQiOiI0NGQwM2M3Mi05YzExLTQxNjAtYWU1MS03ZDk5NmEzMmEzNzAifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0wN1QwMTozMzo0Mi42MTlaIiwibGFzdF9kb2NfaWQiOiI0MWVhNTY0MS03OTYwLTQ3MTQtYTBiMi00OWNkMjI5ZGFhNDIifQ"
 }
