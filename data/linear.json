@@ -3,6 +3,42 @@
     "issues": {
       "nodes": [
         {
+          "id": "ed3e3712-fcd2-494a-a110-59c79f97c990",
+          "title": "SMB | Keep Forest engagement details complete and show completion-based payment schedules",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-09T15:20:36.434Z"
+        },
+        {
+          "id": "d70bf540-4753-4529-8e03-6d7a97871e0b",
+          "title": "Info missing in forest- SMB engagement",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-09T15:20:03.402Z"
+        },
+        {
+          "id": "5128b43d-c552-472d-a278-2f4fc22d8c3f",
+          "title": "Error prevents follow-up interview request from being sent",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-09T15:11:23.235Z"
+        },
+        {
+          "id": "afbeed74-e8ba-47de-a2fb-567013b44d74",
+          "title": "SMB talent payout setup times out and leaves user before Stripe onboarding",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-09T14:27:29.550Z"
+        },
+        {
           "id": "397b6c0d-82b3-4834-90a1-44b3887698a5",
           "title": "AI-onboarded talent profile save shows error after slow or uncertain request",
           "state": {
@@ -37,15 +73,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-10-08T20:33:07.499Z"
-        },
-        {
-          "id": "d70bf540-4753-4529-8e03-6d7a97871e0b",
-          "title": "Info missing in forest- SMB engagement",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-08T20:33:00.310Z"
         },
         {
           "id": "ea748c7d-992f-42af-8409-636fce0f6bbf",
@@ -172,15 +199,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-10-06T21:06:34.279Z"
-        },
-        {
-          "id": "5128b43d-c552-472d-a278-2f4fc22d8c3f",
-          "title": "Error prevents follow-up interview request from being sent",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-06T20:38:22.119Z"
         },
         {
           "id": "372dad84-7872-4bc8-a5b9-8745d1c8e6d2",
@@ -433,24 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-09-30T20:03:11.905Z"
-        },
-        {
-          "id": "d4fc34b1-a048-4a85-b637-d34c46435254",
-          "title": "Repair and track high-value Quora links",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-30T16:22:18.662Z"
-        },
-        {
-          "id": "c8c17c22-747f-4c98-b926-24c70f697075",
-          "title": "Open SMB pre-hire message links immediately after sign-in",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-09-30T16:22:18.662Z"
         }
       ]
     }
