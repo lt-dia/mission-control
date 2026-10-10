@@ -3,13 +3,85 @@
     "issues": {
       "nodes": [
         {
+          "id": "e964194a-8f4a-4de4-badd-48ce0f5436bf",
+          "title": "SMB Agent shows processing error after scope confirmation, then recovers on follow-up",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-09T23:28:59.484Z"
+        },
+        {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-09T20:34:04.379Z"
+        },
+        {
+          "id": "42c008dc-6e49-4e53-a027-de91dd130a09",
+          "title": "Refresh the Marketplace demo environment for Sales",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-09T20:34:01.649Z"
+        },
+        {
+          "id": "7b75a7cc-9bbb-4b0b-a6d5-146e952ac353",
+          "title": "Ops Admin Dashboard — multi-client account manager for Melissa",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-09T20:33:59.309Z"
+        },
+        {
+          "id": "cd0e367b-de2e-4698-93fb-ec62e7e4995e",
+          "title": "Improve manual-to-dashboard hiring flow — let ops trigger hiring from dashboard",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-09T20:33:58.868Z"
+        },
+        {
+          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
+          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-09T20:33:56.722Z"
+        },
+        {
+          "id": "5128b43d-c552-472d-a278-2f4fc22d8c3f",
+          "title": "Error prevents follow-up interview request from being sent",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-09T20:33:53.351Z"
+        },
+        {
+          "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
+          "title": "Record success fees without initiating a new charge",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-09T20:33:51.304Z"
+        },
+        {
           "id": "ed3e3712-fcd2-494a-a110-59c79f97c990",
           "title": "SMB | Keep Forest engagement details complete and show completion-based payment schedules",
           "state": {
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-10-09T19:30:52.756Z"
+          "updatedAt": "2026-10-09T20:14:23.099Z"
         },
         {
           "id": "d70bf540-4753-4529-8e03-6d7a97871e0b",
@@ -19,15 +91,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-09T15:35:29.749Z"
-        },
-        {
-          "id": "5128b43d-c552-472d-a278-2f4fc22d8c3f",
-          "title": "Error prevents follow-up interview request from being sent",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-09T15:11:23.235Z"
         },
         {
           "id": "afbeed74-e8ba-47de-a2fb-567013b44d74",
@@ -84,15 +147,6 @@
           "updatedAt": "2026-10-08T20:32:58.527Z"
         },
         {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-08T20:31:37.953Z"
-        },
-        {
           "id": "979b7490-7a06-4723-a03a-100fc8c39e2e",
           "title": "SMB | Keep checkout controls reachable on the Candidates page",
           "state": {
@@ -100,24 +154,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-08T20:31:34.197Z"
-        },
-        {
-          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
-          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-08T20:31:31.411Z"
-        },
-        {
-          "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
-          "title": "Record success fees without initiating a new charge",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-08T20:31:26.550Z"
         },
         {
           "id": "1f1868fe-5d66-4ed5-a46d-470531909b6d",
@@ -255,15 +291,6 @@
           "updatedAt": "2026-10-05T20:35:57.340Z"
         },
         {
-          "id": "42c008dc-6e49-4e53-a027-de91dd130a09",
-          "title": "Refresh the Marketplace demo environment for Sales",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-05T20:35:56.655Z"
-        },
-        {
           "id": "bef54aba-76e4-4333-89b8-0c095dc4f643",
           "title": "Sales promotion codes: enforce client eligibility and keep contract discounts aligned with billing",
           "state": {
@@ -271,15 +298,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-05T20:35:05.415Z"
-        },
-        {
-          "id": "cd0e367b-de2e-4698-93fb-ec62e7e4995e",
-          "title": "Improve manual-to-dashboard hiring flow — let ops trigger hiring from dashboard",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-05T20:35:04.323Z"
         },
         {
           "id": "f81f8601-cb61-46cb-997b-af438f980821",
@@ -408,15 +426,6 @@
           "updatedAt": "2026-10-01T16:08:00.310Z"
         },
         {
-          "id": "e964194a-8f4a-4de4-badd-48ce0f5436bf",
-          "title": "SMB Agent shows processing error after scope confirmation, then recovers on follow-up",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-01T15:36:57.775Z"
-        },
-        {
           "id": "5775ccae-4784-4855-bbe9-7ded1e069006",
           "title": "update client dashboard: name misspelled",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-09-30T20:03:30.858Z"
-        },
-        {
-          "id": "574d8fb3-126d-4fc1-be29-8bd954c9c97d",
-          "title": "SMB post-signing “View Project messages” opens unavailable Agent project",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-09-30T20:03:11.905Z"
         }
       ]
     }
