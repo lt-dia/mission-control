@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "5128b43d-c552-472d-a278-2f4fc22d8c3f",
+          "title": "Error prevents follow-up interview request from being sent",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-11T01:14:39.629Z"
+        },
+        {
           "id": "e964194a-8f4a-4de4-badd-48ce0f5436bf",
           "title": "SMB Agent shows processing error after scope confirmation, then recovers on follow-up",
           "state": {
@@ -55,15 +64,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-09T20:33:56.722Z"
-        },
-        {
-          "id": "5128b43d-c552-472d-a278-2f4fc22d8c3f",
-          "title": "Error prevents follow-up interview request from being sent",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-09T20:33:53.351Z"
         },
         {
           "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
