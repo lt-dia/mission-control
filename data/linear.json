@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "69eda365-1975-4b12-8fb5-c320bf56350f",
+          "title": "SMB | Make completed-project reviews easier and keep attorney notes private",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-12T11:00:30.436Z"
+        },
+        {
+          "id": "2388dfeb-452c-46ff-ab51-8e8bbe06f299",
+          "title": "[ENG-1760] Issue 3: Returning clients misclassified as new → wrong MSA vs SOW sent",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-12T05:48:17.707Z"
+        },
+        {
+          "id": "508a022e-be77-4ec9-91b4-ac5e65add335",
+          "title": "Pre-Signed MSA Upload Endpoint — Ops Upload Flow (Dropbox Scenario)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-12T05:45:12.272Z"
+        },
+        {
           "id": "ed3e3712-fcd2-494a-a110-59c79f97c990",
           "title": "SMB | Keep Forest engagement details complete and show completion-based payment schedules",
           "state": {
@@ -10,15 +37,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-11T20:30:49.523Z"
-        },
-        {
-          "id": "69eda365-1975-4b12-8fb5-c320bf56350f",
-          "title": "SMB | Make completed-project reviews easier and keep attorney notes private",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-11T20:30:04.399Z"
         },
         {
           "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
@@ -433,24 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-01T16:22:19.414Z"
-        },
-        {
-          "id": "c1e4e1ff-f21c-4c41-a6f4-27175edc8755",
-          "title": "SMB Agent project selection opens persistent blank page for empty project key",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-01T16:08:00.310Z"
-        },
-        {
-          "id": "5775ccae-4784-4855-bbe9-7ded1e069006",
-          "title": "update client dashboard: name misspelled",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-09-30T20:35:26.937Z"
         }
       ]
     }
