@@ -1,6 +1,42 @@
 {
   "notes": [
     {
+      "id": "not_PJfj7xjuktifXk",
+      "object": "note",
+      "title": "Lawtrades RFP automation pilot with monday.com FDE team",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-12T19:01:28.809Z",
+      "updated_at": "2026-10-12T20:01:10.572Z",
+      "deleted_at": null
+    },
+    {
+      "id": "not_ulqZmGzII4DDw6",
+      "object": "note",
+      "title": "Hell Week Final",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-12T17:09:08.689Z",
+      "updated_at": "2026-10-12T17:43:58.701Z",
+      "deleted_at": null
+    },
+    {
+      "id": "not_yXxcqzpqzqpezZ",
+      "object": "note",
+      "title": "War Room",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-12T14:59:36.939Z",
+      "updated_at": "2026-10-12T16:00:45.688Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_IRoMGRAnOj53qd",
       "object": "note",
       "title": "Sales Team - stand up",
@@ -23,44 +59,8 @@
       "created_at": "2026-10-09T14:59:07.782Z",
       "updated_at": "2026-10-09T15:38:47.417Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_OyEIEEpKxdWEAS",
-      "object": "note",
-      "title": "Dungeon of the Mad Mage session 7: Catacombs and creature encounters",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-09T00:57:17.742Z",
-      "updated_at": "2026-10-10T00:03:12.567Z",
-      "deleted_at": null
-    },
-    {
-      "id": "not_qScLMw2an0lnQP",
-      "object": "note",
-      "title": "Plugin UX flow and dashboard shortlist feature with Raad and Brian",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-08T14:26:14.960Z",
-      "updated_at": "2026-10-08T15:42:14.373Z",
-      "deleted_at": null
-    },
-    {
-      "id": "not_Jlk2ltxuDn7KYv",
-      "object": "note",
-      "title": "War Room",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-07T15:31:58.122Z",
-      "updated_at": "2026-10-08T14:26:14.941Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0wN1QxNTozMTo1OC4xMjJaIiwibGFzdF9kb2NfaWQiOiJiMjk1Y2Q0Ny1hOWM3LTQ4MTQtODdiMy1jOGViZjQ2ZTJmMDcifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0wOVQxNDo1OTowNy43ODJaIiwibGFzdF9kb2NfaWQiOiI1M2MwZTA0ZC1jMjY3LTQ2NmMtYmU0Zi02ODY0MjUwNTE4OWUifQ"
 }

@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "d9ab3bf3-ed21-4d50-9999-bc8df5e07761",
+          "title": "update interview prep call scheduling link to Melissa's calendar",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-10-12T19:15:36.158Z"
+        },
+        {
+          "id": "9196cb27-ca08-4e2e-b021-0481d909a5d9",
+          "title": "Rescheduled interviews leave old calendar invite on attendee personal calendars (Zapier teardown missing)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-12T19:15:36.158Z"
+        },
+        {
+          "id": "8d7f8d60-6cf8-4ce7-913e-dcd5504f0abc",
+          "title": "Research Sales interview controls and scheduling integration",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-12T19:15:36.158Z"
+        },
+        {
           "id": "69eda365-1975-4b12-8fb5-c320bf56350f",
           "title": "SMB | Make completed-project reviews easier and keep attorney notes private",
           "state": {
@@ -82,15 +109,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-11T14:26:25.677Z"
-        },
-        {
-          "id": "8d7f8d60-6cf8-4ce7-913e-dcd5504f0abc",
-          "title": "Research Sales interview controls and scheduling integration",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-11T14:26:25.276Z"
         },
         {
           "id": "e964194a-8f4a-4de4-badd-48ce0f5436bf",
@@ -433,24 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-01T20:37:58.208Z"
-        },
-        {
-          "id": "0c1374ec-7cd4-463c-a2c7-19d1d4e09a0f",
-          "title": "Help talent discover the featured DataAnnotation opportunity",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-01T20:37:56.242Z"
-        },
-        {
-          "id": "d98f544d-2fd2-449b-bccf-de1dc5691b7c",
-          "title": "SMB Agent follow-up requests repeatedly fail for newly registered user",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-01T16:22:19.414Z"
         }
       ]
     }
