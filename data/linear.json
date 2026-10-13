@@ -3,6 +3,60 @@
     "issues": {
       "nodes": [
         {
+          "id": "c1e4e1ff-f21c-4c41-a6f4-27175edc8755",
+          "title": "SMB Agent project selection opens persistent blank page for empty project key",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-12T21:58:54.455Z"
+        },
+        {
+          "id": "5971f373-d276-4728-9de1-dd9c964177ca",
+          "title": "Hire Flow Redesign — In-Dashboard Offer Builder",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-12T20:36:58.903Z"
+        },
+        {
+          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
+          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-12T20:36:32.166Z"
+        },
+        {
+          "id": "8d7f8d60-6cf8-4ce7-913e-dcd5504f0abc",
+          "title": "Research Sales interview controls and scheduling integration",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-12T20:36:29.366Z"
+        },
+        {
+          "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
+          "title": "Record success fees without initiating a new charge",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-12T20:35:37.660Z"
+        },
+        {
+          "id": "42c008dc-6e49-4e53-a027-de91dd130a09",
+          "title": "Refresh the Marketplace demo environment for Sales",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-12T20:35:32.590Z"
+        },
+        {
           "id": "d9ab3bf3-ed21-4d50-9999-bc8df5e07761",
           "title": "update interview prep call scheduling link to Melissa's calendar",
           "state": {
@@ -16,15 +70,6 @@
           "title": "Rescheduled interviews leave old calendar invite on attendee personal calendars (Zapier teardown missing)",
           "state": {
             "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-12T19:15:36.158Z"
-        },
-        {
-          "id": "8d7f8d60-6cf8-4ce7-913e-dcd5504f0abc",
-          "title": "Research Sales interview controls and scheduling integration",
-          "state": {
-            "name": "Backlog"
           },
           "priority": 2,
           "updatedAt": "2026-10-12T19:15:36.158Z"
@@ -64,24 +109,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-11T20:30:49.523Z"
-        },
-        {
-          "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
-          "title": "Record success fees without initiating a new charge",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-11T20:29:58.736Z"
-        },
-        {
-          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
-          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-11T20:29:53.437Z"
         },
         {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
@@ -127,15 +154,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-09T20:34:04.379Z"
-        },
-        {
-          "id": "42c008dc-6e49-4e53-a027-de91dd130a09",
-          "title": "Refresh the Marketplace demo environment for Sales",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-09T20:34:01.649Z"
         },
         {
           "id": "cd0e367b-de2e-4698-93fb-ec62e7e4995e",
@@ -433,24 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-01T21:38:15.404Z"
-        },
-        {
-          "id": "d6fd9de2-541d-467b-92fd-cb378ba7713f",
-          "title": "Hotfix: restore Forest margin updates for position 4518 (45% → 37%)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-01T20:37:58.933Z"
-        },
-        {
-          "id": "bf6c32fa-d386-44af-a503-2f05c9f825fd",
-          "title": "Surface “Suggested Next Action” to clients post-match",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-01T20:37:58.208Z"
         }
       ]
     }
