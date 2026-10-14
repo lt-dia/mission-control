@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "42c008dc-6e49-4e53-a027-de91dd130a09",
+          "title": "Refresh the Marketplace demo environment for Sales",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-14T14:50:39.324Z"
+        },
+        {
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email systems | Map active sends and plan the cleanup",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-10-14T14:00:01.002Z"
+        },
+        {
           "id": "ed3e3712-fcd2-494a-a110-59c79f97c990",
           "title": "SMB | Keep Forest engagement details complete and show completion-based payment schedules",
           "state": {
@@ -93,15 +111,6 @@
           "updatedAt": "2026-10-12T20:35:37.660Z"
         },
         {
-          "id": "42c008dc-6e49-4e53-a027-de91dd130a09",
-          "title": "Refresh the Marketplace demo environment for Sales",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-12T20:35:32.590Z"
-        },
-        {
           "id": "d9ab3bf3-ed21-4d50-9999-bc8df5e07761",
           "title": "update interview prep call scheduling link to Melissa's calendar",
           "state": {
@@ -145,15 +154,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-10-12T05:45:12.272Z"
-        },
-        {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email systems | Map active sends and plan the cleanup",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 4,
-          "updatedAt": "2026-10-11T14:26:25.677Z"
         },
         {
           "id": "7b75a7cc-9bbb-4b0b-a6d5-146e952ac353",
