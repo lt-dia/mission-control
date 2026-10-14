@@ -3,13 +3,31 @@
     "issues": {
       "nodes": [
         {
+          "id": "c9fa5e44-120a-4a7e-b966-a07971fd11e7",
+          "title": "Show the correct rate on client and talent interview views",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-14T20:32:57.539Z"
+        },
+        {
           "id": "42c008dc-6e49-4e53-a027-de91dd130a09",
           "title": "Refresh the Marketplace demo environment for Sales",
           "state": {
-            "name": "In Progress"
+            "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-10-14T14:50:39.324Z"
+          "updatedAt": "2026-10-14T20:32:54.919Z"
+        },
+        {
+          "id": "8d7f8d60-6cf8-4ce7-913e-dcd5504f0abc",
+          "title": "Research Sales interview controls and scheduling integration",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-14T20:32:26.678Z"
         },
         {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
@@ -18,7 +36,7 @@
             "name": "In Progress"
           },
           "priority": 4,
-          "updatedAt": "2026-10-14T14:00:01.002Z"
+          "updatedAt": "2026-10-14T20:32:16.687Z"
         },
         {
           "id": "ed3e3712-fcd2-494a-a110-59c79f97c990",
@@ -91,15 +109,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-12T20:36:32.166Z"
-        },
-        {
-          "id": "8d7f8d60-6cf8-4ce7-913e-dcd5504f0abc",
-          "title": "Research Sales interview controls and scheduling integration",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-12T20:36:29.366Z"
         },
         {
           "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
@@ -415,15 +424,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-10-02T21:34:56.920Z"
-        },
-        {
-          "id": "c9fa5e44-120a-4a7e-b966-a07971fd11e7",
-          "title": "Show the correct rate on client and talent interview views",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-02T20:36:05.807Z"
         },
         {
           "id": "3837db96-4ecd-4fb7-addd-3528065cfe50",
