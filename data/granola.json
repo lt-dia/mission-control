@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_UScXkNATAJknhz",
+      "object": "note",
+      "title": "Finance Lecture 2:",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-14T01:30:52.142Z",
+      "updated_at": "2026-10-14T02:55:40.743Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_SrUJGXwlBxU1NS",
       "object": "note",
       "title": "War Room - Marketplace Agent",
@@ -47,20 +59,8 @@
       "created_at": "2026-10-12T14:59:36.939Z",
       "updated_at": "2026-10-12T16:00:45.688Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_IRoMGRAnOj53qd",
-      "object": "note",
-      "title": "Sales Team - stand up",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-09T15:59:54.075Z",
-      "updated_at": "2026-10-13T19:10:28.907Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0wOVQxNTo1OTo1NC4wNzVaIiwibGFzdF9kb2NfaWQiOiJmMmExZjk1YS0yODNkLTRlOTctODdlZi1mY2ViZDg1YzU1ODEifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0xMlQxNDo1OTozNi45MzlaIiwibGFzdF9kb2NfaWQiOiJiNjkwYmE4Zi05MTBiLTQyOWUtYmZhNS05ZGY4YTAyMGJiZTYifQ"
 }
