@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_ZL3xR22IvLz6X7",
+      "object": "note",
+      "title": "Job opportunity insights with Law Trades",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-15T19:08:35.392Z",
+      "updated_at": "2026-10-15T19:16:52.120Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_f8ODw11yoi9LMc",
       "object": "note",
       "title": "Demo debrief: product refinement and talent onboarding with Ilolo",
@@ -21,7 +33,7 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-10-14T15:01:07.195Z",
-      "updated_at": "2026-10-14T15:52:05.151Z",
+      "updated_at": "2026-10-15T16:58:31.659Z",
       "deleted_at": null
     },
     {
@@ -47,20 +59,8 @@
       "created_at": "2026-10-13T14:59:05.140Z",
       "updated_at": "2026-10-13T15:35:45.857Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_PJfj7xjuktifXk",
-      "object": "note",
-      "title": "eng",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-12T19:01:28.809Z",
-      "updated_at": "2026-10-13T13:24:17.534Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0xMlQxOTowMToyOC44MDlaIiwibGFzdF9kb2NfaWQiOiI2OTY0ZWZkNy1mMWFkLTRlNGEtOTU5My03ZTRiOWJmMmM0ZmYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0xM1QxNDo1OTowNS4xNDBaIiwibGFzdF9kb2NfaWQiOiI4ZDY0Y2U2NS0zOTgxLTQ5MzEtYjJhNC1hMDg1ODk4OWMyNTIifQ"
 }

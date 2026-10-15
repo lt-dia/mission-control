@@ -309,24 +309,6 @@
           "updatedAt": "2026-10-15T10:26:31.739Z"
         },
         {
-          "id": "6620ee80-fc59-4317-8e3b-570c20a4de49",
-          "title": "SMB Hire blocked by missing client company at lead creation",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-15T06:38:00.471Z"
-        },
-        {
-          "id": "e964194a-8f4a-4de4-badd-48ce0f5436bf",
-          "title": "SMB Agent shows processing error after scope confirmation, then recovers on follow-up",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-15T03:16:14.935Z"
-        },
-        {
           "id": "c9fa5e44-120a-4a7e-b966-a07971fd11e7",
           "title": "Show the correct rate on client and talent interview views",
           "state": {
@@ -451,6 +433,24 @@
           },
           "priority": 1,
           "updatedAt": "2026-10-12T19:15:36.158Z"
+        },
+        {
+          "id": "9196cb27-ca08-4e2e-b021-0481d909a5d9",
+          "title": "Rescheduled interviews leave old calendar invite on attendee personal calendars (Zapier teardown missing)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-12T19:15:36.158Z"
+        },
+        {
+          "id": "69eda365-1975-4b12-8fb5-c320bf56350f",
+          "title": "SMB | Make completed-project reviews easier and keep attorney notes private",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-12T11:00:30.436Z"
         }
       ]
     }
