@@ -1,6 +1,30 @@
 {
   "notes": [
     {
+      "id": "not_yBxz0eGJsLtYjX",
+      "object": "note",
+      "title": "Self-service hiring platform rollout with Meytal and Matt",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-15T20:30:03.290Z",
+      "updated_at": "2026-10-15T21:09:01.391Z",
+      "deleted_at": null
+    },
+    {
+      "id": "not_WpRzpNm1bfhGaD",
+      "object": "note",
+      "title": "Job search: next steps",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-15T19:17:27.975Z",
+      "updated_at": "2026-10-15T19:41:09.165Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_ZL3xR22IvLz6X7",
       "object": "note",
       "title": "Job opportunity insights with Law Trades",
@@ -35,32 +59,8 @@
       "created_at": "2026-10-14T15:01:07.195Z",
       "updated_at": "2026-10-15T16:58:31.659Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_UScXkNATAJknhz",
-      "object": "note",
-      "title": "Finance Lecture 2:",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-14T01:30:52.142Z",
-      "updated_at": "2026-10-14T02:55:40.743Z",
-      "deleted_at": null
-    },
-    {
-      "id": "not_SrUJGXwlBxU1NS",
-      "object": "note",
-      "title": "War Room - Marketplace Agent",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-13T14:59:05.140Z",
-      "updated_at": "2026-10-13T15:35:45.857Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0xM1QxNDo1OTowNS4xNDBaIiwibGFzdF9kb2NfaWQiOiI4ZDY0Y2U2NS0zOTgxLTQ5MzEtYjJhNC1hMDg1ODk4OWMyNTIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0xNFQxNTowMTowNy4xOTVaIiwibGFzdF9kb2NfaWQiOiJhYjcyZmM4Zi0yY2U4LTQ1OGEtYjA3My05NDA5ZTdkOGUzYjcifQ"
 }
