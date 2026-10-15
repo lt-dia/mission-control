@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "e964194a-8f4a-4de4-badd-48ce0f5436bf",
+          "title": "SMB Agent shows processing error after scope confirmation, then recovers on follow-up",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T03:16:14.935Z"
+        },
+        {
           "id": "c9fa5e44-120a-4a7e-b966-a07971fd11e7",
           "title": "Show the correct rate on client and talent interview views",
           "state": {
@@ -181,15 +190,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-11T14:26:25.677Z"
-        },
-        {
-          "id": "e964194a-8f4a-4de4-badd-48ce0f5436bf",
-          "title": "SMB Agent shows processing error after scope confirmation, then recovers on follow-up",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-09T23:28:59.484Z"
         },
         {
           "id": "cd0e367b-de2e-4698-93fb-ec62e7e4995e",
