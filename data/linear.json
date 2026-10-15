@@ -3,6 +3,321 @@
     "issues": {
       "nodes": [
         {
+          "id": "a33479d6-193e-4a1c-ac54-5cab56c080a7",
+          "title": "Look into Melissa getting DocuSign access",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T10:28:35.682Z"
+        },
+        {
+          "id": "81239a68-4e51-420c-b083-7422455a87d3",
+          "title": "Terms of use: copy error",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-15T10:28:32.458Z"
+        },
+        {
+          "id": "1b1e85fd-34ee-4a75-ad14-7c2245fbbfaf",
+          "title": "Fix hiring-flow notifications — missing Slack alert and \"unknown client\" in email",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-15T10:28:29.042Z"
+        },
+        {
+          "id": "8ddc684d-b32f-4001-aeda-cf11a21e78a9",
+          "title": "Talent doesn't realize they have a pending offer — increase signal beyond a single email",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-15T10:28:25.287Z"
+        },
+        {
+          "id": "5aa2c8e8-65d5-41d1-9afb-1e66416815ee",
+          "title": "Improve Hiring Flow on Client Dashboard",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-15T10:28:21.884Z"
+        },
+        {
+          "id": "7cf83843-8840-41db-a842-2afdcb0c408c",
+          "title": "Hiring Flow –Talent SOW Agreement Accuracy",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-15T10:28:18.896Z"
+        },
+        {
+          "id": "847043e8-dce2-4ea9-a44f-dea16759dca1",
+          "title": "Product Request: Allow mulitple agreement to be stored on client/ talent dashabords",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-15T10:28:13.483Z"
+        },
+        {
+          "id": "bcce8fc1-df1a-45ea-8f14-8ab1888c9a26",
+          "title": "Mask attorney names at source in lawtrades-mcp bench tools (close the transcript PII gap from ENG-1893)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-15T10:28:09.036Z"
+        },
+        {
+          "id": "b515502a-e46c-4b77-9c49-8fae011a45fd",
+          "title": "Reword \"Offer withdrawn\" email when the loss is due to another candidate being hired",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T10:28:05.088Z"
+        },
+        {
+          "id": "f3b69215-0b8b-4672-8d8c-7fd2a0e3ff41",
+          "title": "SMB flow + landing page live",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 1,
+          "updatedAt": "2026-10-15T10:28:01.996Z"
+        },
+        {
+          "id": "5a0faaef-6520-44bf-8547-ddae247e1b2d",
+          "title": "Investigate unexpected increase in monthly-rate position postings",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-15T10:27:58.282Z"
+        },
+        {
+          "id": "282a521d-a57e-470b-92c8-617bf6a126a4",
+          "title": "ENG-1790 follow-ups: staging FOREST config + AM-sender verification + tracked follow-ups",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-15T10:27:55.156Z"
+        },
+        {
+          "id": "a8bc2398-f151-47fd-a478-3c03089e0762",
+          "title": "SMB AI entry /ltai remains blank through session end",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T10:27:51.271Z"
+        },
+        {
+          "id": "03869772-c247-4c6b-9b4d-adb2b42a7d05",
+          "title": "[Ideation] MCP tool for engagement top-ups (hours, connects, etc.)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-15T10:27:47.407Z"
+        },
+        {
+          "id": "7606b0f7-3f1e-4e54-bb2d-5ae586d80a89",
+          "title": "Opportunity feed should filter by talent's practice areas and specialization",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-15T10:27:44.469Z"
+        },
+        {
+          "id": "fcb0a987-f261-43b1-b185-b7fecdd17a68",
+          "title": "Interview Send Request fails with Unknown Position or Talent in chat-using session",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-15T10:27:41.009Z"
+        },
+        {
+          "id": "72098d01-09b1-46f6-8c0d-cfd0f7b0d2f0",
+          "title": "Conditional Questionnaire Clauses → Contract Template Mapping",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T10:27:37.496Z"
+        },
+        {
+          "id": "409e649c-2e88-4925-8eee-f54c0e43e15b",
+          "title": "Public opportunity 4389 renders a blank page",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T10:27:34.110Z"
+        },
+        {
+          "id": "f7af0610-e032-4f07-8d71-3d5192514166",
+          "title": "SMB fixed-fee checkout times out repeatedly and mislabels failure as card decline",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T10:27:29.035Z"
+        },
+        {
+          "id": "9479bdb4-8bf0-46d9-a758-69036d63c11c",
+          "title": "Fixed-fee Hire opens Agent with empty position and candidate IDs",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T10:27:24.444Z"
+        },
+        {
+          "id": "7446c533-8064-48e0-bf32-ea98ec31a814",
+          "title": "SMB Agent entry shows app-load fallback after /ltai navigation",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T10:27:19.288Z"
+        },
+        {
+          "id": "07c9a936-ffd2-4dc1-9db8-1af83d2e1ee5",
+          "title": "Prevent AI position creation from rejecting weekly-hour estimates",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-15T10:27:16.052Z"
+        },
+        {
+          "id": "2d850bf0-f643-4a8e-8069-5b689a1f8680",
+          "title": "Extend talent dashboard message bell to engagement rooms",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 4,
+          "updatedAt": "2026-10-15T10:27:13.257Z"
+        },
+        {
+          "id": "576849f3-7d26-4f08-9aa4-4e2734d38189",
+          "title": "SMB Agent cannot verify role match when recommending open projects",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T10:27:10.268Z"
+        },
+        {
+          "id": "43ce4abe-8182-4d2d-9dbb-ca5c43a3aa6d",
+          "title": "Job application project details briefly fail on position 4475 (HTTP 444)",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T10:27:06.645Z"
+        },
+        {
+          "id": "2bc6faac-da55-4bce-a6a2-f2a091d98404",
+          "title": "SMB Agent cannot advance project draft after approval and timing details are supplied",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-15T10:27:02.914Z"
+        },
+        {
+          "id": "82766ea3-084d-4039-9bc7-8c287ab8b1fe",
+          "title": "SMB position suggestions stall for 30 seconds before returning to Agent welcome",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T10:26:58.481Z"
+        },
+        {
+          "id": "43690614-4477-4760-a507-22fb0f8104b2",
+          "title": "Insulet | Restore talent payout on roles 4479 and 4480 (40% margin) and block publishing roles without pricing",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-15T10:26:54.706Z"
+        },
+        {
+          "id": "5efe71bf-3cf0-4ff2-91f1-5fdf8272fd8c",
+          "title": "SMB-designation/flag at the client account level and Specific Hire Flow",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-15T10:26:51.115Z"
+        },
+        {
+          "id": "45b4a09f-607e-4067-a4b5-d9c945ad8b45",
+          "title": "Direct full-time hiring | Map the Sales process and identify the smallest working flow",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-15T10:26:47.327Z"
+        },
+        {
+          "id": "c8c17c22-747f-4c98-b926-24c70f697075",
+          "title": "Open SMB pre-hire message links immediately after sign-in",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T10:26:44.022Z"
+        },
+        {
+          "id": "319b40e1-45ed-4df6-be47-e9c1034bf742",
+          "title": "Worklog submission times out twice with visible error in Agent-using session",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T10:26:40.828Z"
+        },
+        {
+          "id": "d4fc34b1-a048-4a85-b637-d34c46435254",
+          "title": "Repair and track high-value Quora links",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-15T10:26:37.039Z"
+        },
+        {
+          "id": "574d8fb3-126d-4fc1-be29-8bd954c9c97d",
+          "title": "SMB post-signing “View Project messages” opens unavailable Agent project",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-15T10:26:31.739Z"
+        },
+        {
+          "id": "6620ee80-fc59-4317-8e3b-570c20a4de49",
+          "title": "SMB Hire blocked by missing client company at lead creation",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-15T06:38:00.471Z"
+        },
+        {
           "id": "e964194a-8f4a-4de4-badd-48ce0f5436bf",
           "title": "SMB Agent shows processing error after scope confirmation, then recovers on follow-up",
           "state": {
@@ -136,321 +451,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-10-12T19:15:36.158Z"
-        },
-        {
-          "id": "9196cb27-ca08-4e2e-b021-0481d909a5d9",
-          "title": "Rescheduled interviews leave old calendar invite on attendee personal calendars (Zapier teardown missing)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-12T19:15:36.158Z"
-        },
-        {
-          "id": "69eda365-1975-4b12-8fb5-c320bf56350f",
-          "title": "SMB | Make completed-project reviews easier and keep attorney notes private",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-12T11:00:30.436Z"
-        },
-        {
-          "id": "2388dfeb-452c-46ff-ab51-8e8bbe06f299",
-          "title": "[ENG-1760] Issue 3: Returning clients misclassified as new → wrong MSA vs SOW sent",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-12T05:48:17.707Z"
-        },
-        {
-          "id": "508a022e-be77-4ec9-91b4-ac5e65add335",
-          "title": "Pre-Signed MSA Upload Endpoint — Ops Upload Flow (Dropbox Scenario)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-12T05:45:12.272Z"
-        },
-        {
-          "id": "7b75a7cc-9bbb-4b0b-a6d5-146e952ac353",
-          "title": "Ops Admin Dashboard — multi-client account manager for Melissa",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-11T14:26:25.677Z"
-        },
-        {
-          "id": "5128b43d-c552-472d-a278-2f4fc22d8c3f",
-          "title": "Error prevents follow-up interview request from being sent",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-11T14:26:25.677Z"
-        },
-        {
-          "id": "cd0e367b-de2e-4698-93fb-ec62e7e4995e",
-          "title": "Improve manual-to-dashboard hiring flow — let ops trigger hiring from dashboard",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-09T20:33:58.868Z"
-        },
-        {
-          "id": "d70bf540-4753-4529-8e03-6d7a97871e0b",
-          "title": "Info missing in forest- SMB engagement",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-09T15:35:29.749Z"
-        },
-        {
-          "id": "397b6c0d-82b3-4834-90a1-44b3887698a5",
-          "title": "AI-onboarded talent profile save shows error after slow or uncertain request",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-08T22:18:23.189Z"
-        },
-        {
-          "id": "52f60e70-1962-466e-8bbe-6491efb1e627",
-          "title": "Evaluate practical answer limits for talent applications",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-08T20:36:07.296Z"
-        },
-        {
-          "id": "bca8ae11-5318-41a1-9659-e20f7cbd8012",
-          "title": "Screener questions: required/optional flags + configurable answer length (shipped)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-10-08T20:33:07.499Z"
-        },
-        {
-          "id": "ea748c7d-992f-42af-8409-636fce0f6bbf",
-          "title": "Restore company and client details for Cross River positions in Forest",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-08T20:32:58.527Z"
-        },
-        {
-          "id": "979b7490-7a06-4723-a03a-100fc8c39e2e",
-          "title": "SMB | Keep checkout controls reachable on the Candidates page",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-08T20:31:34.197Z"
-        },
-        {
-          "id": "1f1868fe-5d66-4ed5-a46d-470531909b6d",
-          "title": "Require unique phone verification for new signups without blocking existing accounts",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-08T17:44:55.427Z"
-        },
-        {
-          "id": "ccec1ca7-7508-4417-964e-0623a529271b",
-          "title": "Simplify talent navigation and conditionally show Rooms",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-08T13:33:26.704Z"
-        },
-        {
-          "id": "ac79cd0a-12e3-469c-94fb-2b41b367478a",
-          "title": "LTAgent work-history query times out and retry remains generating",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-08T02:50:36.972Z"
-        },
-        {
-          "id": "11ef1cc6-8106-41ea-9c85-2faa63f7e8e4",
-          "title": "SMB Agent hire fails after auth with project-brief 404 and rooms/null",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-08T02:39:10.823Z"
-        },
-        {
-          "id": "da2a1191-6d87-46bf-80f3-6802fe3e3228",
-          "title": "Active Lawtrader not seeing email notification for interview request",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-07T19:46:02.361Z"
-        },
-        {
-          "id": "c4354452-c67a-4604-9d81-5699a519cd31",
-          "title": "[Spike] Apple Business Register & SMS Sender Verification",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 4,
-          "updatedAt": "2026-10-07T19:46:02.361Z"
-        },
-        {
-          "id": "93b12134-25a2-4df3-afa3-65fd9509d0cb",
-          "title": "connect client account to existing client comapny dashboard",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-10-07T19:01:53.481Z"
-        },
-        {
-          "id": "9fd956ef-3fe0-4d49-bba8-d97e0c120b42",
-          "title": "SMB AI scope preparation repeatedly returns 502; approval card and lawyer matching never appear",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-06T21:06:34.279Z"
-        },
-        {
-          "id": "372dad84-7872-4bc8-a5b9-8745d1c8e6d2",
-          "title": "Insights | Show consistent talent details and accurate invoice CSV exports",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-06T20:38:11.503Z"
-        },
-        {
-          "id": "1561ee34-06e4-4e50-a93f-cabc438ab5d5",
-          "title": "SMB | Keep unsigned agreements aligned with saved company and talent details",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-06T20:38:03.099Z"
-        },
-        {
-          "id": "6c271c9f-01c6-4997-984e-ee248f4ca03a",
-          "title": "SMB AI entry: Google sign-in times out and shows Network Error",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-06T12:29:51.667Z"
-        },
-        {
-          "id": "bb9fd58a-fd0d-4cdf-99f4-bbec2c3b8ba8",
-          "title": "Please merge company dashboards",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-06T10:05:38.677Z"
-        },
-        {
-          "id": "273c2e46-d9ec-4336-a3c1-a36b546f185d",
-          "title": "ICON | Route non-attorney hires to the correct agreement template",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-06T00:34:08.489Z"
-        },
-        {
-          "id": "859932d8-65d2-4f21-b688-7f8776b4b3ce",
-          "title": "Explore DocuSign-to-dashboard sync — auto-populate dashboard from manual contracts",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-05T20:35:57.340Z"
-        },
-        {
-          "id": "bef54aba-76e4-4333-89b8-0c095dc4f643",
-          "title": "Sales promotion codes: enforce client eligibility and keep contract discounts aligned with billing",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-05T20:35:05.415Z"
-        },
-        {
-          "id": "f81f8601-cb61-46cb-997b-af438f980821",
-          "title": "Bug: Pay-as-you-go rate not populating correctly in SOW (should be $236/hr)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-10-05T19:59:08.716Z"
-        },
-        {
-          "id": "2a7d4ce6-8c13-4ecb-b1cb-83118e7bf39f",
-          "title": "Bug: All SOW rates displaying as $212.40 regardless of payment option selected",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-10-05T19:59:08.716Z"
-        },
-        {
-          "id": "b74d254f-4354-433b-8f2e-5fc62eb5f9ee",
-          "title": "AI talent onboarding: missing email checklist link is a dead end before registration",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-05T14:49:53.757Z"
-        },
-        {
-          "id": "2900b67d-e440-4739-acb9-9a8593810429",
-          "title": "Fix invited Coinflow client left pending after registration",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-02T21:34:56.920Z"
-        },
-        {
-          "id": "3837db96-4ecd-4fb7-addd-3528065cfe50",
-          "title": "AI onboarding profile creation repeatedly returns 401 while UI appears signed in",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-02T19:43:38.995Z"
-        },
-        {
-          "id": "a49c1847-6101-4800-9d96-e5f4f7d3cd3a",
-          "title": "Honor Save retries create duplicate talent profile entries after timeouts",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-02T00:02:44.500Z"
-        },
-        {
-          "id": "07b88f1b-ebd8-408c-9ef8-b112c7f35961",
-          "title": "Restore interrupted SMB conversations and help Brown Ballers reach lawyer checkout",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-01T22:57:20.799Z"
         }
       ]
     }
