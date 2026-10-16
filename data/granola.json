@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_BqnaB8tIWCmaJw",
+      "object": "note",
+      "title": "Sales Team - stand up",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-16T18:29:13.443Z",
+      "updated_at": "2026-10-16T19:09:32.349Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_DRQ5ZwMCskQzFG",
       "object": "note",
       "title": "Global Field Experience logistics and travel planning with Mohammad Khan",
@@ -47,20 +59,8 @@
       "created_at": "2026-10-15T20:30:03.290Z",
       "updated_at": "2026-10-15T21:09:01.391Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_WpRzpNm1bfhGaD",
-      "object": "note",
-      "title": "Job search: next steps",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-15T19:17:27.975Z",
-      "updated_at": "2026-10-15T19:41:09.165Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0xNVQxOToxNzoyNy45NzVaIiwibGFzdF9kb2NfaWQiOiIwNjJjYTQ2MC01ZjAzLTRiZmMtOWVkNC0xYWQyNzJiNTI5MDgifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0xNVQyMDozMDowMy4yOTBaIiwibGFzdF9kb2NfaWQiOiI0Njc0NjU0Zi05ODI3LTRkM2ItYmZjZi02MTJkNzE3ZTQwMDAifQ"
 }
