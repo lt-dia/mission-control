@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "e0dead2d-0db6-4515-a77e-ca910a44ac08",
+          "title": "Link client account to Brex",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 1,
+          "updatedAt": "2026-10-16T01:00:00.440Z"
+        },
+        {
           "id": "5971f373-d276-4728-9de1-dd9c964177ca",
           "title": "Hire Flow Redesign — In-Dashboard Offer Builder",
           "state": {
@@ -10,15 +19,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-15T20:37:20.886Z"
-        },
-        {
-          "id": "e0dead2d-0db6-4515-a77e-ca910a44ac08",
-          "title": "Link client account to Brex",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 1,
-          "updatedAt": "2026-10-15T20:37:13.359Z"
         },
         {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
