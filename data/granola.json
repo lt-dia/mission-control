@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_fZs19JNIFUB0Pz",
+      "object": "note",
+      "title": "Project Management: Operations Management and Little's Law with Chris Burke",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-15T23:30:24.376Z",
+      "updated_at": "2026-10-16T00:44:02.964Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_yBxz0eGJsLtYjX",
       "object": "note",
       "title": "Self-service hiring platform rollout with Meytal and Matt",
@@ -47,20 +59,8 @@
       "created_at": "2026-10-14T19:16:24.095Z",
       "updated_at": "2026-10-14T20:32:57.033Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_KG55v4A7Zo6rcA",
-      "object": "note",
-      "title": "War Room",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-14T15:01:07.195Z",
-      "updated_at": "2026-10-15T16:58:31.659Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0xNFQxNTowMTowNy4xOTVaIiwibGFzdF9kb2NfaWQiOiJhYjcyZmM4Zi0yY2U4LTQ1OGEtYjA3My05NDA5ZTdkOGUzYjcifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0xNFQxOToxNjoyNC4wOTVaIiwibGFzdF9kb2NfaWQiOiI3NGRjMTk0MS1kMGMxLTRhZjEtYmZhMS04ODY2OTFiZTMwNzgifQ"
 }
