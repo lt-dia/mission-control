@@ -3,13 +3,22 @@
     "issues": {
       "nodes": [
         {
+          "id": "bf6c32fa-d386-44af-a503-2f05c9f825fd",
+          "title": "Surface “Suggested Next Action” to clients post-match",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-19T20:29:32.453Z"
+        },
+        {
           "id": "8d7f8d60-6cf8-4ce7-913e-dcd5504f0abc",
           "title": "Research Sales interview controls and scheduling integration",
           "state": {
             "name": "In Progress"
           },
           "priority": 2,
-          "updatedAt": "2026-10-16T20:29:49.761Z"
+          "updatedAt": "2026-10-19T20:29:21.507Z"
         },
         {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
@@ -441,15 +450,6 @@
             "name": "Done"
           },
           "priority": 1,
-          "updatedAt": "2026-10-12T19:15:36.158Z"
-        },
-        {
-          "id": "9196cb27-ca08-4e2e-b021-0481d909a5d9",
-          "title": "Rescheduled interviews leave old calendar invite on attendee personal calendars (Zapier teardown missing)",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
           "updatedAt": "2026-10-12T19:15:36.158Z"
         }
       ]
