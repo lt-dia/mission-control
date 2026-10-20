@@ -9,7 +9,16 @@
             "name": "In Progress"
           },
           "priority": 4,
-          "updatedAt": "2026-10-20T18:04:50.744Z"
+          "updatedAt": "2026-10-20T20:34:26.155Z"
+        },
+        {
+          "id": "bf6c32fa-d386-44af-a503-2f05c9f825fd",
+          "title": "Surface “Suggested Next Action” to clients post-match",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-20T20:34:25.075Z"
         },
         {
           "id": "1561ee34-06e4-4e50-a93f-cabc438ab5d5",
@@ -19,15 +28,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-20T18:03:41.492Z"
-        },
-        {
-          "id": "bf6c32fa-d386-44af-a503-2f05c9f825fd",
-          "title": "Surface “Suggested Next Action” to clients post-match",
-          "state": {
-            "name": "Todo"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-19T20:29:32.453Z"
         },
         {
           "id": "8d7f8d60-6cf8-4ce7-913e-dcd5504f0abc",
