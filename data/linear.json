@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email systems | Map active sends and plan the cleanup",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-10-20T18:04:50.744Z"
+        },
+        {
+          "id": "1561ee34-06e4-4e50-a93f-cabc438ab5d5",
+          "title": "SMB | Keep unsigned agreements aligned with saved company and talent details",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-20T18:03:41.492Z"
+        },
+        {
           "id": "bf6c32fa-d386-44af-a503-2f05c9f825fd",
           "title": "Surface “Suggested Next Action” to clients post-match",
           "state": {
@@ -46,15 +64,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-15T20:37:20.886Z"
-        },
-        {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email systems | Map active sends and plan the cleanup",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 4,
-          "updatedAt": "2026-10-15T20:36:49.773Z"
         },
         {
           "id": "a33479d6-193e-4a1c-ac54-5cab56c080a7",
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-12T20:35:37.660Z"
-        },
-        {
-          "id": "d9ab3bf3-ed21-4d50-9999-bc8df5e07761",
-          "title": "update interview prep call scheduling link to Melissa's calendar",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 1,
-          "updatedAt": "2026-10-12T19:15:36.158Z"
         }
       ]
     }
