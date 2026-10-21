@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_l5hocrylc2coyv",
+      "object": "note",
+      "title": "Eng Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-21T14:59:27.237Z",
+      "updated_at": "2026-10-21T15:49:16.941Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_7gurmv9b1sub26",
       "object": "note",
       "title": "War Room",
@@ -47,20 +59,8 @@
       "created_at": "2026-10-16T14:59:07.142Z",
       "updated_at": "2026-10-16T15:27:00.418Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_fZs19JNIFUB0Pz",
-      "object": "note",
-      "title": "Project Management: Operations Management and Little's Law with Chris Burke",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-15T23:30:24.376Z",
-      "updated_at": "2026-10-16T01:01:40.623Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0xNVQyMzozMDoyNC4zNzZaIiwibGFzdF9kb2NfaWQiOiIyNDA5MTczYS03ZmJjLTQ3NzAtYWZkOC04OTUxNzI1MThmM2QifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0xNlQxNDo1OTowNy4xNDJaIiwibGFzdF9kb2NfaWQiOiI1NGE0NmJhZi0xZDg0LTQ3MjQtYTc5Ny00YWQ4ZDRhNjNkOGIifQ"
 }
