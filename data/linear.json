@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-21T20:30:46.849Z"
+        },
+        {
+          "id": "cd84307f-7194-424b-93dc-b07946180241",
+          "title": "Keep new company owners able to invite teammates",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-21T20:30:46.024Z"
+        },
+        {
+          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
+          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-21T20:30:41.520Z"
+        },
+        {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
           "title": "Email systems | Map active sends and plan the cleanup",
           "state": {
@@ -37,15 +64,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-10-19T20:29:21.507Z"
-        },
-        {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-16T20:29:48.884Z"
         },
         {
           "id": "e0dead2d-0db6-4515-a77e-ca910a44ac08",
@@ -433,24 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-12T21:58:54.455Z"
-        },
-        {
-          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
-          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-12T20:36:32.166Z"
-        },
-        {
-          "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
-          "title": "Record success fees without initiating a new charge",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-12T20:35:37.660Z"
         }
       ]
     }
