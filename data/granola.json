@@ -1,6 +1,30 @@
 {
   "notes": [
     {
+      "id": "not_njat4x2wamzx9o",
+      "object": "note",
+      "title": "Brian <> Omid (Product Design Engineer)",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-22T18:59:39.997Z",
+      "updated_at": "2026-10-22T20:02:00.993Z",
+      "deleted_at": null
+    },
+    {
+      "id": "not_bsagegxx4pfsif",
+      "object": "note",
+      "title": "Snorkel Projects",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-22T18:07:00.145Z",
+      "updated_at": "2026-10-22T18:54:57.797Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_m71n85bf0fl2a7",
       "object": "note",
       "title": "Eng Standup",
@@ -15,13 +39,13 @@
     {
       "id": "not_xr3vtth65dug2i",
       "object": "note",
-      "title": null,
+      "title": "Wedding planning: hotel, florals, save the date, and logistics with Elana",
       "owner": {
         "name": "Ilolo Izu",
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-10-21T22:17:00.632Z",
-      "updated_at": "2026-10-21T23:35:55.490Z",
+      "updated_at": "2026-10-22T18:06:56.024Z",
       "deleted_at": null
     },
     {
@@ -35,32 +59,8 @@
       "created_at": "2026-10-21T14:59:27.237Z",
       "updated_at": "2026-10-21T15:49:16.941Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_7gurmv9b1sub26",
-      "object": "note",
-      "title": "War Room",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-19T15:29:52.517Z",
-      "updated_at": "2026-10-19T15:51:26.747Z",
-      "deleted_at": null
-    },
-    {
-      "id": "not_BqnaB8tIWCmaJw",
-      "object": "note",
-      "title": "Sales Team - stand up",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-16T18:29:13.443Z",
-      "updated_at": "2026-10-16T19:09:32.349Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0xNlQxODoyOToxMy40NDNaIiwibGFzdF9kb2NfaWQiOiIyNTA2ODcwMi03ODU1LTQwZDItYWVkZS00NmFiNjQyOWE1ZjQifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0yMVQxNDo1OToyNy4yMzdaIiwibGFzdF9kb2NfaWQiOiI4MjkyNzU5Ny1iMTVkLTRmYTYtYTNiOC1lMTQzOGQ0MTZhMzcifQ"
 }

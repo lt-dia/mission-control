@@ -3,6 +3,42 @@
     "issues": {
       "nodes": [
         {
+          "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
+          "title": "Prepare approved Snorkel agreements for dashboard hiring",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-22T20:33:39.107Z"
+        },
+        {
+          "id": "41ab6b3e-f577-4fb7-9e27-3c6bb75e67e6",
+          "title": "Find enterprise lawyers by relevant past work, not guessed profile filters",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-22T20:33:36.606Z"
+        },
+        {
+          "id": "cd84307f-7194-424b-93dc-b07946180241",
+          "title": "Keep new company owners able to invite teammates",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-22T20:33:15.056Z"
+        },
+        {
+          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
+          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-22T20:33:11.599Z"
+        },
+        {
           "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
           "title": "Record success fees without initiating a new charge",
           "state": {
@@ -37,24 +73,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-22T17:14:40.031Z"
-        },
-        {
-          "id": "cd84307f-7194-424b-93dc-b07946180241",
-          "title": "Keep new company owners able to invite teammates",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-22T16:55:35.083Z"
-        },
-        {
-          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
-          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-21T20:30:41.520Z"
         },
         {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
@@ -433,24 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-14T20:32:54.919Z"
-        },
-        {
-          "id": "ed3e3712-fcd2-494a-a110-59c79f97c990",
-          "title": "SMB | Keep Forest engagement details complete and show completion-based payment schedules",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-13T21:16:46.658Z"
-        },
-        {
-          "id": "d11e36db-69e4-44f4-a85c-74da8ed5ad09",
-          "title": "SMB billing | Pay a fixed-fee project in agreed milestones",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-13T21:16:46.650Z"
         }
       ]
     }
