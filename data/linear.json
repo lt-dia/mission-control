@@ -3,13 +3,40 @@
     "issues": {
       "nodes": [
         {
+          "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
+          "title": "Record success fees without initiating a new charge",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-22T17:15:19.076Z"
+        },
+        {
+          "id": "0c1374ec-7cd4-463c-a2c7-19d1d4e09a0f",
+          "title": "Help talent discover the featured DataAnnotation opportunity",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-22T17:15:07.710Z"
+        },
+        {
+          "id": "273c2e46-d9ec-4336-a3c1-a36b546f185d",
+          "title": "ICON | Route non-attorney hires to the correct agreement template",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-22T17:15:00.730Z"
+        },
+        {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
           "title": "Take over help@lawtrades support coverage without duplicate replies",
           "state": {
-            "name": "In Progress"
+            "name": "Done"
           },
           "priority": 3,
-          "updatedAt": "2026-10-21T20:30:46.849Z"
+          "updatedAt": "2026-10-22T17:14:40.031Z"
         },
         {
           "id": "cd84307f-7194-424b-93dc-b07946180241",
@@ -18,7 +45,7 @@
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-10-21T20:30:46.024Z"
+          "updatedAt": "2026-10-22T16:55:35.083Z"
         },
         {
           "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
@@ -424,33 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-13T21:16:46.650Z"
-        },
-        {
-          "id": "2b06eed2-5a5e-4eea-ba61-504a899348c3",
-          "title": "SMB | Reserve project payments until approved payout with Stripe Funds Segregation",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-13T21:14:20.548Z"
-        },
-        {
-          "id": "ddbf3fcb-725c-4578-97b7-32d45b8e6fb7",
-          "title": "App | Recover safely when deployment JavaScript fails to load",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-13T18:13:58.115Z"
-        },
-        {
-          "id": "c1e4e1ff-f21c-4c41-a6f4-27175edc8755",
-          "title": "SMB Agent project selection opens persistent blank page for empty project key",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-12T21:58:54.455Z"
         }
       ]
     }
