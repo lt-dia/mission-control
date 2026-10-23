@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_vp8kk911scv7q7",
+      "object": "note",
+      "title": "Paramount breakfast bottleneck and takeout strategy with Christopher",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-23T01:34:33.738Z",
+      "updated_at": "2026-10-23T02:46:17.792Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_njat4x2wamzx9o",
       "object": "note",
       "title": "Brian <> Omid (Product Design Engineer)",
@@ -47,20 +59,8 @@
       "created_at": "2026-10-21T22:17:00.632Z",
       "updated_at": "2026-10-22T18:06:56.024Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_l5hocrylc2coyv",
-      "object": "note",
-      "title": "Eng Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-21T14:59:27.237Z",
-      "updated_at": "2026-10-21T15:49:16.941Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0yMVQxNDo1OToyNy4yMzdaIiwibGFzdF9kb2NfaWQiOiI4MjkyNzU5Ny1iMTVkLTRmYTYtYTNiOC1lMTQzOGQ0MTZhMzcifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0yMVQyMjoxNzowMC42MzJaIiwibGFzdF9kb2NfaWQiOiJjMGI1ODJkZS00MTUxLTRmYjUtYWFmOC01NzAxZDdhM2IzOWIifQ"
 }
