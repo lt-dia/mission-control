@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_jkh9s7t3fa8af1",
+      "object": "note",
+      "title": "AI labs hiring expansion and SOW workflow with signing process",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-23T18:30:05.216Z",
+      "updated_at": "2026-10-23T18:40:26.441Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_30e3wfwgw6vqy2",
       "object": "note",
       "title": "War Room",
@@ -45,22 +57,10 @@
         "email": "ilolo@lawtrades.com"
       },
       "created_at": "2026-10-22T18:07:00.145Z",
-      "updated_at": "2026-10-22T18:54:57.797Z",
-      "deleted_at": null
-    },
-    {
-      "id": "not_m71n85bf0fl2a7",
-      "object": "note",
-      "title": "Eng Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-22T15:00:22.573Z",
-      "updated_at": "2026-10-22T15:48:27.413Z",
+      "updated_at": "2026-10-23T17:42:01.806Z",
       "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0yMlQxNTowMDoyMi41NzNaIiwibGFzdF9kb2NfaWQiOiIzN2U1YzhiZi1mZGU5LTRmNmYtYjg4YS1mZDA1ZDI2NmM3NzUifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0yMlQxODowNzowMC4xNDVaIiwibGFzdF9kb2NfaWQiOiI3OWUzYzEzNS0xNjllLTRmYWEtOGZkZC1mZDhiNDI4YzRkNjgifQ"
 }
