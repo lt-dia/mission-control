@@ -3,22 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "5e9d3efe-e708-4d91-80e0-eabba2c4ee5a",
-          "title": "Decline Candidate modal: clean up reason copy (\"Others, Explain\")",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-23T20:38:51.897Z"
-        },
-        {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email systems | Map active sends and plan the cleanup",
+          "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
+          "title": "Prepare approved Snorkel agreements for dashboard hiring",
           "state": {
             "name": "In Progress"
           },
-          "priority": 4,
-          "updatedAt": "2026-10-23T19:43:15.002Z"
+          "priority": 0,
+          "updatedAt": "2026-10-23T21:02:10.948Z"
         },
         {
           "id": "41ab6b3e-f577-4fb7-9e27-3c6bb75e67e6",
@@ -27,16 +18,43 @@
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-10-23T17:50:39.390Z"
+          "updatedAt": "2026-10-23T21:02:05.887Z"
         },
         {
-          "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
-          "title": "Prepare approved Snorkel agreements for dashboard hiring",
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email systems | Map active sends and plan the cleanup",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-10-23T21:02:02.279Z"
+        },
+        {
+          "id": "dfb0072b-8333-4ce8-9e1e-1d474c73bdaa",
+          "title": "Invite Lawtraders to refer peers after they start work",
           "state": {
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-10-23T16:20:27.795Z"
+          "updatedAt": "2026-10-23T21:02:01.954Z"
+        },
+        {
+          "id": "0c1374ec-7cd4-463c-a2c7-19d1d4e09a0f",
+          "title": "Help talent discover the featured DataAnnotation opportunity",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-23T21:01:13.217Z"
+        },
+        {
+          "id": "5e9d3efe-e708-4d91-80e0-eabba2c4ee5a",
+          "title": "Decline Candidate modal: clean up reason copy (\"Others, Explain\")",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-23T21:01:09.690Z"
         },
         {
           "id": "cd84307f-7194-424b-93dc-b07946180241",
@@ -64,15 +82,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-22T17:15:19.076Z"
-        },
-        {
-          "id": "0c1374ec-7cd4-463c-a2c7-19d1d4e09a0f",
-          "title": "Help talent discover the featured DataAnnotation opportunity",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-22T17:15:07.710Z"
         },
         {
           "id": "273c2e46-d9ec-4336-a3c1-a36b546f185d",
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-10-15T10:26:31.739Z"
-        },
-        {
-          "id": "c9fa5e44-120a-4a7e-b966-a07971fd11e7",
-          "title": "Show the correct rate on client and talent interview views",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-14T20:32:57.539Z"
         }
       ]
     }
