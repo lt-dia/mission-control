@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_30e3wfwgw6vqy2",
+      "object": "note",
+      "title": "War Room",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-23T15:20:18.958Z",
+      "updated_at": "2026-10-23T16:05:20.814Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_vp8kk911scv7q7",
       "object": "note",
       "title": "Paramount breakfast bottleneck and takeout strategy with Christopher",
@@ -47,20 +59,8 @@
       "created_at": "2026-10-22T15:00:22.573Z",
       "updated_at": "2026-10-22T15:48:27.413Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_xr3vtth65dug2i",
-      "object": "note",
-      "title": "Wedding planning: hotel, florals, save the date, and logistics with Elana",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-21T22:17:00.632Z",
-      "updated_at": "2026-10-22T18:06:56.024Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0yMVQyMjoxNzowMC42MzJaIiwibGFzdF9kb2NfaWQiOiJjMGI1ODJkZS00MTUxLTRmYjUtYWFmOC01NzAxZDdhM2IzOWIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0yMlQxNTowMDoyMi41NzNaIiwibGFzdF9kb2NfaWQiOiIzN2U1YzhiZi1mZGU5LTRmNmYtYjg4YS1mZDA1ZDI2NmM3NzUifQ"
 }

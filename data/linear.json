@@ -9,7 +9,25 @@
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-10-22T20:33:39.107Z"
+          "updatedAt": "2026-10-23T16:20:27.795Z"
+        },
+        {
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email systems | Map active sends and plan the cleanup",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-10-23T15:50:13.672Z"
+        },
+        {
+          "id": "5e9d3efe-e708-4d91-80e0-eabba2c4ee5a",
+          "title": "Decline Candidate modal: clean up reason copy (\"Others, Explain\")",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-10-23T14:51:04.525Z"
         },
         {
           "id": "41ab6b3e-f577-4fb7-9e27-3c6bb75e67e6",
@@ -73,15 +91,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-22T17:14:40.031Z"
-        },
-        {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email systems | Map active sends and plan the cleanup",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 4,
-          "updatedAt": "2026-10-20T20:34:26.155Z"
         },
         {
           "id": "bf6c32fa-d386-44af-a503-2f05c9f825fd",
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-10-14T20:32:57.539Z"
-        },
-        {
-          "id": "42c008dc-6e49-4e53-a027-de91dd130a09",
-          "title": "Refresh the Marketplace demo environment for Sales",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-14T20:32:54.919Z"
         }
       ]
     }
