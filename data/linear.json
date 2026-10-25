@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
+          "title": "Prepare approved Snorkel agreements for dashboard hiring",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-25T14:14:32.749Z"
+        },
+        {
           "id": "5e9d3efe-e708-4d91-80e0-eabba2c4ee5a",
           "title": "Decline Candidate modal: clean up reason copy (\"Others, Explain\")",
           "state": {
@@ -19,15 +28,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-25T02:20:55.385Z"
-        },
-        {
-          "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
-          "title": "Prepare approved Snorkel agreements for dashboard hiring",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-25T02:20:50.397Z"
         },
         {
           "id": "41ab6b3e-f577-4fb7-9e27-3c6bb75e67e6",
