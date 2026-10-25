@@ -9,7 +9,16 @@
             "name": "Done"
           },
           "priority": 3,
-          "updatedAt": "2026-10-24T15:18:17.287Z"
+          "updatedAt": "2026-10-25T02:20:58.957Z"
+        },
+        {
+          "id": "0c1374ec-7cd4-463c-a2c7-19d1d4e09a0f",
+          "title": "Help talent discover the featured DataAnnotation opportunity",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-25T02:20:55.385Z"
         },
         {
           "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
@@ -18,7 +27,7 @@
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-10-23T21:02:10.948Z"
+          "updatedAt": "2026-10-25T02:20:50.397Z"
         },
         {
           "id": "41ab6b3e-f577-4fb7-9e27-3c6bb75e67e6",
@@ -46,15 +55,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-23T21:02:01.954Z"
-        },
-        {
-          "id": "0c1374ec-7cd4-463c-a2c7-19d1d4e09a0f",
-          "title": "Help talent discover the featured DataAnnotation opportunity",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-23T21:01:13.217Z"
         },
         {
           "id": "cd84307f-7194-424b-93dc-b07946180241",
