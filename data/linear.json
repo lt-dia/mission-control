@@ -9,7 +9,16 @@
             "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-10-25T18:11:55.565Z"
+          "updatedAt": "2026-10-25T20:34:21.877Z"
+        },
+        {
+          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
+          "title": "Connect Snorkel background and identity checks after signing",
+          "state": {
+            "name": "Todo"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-25T20:34:21.525Z"
         },
         {
           "id": "5e9d3efe-e708-4d91-80e0-eabba2c4ee5a",
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-15T10:26:37.039Z"
-        },
-        {
-          "id": "574d8fb3-126d-4fc1-be29-8bd954c9c97d",
-          "title": "SMB post-signing “View Project messages” opens unavailable Agent project",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-15T10:26:31.739Z"
         }
       ]
     }
