@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_30tx61c55yu8xw",
+      "object": "note",
+      "title": "War Room",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-10-26T15:00:48.465Z",
+      "updated_at": "2026-10-26T15:29:53.959Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_q0xd6t1wdepzee",
       "object": "note",
       "title": "Contractor engagement form and pay-as-you-go rates with Mia",
@@ -47,20 +59,8 @@
       "created_at": "2026-10-23T01:34:33.738Z",
       "updated_at": "2026-10-23T02:46:17.792Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_njat4x2wamzx9o",
-      "object": "note",
-      "title": "Brian <> Omid (Product Design Engineer)",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-22T18:59:39.997Z",
-      "updated_at": "2026-10-22T20:02:00.993Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0yMlQxODo1OTozOS45OTdaIiwibGFzdF9kb2NfaWQiOiI3NTM2ZTkwZC1lODBiLTRhYmItODQ3ZS1hNzllZDkzNmQyYzEifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0yM1QwMTozNDozMy43MzhaIiwibGFzdF9kb2NfaWQiOiI2MmIzZGFiMS03Y2ZhLTQ0Y2ItYWIxZC1lYjJjNGU0MWRkNTkifQ"
 }

@@ -3,13 +3,22 @@
     "issues": {
       "nodes": [
         {
+          "id": "d6fd9de2-541d-467b-92fd-cb378ba7713f",
+          "title": "Hotfix: restore Forest margin updates for position 4518 (45% → 37%)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-26T17:31:50.025Z"
+        },
+        {
           "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
           "title": "Prepare approved Snorkel agreements for dashboard hiring",
           "state": {
             "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-10-25T20:34:21.877Z"
+          "updatedAt": "2026-10-26T16:15:28.686Z"
         },
         {
           "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-15T10:26:40.828Z"
-        },
-        {
-          "id": "d4fc34b1-a048-4a85-b637-d34c46435254",
-          "title": "Repair and track high-value Quora links",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-15T10:26:37.039Z"
         }
       ]
     }
