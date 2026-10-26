@@ -3,22 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "d6fd9de2-541d-467b-92fd-cb378ba7713f",
-          "title": "Hotfix: restore Forest margin updates for position 4518 (45% → 37%)",
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email systems | Map active sends and plan the cleanup",
           "state": {
-            "name": "Done"
+            "name": "In Progress"
           },
-          "priority": 2,
-          "updatedAt": "2026-10-26T17:31:50.025Z"
-        },
-        {
-          "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
-          "title": "Prepare approved Snorkel agreements for dashboard hiring",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-26T16:15:28.686Z"
+          "priority": 4,
+          "updatedAt": "2026-10-26T21:41:56.253Z"
         },
         {
           "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
@@ -27,7 +18,34 @@
             "name": "Todo"
           },
           "priority": 0,
-          "updatedAt": "2026-10-25T20:34:21.525Z"
+          "updatedAt": "2026-10-26T21:05:34.309Z"
+        },
+        {
+          "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
+          "title": "Prepare approved Snorkel agreements for dashboard hiring",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-26T20:32:10.511Z"
+        },
+        {
+          "id": "d867e103-b466-49ff-ac25-d6938d59965b",
+          "title": "Keep Snorkel application bids within the $110 hourly limit",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-26T20:32:10.126Z"
+        },
+        {
+          "id": "d6fd9de2-541d-467b-92fd-cb378ba7713f",
+          "title": "Hotfix: restore Forest margin updates for position 4518 (45% → 37%)",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-26T17:31:50.025Z"
         },
         {
           "id": "5e9d3efe-e708-4d91-80e0-eabba2c4ee5a",
@@ -55,15 +73,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-23T21:02:05.887Z"
-        },
-        {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email systems | Map active sends and plan the cleanup",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 4,
-          "updatedAt": "2026-10-23T21:02:02.279Z"
         },
         {
           "id": "dfb0072b-8333-4ce8-9e1e-1d474c73bdaa",
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-15T10:26:44.022Z"
-        },
-        {
-          "id": "319b40e1-45ed-4df6-be47-e9c1034bf742",
-          "title": "Worklog submission times out twice with visible error in Agent-using session",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-15T10:26:40.828Z"
         }
       ]
     }
