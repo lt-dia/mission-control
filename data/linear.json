@@ -3,13 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "793fb374-854d-4000-8c97-b45fd429fc9d",
-          "title": "Unblock offers for talent with an existing SMB payment schedule",
+          "id": "d8e1ce93-c115-4fe6-b543-355399f7b11a",
+          "title": "Candidate table view: deferred minor review findings (one follow-up PR)",
           "state": {
-            "name": "In Progress"
+            "name": "Backlog"
           },
-          "priority": 0,
-          "updatedAt": "2026-10-27T20:37:48.392Z"
+          "priority": 4,
+          "updatedAt": "2026-10-28T20:32:09.635Z"
         },
         {
           "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
@@ -18,7 +18,7 @@
             "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-10-27T20:37:48.208Z"
+          "updatedAt": "2026-10-28T20:32:03.249Z"
         },
         {
           "id": "0c1374ec-7cd4-463c-a2c7-19d1d4e09a0f",
@@ -27,7 +27,7 @@
             "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-10-27T20:37:22.918Z"
+          "updatedAt": "2026-10-28T20:32:01.344Z"
         },
         {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
@@ -36,7 +36,7 @@
             "name": "In Progress"
           },
           "priority": 4,
-          "updatedAt": "2026-10-27T20:37:20.563Z"
+          "updatedAt": "2026-10-28T20:31:58.856Z"
         },
         {
           "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
@@ -45,7 +45,16 @@
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-10-27T20:36:53.492Z"
+          "updatedAt": "2026-10-28T20:31:50.505Z"
+        },
+        {
+          "id": "793fb374-854d-4000-8c97-b45fd429fc9d",
+          "title": "Unblock offers for talent with an existing SMB payment schedule",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-27T20:37:48.392Z"
         },
         {
           "id": "d867e103-b466-49ff-ac25-d6938d59965b",
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-15T10:26:51.115Z"
-        },
-        {
-          "id": "45b4a09f-607e-4067-a4b5-d9c945ad8b45",
-          "title": "Direct full-time hiring | Map the Sales process and identify the smallest working flow",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-15T10:26:47.327Z"
         }
       ]
     }
