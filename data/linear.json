@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
+          "title": "Connect Snorkel background and identity checks after signing",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-10-29T21:23:59.295Z"
+        },
+        {
           "id": "d8e1ce93-c115-4fe6-b543-355399f7b11a",
           "title": "Candidate table view: deferred minor review findings (one follow-up PR)",
           "state": {
@@ -37,15 +46,6 @@
           },
           "priority": 4,
           "updatedAt": "2026-10-28T20:31:58.856Z"
-        },
-        {
-          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
-          "title": "Connect Snorkel background and identity checks after signing",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-28T20:31:50.505Z"
         },
         {
           "id": "793fb374-854d-4000-8c97-b45fd429fc9d",
