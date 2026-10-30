@@ -3,13 +3,22 @@
     "issues": {
       "nodes": [
         {
+          "id": "92dd189a-8ff8-48a4-84fa-324819a104ae",
+          "title": "Fix Payments setup dead end and add Checkr onboarding status",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-10-30T14:42:58.435Z"
+        },
+        {
           "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
           "title": "Connect Snorkel background and identity checks after signing",
           "state": {
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-10-29T21:23:59.295Z"
+          "updatedAt": "2026-10-30T14:04:14.115Z"
         },
         {
           "id": "d8e1ce93-c115-4fe6-b543-355399f7b11a",
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-10-15T10:26:54.706Z"
-        },
-        {
-          "id": "5efe71bf-3cf0-4ff2-91f1-5fdf8272fd8c",
-          "title": "SMB-designation/flag at the client account level and Specific Hire Flow",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-15T10:26:51.115Z"
         }
       ]
     }
