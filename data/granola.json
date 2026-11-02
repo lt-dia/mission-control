@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_9sn5xflblsvxqz",
+      "object": "note",
+      "title": "War Room",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-11-02T16:29:51.956Z",
+      "updated_at": "2026-11-02T17:18:17.204Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_v5ibulxf1d3axc",
       "object": "note",
       "title": "Eng Standup",
@@ -47,20 +59,8 @@
       "created_at": "2026-10-28T01:37:56.870Z",
       "updated_at": "2026-10-28T02:58:02.790Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_rm01gwddfpr57l",
-      "object": "note",
-      "title": "Eng Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-10-27T15:00:02.797Z",
-      "updated_at": "2026-10-27T15:41:03.272Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0yN1QxNTowMDowMi43OTdaIiwibGFzdF9kb2NfaWQiOiI4NWRjZTNiMi1mMmQxLTRkMzAtODY0NC1hNGQ3OTU3ZmRhZjYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMC0yOFQwMTozNzo1Ni44NzBaIiwibGFzdF9kb2NfaWQiOiI3YWY5YzIyNi00ZjY0LTQwMzEtOTVjZi01MTUwNDYzMTM2YTQifQ"
 }

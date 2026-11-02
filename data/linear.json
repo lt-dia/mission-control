@@ -3,6 +3,24 @@
     "issues": {
       "nodes": [
         {
+          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
+          "title": "Connect Snorkel background and identity checks after signing",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-02T21:31:37.760Z"
+        },
+        {
+          "id": "793fb374-854d-4000-8c97-b45fd429fc9d",
+          "title": "Unblock offers for talent with an existing SMB payment schedule",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-02T15:43:40.485Z"
+        },
+        {
           "id": "92dd189a-8ff8-48a4-84fa-324819a104ae",
           "title": "Fix Payments setup dead end and add Checkr onboarding status",
           "state": {
@@ -10,15 +28,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-10-30T14:42:58.435Z"
-        },
-        {
-          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
-          "title": "Connect Snorkel background and identity checks after signing",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-30T14:04:14.115Z"
         },
         {
           "id": "d8e1ce93-c115-4fe6-b543-355399f7b11a",
@@ -55,15 +64,6 @@
           },
           "priority": 4,
           "updatedAt": "2026-10-28T20:31:58.856Z"
-        },
-        {
-          "id": "793fb374-854d-4000-8c97-b45fd429fc9d",
-          "title": "Unblock offers for talent with an existing SMB payment schedule",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-27T20:37:48.392Z"
         },
         {
           "id": "d867e103-b466-49ff-ac25-d6938d59965b",
