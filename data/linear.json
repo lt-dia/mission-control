@@ -3,13 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
-          "title": "Prepare approved Snorkel agreements for dashboard hiring",
+          "id": "92dd189a-8ff8-48a4-84fa-324819a104ae",
+          "title": "Fix Payments setup dead end and add Checkr onboarding status",
           "state": {
             "name": "Done"
           },
-          "priority": 0,
-          "updatedAt": "2026-11-03T21:36:16.723Z"
+          "priority": 2,
+          "updatedAt": "2026-11-04T23:08:36.442Z"
         },
         {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
@@ -18,7 +18,16 @@
             "name": "In Progress"
           },
           "priority": 4,
-          "updatedAt": "2026-11-03T21:36:15.913Z"
+          "updatedAt": "2026-11-04T21:33:50.358Z"
+        },
+        {
+          "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
+          "title": "Prepare approved Snorkel agreements for dashboard hiring",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-03T21:36:16.723Z"
         },
         {
           "id": "0c1374ec-7cd4-463c-a2c7-19d1d4e09a0f",
@@ -46,15 +55,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-11-02T15:43:40.485Z"
-        },
-        {
-          "id": "92dd189a-8ff8-48a4-84fa-324819a104ae",
-          "title": "Fix Payments setup dead end and add Checkr onboarding status",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-30T14:42:58.435Z"
         },
         {
           "id": "d8e1ce93-c115-4fe6-b543-355399f7b11a",
