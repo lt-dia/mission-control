@@ -9,7 +9,7 @@
             "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-11-05T15:15:38.900Z"
+          "updatedAt": "2026-11-05T20:50:30.638Z"
         },
         {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
@@ -18,7 +18,16 @@
             "name": "In Progress"
           },
           "priority": 4,
-          "updatedAt": "2026-11-04T21:33:50.358Z"
+          "updatedAt": "2026-11-05T17:13:58.149Z"
+        },
+        {
+          "id": "dfb0072b-8333-4ce8-9e1e-1d474c73bdaa",
+          "title": "Invite Lawtraders to refer peers after they start work",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-05T16:44:17.887Z"
         },
         {
           "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
@@ -100,15 +109,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-23T21:02:05.887Z"
-        },
-        {
-          "id": "dfb0072b-8333-4ce8-9e1e-1d474c73bdaa",
-          "title": "Invite Lawtraders to refer peers after they start work",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-23T21:02:01.954Z"
         },
         {
           "id": "cd84307f-7194-424b-93dc-b07946180241",
