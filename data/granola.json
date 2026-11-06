@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_89kg1cfsjat7wd",
+      "object": "note",
+      "title": "The Goal: Theory of Constraints and bottleneck management with Christopher Burke",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-11-06T00:31:01.915Z",
+      "updated_at": "2026-11-06T01:59:58.389Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_eef7phey9bjl1b",
       "object": "note",
       "title": "Wedding RSVP and invitation logistics with Vinita",
@@ -47,20 +59,8 @@
       "created_at": "2026-11-03T15:27:15.750Z",
       "updated_at": "2026-11-04T15:08:51.853Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_9sn5xflblsvxqz",
-      "object": "note",
-      "title": "War Room",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-11-02T16:29:51.956Z",
-      "updated_at": "2026-11-02T17:18:17.204Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0wMlQxNjoyOTo1MS45NTZaIiwibGFzdF9kb2NfaWQiOiI3ZGNmN2ExYy03ZjI2LTRlYmUtOWFkZi0xNTBlOThlYTMyYWEifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0wM1QxNToyNzoxNS43NTBaIiwibGFzdF9kb2NfaWQiOiJlNmZkNmVkNi1iYmY1LTRkNGQtOTI3ZC0yMzYwNzkyMGIzY2EifQ"
 }
