@@ -3,13 +3,40 @@
     "issues": {
       "nodes": [
         {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-11-05T21:56:38.567Z"
+        },
+        {
+          "id": "c5b2ec17-465f-416f-922d-7eab922d72fb",
+          "title": "SMB | Open shared hire links in the correct company project",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-05T21:56:37.766Z"
+        },
+        {
+          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
+          "title": "Connect Snorkel background and identity checks after signing",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-05T21:56:36.984Z"
+        },
+        {
           "id": "92dd189a-8ff8-48a4-84fa-324819a104ae",
           "title": "Fix Payments setup dead end and add Checkr onboarding status",
           "state": {
             "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-11-05T20:50:30.638Z"
+          "updatedAt": "2026-11-05T21:56:36.219Z"
         },
         {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
@@ -46,15 +73,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-11-03T21:36:14.396Z"
-        },
-        {
-          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
-          "title": "Connect Snorkel background and identity checks after signing",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-02T21:31:37.760Z"
         },
         {
           "id": "793fb374-854d-4000-8c97-b45fd429fc9d",
@@ -145,15 +163,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-10-22T17:15:00.730Z"
-        },
-        {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-22T17:14:40.031Z"
         },
         {
           "id": "bf6c32fa-d386-44af-a503-2f05c9f825fd",
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-15T10:26:58.481Z"
-        },
-        {
-          "id": "43690614-4477-4760-a507-22fb0f8104b2",
-          "title": "Insulet | Restore talent payout on roles 4479 and 4480 (40% margin) and block publishing roles without pricing",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-15T10:26:54.706Z"
         }
       ]
     }
