@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_vciq1qvosohlnf",
+      "object": "note",
+      "title": "Sales Team - stand up",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-11-06T17:31:32.878Z",
+      "updated_at": "2026-11-06T18:05:24.411Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_89kg1cfsjat7wd",
       "object": "note",
       "title": "The Goal: Theory of Constraints and bottleneck management with Christopher Burke",
@@ -47,20 +59,8 @@
       "created_at": "2026-11-04T02:30:07.587Z",
       "updated_at": "2026-11-04T03:51:27.302Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_ock2uhflrkdmcg",
-      "object": "note",
-      "title": "LT Agent integration, dashboard customization, and outreach campaign strategy",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-11-03T15:27:15.750Z",
-      "updated_at": "2026-11-04T15:08:51.853Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0wM1QxNToyNzoxNS43NTBaIiwibGFzdF9kb2NfaWQiOiJlNmZkNmVkNi1iYmY1LTRkNGQtOTI3ZC0yMzYwNzkyMGIzY2EifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0wNFQwMjozMDowNy41ODdaIiwibGFzdF9kb2NfaWQiOiIwZWY0MTdmYi00NzNkLTQ5ZmMtYjA4Ni00MmJiMTQ4ZmZjNzIifQ"
 }
