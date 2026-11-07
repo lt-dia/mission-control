@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
+          "title": "Connect Snorkel background and identity checks after signing",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-06T21:43:11.263Z"
+        },
+        {
+          "id": "92dd189a-8ff8-48a4-84fa-324819a104ae",
+          "title": "Fix Payments setup dead end and add Checkr onboarding status",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-11-06T21:42:51.931Z"
+        },
+        {
+          "id": "4e6b8aef-c1a4-4435-a89a-981ca44e4c7f",
+          "title": "Confirm account ownership before changing talent bank details",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-06T21:42:33.168Z"
+        },
+        {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
           "title": "Take over help@lawtrades support coverage without duplicate replies",
           "state": {
@@ -19,24 +46,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-11-05T21:56:37.766Z"
-        },
-        {
-          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
-          "title": "Connect Snorkel background and identity checks after signing",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-05T21:56:36.984Z"
-        },
-        {
-          "id": "92dd189a-8ff8-48a4-84fa-324819a104ae",
-          "title": "Fix Payments setup dead end and add Checkr onboarding status",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-11-05T21:56:36.219Z"
         },
         {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
@@ -442,15 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-10-15T10:27:02.914Z"
-        },
-        {
-          "id": "82766ea3-084d-4039-9bc7-8c287ab8b1fe",
-          "title": "SMB position suggestions stall for 30 seconds before returning to Agent welcome",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-15T10:26:58.481Z"
         }
       ]
     }
