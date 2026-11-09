@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "cd84307f-7194-424b-93dc-b07946180241",
+          "title": "Keep new company owners able to invite teammates",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-09T17:47:38.783Z"
+        },
+        {
           "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
           "title": "Connect Snorkel background and identity checks after signing",
           "state": {
@@ -136,15 +145,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-23T21:02:05.887Z"
-        },
-        {
-          "id": "cd84307f-7194-424b-93dc-b07946180241",
-          "title": "Keep new company owners able to invite teammates",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-22T20:33:15.056Z"
         },
         {
           "id": "94444cee-3f2d-4450-b4fd-a30187880d37",

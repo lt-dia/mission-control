@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_zs6g6yk95dzlga",
+      "object": "note",
+      "title": "War Room",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-11-09T15:59:38.971Z",
+      "updated_at": "2026-11-09T16:22:40.875Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_vciq1qvosohlnf",
       "object": "note",
       "title": "Sales Team - stand up",
@@ -47,20 +59,8 @@
       "created_at": "2026-11-04T16:59:04.313Z",
       "updated_at": "2026-11-04T17:49:47.972Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_avbcdgwdwb5b76",
-      "object": "note",
-      "title": "Week 5 finance lecture: midterm exam, AI tools, and real options",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-11-04T02:30:07.587Z",
-      "updated_at": "2026-11-04T03:51:27.302Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0wNFQwMjozMDowNy41ODdaIiwibGFzdF9kb2NfaWQiOiIwZWY0MTdmYi00NzNkLTQ5ZmMtYjA4Ni00MmJiMTQ4ZmZjNzIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0wNFQxNjo1OTowNC4zMTNaIiwibGFzdF9kb2NfaWQiOiI4NTBjZTBiNS1mMjlkLTRlNTMtYWY3Ni00NTUwODVjZGMyYzAifQ"
 }
