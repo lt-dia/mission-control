@@ -3,40 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "cd84307f-7194-424b-93dc-b07946180241",
-          "title": "Keep new company owners able to invite teammates",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-09T17:47:38.783Z"
-        },
-        {
-          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
-          "title": "Connect Snorkel background and identity checks after signing",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-06T21:43:11.263Z"
-        },
-        {
-          "id": "92dd189a-8ff8-48a4-84fa-324819a104ae",
-          "title": "Fix Payments setup dead end and add Checkr onboarding status",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-11-06T21:42:51.931Z"
-        },
-        {
           "id": "4e6b8aef-c1a4-4435-a89a-981ca44e4c7f",
           "title": "Confirm account ownership before changing talent bank details",
           "state": {
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-11-06T21:42:33.168Z"
+          "updatedAt": "2026-11-09T22:28:30.082Z"
         },
         {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
@@ -45,7 +18,34 @@
             "name": "Done"
           },
           "priority": 3,
-          "updatedAt": "2026-11-05T21:56:38.567Z"
+          "updatedAt": "2026-11-09T21:32:06.096Z"
+        },
+        {
+          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
+          "title": "Connect Snorkel background and identity checks after signing",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-09T21:32:04.585Z"
+        },
+        {
+          "id": "92dd189a-8ff8-48a4-84fa-324819a104ae",
+          "title": "Fix Payments setup dead end and add Checkr onboarding status",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-11-09T21:31:31.774Z"
+        },
+        {
+          "id": "cd84307f-7194-424b-93dc-b07946180241",
+          "title": "Keep new company owners able to invite teammates",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-09T21:15:52.213Z"
         },
         {
           "id": "c5b2ec17-465f-416f-922d-7eab922d72fb",
