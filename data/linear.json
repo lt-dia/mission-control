@@ -3,13 +3,22 @@
     "issues": {
       "nodes": [
         {
+          "id": "dfb0072b-8333-4ce8-9e1e-1d474c73bdaa",
+          "title": "Invite Lawtraders to refer peers after they start work",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-10T16:38:31.577Z"
+        },
+        {
           "id": "4e6b8aef-c1a4-4435-a89a-981ca44e4c7f",
           "title": "Confirm account ownership before changing talent bank details",
           "state": {
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-11-09T22:28:30.082Z"
+          "updatedAt": "2026-11-10T15:00:06.199Z"
         },
         {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
@@ -64,15 +73,6 @@
           },
           "priority": 4,
           "updatedAt": "2026-11-05T17:13:58.149Z"
-        },
-        {
-          "id": "dfb0072b-8333-4ce8-9e1e-1d474c73bdaa",
-          "title": "Invite Lawtraders to refer peers after they start work",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-05T16:44:17.887Z"
         },
         {
           "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
