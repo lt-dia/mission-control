@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "397b6c0d-82b3-4834-90a1-44b3887698a5",
+          "title": "AI-onboarded talent profile save shows error after slow or uncertain request",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-11-11T03:39:40.836Z"
+        },
+        {
           "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
           "title": "Talent Home | Keep chat and everyday work in one workspace",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-15T10:27:10.268Z"
-        },
-        {
-          "id": "43ce4abe-8182-4d2d-9dbb-ca5c43a3aa6d",
-          "title": "Job application project details briefly fail on position 4475 (HTTP 444)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-15T10:27:06.645Z"
         }
       ]
     }

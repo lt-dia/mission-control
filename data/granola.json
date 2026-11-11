@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_5kaybhsa705m9h",
+      "object": "note",
+      "title": "Week 6 finance: portfolio risk, return, and correlation",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-11-11T02:31:05.089Z",
+      "updated_at": "2026-11-11T03:53:47.551Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_8jbf4ao4wuy3n3",
       "object": "note",
       "title": "Eng Standup",
@@ -47,20 +59,8 @@
       "created_at": "2026-11-06T00:31:01.915Z",
       "updated_at": "2026-11-06T01:59:58.389Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_eef7phey9bjl1b",
-      "object": "note",
-      "title": "Wedding RSVP and invitation logistics with Vinita",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-11-04T23:40:16.471Z",
-      "updated_at": "2026-11-05T00:16:36.712Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0wNFQyMzo0MDoxNi40NzFaIiwibGFzdF9kb2NfaWQiOiIzMGMwZjcyMS1lNTJjLTQ2OWMtYTRjNS1kNzljMzljOWQwMmIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0wNlQwMDozMTowMS45MTVaIiwibGFzdF9kb2NfaWQiOiJhNmQ2ODMyNS00MmNiLTQ5ZjQtOTJiOC03N2U3NGQwNjVlZDMifQ"
 }
