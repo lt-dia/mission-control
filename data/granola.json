@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_m2hf481xumvkrw",
+      "object": "note",
+      "title": "DNg",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-11-11T14:15:00.511Z",
+      "updated_at": "2026-11-11T14:44:44.905Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_5kaybhsa705m9h",
       "object": "note",
       "title": "Week 6 finance: portfolio risk, return, and correlation",
@@ -47,20 +59,8 @@
       "created_at": "2026-11-06T17:31:32.878Z",
       "updated_at": "2026-11-06T18:05:24.411Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_89kg1cfsjat7wd",
-      "object": "note",
-      "title": "The Goal: Theory of Constraints and bottleneck management with Christopher Burke",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-11-06T00:31:01.915Z",
-      "updated_at": "2026-11-06T01:59:58.389Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0wNlQwMDozMTowMS45MTVaIiwibGFzdF9kb2NfaWQiOiJhNmQ2ODMyNS00MmNiLTQ5ZjQtOTJiOC03N2U3NGQwNjVlZDMifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0wNlQxNzozMTozMi44NzhaIiwibGFzdF9kb2NfaWQiOiJlNzkyMDMzZi0zODNlLTRhMGYtYWZlZC0xN2UyMzRmMGMwNjUifQ"
 }
