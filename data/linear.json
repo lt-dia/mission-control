@@ -3,22 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "dfb0072b-8333-4ce8-9e1e-1d474c73bdaa",
-          "title": "Invite Lawtraders to refer peers after they start work",
+          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
+          "title": "Talent Home | Keep chat and everyday work in one workspace",
           "state": {
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-11-10T16:38:31.577Z"
-        },
-        {
-          "id": "4e6b8aef-c1a4-4435-a89a-981ca44e4c7f",
-          "title": "Confirm account ownership before changing talent bank details",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-10T15:00:06.199Z"
+          "updatedAt": "2026-11-10T22:30:55.903Z"
         },
         {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
@@ -27,7 +18,34 @@
             "name": "Done"
           },
           "priority": 3,
-          "updatedAt": "2026-11-09T21:32:06.096Z"
+          "updatedAt": "2026-11-10T22:30:38.780Z"
+        },
+        {
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email systems | Map active sends and plan the cleanup",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-11-10T22:30:36.960Z"
+        },
+        {
+          "id": "4e6b8aef-c1a4-4435-a89a-981ca44e4c7f",
+          "title": "Confirm account ownership before changing talent bank details",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-10T22:30:33.705Z"
+        },
+        {
+          "id": "dfb0072b-8333-4ce8-9e1e-1d474c73bdaa",
+          "title": "Invite Lawtraders to refer peers after they start work",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-10T16:38:31.577Z"
         },
         {
           "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
@@ -64,15 +82,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-11-05T21:56:37.766Z"
-        },
-        {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email systems | Map active sends and plan the cleanup",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 4,
-          "updatedAt": "2026-11-05T17:13:58.149Z"
         },
         {
           "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-15T10:27:06.645Z"
-        },
-        {
-          "id": "2bc6faac-da55-4bce-a6a2-f2a091d98404",
-          "title": "SMB Agent cannot advance project draft after approval and timing details are supplied",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-15T10:27:02.914Z"
         }
       ]
     }
