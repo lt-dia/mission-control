@@ -3,13 +3,22 @@
     "issues": {
       "nodes": [
         {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-11-12T22:37:04.180Z"
+        },
+        {
           "id": "4e6b8aef-c1a4-4435-a89a-981ca44e4c7f",
           "title": "Confirm account ownership before changing talent bank details",
           "state": {
             "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-11-12T13:05:53.735Z"
+          "updatedAt": "2026-11-12T22:37:01.758Z"
         },
         {
           "id": "92dd189a-8ff8-48a4-84fa-324819a104ae",
@@ -18,7 +27,34 @@
             "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-11-12T05:24:30.104Z"
+          "updatedAt": "2026-11-12T22:36:59.414Z"
+        },
+        {
+          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
+          "title": "Connect Snorkel background and identity checks after signing",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-12T22:36:55.905Z"
+        },
+        {
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email systems | Map active sends and plan the cleanup",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-11-12T22:36:53.848Z"
+        },
+        {
+          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
+          "title": "Talent Home | Keep chat and everyday work in one workspace",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-12T22:36:49.655Z"
         },
         {
           "id": "39e77540-3f50-4846-8658-105faea21be0",
@@ -28,33 +64,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-11-11T22:36:45.094Z"
-        },
-        {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-11-11T22:36:44.763Z"
-        },
-        {
-          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
-          "title": "Talent Home | Keep chat and everyday work in one workspace",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-11T22:36:43.136Z"
-        },
-        {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email systems | Map active sends and plan the cleanup",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 4,
-          "updatedAt": "2026-11-11T22:36:40.895Z"
         },
         {
           "id": "f2163b28-89c3-4647-af93-c7a504579794",
@@ -100,15 +109,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-11-10T16:38:31.577Z"
-        },
-        {
-          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
-          "title": "Connect Snorkel background and identity checks after signing",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-09T21:32:04.585Z"
         },
         {
           "id": "cd84307f-7194-424b-93dc-b07946180241",
