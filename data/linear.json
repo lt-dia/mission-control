@@ -3,6 +3,42 @@
     "issues": {
       "nodes": [
         {
+          "id": "39e77540-3f50-4846-8658-105faea21be0",
+          "title": "Talent deleted account by mistake- can we resotre?",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-11T22:36:45.094Z"
+        },
+        {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-11-11T22:36:44.763Z"
+        },
+        {
+          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
+          "title": "Talent Home | Keep chat and everyday work in one workspace",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-11T22:36:43.136Z"
+        },
+        {
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email systems | Map active sends and plan the cleanup",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-11-11T22:36:40.895Z"
+        },
+        {
           "id": "f2163b28-89c3-4647-af93-c7a504579794",
           "title": "rescheduled interviews not sending out talent/ client calendar invites",
           "state": {
@@ -30,15 +66,6 @@
           "updatedAt": "2026-11-11T21:14:21.172Z"
         },
         {
-          "id": "39e77540-3f50-4846-8658-105faea21be0",
-          "title": "Talent deleted account by mistake- can we resotre?",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-11T20:04:49.872Z"
-        },
-        {
           "id": "397b6c0d-82b3-4834-90a1-44b3887698a5",
           "title": "AI-onboarded talent profile save shows error after slow or uncertain request",
           "state": {
@@ -46,33 +73,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-11-11T03:39:40.836Z"
-        },
-        {
-          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
-          "title": "Talent Home | Keep chat and everyday work in one workspace",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-10T22:30:55.903Z"
-        },
-        {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-11-10T22:30:38.780Z"
-        },
-        {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email systems | Map active sends and plan the cleanup",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 4,
-          "updatedAt": "2026-11-10T22:30:36.960Z"
         },
         {
           "id": "4e6b8aef-c1a4-4435-a89a-981ca44e4c7f",
