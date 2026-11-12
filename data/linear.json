@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "4e6b8aef-c1a4-4435-a89a-981ca44e4c7f",
+          "title": "Confirm account ownership before changing talent bank details",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-12T13:05:53.735Z"
+        },
+        {
           "id": "92dd189a-8ff8-48a4-84fa-324819a104ae",
           "title": "Fix Payments setup dead end and add Checkr onboarding status",
           "state": {
@@ -10,15 +19,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-11-12T05:24:30.104Z"
-        },
-        {
-          "id": "4e6b8aef-c1a4-4435-a89a-981ca44e4c7f",
-          "title": "Confirm account ownership before changing talent bank details",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-12T05:05:48.735Z"
         },
         {
           "id": "39e77540-3f50-4846-8658-105faea21be0",
