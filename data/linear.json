@@ -3,13 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "57e130fe-437a-4997-b1a5-5581a5f51911",
-          "title": "Talent Home: Engagements nav badge should only show for something new",
+          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
+          "title": "Talent Home | Keep chat and everyday work in one workspace",
           "state": {
             "name": "Done"
           },
-          "priority": 2,
-          "updatedAt": "2026-11-13T18:41:15.205Z"
+          "priority": 0,
+          "updatedAt": "2026-11-13T22:44:12.276Z"
         },
         {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
@@ -18,7 +18,25 @@
             "name": "Done"
           },
           "priority": 3,
-          "updatedAt": "2026-11-12T22:37:04.180Z"
+          "updatedAt": "2026-11-13T22:38:46.478Z"
+        },
+        {
+          "id": "8d7f8d60-6cf8-4ce7-913e-dcd5504f0abc",
+          "title": "Research Sales interview controls and scheduling integration",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-11-13T22:38:36.224Z"
+        },
+        {
+          "id": "57e130fe-437a-4997-b1a5-5581a5f51911",
+          "title": "Talent Home: Engagements nav badge should only show for something new",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-11-13T22:38:14.545Z"
         },
         {
           "id": "4e6b8aef-c1a4-4435-a89a-981ca44e4c7f",
@@ -55,15 +73,6 @@
           },
           "priority": 4,
           "updatedAt": "2026-11-12T22:36:53.848Z"
-        },
-        {
-          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
-          "title": "Talent Home | Keep chat and everyday work in one workspace",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-12T22:36:49.655Z"
         },
         {
           "id": "39e77540-3f50-4846-8658-105faea21be0",
@@ -253,15 +262,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-20T18:03:41.492Z"
-        },
-        {
-          "id": "8d7f8d60-6cf8-4ce7-913e-dcd5504f0abc",
-          "title": "Research Sales interview controls and scheduling integration",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-19T20:29:21.507Z"
         },
         {
           "id": "e0dead2d-0db6-4515-a77e-ca910a44ac08",
