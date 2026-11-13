@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_gvoyztqizf6pw5",
+      "object": "note",
+      "title": "Sales Team - stand up",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-11-13T17:59:55.844Z",
+      "updated_at": "2026-11-13T18:16:54.381Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_geb8udfq7cp4of",
       "object": "note",
       "title": "Design Haus",
@@ -47,20 +59,8 @@
       "created_at": "2026-11-10T16:00:35.154Z",
       "updated_at": "2026-11-10T16:29:14.216Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_zs6g6yk95dzlga",
-      "object": "note",
-      "title": "War Room",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-11-09T15:59:38.971Z",
-      "updated_at": "2026-11-09T16:22:40.875Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0wOVQxNTo1OTozOC45NzFaIiwibGFzdF9kb2NfaWQiOiI3ZTQ1NjUxMi1iMjVlLTRhMDUtOGQ5Ny0zMzk3MmUxMjMwN2EifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0xMFQxNjowMDozNS4xNTRaIiwibGFzdF9kb2NfaWQiOiJiZDgwYjA5Zi0wYmNkLTQ3OTEtYTk1NS0yNDk1Y2JjZWNhODUifQ"
 }

@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "57e130fe-437a-4997-b1a5-5581a5f51911",
+          "title": "Talent Home: Engagements nav badge should only show for something new",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-11-13T18:41:15.205Z"
+        },
+        {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
           "title": "Take over help@lawtrades support coverage without duplicate replies",
           "state": {
@@ -442,15 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-15T10:27:29.035Z"
-        },
-        {
-          "id": "9479bdb4-8bf0-46d9-a758-69036d63c11c",
-          "title": "Fixed-fee Hire opens Agent with empty position and candidate IDs",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-15T10:27:24.444Z"
         }
       ]
     }
