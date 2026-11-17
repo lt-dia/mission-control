@@ -9,7 +9,16 @@
             "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-11-13T22:44:12.276Z"
+          "updatedAt": "2026-11-16T23:38:49.947Z"
+        },
+        {
+          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
+          "title": "Connect Snorkel background and identity checks after signing",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-16T23:38:48.531Z"
         },
         {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
@@ -55,15 +64,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-11-12T22:36:59.414Z"
-        },
-        {
-          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
-          "title": "Connect Snorkel background and identity checks after signing",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-12T22:36:55.905Z"
         },
         {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
