@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "074f240a-e699-4147-aeb9-07ce19fb6113",
+          "title": "Bug in client insights dashboard",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-17T18:45:28.036Z"
+        },
+        {
+          "id": "4e6b8aef-c1a4-4435-a89a-981ca44e4c7f",
+          "title": "Confirm account ownership before changing talent bank details",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-17T18:09:29.912Z"
+        },
+        {
+          "id": "372dad84-7872-4bc8-a5b9-8745d1c8e6d2",
+          "title": "Insights | Show consistent talent details and accurate invoice CSV exports",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-17T17:42:45.766Z"
+        },
+        {
           "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
           "title": "Talent Home | Keep chat and everyday work in one workspace",
           "state": {
@@ -46,15 +73,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-11-13T22:38:14.545Z"
-        },
-        {
-          "id": "4e6b8aef-c1a4-4435-a89a-981ca44e4c7f",
-          "title": "Confirm account ownership before changing talent bank details",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-12T22:37:01.758Z"
         },
         {
           "id": "92dd189a-8ff8-48a4-84fa-324819a104ae",
@@ -433,24 +451,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-10-15T10:27:37.496Z"
-        },
-        {
-          "id": "409e649c-2e88-4925-8eee-f54c0e43e15b",
-          "title": "Public opportunity 4389 renders a blank page",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-15T10:27:34.110Z"
-        },
-        {
-          "id": "f7af0610-e032-4f07-8d71-3d5192514166",
-          "title": "SMB fixed-fee checkout times out repeatedly and mislabels failure as card decline",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-15T10:27:29.035Z"
         }
       ]
     }

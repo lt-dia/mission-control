@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_72a0poq94tqwaj",
+      "object": "note",
+      "title": "Eng Standup",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-11-17T16:30:45.486Z",
+      "updated_at": "2026-11-17T16:41:51.427Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_zyaqxjetm64dts",
       "object": "note",
       "title": "War Room",
@@ -47,20 +59,8 @@
       "created_at": "2026-11-11T14:15:00.511Z",
       "updated_at": "2026-11-11T14:44:44.905Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_5kaybhsa705m9h",
-      "object": "note",
-      "title": "Week 6 finance: portfolio risk, return, and correlation",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-11-11T02:31:05.089Z",
-      "updated_at": "2026-11-11T03:53:47.551Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0xMVQwMjozMTowNS4wODlaIiwibGFzdF9kb2NfaWQiOiI0MjQ2ZTQ5Yy1kZTBmLTQ1OTktYjk0Yy02YzM0MWUxOTg4YmQifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0xMVQxNDoxNTowMC41MTFaIiwibGFzdF9kb2NfaWQiOiI1NGFmMjQ1NC1hNjAyLTRhM2ItYjcxNi04YWRhNzI4MWE3MTEifQ"
 }
