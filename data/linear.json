@@ -3,13 +3,58 @@
     "issues": {
       "nodes": [
         {
+          "id": "66b1b6a3-eb27-4428-ac2c-1254b90cafb9",
+          "title": "SMB | Collect and request payment without ending an hourly project",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-17T22:30:46.069Z"
+        },
+        {
           "id": "074f240a-e699-4147-aeb9-07ce19fb6113",
           "title": "Bug in client insights dashboard",
           "state": {
             "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-11-17T18:45:28.036Z"
+          "updatedAt": "2026-11-17T21:45:35.156Z"
+        },
+        {
+          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
+          "title": "Connect Snorkel background and identity checks after signing",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-17T21:45:32.265Z"
+        },
+        {
+          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
+          "title": "Talent Home | Keep chat and everyday work in one workspace",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-17T21:45:30.571Z"
+        },
+        {
+          "id": "397b6c0d-82b3-4834-90a1-44b3887698a5",
+          "title": "AI-onboarded talent profile save shows error after slow or uncertain request",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 3,
+          "updatedAt": "2026-11-17T21:44:52.220Z"
+        },
+        {
+          "id": "a1cd92f8-3117-49ea-92ee-5973caebc38d",
+          "title": "Onboarding | Prevent invalid imported fields from blocking profile saves",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-17T21:44:51.970Z"
         },
         {
           "id": "4e6b8aef-c1a4-4435-a89a-981ca44e4c7f",
@@ -28,24 +73,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-11-17T17:42:45.766Z"
-        },
-        {
-          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
-          "title": "Talent Home | Keep chat and everyday work in one workspace",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-16T23:38:49.947Z"
-        },
-        {
-          "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
-          "title": "Connect Snorkel background and identity checks after signing",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-16T23:38:48.531Z"
         },
         {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
@@ -127,15 +154,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-11-11T21:14:21.172Z"
-        },
-        {
-          "id": "397b6c0d-82b3-4834-90a1-44b3887698a5",
-          "title": "AI-onboarded talent profile save shows error after slow or uncertain request",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 3,
-          "updatedAt": "2026-11-11T03:39:40.836Z"
         },
         {
           "id": "dfb0072b-8333-4ce8-9e1e-1d474c73bdaa",
@@ -433,24 +451,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-10-15T10:27:44.469Z"
-        },
-        {
-          "id": "fcb0a987-f261-43b1-b185-b7fecdd17a68",
-          "title": "Interview Send Request fails with Unknown Position or Talent in chat-using session",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-15T10:27:41.009Z"
-        },
-        {
-          "id": "72098d01-09b1-46f6-8c0d-cfd0f7b0d2f0",
-          "title": "Conditional Questionnaire Clauses → Contract Template Mapping",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-15T10:27:37.496Z"
         }
       ]
     }
