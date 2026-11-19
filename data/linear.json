@@ -3,13 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
-          "title": "Talent Home | Keep chat and everyday work in one workspace",
+          "id": "66b1b6a3-eb27-4428-ac2c-1254b90cafb9",
+          "title": "SMB | Collect and request payment without ending an hourly project",
           "state": {
             "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-11-19T17:08:48.049Z"
+          "updatedAt": "2026-11-19T21:28:03.577Z"
         },
         {
           "id": "8d7f8d60-6cf8-4ce7-913e-dcd5504f0abc",
@@ -18,7 +18,16 @@
             "name": "In Progress"
           },
           "priority": 2,
-          "updatedAt": "2026-11-19T14:07:15.076Z"
+          "updatedAt": "2026-11-19T21:28:02.890Z"
+        },
+        {
+          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
+          "title": "Talent Home | Keep chat and everyday work in one workspace",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-19T21:27:35.735Z"
         },
         {
           "id": "a1cd92f8-3117-49ea-92ee-5973caebc38d",
@@ -73,15 +82,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-11-18T21:37:49.205Z"
-        },
-        {
-          "id": "66b1b6a3-eb27-4428-ac2c-1254b90cafb9",
-          "title": "SMB | Collect and request payment without ending an hourly project",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-18T21:37:39.821Z"
         },
         {
           "id": "3cc9b780-f3a4-4e5e-875a-b6b7dc182d6c",
