@@ -3,13 +3,40 @@
     "issues": {
       "nodes": [
         {
+          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
+          "title": "Talent Home | Keep chat and everyday work in one workspace",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-19T17:08:48.049Z"
+        },
+        {
           "id": "8d7f8d60-6cf8-4ce7-913e-dcd5504f0abc",
           "title": "Research Sales interview controls and scheduling integration",
           "state": {
             "name": "In Progress"
           },
           "priority": 2,
-          "updatedAt": "2026-11-19T07:08:10.438Z"
+          "updatedAt": "2026-11-19T14:07:15.076Z"
+        },
+        {
+          "id": "a1cd92f8-3117-49ea-92ee-5973caebc38d",
+          "title": "Onboarding | Prevent invalid imported fields from blocking profile saves",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-19T11:06:15.500Z"
+        },
+        {
+          "id": "52f60e70-1962-466e-8bbe-6491efb1e627",
+          "title": "Evaluate practical answer limits for talent applications",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-19T11:05:53.555Z"
         },
         {
           "id": "41ab6b3e-f577-4fb7-9e27-3c6bb75e67e6",
@@ -37,15 +64,6 @@
           },
           "priority": 4,
           "updatedAt": "2026-11-19T03:11:19.716Z"
-        },
-        {
-          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
-          "title": "Talent Home | Keep chat and everyday work in one workspace",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-19T02:13:32.264Z"
         },
         {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
@@ -199,15 +217,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-11-18T20:22:09.729Z"
-        },
-        {
-          "id": "a1cd92f8-3117-49ea-92ee-5973caebc38d",
-          "title": "Onboarding | Prevent invalid imported fields from blocking profile saves",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-18T20:20:42.606Z"
         },
         {
           "id": "074f240a-e699-4147-aeb9-07ce19fb6113",
@@ -442,15 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-15T10:28:13.483Z"
-        },
-        {
-          "id": "bcce8fc1-df1a-45ea-8f14-8ab1888c9a26",
-          "title": "Mask attorney names at source in lawtrades-mcp bench tools (close the transcript PII gap from ENG-1893)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-15T10:28:09.036Z"
         }
       ]
     }
