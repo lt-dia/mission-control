@@ -3,13 +3,202 @@
     "issues": {
       "nodes": [
         {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-11-18T21:37:49.205Z"
+        },
+        {
+          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
+          "title": "Email systems | Map active sends and plan the cleanup",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 4,
+          "updatedAt": "2026-11-18T21:37:46.635Z"
+        },
+        {
+          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
+          "title": "Talent Home | Keep chat and everyday work in one workspace",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T21:37:42.282Z"
+        },
+        {
           "id": "66b1b6a3-eb27-4428-ac2c-1254b90cafb9",
           "title": "SMB | Collect and request payment without ending an hourly project",
           "state": {
             "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-11-18T18:00:23.358Z"
+          "updatedAt": "2026-11-18T21:37:39.821Z"
+        },
+        {
+          "id": "3cc9b780-f3a4-4e5e-875a-b6b7dc182d6c",
+          "title": "interview calendar invites not being sent out",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T20:38:10.171Z"
+        },
+        {
+          "id": "92dd189a-8ff8-48a4-84fa-324819a104ae",
+          "title": "Fix Payments setup dead end and add Checkr onboarding status",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-11-18T20:33:17.209Z"
+        },
+        {
+          "id": "12055690-da3e-4a29-a7bf-e526efb9d69f",
+          "title": "LT Agent | Reconcile enterprise search budget tolerance and sub-practice matching rollout",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T20:32:39.285Z"
+        },
+        {
+          "id": "bcb94490-125a-40f7-8d52-4791e6249982",
+          "title": "QA | Suppress nightly payout-blocked email and Slack alerts",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T20:31:18.572Z"
+        },
+        {
+          "id": "0c1374ec-7cd4-463c-a2c7-19d1d4e09a0f",
+          "title": "Help talent discover the featured DataAnnotation opportunity",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T20:30:57.752Z"
+        },
+        {
+          "id": "57e130fe-437a-4997-b1a5-5581a5f51911",
+          "title": "Talent Home: Engagements nav badge should only show for something new",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 2,
+          "updatedAt": "2026-11-18T20:30:04.930Z"
+        },
+        {
+          "id": "de082ba1-56f2-4f31-a7fd-a164e0cf6735",
+          "title": "App toast banners: apply Lawtrades status colors and verify production",
+          "state": {
+            "name": "In Review"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T20:29:55.744Z"
+        },
+        {
+          "id": "f51e292f-82bc-4dfe-9be2-149b69cd1315",
+          "title": "Recruiting analytics: ship browser funnel events and read-only reporting endpoints",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T20:27:57.580Z"
+        },
+        {
+          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
+          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T20:27:45.915Z"
+        },
+        {
+          "id": "41ab6b3e-f577-4fb7-9e27-3c6bb75e67e6",
+          "title": "Find enterprise lawyers by relevant past work, not guessed profile filters",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T20:25:19.467Z"
+        },
+        {
+          "id": "d8e1ce93-c115-4fe6-b543-355399f7b11a",
+          "title": "Candidate table view: deferred minor review findings (one follow-up PR)",
+          "state": {
+            "name": "Backlog"
+          },
+          "priority": 4,
+          "updatedAt": "2026-11-18T20:23:47.989Z"
+        },
+        {
+          "id": "2df4b7d8-a021-4d1f-8964-6aafd81d410c",
+          "title": "Candidates: ship table view, bulk save/decline and position details",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T20:23:47.772Z"
+        },
+        {
+          "id": "5e9d3efe-e708-4d91-80e0-eabba2c4ee5a",
+          "title": "Decline Candidate modal: clean up reason copy (\"Others, Explain\")",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-11-18T20:23:41.943Z"
+        },
+        {
+          "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
+          "title": "Prepare approved Snorkel agreements for dashboard hiring",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T20:23:35.366Z"
+        },
+        {
+          "id": "793fb374-854d-4000-8c97-b45fd429fc9d",
+          "title": "Unblock offers for talent with an existing SMB payment schedule",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T20:23:06.281Z"
+        },
+        {
+          "id": "e7ee698b-d013-4c36-94eb-598f843d15dc",
+          "title": "Clarify client intent before creating a position",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T20:22:59.309Z"
+        },
+        {
+          "id": "d867e103-b466-49ff-ac25-d6938d59965b",
+          "title": "Keep Snorkel application bids within the $110 hourly limit",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T20:22:09.729Z"
+        },
+        {
+          "id": "a1cd92f8-3117-49ea-92ee-5973caebc38d",
+          "title": "Onboarding | Prevent invalid imported fields from blocking profile saves",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-18T20:20:42.606Z"
         },
         {
           "id": "074f240a-e699-4147-aeb9-07ce19fb6113",
@@ -30,15 +219,6 @@
           "updatedAt": "2026-11-17T21:45:32.265Z"
         },
         {
-          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
-          "title": "Talent Home | Keep chat and everyday work in one workspace",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-17T21:45:30.571Z"
-        },
-        {
           "id": "397b6c0d-82b3-4834-90a1-44b3887698a5",
           "title": "AI-onboarded talent profile save shows error after slow or uncertain request",
           "state": {
@@ -46,15 +226,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-11-17T21:44:52.220Z"
-        },
-        {
-          "id": "a1cd92f8-3117-49ea-92ee-5973caebc38d",
-          "title": "Onboarding | Prevent invalid imported fields from blocking profile saves",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-17T21:44:51.970Z"
         },
         {
           "id": "4e6b8aef-c1a4-4435-a89a-981ca44e4c7f",
@@ -75,15 +246,6 @@
           "updatedAt": "2026-11-17T17:42:45.766Z"
         },
         {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-11-13T22:38:46.478Z"
-        },
-        {
           "id": "8d7f8d60-6cf8-4ce7-913e-dcd5504f0abc",
           "title": "Research Sales interview controls and scheduling integration",
           "state": {
@@ -91,33 +253,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-11-13T22:38:36.224Z"
-        },
-        {
-          "id": "57e130fe-437a-4997-b1a5-5581a5f51911",
-          "title": "Talent Home: Engagements nav badge should only show for something new",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-11-13T22:38:14.545Z"
-        },
-        {
-          "id": "92dd189a-8ff8-48a4-84fa-324819a104ae",
-          "title": "Fix Payments setup dead end and add Checkr onboarding status",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 2,
-          "updatedAt": "2026-11-12T22:36:59.414Z"
-        },
-        {
-          "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",
-          "title": "Email systems | Map active sends and plan the cleanup",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 4,
-          "updatedAt": "2026-11-12T22:36:53.848Z"
         },
         {
           "id": "39e77540-3f50-4846-8658-105faea21be0",
@@ -183,51 +318,6 @@
           "updatedAt": "2026-11-05T21:56:37.766Z"
         },
         {
-          "id": "8cddc2e3-ba65-4fec-9507-b3c8796340ea",
-          "title": "Prepare approved Snorkel agreements for dashboard hiring",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-03T21:36:16.723Z"
-        },
-        {
-          "id": "0c1374ec-7cd4-463c-a2c7-19d1d4e09a0f",
-          "title": "Help talent discover the featured DataAnnotation opportunity",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-03T21:36:14.396Z"
-        },
-        {
-          "id": "793fb374-854d-4000-8c97-b45fd429fc9d",
-          "title": "Unblock offers for talent with an existing SMB payment schedule",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-02T15:43:40.485Z"
-        },
-        {
-          "id": "d8e1ce93-c115-4fe6-b543-355399f7b11a",
-          "title": "Candidate table view: deferred minor review findings (one follow-up PR)",
-          "state": {
-            "name": "Backlog"
-          },
-          "priority": 4,
-          "updatedAt": "2026-10-28T20:32:09.635Z"
-        },
-        {
-          "id": "d867e103-b466-49ff-ac25-d6938d59965b",
-          "title": "Keep Snorkel application bids within the $110 hourly limit",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-26T20:32:10.126Z"
-        },
-        {
           "id": "d6fd9de2-541d-467b-92fd-cb378ba7713f",
           "title": "Hotfix: restore Forest margin updates for position 4518 (45% → 37%)",
           "state": {
@@ -235,33 +325,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-10-26T17:31:50.025Z"
-        },
-        {
-          "id": "5e9d3efe-e708-4d91-80e0-eabba2c4ee5a",
-          "title": "Decline Candidate modal: clean up reason copy (\"Others, Explain\")",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-25T02:20:58.957Z"
-        },
-        {
-          "id": "41ab6b3e-f577-4fb7-9e27-3c6bb75e67e6",
-          "title": "Find enterprise lawyers by relevant past work, not guessed profile filters",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-23T21:02:05.887Z"
-        },
-        {
-          "id": "94444cee-3f2d-4450-b4fd-a30187880d37",
-          "title": "Scope a Sales-curated candidate shortlist and approval-based follow-up",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-22T20:33:11.599Z"
         },
         {
           "id": "f179c3d3-8f44-44cb-bd3e-4537cc52c075",
@@ -388,69 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-15T10:28:09.036Z"
-        },
-        {
-          "id": "b515502a-e46c-4b77-9c49-8fae011a45fd",
-          "title": "Reword \"Offer withdrawn\" email when the loss is due to another candidate being hired",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-15T10:28:05.088Z"
-        },
-        {
-          "id": "f3b69215-0b8b-4672-8d8c-7fd2a0e3ff41",
-          "title": "SMB flow + landing page live",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 1,
-          "updatedAt": "2026-10-15T10:28:01.996Z"
-        },
-        {
-          "id": "5a0faaef-6520-44bf-8547-ddae247e1b2d",
-          "title": "Investigate unexpected increase in monthly-rate position postings",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-15T10:27:58.282Z"
-        },
-        {
-          "id": "282a521d-a57e-470b-92c8-617bf6a126a4",
-          "title": "ENG-1790 follow-ups: staging FOREST config + AM-sender verification + tracked follow-ups",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-15T10:27:55.156Z"
-        },
-        {
-          "id": "a8bc2398-f151-47fd-a478-3c03089e0762",
-          "title": "SMB AI entry /ltai remains blank through session end",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 3,
-          "updatedAt": "2026-10-15T10:27:51.271Z"
-        },
-        {
-          "id": "03869772-c247-4c6b-9b4d-adb2b42a7d05",
-          "title": "[Ideation] MCP tool for engagement top-ups (hours, connects, etc.)",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-15T10:27:47.407Z"
-        },
-        {
-          "id": "7606b0f7-3f1e-4e54-bb2d-5ae586d80a89",
-          "title": "Opportunity feed should filter by talent's practice areas and specialization",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 2,
-          "updatedAt": "2026-10-15T10:27:44.469Z"
         }
       ]
     }

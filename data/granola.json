@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_jyi85l1j52yxgj",
+      "object": "note",
+      "title": "Jaevin and Ilolo's wedding planning: venue, catering, florals, and stationery",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-11-18T23:19:57.564Z",
+      "updated_at": "2026-11-19T00:26:27.901Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_1xuaytco4bdxyj",
       "object": "note",
       "title": "Eng Standup",
@@ -47,20 +59,8 @@
       "created_at": "2026-11-16T16:01:29.325Z",
       "updated_at": "2026-11-17T01:07:54.453Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_gvoyztqizf6pw5",
-      "object": "note",
-      "title": "Sales Team - stand up",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-11-13T17:59:55.844Z",
-      "updated_at": "2026-11-13T18:16:54.381Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0xM1QxNzo1OTo1NS44NDRaIiwibGFzdF9kb2NfaWQiOiI2MTQ4M2ExNS01N2NhLTRlYjEtOWQyYi0yZjFmZDVjYThmOTkifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0xNlQxNjowMToyOS4zMjVaIiwibGFzdF9kb2NfaWQiOiIxMDMyZmUwMy00ZjVjLTRmYmItYTYyMi0yMmUzYjEwYTBlOGYifQ"
 }
