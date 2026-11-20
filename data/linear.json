@@ -3,6 +3,15 @@
     "issues": {
       "nodes": [
         {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-11-20T21:32:00.431Z"
+        },
+        {
           "id": "66b1b6a3-eb27-4428-ac2c-1254b90cafb9",
           "title": "SMB | Collect and request payment without ending an hourly project",
           "state": {
@@ -73,15 +82,6 @@
           },
           "priority": 4,
           "updatedAt": "2026-11-19T03:11:19.716Z"
-        },
-        {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-11-18T21:37:49.205Z"
         },
         {
           "id": "3cc9b780-f3a4-4e5e-875a-b6b7dc182d6c",

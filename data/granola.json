@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_m4b0w8ucy8asbu",
+      "object": "note",
+      "title": "Sales Team - stand up",
+      "owner": {
+        "name": "Brian Ryu",
+        "email": "brianryu@lawtrades.com"
+      },
+      "created_at": "2026-11-20T17:00:03.383Z",
+      "updated_at": "2026-11-20T17:20:23.434Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_e7bhgorud35h4g",
       "object": "note",
       "title": "Phelps Industries and Iron Pit Foundry manufacturing accounting with Anna Jensen",
@@ -47,20 +59,8 @@
       "created_at": "2026-11-18T23:19:57.564Z",
       "updated_at": "2026-11-19T00:26:27.901Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_1xuaytco4bdxyj",
-      "object": "note",
-      "title": "Eng Standup",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-11-18T15:59:31.555Z",
-      "updated_at": "2026-11-18T16:17:21.166Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0xOFQxNTo1OTozMS41NTVaIiwibGFzdF9kb2NfaWQiOiI4OGJhZmUwNi04OWZlLTRlNTUtYThiYy1jNjRlNGUxNmQ5ZGIifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0xOFQyMzoxOTo1Ny41NjRaIiwibGFzdF9kb2NfaWQiOiJmYjBlYmRkZS1hMmNiLTQ0ZGUtYWVkMC0xYTkwNmQ5ZGRlNzYifQ"
 }
