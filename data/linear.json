@@ -3,13 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "id": "12055690-da3e-4a29-a7bf-e526efb9d69f",
+          "title": "LT Agent | Reconcile enterprise search budget tolerance and sub-practice matching rollout",
           "state": {
-            "name": "Done"
+            "name": "In Progress"
           },
-          "priority": 3,
-          "updatedAt": "2026-11-21T21:26:51.379Z"
+          "priority": 0,
+          "updatedAt": "2026-11-23T22:38:17.203Z"
         },
         {
           "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
@@ -18,7 +18,25 @@
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-11-21T21:26:50.657Z"
+          "updatedAt": "2026-11-23T21:33:41.609Z"
+        },
+        {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-11-23T21:33:40.656Z"
+        },
+        {
+          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
+          "title": "Talent Home | Keep chat and everyday work in one workspace",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-23T21:33:35.951Z"
         },
         {
           "id": "66b1b6a3-eb27-4428-ac2c-1254b90cafb9",
@@ -37,15 +55,6 @@
           },
           "priority": 2,
           "updatedAt": "2026-11-19T21:28:02.890Z"
-        },
-        {
-          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
-          "title": "Talent Home | Keep chat and everyday work in one workspace",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-19T21:27:35.735Z"
         },
         {
           "id": "a1cd92f8-3117-49ea-92ee-5973caebc38d",
@@ -73,15 +82,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-11-19T06:12:35.023Z"
-        },
-        {
-          "id": "12055690-da3e-4a29-a7bf-e526efb9d69f",
-          "title": "LT Agent | Reconcile enterprise search budget tolerance and sub-practice matching rollout",
-          "state": {
-            "name": "In Progress"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-19T06:12:34.871Z"
         },
         {
           "id": "b576aaea-19b3-47c3-95c2-cc7ad4cfa78e",

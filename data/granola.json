@@ -1,6 +1,30 @@
 {
   "notes": [
     {
+      "id": "not_qa659pth7sbvc6",
+      "object": "note",
+      "title": "War Room",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-11-23T15:59:05.742Z",
+      "updated_at": "2026-11-23T16:21:27.951Z",
+      "deleted_at": null
+    },
+    {
+      "id": "not_86tn0dr1aifkqo",
+      "object": "note",
+      "title": "mu",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-11-23T15:00:30.420Z",
+      "updated_at": "2026-11-23T16:58:21.030Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_m4b0w8ucy8asbu",
       "object": "note",
       "title": "Sales Team - stand up",
@@ -35,32 +59,8 @@
       "created_at": "2026-11-19T15:59:19.574Z",
       "updated_at": "2026-11-19T16:40:12.315Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_rcbrzg7d9alsr9",
-      "object": "note",
-      "title": "meg",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-11-19T15:01:16.267Z",
-      "updated_at": "2026-11-19T17:30:10.311Z",
-      "deleted_at": null
-    },
-    {
-      "id": "not_jyi85l1j52yxgj",
-      "object": "note",
-      "title": "Jaevin and Ilolo's wedding planning: venue, catering, florals, and stationery",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-11-18T23:19:57.564Z",
-      "updated_at": "2026-11-19T00:26:27.901Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0xOFQyMzoxOTo1Ny41NjRaIiwibGFzdF9kb2NfaWQiOiJmYjBlYmRkZS1hMmNiLTQ0ZGUtYWVkMC0xYTkwNmQ5ZGRlNzYifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0xOVQxNTo1OToxOS41NzRaIiwibGFzdF9kb2NfaWQiOiI5OGVmYTE3MS1mOTA2LTQ1ZjktYTE2ZS02Y2EyYzllZTJmN2QifQ"
 }
