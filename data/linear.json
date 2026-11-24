@@ -3,6 +3,33 @@
     "issues": {
       "nodes": [
         {
+          "id": "0104e05a-9757-4a95-a12a-9768f000dc63",
+          "title": "Hire flow: generated enterprise agreements with staff-set terms",
+          "state": {
+            "name": "In Progress"
+          },
+          "priority": 2,
+          "updatedAt": "2026-11-24T20:34:14.895Z"
+        },
+        {
+          "id": "7cf83843-8840-41db-a842-2afdcb0c408c",
+          "title": "Hiring Flow –Talent SOW Agreement Accuracy",
+          "state": {
+            "name": "Canceled"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-24T20:17:15.857Z"
+        },
+        {
+          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
+          "title": "Talent Home | Keep chat and everyday work in one workspace",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-24T15:14:47.023Z"
+        },
+        {
           "id": "12055690-da3e-4a29-a7bf-e526efb9d69f",
           "title": "LT Agent | Reconcile enterprise search budget tolerance and sub-practice matching rollout",
           "state": {
@@ -28,15 +55,6 @@
           },
           "priority": 3,
           "updatedAt": "2026-11-23T21:33:40.656Z"
-        },
-        {
-          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
-          "title": "Talent Home | Keep chat and everyday work in one workspace",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-23T21:33:35.951Z"
         },
         {
           "id": "66b1b6a3-eb27-4428-ac2c-1254b90cafb9",
@@ -433,24 +451,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-10-15T10:28:21.884Z"
-        },
-        {
-          "id": "7cf83843-8840-41db-a842-2afdcb0c408c",
-          "title": "Hiring Flow –Talent SOW Agreement Accuracy",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-15T10:28:18.896Z"
-        },
-        {
-          "id": "847043e8-dce2-4ea9-a44f-dea16759dca1",
-          "title": "Product Request: Allow mulitple agreement to be stored on client/ talent dashabords",
-          "state": {
-            "name": "Canceled"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-15T10:28:13.483Z"
         }
       ]
     }
