@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_h2vsbrkarcztxg",
+      "object": "note",
+      "title": "em",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-11-25T14:58:50.241Z",
+      "updated_at": "2026-11-25T16:50:46.661Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_5be3bknecrtfwq",
       "object": "note",
       "title": "Finance fundamentals: leverage, capital structure, and market efficiency",
@@ -47,20 +59,8 @@
       "created_at": "2026-11-23T15:00:30.420Z",
       "updated_at": "2026-11-23T16:58:21.030Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_m4b0w8ucy8asbu",
-      "object": "note",
-      "title": "Sales Team - stand up",
-      "owner": {
-        "name": "Brian Ryu",
-        "email": "brianryu@lawtrades.com"
-      },
-      "created_at": "2026-11-20T17:00:03.383Z",
-      "updated_at": "2026-11-20T17:20:23.434Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0yMFQxNzowMDowMy4zODNaIiwibGFzdF9kb2NfaWQiOiJjNmE1YTc0ZS04MTg3LTQ4OGMtYmRhZi0zYWU4MDgzMjI4ZmUifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0yM1QxNTowMDozMC40MjBaIiwibGFzdF9kb2NfaWQiOiI2NmJhZTJlZi1hNDdlLTRkNTMtYTMxYi05YWUzYmNlMTJkNzgifQ"
 }
