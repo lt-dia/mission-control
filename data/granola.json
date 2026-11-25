@@ -1,6 +1,18 @@
 {
   "notes": [
     {
+      "id": "not_5be3bknecrtfwq",
+      "object": "note",
+      "title": "Finance fundamentals: leverage, capital structure, and market efficiency",
+      "owner": {
+        "name": "Ilolo Izu",
+        "email": "ilolo@lawtrades.com"
+      },
+      "created_at": "2026-11-25T02:36:30.124Z",
+      "updated_at": "2026-11-25T03:44:32.074Z",
+      "deleted_at": null
+    },
+    {
       "id": "not_4d1u3li2q0udry",
       "object": "note",
       "title": "Eng Standup",
@@ -47,20 +59,8 @@
       "created_at": "2026-11-20T17:00:03.383Z",
       "updated_at": "2026-11-20T17:20:23.434Z",
       "deleted_at": null
-    },
-    {
-      "id": "not_e7bhgorud35h4g",
-      "object": "note",
-      "title": "Phelps Industries and Iron Pit Foundry manufacturing accounting with Anna Jensen",
-      "owner": {
-        "name": "Ilolo Izu",
-        "email": "ilolo@lawtrades.com"
-      },
-      "created_at": "2026-11-20T00:30:16.994Z",
-      "updated_at": "2026-11-20T02:05:07.110Z",
-      "deleted_at": null
     }
   ],
   "hasMore": true,
-  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0yMFQwMDozMDoxNi45OTRaIiwibGFzdF9kb2NfaWQiOiI2NDEyNGY2OC00NTA5LTRiN2QtYjRiYi00YzQ5MTE1ZGYzODcifQ"
+  "cursor": "eyJjcmVhdGVkX2F0IjoiMjAyNi0xMS0yMFQxNzowMDowMy4zODNaIiwibGFzdF9kb2NfaWQiOiJjNmE1YTc0ZS04MTg3LTQ4OGMtYmRhZi0zYWU4MDgzMjI4ZmUifQ"
 }

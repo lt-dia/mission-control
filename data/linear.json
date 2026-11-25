@@ -6,10 +6,46 @@
           "id": "0104e05a-9757-4a95-a12a-9768f000dc63",
           "title": "Hire flow: generated enterprise agreements with staff-set terms",
           "state": {
-            "name": "In Progress"
+            "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-11-24T20:34:14.895Z"
+          "updatedAt": "2026-11-25T00:28:36.064Z"
+        },
+        {
+          "id": "66b1b6a3-eb27-4428-ac2c-1254b90cafb9",
+          "title": "SMB | Collect and request payment without ending an hourly project",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-24T21:30:24.846Z"
+        },
+        {
+          "id": "5971f373-d276-4728-9de1-dd9c964177ca",
+          "title": "Hire Flow Redesign — In-Dashboard Offer Builder",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-24T21:30:24.032Z"
+        },
+        {
+          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
+          "title": "Take over help@lawtrades support coverage without duplicate replies",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 3,
+          "updatedAt": "2026-11-24T21:30:23.333Z"
+        },
+        {
+          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
+          "title": "Talent Home | Keep chat and everyday work in one workspace",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-24T21:30:20.708Z"
         },
         {
           "id": "7cf83843-8840-41db-a842-2afdcb0c408c",
@@ -19,15 +55,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-11-24T20:17:15.857Z"
-        },
-        {
-          "id": "2c08c711-ed4a-4e0e-9ab9-63127f542cda",
-          "title": "Talent Home | Keep chat and everyday work in one workspace",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-24T15:14:47.023Z"
         },
         {
           "id": "12055690-da3e-4a29-a7bf-e526efb9d69f",
@@ -46,24 +73,6 @@
           },
           "priority": 0,
           "updatedAt": "2026-11-23T21:33:41.609Z"
-        },
-        {
-          "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
-          "title": "Take over help@lawtrades support coverage without duplicate replies",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 3,
-          "updatedAt": "2026-11-23T21:33:40.656Z"
-        },
-        {
-          "id": "66b1b6a3-eb27-4428-ac2c-1254b90cafb9",
-          "title": "SMB | Collect and request payment without ending an hourly project",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-19T21:28:03.577Z"
         },
         {
           "id": "8d7f8d60-6cf8-4ce7-913e-dcd5504f0abc",
@@ -397,15 +406,6 @@
           },
           "priority": 1,
           "updatedAt": "2026-10-16T01:00:00.440Z"
-        },
-        {
-          "id": "5971f373-d276-4728-9de1-dd9c964177ca",
-          "title": "Hire Flow Redesign — In-Dashboard Offer Builder",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-10-15T20:37:20.886Z"
         },
         {
           "id": "a33479d6-193e-4a1c-ac54-5cab56c080a7",
