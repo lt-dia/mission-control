@@ -3,22 +3,13 @@
     "issues": {
       "nodes": [
         {
-          "id": "5971f373-d276-4728-9de1-dd9c964177ca",
-          "title": "Hire Flow Redesign — In-Dashboard Offer Builder",
-          "state": {
-            "name": "Done"
-          },
-          "priority": 0,
-          "updatedAt": "2026-11-25T21:33:17.121Z"
-        },
-        {
           "id": "d7158308-45ab-4884-84e3-bedf5dad5ba9",
           "title": "Connect Snorkel background and identity checks after signing",
           "state": {
             "name": "In Progress"
           },
           "priority": 0,
-          "updatedAt": "2026-11-25T21:33:16.001Z"
+          "updatedAt": "2026-11-27T21:33:37.645Z"
         },
         {
           "id": "66b1b6a3-eb27-4428-ac2c-1254b90cafb9",
@@ -27,7 +18,7 @@
             "name": "Done"
           },
           "priority": 0,
-          "updatedAt": "2026-11-25T21:33:15.163Z"
+          "updatedAt": "2026-11-27T21:33:36.839Z"
         },
         {
           "id": "0104e05a-9757-4a95-a12a-9768f000dc63",
@@ -36,7 +27,16 @@
             "name": "Done"
           },
           "priority": 2,
-          "updatedAt": "2026-11-25T21:33:12.936Z"
+          "updatedAt": "2026-11-27T21:33:36.104Z"
+        },
+        {
+          "id": "5971f373-d276-4728-9de1-dd9c964177ca",
+          "title": "Hire Flow Redesign — In-Dashboard Offer Builder",
+          "state": {
+            "name": "Done"
+          },
+          "priority": 0,
+          "updatedAt": "2026-11-25T21:33:17.121Z"
         },
         {
           "id": "92a0b4a1-0b7e-49b0-a021-4e73459c4572",
